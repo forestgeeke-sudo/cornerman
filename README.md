@@ -57,8 +57,8 @@ Scoped narrowly on purpose — only **UFC numbered cards and the weekly Fight
 Night** push to your phone. Contender Series, PFL and all boxing appear in the
 app but never buzz you.
 
-Two alerts per qualifying card: one on the morning of, one shortly before the
-main event walks. `scanner/state/notified.json` stops repeats.
+Three alerts per qualifying card: noon the day before, the morning of, and
+shortly before the main event walks. `scanner/state/notified.json` stops repeats.
 
 ### Turning alerts on
 

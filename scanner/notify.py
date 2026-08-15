@@ -5,7 +5,8 @@ Deliberately narrow: only UFC numbered cards and the weekly Fight Night get
 through. Everything else -- Contender Series, PFL, all boxing -- still shows up
 in the app but never buzzes a phone.
 
-Two alerts per qualifying card:
+Three alerts per qualifying card:
+  eve      noon (local) the day before
   day-of   on the morning of the event
   imminent shortly before the main event walks
 
@@ -27,11 +28,19 @@ STATE = Path(__file__).resolve().parent / "state" / "notified.json"
 
 NOTIFY_TIERS = {"numbered", "fight_night"}
 LOCAL_TZ = ZoneInfo(os.environ.get("CORNERMAN_TZ", "America/Chicago"))
+EVE_HOUR = int(os.environ.get("CORNERMAN_EVE_HOUR", "12"))
 MORNING_HOUR = int(os.environ.get("CORNERMAN_MORNING_HOUR", "9"))
 IMMINENT_MINUTES = int(os.environ.get("CORNERMAN_IMMINENT_MINUTES", "90"))
 
 # Keys older than this are dropped so the state file can't grow forever.
 STATE_TTL_DAYS = 30
+
+
+def utc_now():
+    raw = os.environ.get("CORNERMAN_NOW", "").strip()
+    if raw:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    return datetime.now(timezone.utc)
 
 
 def load_state():
@@ -76,7 +85,7 @@ def main():
         print(f"ERROR: cannot read feed: {e}", file=sys.stderr)
         return 1
 
-    now = datetime.now(timezone.utc)
+    now = utc_now()
     local_now = now.astimezone(LOCAL_TZ)
     state = load_state()
     sent = 0
@@ -98,6 +107,22 @@ def main():
         where = ", ".join(x for x in (e.get("venue"), e.get("location")) if x)
 
         alerts = []
+
+        # Noon the day before. Same qualifying cards as the day-of alert —
+        # numbered PPVs and the weekly Fight Night.
+        if (local_now.date() == local_start.date() - timedelta(days=1)
+                and local_now.hour >= EVE_HOUR
+                and mins_out > 0):
+            alerts.append((
+                "eve",
+                f"Tomorrow: {e['name']}",
+                f"{bout}\n"
+                f"Main event {local_start:%-I:%M %p %Z}\n"
+                f"Watch on {watch}"
+                + (f"\n{where}" if where else ""),
+                "boxing_glove,date",
+                "default",
+            ))
 
         # Morning of, once the local clock passes the morning hour.
         if (local_start.date() == local_now.date()

@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+import time
 import html
 import urllib.request
 import urllib.error
@@ -171,7 +172,10 @@ def parse_espn_event(ev, org):
 def scan_mma(start, end):
     events = []
     rng = f"{start:%Y%m%d}-{end:%Y%m%d}"
-    for slug, org in ESPN_LEAGUES:
+    for i, (slug, org) in enumerate(ESPN_LEAGUES):
+        # Serial + a pause. A parallel burst 403'd ESPN's IP for 10+ minutes.
+        if i:
+            time.sleep(1.8)
         url = f"https://site.api.espn.com/apis/site/v2/sports/mma/{slug}/scoreboard?dates={rng}"
         try:
             data = json.loads(fetch(url))
