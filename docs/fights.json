@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-15T06:49:42Z",
+ "generated": "2026-08-15T06:50:01Z",
  "counts": {
-  "mma": 35,
+  "mma": 34,
   "boxing": 46
  },
  "events": [
@@ -96,29 +96,6 @@
    "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
-  },
-  {
-   "id": "one-20260815-onefightnight46",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "other",
-   "name": "ONE Fight Night 46: Hemetsberger vs. Diachkova",
-   "headline": "Hemetsberger vs. Diachkova",
-   "date": "2026-08-15T01:00:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "Prime Video",
-     "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/onefightnight46/"
   },
   {
    "id": "ufc-600059185",
