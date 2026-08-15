@@ -7,8 +7,9 @@ no dependency can rot out from under a job that runs unattended for months.
 Sources:
   MMA    ESPN's public scoreboard JSON (UFC, PFL, Bellator). Key-free.
   ONE    onefc.com/events (Wikipedia's list lags and skips Friday Fights).
-  Boxing boxing-schedule.com, parsed for the factual bits only: date,
-         matchup, venue, broadcaster.
+
+Boxing is not scanned. DAZN-priced cards were crowding the list and
+aren't what this app is for.
 """
 
 import gzip
@@ -213,97 +214,6 @@ def scan_mma(start, end):
 
 
 # --------------------------------------------------------------------------
-# Boxing
-# --------------------------------------------------------------------------
-
-BOX_URL = "https://boxing-schedule.com/"
-MONTHS = {m: i + 1 for i, m in enumerate(
-    ["jan", "feb", "mar", "apr", "may", "jun",
-     "jul", "aug", "sep", "oct", "nov", "dec"])}
-
-
-def _text(fragment):
-    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", fragment))).strip()
-
-
-def scan_boxing(today, end):
-    """Pull date / matchup / venue / broadcaster out of the schedule page.
-
-    Only facts are extracted -- no descriptive copy is carried over.
-    """
-    try:
-        page = fetch(BOX_URL, ua=UA_WEB)
-    except Exception as e:
-        warn(f"boxing feed failed: {e}")
-        return []
-
-    blocks = re.findall(
-        r'<div class="events__single">(.*?)</div>\s*</div>\s*</div>', page, re.S)
-    if not blocks:
-        warn("boxing page layout changed -- no event blocks matched")
-        return []
-
-    events = []
-    for b in blocks:
-        def grab(cls, tags="div|h3|h4|ul|a|span"):
-            m = re.search(
-                r'class="[^"]*%s[^"]*"[^>]*>(.*?)</(?:%s)>' % (cls, tags), b, re.S)
-            return _text(m.group(1)) if m else ""
-
-        raw_date = grab("events__date")
-        title = grab("events__title")
-        if not raw_date or not title:
-            continue
-
-        m = re.search(r"(\d{1,2})\s*([A-Za-z]{3})", raw_date)
-        if not m:
-            continue
-        day, mon = int(m.group(1)), MONTHS.get(m.group(2).lower()[:3])
-        if not mon:
-            continue
-        # The page omits the year; roll forward from today.
-        year = today.year if mon >= today.month else today.year + 1
-        try:
-            when = datetime(year, mon, day, tzinfo=timezone.utc)
-        except ValueError:
-            continue
-        if when.date() < today.date() or when > end:
-            continue
-
-        # Inside the meta list each <li> is tagged by an icon: a video camera
-        # marks the broadcaster, a map pin the venue. The broadcaster name is
-        # wrapped in an affiliate <a>, so take the li's text and throw the
-        # href away -- links come from our own service table instead.
-        bcast, place = "", ""
-        for li in re.findall(r"<li\b[^>]*>(.*?)</li>", b, re.S):
-            if "fa-video" in li:
-                bcast = _text(li)
-            elif "fa-map-marker" in li:
-                place = _text(li)
-
-        slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:48]
-        events.append({
-            "id": f"box-{when:%Y%m%d}-{slug}",
-            "sport": "boxing",
-            "org": "Boxing",
-            "tier": "other",
-            "name": title,
-            "headline": title,
-            "date": when.strftime("%Y-%m-%dT00:00:00Z"),
-            "datePrecision": "day",
-            "venue": None,
-            "location": place or None,
-            "watch": sources.resolve_all([x.strip() for x in re.split(r"[/,&]| and ", bcast) if x.strip()]),
-            "card": [],
-            "art": None,
-            "note": None,
-            "link": BOX_URL,
-        })
-    print(f"  Boxing: {len(events)} events")
-    return events
-
-
-# --------------------------------------------------------------------------
 # ONE Championship
 # --------------------------------------------------------------------------
 
@@ -387,7 +297,7 @@ def main():
     # it on its own -- the smaller sources must not be able to satisfy the
     # guard on ESPN's behalf.
     espn_events = scan_mma(now, end)
-    events = espn_events + scan_one(now, end) + scan_boxing(now, end)
+    events = espn_events + scan_one(now, end)
 
     if not espn_events:
         print("ERROR: ESPN returned no events; refusing to overwrite a good feed.",
@@ -395,9 +305,14 @@ def main():
         return 1
 
     cutoff = now - timedelta(hours=3)
+    skip_watch = {"dazn", "dazn ppv"}
     seen, deduped = set(), []
     for e in sorted(events, key=lambda e: e["date"]):
         if e["id"] in seen:
+            continue
+        if e.get("sport") == "boxing":
+            continue
+        if any((w.get("name") or "").lower() in skip_watch for w in e.get("watch") or []):
             continue
         d = datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
         if e.get("datePrecision") == "time":
@@ -416,7 +331,6 @@ def main():
         "generated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "counts": {
             "mma": sum(1 for e in deduped if e["sport"] == "mma"),
-            "boxing": sum(1 for e in deduped if e["sport"] == "boxing"),
         },
         "events": deduped,
     }
@@ -424,8 +338,7 @@ def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=1, ensure_ascii=False) + "\n",
                    encoding="utf-8")
-    print(f"Wrote {OUT} -- {len(deduped)} events "
-          f"({payload['counts']['mma']} MMA, {payload['counts']['boxing']} boxing)")
+    print(f"Wrote {OUT} -- {len(deduped)} events")
     return 0
 
 

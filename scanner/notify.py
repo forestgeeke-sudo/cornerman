@@ -2,7 +2,7 @@
 """Push fight-day alerts to a phone via ntfy.
 
 Deliberately narrow: only UFC numbered cards and the weekly Fight Night get
-through. Everything else -- Contender Series, PFL, all boxing -- still shows up
+through. Everything else -- Contender Series, PFL, ONE -- still shows up
 in the app but never buzzes a phone.
 
 Three alerts per qualifying card:

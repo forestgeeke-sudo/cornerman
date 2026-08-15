@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Cornerman</title>
-<meta name="description" content="Upcoming MMA and boxing cards, and where to watch them.">
+<meta name="description" content="Upcoming MMA cards and where to watch them.">
 <meta name="theme-color" content="#7B2231">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -47,11 +47,6 @@
   </section>
 
   <nav class="filters" aria-label="Filter fights">
-    <div class="filters__group" role="group" aria-label="Sport">
-      <button class="tab is-on" data-sport="all">All</button>
-      <button class="tab" data-sport="mma">MMA</button>
-      <button class="tab" data-sport="boxing">Boxing</button>
-    </div>
     <label class="check">
       <input type="checkbox" id="bigOnly">
       <span>Big cards only</span>
@@ -70,7 +65,7 @@
 
 <footer class="foot">
   <p>Scanned <span id="stamp">—</span> · refreshes every 6 hours whether or not this machine is on.</p>
-  <p class="foot__src">MMA via ESPN's public schedule feed · Boxing via boxing&#8209;schedule.com · Times shown in your local zone.</p>
+  <p class="foot__src">MMA via ESPN's public schedule feed and ONE Championship · Times shown in your local zone.</p>
 </footer>
 
 <template id="cardTpl">
@@ -79,7 +74,6 @@
       <span class="card__day"></span>
       <span class="card__mon"></span>
     </div>
-    <div class="card__faces faces" hidden></div>
     <div class="card__main">
       <p class="card__org"></p>
       <h3 class="card__bout"></h3>
@@ -91,6 +85,7 @@
       </div>
       <ol class="bouts" hidden></ol>
     </div>
+    <div class="card__faces faces" hidden></div>
   </article>
 </template>
 

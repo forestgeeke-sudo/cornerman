@@ -150,14 +150,9 @@ function googleCalUrl(e) {
 
 /* ---------- filtering ---------- */
 
-/* "Big cards" means: skip the Contender Series developmental shows, and skip
-   boxing that no recognised broadcaster has picked up. */
+/* "Big cards" means skip the Contender Series developmental shows. */
 function isBig(e) {
-  if (e.tier === 'contender') return false;
-  if (e.sport === 'boxing') {
-    return (e.watch || []).some(w => w.kind === 'streaming' || w.kind === 'tv' || w.kind === 'ppv');
-  }
-  return true;
+  return e.tier !== 'contender';
 }
 
 function haystack(e) {
@@ -170,7 +165,6 @@ function haystack(e) {
 function visible() {
   const q = state.q.trim().toLowerCase();
   return state.events.filter(e => {
-    if (state.sport !== 'all' && e.sport !== state.sport) return false;
     if (state.bigOnly && !isBig(e)) return false;
     if (q && !haystack(e).includes(q)) return false;
     return true;
@@ -187,6 +181,7 @@ function paintFaces(container, art) {
     return;
   }
   container.hidden = false;
+  container.classList.toggle('faces--solo', shots.length === 1);
   let live = shots.length;
   shots.forEach((p, i) => {
     if (i === 1) {
@@ -334,13 +329,6 @@ function render() {
 
 /* ---------- wiring ---------- */
 
-document.querySelectorAll('[data-sport]').forEach(btn => {
-  btn.onclick = () => {
-    document.querySelectorAll('[data-sport]').forEach(b => b.classList.toggle('is-on', b === btn));
-    state.sport = btn.dataset.sport;
-    render();
-  };
-});
 $('#bigOnly').onchange = ev => { state.bigOnly = ev.target.checked; render(); };
 
 let qt;
@@ -362,6 +350,8 @@ async function load() {
 
     const now = Date.now();
     state.events = (data.events || [])
+      .filter(e => e.sport !== 'boxing')
+      .filter(e => !(e.watch || []).some(w => /dazn/i.test(w.name || '')))
       .filter(e => isLive(e, now))
       .sort((a, b) => when(a) - when(b));
     state.generated = data.generated;

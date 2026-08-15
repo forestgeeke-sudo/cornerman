@@ -144,10 +144,12 @@ main { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
   align-items: center;
   justify-content: center;
   gap: 0;
-  flex: 0 0 auto;
+  flex: 1 1 20rem;
+  min-width: 14rem;
+  max-width: 28rem;
   background: rgba(123, 34, 49, .08);
 }
-.faces[hidden] { display: none; }
+.faces[hidden] { display: none !important; }
 .faces img {
   display: block;
   width: 50%;
@@ -158,6 +160,7 @@ main { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
   filter: grayscale(1) contrast(1.15) brightness(.88);
   mix-blend-mode: multiply;
 }
+.faces--solo img { width: 100%; }
 .faces::after {
   content: "";
   position: absolute;
@@ -184,18 +187,20 @@ main { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
 }
 
 .hero__faces {
-  flex: 0 1 22rem;
-  max-width: 48%;
+  flex: 1 1 26rem;
+  max-width: 32rem;
+  min-width: 16rem;
   border-left: 1px solid var(--edge);
 }
-.hero__faces img { width: 50%; }
+
+.card__main { padding: .9rem 1.1rem; flex: 1 1 16rem; min-width: 0; }
 
 .card__faces {
-  flex: 0 0 8.6rem;
-  align-self: center;
-  border-right: 1px dashed var(--edge);
+  flex: 1 1 18rem;
+  max-width: 24rem;
+  align-self: stretch;
+  border-left: 1px dashed var(--edge);
 }
-.card__faces img { width: 50%; }
 
 .hero__kicker {
   margin: 0;
@@ -375,8 +380,6 @@ main { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
   margin-top: .3rem;
 }
 
-.card__main { padding: .9rem 1.1rem; flex: 1 1 auto; min-width: 0; }
-
 .card__org {
   margin: 0;
   font-family: var(--poster);
@@ -526,21 +529,30 @@ a.chip:hover { background: var(--oxblood); border-color: var(--oxblood); }
 .foot p { margin: .3rem 0; }
 .foot__src { opacity: .8; }
 
-@media (max-width: 33rem) {
+@media (max-width: 40rem) {
   body { font-size: 16px; }
   .hero { flex-wrap: wrap; }
   .hero__stub { display: none; }
   .hero__faces {
     flex: 1 1 100%;
     max-width: none;
+    min-width: 0;
     border-left: 0;
     border-bottom: 1px solid var(--edge);
+    order: -1;
   }
-  .hero__faces img { min-height: 0; }
   .hero__body { padding: 1.2rem 1.1rem; }
+  .card { flex-wrap: wrap; }
   .card__date { flex-basis: 3.6rem; }
-  .card__faces { flex-basis: 6.8rem; }
-  .card__main { padding: .8rem .9rem; }
+  .card__main { flex: 1 1 12rem; padding: .8rem .9rem; }
+  .card__faces {
+    flex: 1 1 100%;
+    max-width: none;
+    min-width: 0;
+    order: 10;
+    border-left: 0;
+    border-top: 1px dashed var(--edge);
+  }
   .bouts .wt { margin-left: 0; flex-basis: 100%; }
 }
 

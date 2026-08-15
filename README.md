@@ -1,6 +1,6 @@
 # Cornerman
 
-Upcoming MMA and boxing cards, and where to watch them.
+Upcoming MMA cards, and where to watch them.
 
 The scanning happens on GitHub's servers, not on your machine. Your computer
 being asleep, off, or in another country changes nothing — when you open the
@@ -13,7 +13,7 @@ GitHub Actions (every 6h)          your desktop
 ┌──────────────────────┐           ┌──────────────────┐
 │ scanner/scan.py      │           │ Cornerman window │
 │  ESPN  → MMA         │  writes   │  reads           │
-│  boxing-schedule.com │ ────────► │  fights.json     │
+│  ONEFC → ONE         │ ────────► │  fights.json     │
 └──────────────────────┘           └──────────────────┘
          │                          (works offline from
          │ hourly                    the last good copy)
@@ -29,8 +29,9 @@ Nothing here needs a server, a database, or a paid API key.
 |---|---|---|
 | ESPN public schedule feed | UFC, PFL, Bellator | Full bout order, weight classes, broadcaster |
 | ESPN `other` bucket | Road to UFC, Super RIZIN | Real cards with no dedicated feed; ESPN labels them only "Other" with no broadcaster, so `sources.PROMOTIONS` names the promotion and its service |
-| Wikipedia | ONE Championship | ESPN carries no ONE feed at all; ONE is exclusive to Prime Video in the US |
-| boxing-schedule.com | Boxing | Date, matchup, venue, broadcaster |
+| Wikipedia / ONEFC | ONE Championship | ESPN carries no ONE feed; ONE numbered cards are on Prime Video in the US |
+
+Boxing is not scanned. DAZN-priced boxing cards were crowding the list.
 
 All 48 MMA leagues ESPN tracks were probed: only `ufc`, `pfl` and `other` have
 any forward schedule. Cage Warriors, KSW, LFA, RIZIN and Bellator have
@@ -43,8 +44,8 @@ There's no reliable start time in the source, so those events carry a `note`
 saying so rather than having their date silently shifted.
 
 Only factual schedule data is taken: dates, fighters, venues, broadcasters.
-Affiliate links in the boxing source are discarded — "where to watch" links
-come from `scanner/sources.py`, which maps a broadcaster name to its real site.
+"Where to watch" links come from `scanner/sources.py`, which maps a
+broadcaster name to its real site.
 
 **Heads up on user agents.** ESPN's API returns `403` to browser-shaped user
 agents and serves self-identifying clients fine. `UA_API` in `scan.py` is
@@ -54,7 +55,7 @@ call ESPN directly and the Actions middle layer genuinely has to exist.
 ## Phone alerts
 
 Scoped narrowly on purpose — only **UFC numbered cards and the weekly Fight
-Night** push to your phone. Contender Series, PFL and all boxing appear in the
+Night** push to your phone. Contender Series, PFL and ONE appear in the
 app but never buzz you.
 
 Three alerts per qualifying card: noon the day before, the morning of, and
@@ -97,10 +98,6 @@ Stdlib only — there is nothing to install.
 **Feed banner says the scanner is stuck.** Check the Actions tab. A scan that
 finds zero MMA events aborts rather than overwriting a good feed with an empty
 one, so a failed run leaves yesterday's data in place.
-
-**Boxing disappears but MMA is fine.** `boxing-schedule.com` changed its
-markup. The parser looks for `events__single` blocks in `scan_boxing()`. MMA is
-unaffected because it comes from a real API.
 
 **Alerts stop.** GitHub disables scheduled workflows on repos with no commits
 for 60 days. This one commits every few hours, so that shouldn't trigger — but
