@@ -40,10 +40,24 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/fights.json
           git commit -m "Update fight feed ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-          # The notify job writes to this repo too; rebase before pushing.
+          # A laptop push can land while this job is running. Concurrency
+          # only serialises Actions jobs, so rebase can still conflict on
+          # fights.json — abort and scan again instead of retrying a mess.
           for i in 1 2 3; do
-            git pull --rebase --autostash origin main && git push origin main && exit 0
+            if git pull --rebase --autostash origin main && git push origin main; then
+              exit 0
+            fi
             echo "push attempt $i failed, retrying"
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git reset --hard origin/main
+            python scanner/scan.py
+            if git diff --quiet -- docs/fights.json; then
+              echo "Feed already matches main."
+              exit 0
+            fi
+            git add docs/fights.json
+            git commit -m "Update fight feed ($(date -u '+%Y-%m-%d %H:%M UTC'))"
             sleep 5
           done
           exit 1

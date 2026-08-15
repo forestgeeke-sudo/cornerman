@@ -48,8 +48,11 @@ jobs:
           git add scanner/state/
           git commit -m "Record sent fight alerts"
           for i in 1 2 3; do
-            git pull --rebase --autostash origin main && git push origin main && exit 0
+            if git pull --rebase --autostash origin main && git push origin main; then
+              exit 0
+            fi
             echo "push attempt $i failed, retrying"
+            git rebase --abort 2>/dev/null || true
             sleep 5
           done
           exit 1
