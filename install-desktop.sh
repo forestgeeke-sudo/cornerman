@@ -29,6 +29,13 @@ if [[ -z "$BROWSER" ]]; then
   exit 1
 fi
 
+# Same persistent split-tunnel wrap as Stremio/Steam: Mullvad's GUI
+# does not remember per-app excludes, so launch via mullvad-exclude.
+EXCLUDE=""
+if command -v mullvad-exclude >/dev/null 2>&1; then
+  EXCLUDE="mullvad-exclude "
+fi
+
 mkdir -p "$ICON_DIR" "$(dirname "$DESKTOP")"
 cp -f "$ICON_SRC" "$ICON_DIR/${APP_ID}.svg"
 
@@ -38,7 +45,7 @@ Type=Application
 Name=Cornerman
 GenericName=Fight Schedule
 Comment=Upcoming MMA and boxing cards, and where to watch them
-Exec=${BROWSER} --app=${URL} --class=${APP_ID} --name=${APP_ID}
+Exec=${EXCLUDE}${BROWSER} --app=${URL} --class=${APP_ID} --name=${APP_ID}
 Icon=${APP_ID}
 Terminal=false
 Categories=Network;Sports;News;

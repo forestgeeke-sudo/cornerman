@@ -380,6 +380,7 @@ a.chip:hover { background: var(--oxblood); border-color: var(--oxblood); }
 /* ---------- buttons ---------- */
 
 .btn {
+  display: inline-block;
   font-family: var(--poster);
   font-size: .76rem;
   letter-spacing: .2em;
@@ -388,6 +389,7 @@ a.chip:hover { background: var(--oxblood); border-color: var(--oxblood); }
   color: var(--paper);
   background: var(--oxblood);
   border: 1px solid var(--oxblood-d);
+  text-decoration: none;
   cursor: pointer;
 }
 .btn:hover { background: var(--oxblood-d); }
@@ -404,6 +406,7 @@ a.chip:hover { background: var(--oxblood); border-color: var(--oxblood); }
   text-transform: uppercase;
   color: var(--oxblood);
   border-bottom: 1px solid currentColor;
+  text-decoration: none;
   cursor: pointer;
 }
 .link-btn:hover { color: var(--rust); }

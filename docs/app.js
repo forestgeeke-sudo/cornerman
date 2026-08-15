@@ -50,6 +50,14 @@ function countdownText(d) {
 
 /* ---------- watch chips ---------- */
 
+/* Chrome --app has no tab strip, so target=_blank navigates this window
+   and there is no Back. Force a real popup window instead. */
+function openOutsideApp(url) {
+  const opened = window.open(
+    url, '_blank', 'noopener,noreferrer,popup=yes,width=1280,height=800');
+  if (opened) opened.opener = null;
+}
+
 function chips(watch) {
   const frag = document.createDocumentFragment();
   (watch || []).forEach(w => {
@@ -73,52 +81,39 @@ function chips(watch) {
   return frag;
 }
 
-/* ---------- calendar export ---------- */
+/* ---------- Google Calendar ---------- */
 
-const icsEsc = s => String(s || '').replace(/([\\,;])/g, '\\$1').replace(/\n/g, '\\n');
-const icsUTC = d => d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
-const icsDay = d => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
+const gcalUtc = d => d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+const gcalDay = d => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
 
-function downloadIcs(e) {
+function googleCalUrl(e) {
   const d = when(e);
   const where = [e.venue, e.location].filter(Boolean).join(', ');
   const watch = (e.watch || []).map(w => w.name).join(', ') || 'Not announced';
-  const body = [
+  const details = [
     `Watch on: ${watch}`,
     e.card && e.card.length ? `Main event: ${e.card[0].fighters.join(' vs ')}` : '',
     e.link ? `More: ${e.link}` : '',
     '', 'Added by Cornerman',
   ].filter(Boolean).join('\n');
 
-  let dt;
+  let dates;
   if (e.datePrecision === 'time') {
     const end = new Date(d.getTime() + 3 * 3600e3);
-    dt = [`DTSTART:${icsUTC(d)}`, `DTEND:${icsUTC(end)}`];
+    dates = `${gcalUtc(d)}/${gcalUtc(end)}`;
   } else {
-    const next = new Date(d.getTime() + 864e5);
-    dt = [`DTSTART;VALUE=DATE:${icsDay(d)}`, `DTEND;VALUE=DATE:${icsDay(next)}`];
+    const next = new Date(d.getFullYear(), d.getMonth(), d.getDate() + 1);
+    dates = `${gcalDay(d)}/${gcalDay(next)}`;
   }
 
-  const ics = [
-    'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Cornerman//EN', 'CALSCALE:GREGORIAN',
-    'BEGIN:VEVENT',
-    `UID:${e.id}@cornerman`,
-    `DTSTAMP:${icsUTC(new Date())}`,
-    ...dt,
-    `SUMMARY:${icsEsc(e.name)}`,
-    `LOCATION:${icsEsc(where || watch)}`,
-    `DESCRIPTION:${icsEsc(body)}`,
-    'END:VEVENT', 'END:VCALENDAR',
-  ].join('\r\n');
-
-  const url = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' }));
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `${e.id}.ics`;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  const q = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: e.name || '',
+    dates,
+    details,
+    location: where || watch,
+  });
+  return `https://calendar.google.com/calendar/event?${q}`;
 }
 
 /* ---------- filtering ---------- */
@@ -173,7 +168,7 @@ function renderHero() {
   const w = $('#heroWatch');
   w.textContent = '';
   w.appendChild(chips(pick.watch));
-  $('#heroIcs').onclick = () => downloadIcs(pick);
+  $('#heroIcs').href = googleCalUrl(pick);
 
   const tick = () => { $('#heroCount').innerHTML = countdownText(when(pick)); };
   tick();
@@ -213,7 +208,7 @@ function buildCard(e) {
 
   node.querySelector('.card__watch').appendChild(chips(e.watch));
 
-  node.querySelector('[data-ics]').onclick = () => downloadIcs(e);
+  node.querySelector('[data-ics]').href = googleCalUrl(e);
 
   const bouts = node.querySelector('.bouts');
   const toggle = node.querySelector('.card__toggle');
@@ -322,6 +317,16 @@ async function load() {
 
 load();
 document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+
+document.addEventListener('click', ev => {
+  const a = ev.target.closest('a[href]');
+  if (!a) return;
+  let url;
+  try { url = new URL(a.href, location.href); } catch { return; }
+  if (url.origin === location.origin) return;
+  ev.preventDefault();
+  openOutsideApp(url.href);
+});
 
 if ('serviceWorker' in navigator) {
   addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
