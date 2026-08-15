@@ -36,11 +36,10 @@ UA_API = "Cornerman/1.0 (+https://github.com/forestgeeke-sudo/cornerman)"
 UA_WEB = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
           "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
 
-# Headshots are on ESPN's image CDN, keyed by the competitor id the scoreboard
-# already returns. Constructing the URL costs no extra API call. Missing photos
-# 404; the UI hides them. Combiner keeps the files small enough for a card.
+# ESPN's MMA headshots are 600×436. Keep that ratio — a portrait box
+# stretches them. Combiner is only for file size.
 HEADSHOT = ("https://a.espncdn.com/combiner/i"
-            "?img=/i/headshots/mma/players/full/{id}.png&w=280&h=360")
+            "?img=/i/headshots/mma/players/full/{id}.png&w=350&h=254")
 
 
 def portrait(competitor, name):
@@ -395,10 +394,21 @@ def main():
               file=sys.stderr)
         return 1
 
+    cutoff = now - timedelta(hours=3)
     seen, deduped = set(), []
     for e in sorted(events, key=lambda e: e["date"]):
         if e["id"] in seen:
             continue
+        d = datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
+        if e.get("datePrecision") == "time":
+            if d <= cutoff:
+                continue
+        else:
+            # Keep a date-only row through the following morning so an
+            # evening card isn't dropped at UTC midnight.
+            day_end = datetime(d.year, d.month, d.day, tzinfo=timezone.utc)
+            if now >= day_end + timedelta(days=1, hours=3):
+                continue
         seen.add(e["id"])
         deduped.append(e)
 

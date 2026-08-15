@@ -2,7 +2,7 @@
    Shell is cache-first so the window opens instantly and works offline.
    The feed is network-first so a live scan always beats a stale copy. */
 
-const VERSION = 'cornerman-v5';
+const VERSION = 'cornerman-v6';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'icon.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {

@@ -28,6 +28,19 @@ function when(e) {
   return new Date(e.date);
 }
 
+/* Timed cards drop 3 hours after the bell. Date-only cards (boxing with no
+   announced time) stay through that local day, then 3 hours into the next
+   morning so an evening card isn't gone at midnight. */
+const LIVE_MS = 3 * 3600e3;
+function liveUntil(e) {
+  const d = when(e);
+  if (e.datePrecision === 'time') return d.getTime() + LIVE_MS;
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate() + 1).getTime() + LIVE_MS;
+}
+function isLive(e, now = Date.now()) {
+  return liveUntil(e) > now;
+}
+
 /* Boxing rows carry a date but no announced start time, so don't invent one. */
 function whenText(e, long) {
   const d = when(e);
@@ -184,7 +197,7 @@ function paintFaces(container, art) {
       container.appendChild(vs);
     }
     const img = document.createElement('img');
-    img.src = p.url;
+    img.src = (p.url || '').replace(/([?&]w=)280(&h=)360/, '$1350$2254');
     img.alt = p.name || '';
     img.decoding = 'async';
     img.referrerPolicy = 'no-referrer';
@@ -348,9 +361,8 @@ async function load() {
     const data = await res.json();
 
     const now = Date.now();
-    // Drop anything already finished; a card runs a few hours.
     state.events = (data.events || [])
-      .filter(e => when(e).getTime() > now - 6 * 3600e3)
+      .filter(e => isLive(e, now))
       .sort((a, b) => when(a) - when(b));
     state.generated = data.generated;
 
@@ -368,7 +380,16 @@ async function load() {
   }
 }
 
+function dropFinished() {
+  const next = state.events.filter(e => isLive(e));
+  if (next.length === state.events.length) return;
+  state.events = next;
+  renderHero();
+  render();
+}
+
 load();
+setInterval(dropFinished, 60e3);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
 
 document.addEventListener('click', ev => {
