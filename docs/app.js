@@ -164,6 +164,39 @@ function visible() {
   });
 }
 
+/* ---------- faces ---------- */
+
+function paintFaces(container, art) {
+  container.textContent = '';
+  const shots = (art || []).filter(p => p && p.url).slice(0, 2);
+  if (!shots.length) {
+    container.hidden = true;
+    return;
+  }
+  container.hidden = false;
+  let live = shots.length;
+  shots.forEach((p, i) => {
+    if (i === 1) {
+      const vs = document.createElement('span');
+      vs.className = 'faces__vs';
+      vs.textContent = 'vs';
+      vs.setAttribute('aria-hidden', 'true');
+      container.appendChild(vs);
+    }
+    const img = document.createElement('img');
+    img.src = p.url;
+    img.alt = p.name || '';
+    img.decoding = 'async';
+    img.referrerPolicy = 'no-referrer';
+    img.addEventListener('error', () => {
+      img.remove();
+      live -= 1;
+      if (live <= 0) container.hidden = true;
+    });
+    container.appendChild(img);
+  });
+}
+
 /* ---------- rendering ---------- */
 
 function renderHero() {
@@ -188,6 +221,7 @@ function renderHero() {
   w.textContent = '';
   w.appendChild(chips(pick.watch));
   $('#heroIcs').href = googleCalUrl(pick);
+  paintFaces($('#heroFaces'), pick.art);
 
   const tick = () => { $('#heroCount').innerHTML = countdownText(when(pick)); };
   tick();
@@ -226,8 +260,8 @@ function buildCard(e) {
   }
 
   node.querySelector('.card__watch').appendChild(chips(e.watch));
-
   node.querySelector('[data-ics]').href = googleCalUrl(e);
+  paintFaces(node.querySelector('.card__faces'), e.art);
 
   const bouts = node.querySelector('.bouts');
   const toggle = node.querySelector('.card__toggle');
