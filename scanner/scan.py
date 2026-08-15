@@ -6,6 +6,7 @@ no dependency can rot out from under a job that runs unattended for months.
 
 Sources:
   MMA    ESPN's public scoreboard JSON (UFC, PFL, Bellator). Key-free.
+  ONE    onefc.com/events (Wikipedia's list lags and skips Friday Fights).
   Boxing boxing-schedule.com, parsed for the factual bits only: date,
          matchup, venue, broadcaster.
 """
@@ -34,6 +35,20 @@ HORIZON_DAYS = 180
 UA_API = "Cornerman/1.0 (+https://github.com/forestgeeke-sudo/cornerman)"
 UA_WEB = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
           "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
+
+# Headshots are on ESPN's image CDN, keyed by the competitor id the scoreboard
+# already returns. Constructing the URL costs no extra API call. Missing photos
+# 404; the UI hides them. Combiner keeps the files small enough for a card.
+HEADSHOT = ("https://a.espncdn.com/combiner/i"
+            "?img=/i/headshots/mma/players/full/{id}.png&w=280&h=360")
+
+
+def portrait(competitor, name):
+    cid = str(competitor.get("id") or "")
+    if not cid.isdigit():
+        return None
+    return {"name": name, "url": HEADSHOT.format(id=cid)}
+
 
 # org=None means "derive the promotion from the event title". ESPN's "other"
 # bucket is a genuine catch-all -- it carries real cards (Road to UFC, Super
@@ -125,12 +140,16 @@ def parse_espn_event(ev, org):
 
     card = []
     for i, c in enumerate(bouts):
-        fighters = []
+        fighters, portraits = [], []
         for cm in c.get("competitors") or []:
             a = cm.get("athlete") or {}
             nm = a.get("displayName")
-            if nm:
-                fighters.append(nm)
+            if not nm:
+                continue
+            fighters.append(nm)
+            shot = portrait(cm, nm)
+            if shot:
+                portraits.append(shot)
         if len(fighters) < 2:
             continue
         slot = "main" if i == 0 else ("comain" if i == 1 else "undercard")
@@ -140,6 +159,7 @@ def parse_espn_event(ev, org):
             "weight": (c.get("type") or {}).get("abbreviation"),
             "fighters": fighters,
             "watch": sources.resolve_all(broadcasters(c)) or event_watch,
+            "portraits": portraits,
         })
 
     headline = name.split(":", 1)[1].strip() if ":" in name else (
@@ -164,6 +184,7 @@ def parse_espn_event(ev, org):
         "location": location,
         "watch": event_watch,
         "card": card,
+        "art": (card[0].get("portraits") or None) if card else None,
         "note": None,
         "link": link,
     }
@@ -275,6 +296,7 @@ def scan_boxing(today, end):
             "location": place or None,
             "watch": sources.resolve_all([x.strip() for x in re.split(r"[/,&]| and ", bcast) if x.strip()]),
             "card": [],
+            "art": None,
             "note": None,
             "link": BOX_URL,
         })
@@ -286,70 +308,69 @@ def scan_boxing(today, end):
 # ONE Championship
 # --------------------------------------------------------------------------
 
-ONE_URL = ("https://en.wikipedia.org/w/api.php?action=parse"
-           "&page=List_of_ONE_Championship_events&prop=wikitext&section=1&format=json")
-
-# ONE's Asian cards run in the Bangkok morning so they land in US prime time,
-# which means the announced local date is a day ahead of the US airing. We have
-# no reliable start time, so say so rather than quietly shifting the date.
-ONE_TZ_NOTE = ("Bangkok local date shown — this airs in the US the evening "
-               "before, typically 9pm ET / 8pm CT on Prime Video.")
-
-
-def _wiki_clean(s):
-    s = re.sub(r"<ref.*?(?:/>|</ref>)", "", s, flags=re.S)
-    s = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", s)   # [[a|b]] -> b
-    s = re.sub(r"\{\{[^}]*\}\}", "", s)
-    s = re.sub(r"''+", "", s)
-    return html.unescape(re.sub(r"\s+", " ", s)).strip()
+ONE_URL = "https://www.onefc.com/events/"
 
 
 def scan_one(today, end):
-    """ONE Championship's scheduled-events table on Wikipedia.
+    """Upcoming cards from ONE's own events page.
 
-    ESPN carries no ONE feed at all, and ONE is a genuinely major promotion
-    (exclusive on Prime Video in the US), so it's worth the extra source.
+    ESPN has no ONE feed. Wikipedia's scheduled-events table lags by weeks
+    and omits Friday Fights, so this reads the timestamps ONE publishes.
     """
     try:
-        data = json.loads(fetch(ONE_URL))
-        txt = data["parse"]["wikitext"]["*"]
+        page = fetch(ONE_URL, ua=UA_WEB)
     except Exception as e:
         warn(f"ONE feed failed: {e}")
         return []
 
-    events = []
-    for row in txt.split("|-"):
-        cells = [_wiki_clean(c) for c in re.findall(r"^\|(?!-)(.*)$", row, re.M)]
-        if len(cells) < 5:
+    start, stop = page.find('id="upcoming"'), page.find('id="past"')
+    if start < 0:
+        warn("ONE page layout changed -- no upcoming section")
+        return []
+    chunk = page[start:stop if stop > start else None]
+
+    events, seen = [], set()
+    for m in re.finditer(
+            r'<a class="title" href="([^"]+)" title="([^"]+)"', chunk):
+        href, title = m.group(1), html.unescape(m.group(2)).strip()
+        if href in seen:
             continue
-        name, date_s, venue, loc = cells[1], cells[2], cells[3], cells[4]
-        try:
-            d = datetime.strptime(date_s, "%B %d, %Y").replace(tzinfo=timezone.utc)
-        except ValueError:
+        tail = chunk[m.end():m.end() + 2000]
+        ts = re.search(r'data-timestamp="(\d+)"', tail)
+        if not ts:
             continue
-        if not (today.date() <= d.date() <= end.date()):
+        when = datetime.fromtimestamp(int(ts.group(1)), timezone.utc)
+        if when.date() < today.date() or when > end:
             continue
 
-        venue = None if venue.upper() == "TBD" else venue
-        loc = None if loc.upper() == "TBD" else loc
-        asian = bool(loc and not re.search(r"United States|USA|Canada", loc, re.I))
+        loc_m = re.search(r'<div class="location">([^<]*)</div>', tail)
+        place = html.unescape(loc_m.group(1)).strip() if loc_m else ""
+        venue = location = None
+        if place:
+            venue, location = (place.rsplit(", ", 1) if ", " in place
+                               else (place, None))
 
-        slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")[:48]
+        seen.add(href)
+        slug = href.rstrip("/").rsplit("/", 1)[-1][:48]
+        headline = title.split(":", 1)[1].strip() if ":" in title else title
+        friday = "friday fights" in title.lower()
         events.append({
-            "id": f"one-{d:%Y%m%d}-{slug}",
+            "id": f"one-{when:%Y%m%d}-{slug}",
             "sport": "mma",
             "org": "ONE",
-            "tier": "other",
-            "name": name,
-            "headline": name,
-            "date": d.strftime("%Y-%m-%dT00:00:00Z"),
-            "datePrecision": "day",
+            "tier": "contender" if friday else "other",
+            "name": title,
+            "headline": headline,
+            "date": when.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "datePrecision": "time",
             "venue": venue,
-            "location": loc,
-            "watch": sources.resolve_all(["Prime Video"]),
+            "location": location,
+            "watch": sources.resolve_all(
+                ["YouTube"] if friday else ["Prime Video"]),
             "card": [],
-            "note": ONE_TZ_NOTE if asian else None,
-            "link": "https://www.onefc.com/events/",
+            "art": None,
+            "note": None,
+            "link": href.split("?")[0],
         })
     print(f"  ONE: {len(events)} events")
     return events

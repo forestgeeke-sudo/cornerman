@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-15T05:41:30Z",
+ "generated": "2026-08-15T06:39:04Z",
  "counts": {
-  "mma": 24,
+  "mma": 35,
   "boxing": 46
  },
  "events": [
@@ -24,6 +24,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -46,6 +47,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -68,6 +70,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -90,8 +93,32 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "one-20260815-onefightnight46",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE Fight Night 46: Hemetsberger vs. Diachkova",
+   "headline": "Hemetsberger vs. Diachkova",
+   "date": "2026-08-15T01:00:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/onefightnight46/"
   },
   {
    "id": "ufc-600059185",
@@ -126,6 +153,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Islam Makhachev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3332412.png&w=280&h=360"
+      },
+      {
+       "name": "Ian Machado Garry",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4738092.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -141,6 +178,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Mackenzie Dern",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4021217.png&w=280&h=360"
+      },
+      {
+       "name": "Gillian Robertson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4089026.png&w=280&h=360"
       }
      ]
     },
@@ -158,6 +205,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Jalin Turner",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4339490.png&w=280&h=360"
+      },
+      {
+       "name": "Kauê Fernandes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5172124.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -173,6 +230,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Dustin Stoltzfus",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4685871.png&w=280&h=360"
+      },
+      {
+       "name": "Mansur Abdul-Malik",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5211221.png&w=280&h=360"
       }
      ]
     },
@@ -190,6 +257,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Edson Barboza",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2526299.png&w=280&h=360"
+      },
+      {
+       "name": "Esteban Ribovics",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074131.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -205,6 +282,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Chidi Njokuani",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2959422.png&w=280&h=360"
+      },
+      {
+       "name": "Joel Álvarez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4411888.png&w=280&h=360"
       }
      ]
     },
@@ -222,6 +309,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Charles Johnson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4375156.png&w=280&h=360"
+      },
+      {
+       "name": "Eduardo Chapolin",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5150021.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -237,6 +334,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Eric McConico",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2478987.png&w=280&h=360"
+      },
+      {
+       "name": "Donte Johnson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5302831.png&w=280&h=360"
       }
      ]
     },
@@ -254,6 +361,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Vicente Luque",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3045887.png&w=280&h=360"
+      },
+      {
+       "name": "Tresean Gore",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4815999.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -269,6 +386,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Lucas Fernando",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5119021.png&w=280&h=360"
+      },
+      {
+       "name": "Rafael Tobias",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5308871.png&w=280&h=360"
       }
      ]
     },
@@ -286,6 +413,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Neil Magny",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3001914.png&w=280&h=360"
+      },
+      {
+       "name": "Ramiz Brahimaj",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4297311.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -302,7 +439,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Jeremiah Wells",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3970873.png&w=280&h=360"
+      },
+      {
+       "name": "Myktybek Orolbai",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5050129.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Islam Makhachev",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3332412.png&w=280&h=360"
+    },
+    {
+     "name": "Ian Machado Garry",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4738092.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -327,6 +484,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -363,6 +521,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Kaik Brito",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5056138.png&w=280&h=360"
+      },
+      {
+       "name": "Namo Fazil",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215178.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -378,6 +546,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Trent Miller",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5216997.png&w=280&h=360"
+      },
+      {
+       "name": "Douglas Rodrigues",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369435.png&w=280&h=360"
       }
      ]
     },
@@ -395,6 +573,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Logan Paxton",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5139609.png&w=280&h=360"
+      },
+      {
+       "name": "Cristian Pérez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5180489.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -410,6 +598,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Alik Lorenz",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5220971.png&w=280&h=360"
+      },
+      {
+       "name": "Mahamed Aly",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307811.png&w=280&h=360"
       }
      ]
     },
@@ -427,7 +625,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Roman Puga",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5116187.png&w=280&h=360"
+      },
+      {
+       "name": "Taner Trembley",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369439.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Kaik Brito",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5056138.png&w=280&h=360"
+    },
+    {
+     "name": "Namo Fazil",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215178.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -452,8 +670,32 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "one-20260821-one-friday-fights-167",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 167 & The Inner Circle 27",
+   "headline": "ONE Friday Fights 167 & The Inner Circle 27",
+   "date": "2026-08-21T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-167/"
   },
   {
    "id": "box-20260822-romero-vs-lopez",
@@ -474,6 +716,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -496,6 +739,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -518,6 +762,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -540,6 +785,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -562,6 +808,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -598,6 +845,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Anthony Hernandez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4290956.png&w=280&h=360"
+      },
+      {
+       "name": "Gregory Rodrigues",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4690541.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -613,6 +870,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Serghei Spivac",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4421246.png&w=280&h=360"
+      },
+      {
+       "name": "Vitor Petrino",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060483.png&w=280&h=360"
       }
      ]
     },
@@ -630,6 +897,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Roman Dolidze",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4411508.png&w=280&h=360"
+      },
+      {
+       "name": "Reinier de Ridder",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4423880.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -645,6 +922,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Carli Judice",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5172179.png&w=280&h=360"
+      },
+      {
+       "name": "Jeisla Chaves",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5308769.png&w=280&h=360"
       }
      ]
     },
@@ -662,6 +949,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Kennedy Nzechukwu",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4245094.png&w=280&h=360"
+      },
+      {
+       "name": "Shamil Gaziev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145498.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -677,6 +974,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Wes Schultz",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5057023.png&w=280&h=360"
+      },
+      {
+       "name": "Jackson McVey",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5291733.png&w=280&h=360"
       }
      ]
     },
@@ -694,6 +1001,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Gauge Young",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5085318.png&w=280&h=360"
+      },
+      {
+       "name": "Kody Steele",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212351.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -710,7 +1027,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Elise Reed",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4836482.png&w=280&h=360"
+      },
+      {
+       "name": "Shanelle Dyer",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5157674.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Anthony Hernandez",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4290956.png&w=280&h=360"
+    },
+    {
+     "name": "Gregory Rodrigues",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4690541.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -749,6 +1086,16 @@
        "url": "https://www.espn.com/watch/",
        "kind": "tv"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Cris Cyborg",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2354564.png&w=280&h=360"
+      },
+      {
+       "name": "Ketlen Vieira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4039865.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -764,6 +1111,16 @@
        "name": "ESPN",
        "url": "https://www.espn.com/watch/",
        "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Gadzhi Rabadanov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4423241.png&w=280&h=360"
+      },
+      {
+       "name": "Tracy Reeder",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149547.png&w=280&h=360"
       }
      ]
     },
@@ -781,6 +1138,16 @@
        "url": "https://www.espn.com/watch/",
        "kind": "tv"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Gustavo Oliveira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5104264.png&w=280&h=360"
+      },
+      {
+       "name": "Marcirley Alves",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120295.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -796,6 +1163,16 @@
        "name": "ESPN",
        "url": "https://www.espn.com/watch/",
        "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Luke Trainer",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4875324.png&w=280&h=360"
+      },
+      {
+       "name": "Roland Dunlap",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4881053.png&w=280&h=360"
       }
      ]
     },
@@ -813,6 +1190,16 @@
        "url": "https://www.espn.com/watch/",
        "kind": "tv"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Magomed Magomedov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2966188.png&w=280&h=360"
+      },
+      {
+       "name": "Daniel Marcos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088886.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -828,6 +1215,16 @@
        "name": "ESPN+",
        "url": "https://plus.espn.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Taila Santos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3170347.png&w=280&h=360"
+      },
+      {
+       "name": "Sabrinna de Sousa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5293617.png&w=280&h=360"
       }
      ]
     },
@@ -845,6 +1242,16 @@
        "url": "https://plus.espn.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Javid Basharat",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4867357.png&w=280&h=360"
+      },
+      {
+       "name": "Movsar Ibragimov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292383.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -860,6 +1267,16 @@
        "name": "ESPN+",
        "url": "https://plus.espn.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Dakota Bush",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4372290.png&w=280&h=360"
+      },
+      {
+       "name": "Mirafzal Akhtamov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5260270.png&w=280&h=360"
       }
      ]
     },
@@ -877,6 +1294,16 @@
        "url": "https://plus.espn.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Natan Schulte",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4093244.png&w=280&h=360"
+      },
+      {
+       "name": "Makkasharip Zaynukov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4601137.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -892,6 +1319,16 @@
        "name": "ESPN+",
        "url": "https://plus.espn.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Robert Watley",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4236070.png&w=280&h=360"
+      },
+      {
+       "name": "Gino van Steenis",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5278193.png&w=280&h=360"
       }
      ]
     },
@@ -909,6 +1346,16 @@
        "url": "https://plus.espn.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Florim Zendeli",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5139025.png&w=280&h=360"
+      },
+      {
+       "name": "Omran Chaaban",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5204224.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -925,7 +1372,27 @@
        "url": "https://plus.espn.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Eoin Sheridan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292616.png&w=280&h=360"
+      },
+      {
+       "name": "James Vake",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5338908.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Cris Cyborg",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2354564.png&w=280&h=360"
+    },
+    {
+     "name": "Ketlen Vieira",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4039865.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -964,6 +1431,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Bella Mir",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369428.png&w=280&h=360"
+      },
+      {
+       "name": "Alex Apodaca",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5394582.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -979,6 +1456,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Mario Piazzon",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149190.png&w=280&h=360"
+      },
+      {
+       "name": "Guilherme Uriel",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5220468.png&w=280&h=360"
       }
      ]
     },
@@ -996,6 +1483,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Gary Balletto",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4351084.png&w=280&h=360"
+      },
+      {
+       "name": "Sean Clancy Jr.",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5364353.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1011,6 +1508,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Ronald Humphrey",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5361909.png&w=280&h=360"
+      },
+      {
+       "name": "Alexis Miranda",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5364354.png&w=280&h=360"
       }
      ]
     },
@@ -1028,7 +1535,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Carlos Petruzzella",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264647.png&w=280&h=360"
+      },
+      {
+       "name": "Nick Galanti",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296770.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Bella Mir",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369428.png&w=280&h=360"
+    },
+    {
+     "name": "Alex Apodaca",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5394582.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -1053,6 +1580,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1089,11 +1617,54 @@
        "url": "https://ufcfightpass.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Darrius Flowers",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4358252.png&w=280&h=360"
+      },
+      {
+       "name": "Taiyilake Nueraji",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5138994.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Darrius Flowers",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4358252.png&w=280&h=360"
+    },
+    {
+     "name": "Taiyilake Nueraji",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5138994.png&w=280&h=360"
     }
    ],
    "note": null,
    "link": null
+  },
+  {
+   "id": "one-20260828-one-friday-fights-168",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 168 & The Inner Circle 28",
+   "headline": "ONE Friday Fights 168 & The Inner Circle 28",
+   "date": "2026-08-28T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-168/"
   },
   {
    "id": "box-20260829-itauma-vs-hrgovic",
@@ -1114,6 +1685,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1136,6 +1708,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1158,6 +1731,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1180,6 +1754,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1202,6 +1777,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1224,6 +1800,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1246,6 +1823,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1268,6 +1846,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1290,6 +1869,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1326,6 +1906,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Song Yadong",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3151289.png&w=280&h=360"
+      },
+      {
+       "name": "Umar Nurmagomedov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4569549.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1341,6 +1931,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Yan Xiaonan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4275487.png&w=280&h=360"
+      },
+      {
+       "name": "Denise Gomes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4963343.png&w=280&h=360"
       }
      ]
     },
@@ -1358,6 +1958,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Kai Asakura",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4336757.png&w=280&h=360"
+      },
+      {
+       "name": "Aoriqileng",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4389085.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1373,6 +1983,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Alex Perez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3155425.png&w=280&h=360"
+      },
+      {
+       "name": "Sumudaerji",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4405109.png&w=280&h=360"
       }
      ]
     },
@@ -1390,6 +2010,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Junior Tafa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122234.png&w=280&h=360"
+      },
+      {
+       "name": "Ce Liu",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292011.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1405,6 +2035,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Namsrai Batbayar",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145018.png&w=280&h=360"
+      },
+      {
+       "name": "Andre Lima",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5157669.png&w=280&h=360"
       }
      ]
     },
@@ -1422,6 +2062,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Sean Woodson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4566991.png&w=280&h=360"
+      },
+      {
+       "name": "Jack Jenkins",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088885.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1437,6 +2087,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Rei Tsuruya",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5137012.png&w=280&h=360"
+      },
+      {
+       "name": "Kevin Borjas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144066.png&w=280&h=360"
       }
      ]
     },
@@ -1454,7 +2114,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Jingnan Xiong",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3956295.png&w=280&h=360"
+      },
+      {
+       "name": "Julia Polastri",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4686723.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Song Yadong",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3151289.png&w=280&h=360"
+    },
+    {
+     "name": "Umar Nurmagomedov",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4569549.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -1493,7 +2173,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -1518,6 +2218,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1540,6 +2241,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1562,6 +2264,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1584,30 +2287,32 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
-   "id": "one-20260905-one-fight-night-46",
+   "id": "one-20260904-one-friday-fights-169",
    "sport": "mma",
    "org": "ONE",
-   "tier": "other",
-   "name": "ONE Fight Night 46",
-   "headline": "ONE Fight Night 46",
-   "date": "2026-09-05T00:00:00Z",
-   "datePrecision": "day",
-   "venue": "Lumpinee Boxing Stadium",
-   "location": "Bangkok, Thailand",
+   "tier": "contender",
+   "name": "ONE Friday Fights 169 & The Inner Circle 29",
+   "headline": "ONE Friday Fights 169 & The Inner Circle 29",
+   "date": "2026-09-04T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
    "watch": [
     {
-     "name": "Prime Video",
-     "url": "https://www.amazon.com/gp/video/storefront",
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
      "kind": "streaming"
     }
    ],
    "card": [],
-   "note": "Bangkok local date shown — this airs in the US the evening before, typically 9pm ET / 8pm CT on Prime Video.",
-   "link": "https://www.onefc.com/events/"
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-169/"
   },
   {
    "id": "box-20260905-taylor-vs-pili",
@@ -1628,6 +2333,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1650,6 +2356,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1672,6 +2379,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -1694,8 +2402,32 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "one-20260905-onefightnight47",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE Fight Night 47",
+   "headline": "ONE Fight Night 47",
+   "date": "2026-09-05T01:00:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/onefightnight47/"
   },
   {
    "id": "ufc-600059993",
@@ -1730,6 +2462,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Dan Hooker",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3109135.png&w=280&h=360"
+      },
+      {
+       "name": "Salahdine Parnasse",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4312859.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1745,6 +2487,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Michael Page",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3022067.png&w=280&h=360"
+      },
+      {
+       "name": "Nursulton Ruziboev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4422103.png&w=280&h=360"
       }
      ]
     },
@@ -1762,6 +2514,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Morgan Charrière",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4324622.png&w=280&h=360"
+      },
+      {
+       "name": "Felipe Lima",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5101694.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1777,6 +2539,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Ryan Spann",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3887606.png&w=280&h=360"
+      },
+      {
+       "name": "Mario Pinto",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218817.png&w=280&h=360"
       }
      ]
     },
@@ -1794,6 +2566,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Trevor Peek",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5048900.png&w=280&h=360"
+      },
+      {
+       "name": "Kurtis Campbell",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310075.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1809,6 +2591,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Farés Ziam",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4083018.png&w=280&h=360"
+      },
+      {
+       "name": "Axel Sola",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5245078.png&w=280&h=360"
       }
      ]
     },
@@ -1826,6 +2618,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Nora Cornolle",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4916974.png&w=280&h=360"
+      },
+      {
+       "name": "Klaudia Syguła",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122175.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1841,6 +2643,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Nathaniel Wood",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3950354.png&w=280&h=360"
+      },
+      {
+       "name": "Mairon Santos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4914573.png&w=280&h=360"
       }
      ]
     },
@@ -1858,6 +2670,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Modestas Bukauskas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4279621.png&w=280&h=360"
+      },
+      {
+       "name": "Oumar Sy",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074120.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -1873,6 +2695,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Muhammad Naimov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4690540.png&w=280&h=360"
+      },
+      {
+       "name": "Losene Keita",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5192314.png&w=280&h=360"
       }
      ]
     },
@@ -1890,7 +2722,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Luis Felipe Dias",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4693161.png&w=280&h=360"
+      },
+      {
+       "name": "Matthieu Letho Duclos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5013686.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Dan Hooker",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3109135.png&w=280&h=360"
+    },
+    {
+     "name": "Salahdine Parnasse",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4312859.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -1929,7 +2781,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -1968,11 +2840,54 @@
        "url": "https://www.rizin.tv/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "AJ McKee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3821379.png&w=280&h=360"
+      },
+      {
+       "name": "Razhabali Shaydullaev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130414.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "AJ McKee",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3821379.png&w=280&h=360"
+    },
+    {
+     "name": "Razhabali Shaydullaev",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130414.png&w=280&h=360"
     }
    ],
    "note": null,
    "link": null
+  },
+  {
+   "id": "one-20260911-one-friday-fights-170",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 170 & The Inner Circle 30",
+   "headline": "ONE Friday Fights 170 & The Inner Circle 30",
+   "date": "2026-09-11T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-170/"
   },
   {
    "id": "box-20260912-alvarez-vs-mbilli",
@@ -1993,6 +2908,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2015,6 +2931,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2037,6 +2954,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2059,8 +2977,32 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "one-20260912-one-samurai-3",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE SAMURAI 3",
+   "headline": "ONE SAMURAI 3",
+   "date": "2026-09-12T08:30:00Z",
+   "datePrecision": "time",
+   "venue": "Yokohama Buntai",
+   "location": "Yokohama",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-samurai-3/"
   },
   {
    "id": "ufc-600060772",
@@ -2095,6 +3037,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Yair Rodriguez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3155420.png&w=280&h=360"
+      },
+      {
+       "name": "Jean Silva",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145766.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2110,6 +3062,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Brandon Moreno",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3027545.png&w=280&h=360"
+      },
+      {
+       "name": "Joseph Morales",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4238229.png&w=280&h=360"
       }
      ]
     },
@@ -2127,6 +3089,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Alexa Grasso",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3136287.png&w=280&h=360"
+      },
+      {
+       "name": "Manon Fiorot",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4608674.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2142,6 +3114,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Curtis Blaydes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3922557.png&w=280&h=360"
+      },
+      {
+       "name": "Waldo Cortes Acosta",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4903365.png&w=280&h=360"
       }
      ]
     },
@@ -2159,6 +3141,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Dan Ige",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4074001.png&w=280&h=360"
+      },
+      {
+       "name": "David Martinez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4503229.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2174,6 +3166,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Tim Elliott",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2614020.png&w=280&h=360"
+      },
+      {
+       "name": "Édgar Cháirez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5076027.png&w=280&h=360"
       }
      ]
     },
@@ -2191,6 +3193,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Muslim Salikhov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3132513.png&w=280&h=360"
+      },
+      {
+       "name": "Ignacio Bahamondes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4038116.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2206,6 +3218,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Kelvin Gastelum",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3026011.png&w=280&h=360"
+      },
+      {
+       "name": "Yousri Belgaroui",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149815.png&w=280&h=360"
       }
      ]
     },
@@ -2223,6 +3245,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "JJ Aldrich",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3136289.png&w=280&h=360"
+      },
+      {
+       "name": "Regina Tarin",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5338118.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2239,7 +3271,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Tommy McMillen",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212849.png&w=280&h=360"
+      },
+      {
+       "name": "Marwan Rahiki",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5302274.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Yair Rodriguez",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3155420.png&w=280&h=360"
+    },
+    {
+     "name": "Jean Silva",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145766.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -2278,11 +3330,54 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
     }
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060737/league/ufc"
+  },
+  {
+   "id": "one-20260918-one-friday-fights-171",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 171 & The Inner Circle 31",
+   "headline": "ONE Friday Fights 171 & The Inner Circle 31",
+   "date": "2026-09-18T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-171/"
   },
   {
    "id": "box-20260919-brown-vs-hedges",
@@ -2303,6 +3398,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2325,6 +3421,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2347,6 +3444,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2383,6 +3481,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Alexandre Pantoja",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2560746.png&w=280&h=360"
+      },
+      {
+       "name": "Joshua Van",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120301.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2398,6 +3506,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Arman Tsarukyan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4419372.png&w=280&h=360"
+      },
+      {
+       "name": "Mauricio Ruffy",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122238.png&w=280&h=360"
       }
      ]
     },
@@ -2415,6 +3533,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Patricio Pitbull",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2532870.png&w=280&h=360"
+      },
+      {
+       "name": "Dooho Choi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3093026.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2430,6 +3558,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Renato Moicano",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3028863.png&w=280&h=360"
+      },
+      {
+       "name": "Brian Ortega",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3045737.png&w=280&h=360"
       }
      ]
     },
@@ -2447,6 +3585,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Alonzo Menifield",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3948876.png&w=280&h=360"
+      },
+      {
+       "name": "Iwo Baraniewski",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307810.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2462,6 +3610,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Gable Steveson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5214652.png&w=280&h=360"
+      },
+      {
+       "name": "Sean Sharaf",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5240957.png&w=280&h=360"
       }
      ]
     },
@@ -2479,6 +3637,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Marlon Vera",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3155424.png&w=280&h=360"
+      },
+      {
+       "name": "Charles Jourdain",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4421978.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2494,6 +3662,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Tai Tuivasa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3722422.png&w=280&h=360"
+      },
+      {
+       "name": "Robelis Despaigne",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5189560.png&w=280&h=360"
       }
      ]
     },
@@ -2511,6 +3689,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Edmen Shahbazyan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4354318.png&w=280&h=360"
+      },
+      {
+       "name": "Brunno Ferreira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5077131.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2526,6 +3714,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Giga Chikadze",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3957071.png&w=280&h=360"
+      },
+      {
+       "name": "Joanderson Brito",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4422355.png&w=280&h=360"
       }
      ]
     },
@@ -2543,6 +3741,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Casey O'Neill",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4699589.png&w=280&h=360"
+      },
+      {
+       "name": "Eduarda Moura",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5143888.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2558,6 +3766,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Ozzy Diaz",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4944080.png&w=280&h=360"
+      },
+      {
+       "name": "Ryan Gandra",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5291085.png&w=280&h=360"
       }
      ]
     },
@@ -2575,7 +3793,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Michael Aswell",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212738.png&w=280&h=360"
+      },
+      {
+       "name": "JooSang Yoo",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5282139.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Alexandre Pantoja",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2560746.png&w=280&h=360"
+    },
+    {
+     "name": "Joshua Van",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120301.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -2614,11 +3852,54 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
     }
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060738/league/ufc"
+  },
+  {
+   "id": "one-20260925-one-friday-fights-172",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 172 & The Inner Circle 32",
+   "headline": "ONE Friday Fights 172 & The Inner Circle 32",
+   "date": "2026-09-25T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-172/"
   },
   {
    "id": "box-20260926-richards-vs-kalajdzic",
@@ -2639,6 +3920,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2661,6 +3943,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2683,6 +3966,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2705,6 +3989,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2727,6 +4012,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2763,33 +4049,31 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
     }
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060739/league/ufc"
-  },
-  {
-   "id": "one-20261003-one-fight-night-47",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "other",
-   "name": "ONE Fight Night 47",
-   "headline": "ONE Fight Night 47",
-   "date": "2026-10-03T00:00:00Z",
-   "datePrecision": "day",
-   "venue": "Lumpinee Boxing Stadium",
-   "location": "Bangkok, Thailand",
-   "watch": [
-    {
-     "name": "Prime Video",
-     "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "note": "Bangkok local date shown — this airs in the US the evening before, typically 9pm ET / 8pm CT on Prime Video.",
-   "link": "https://www.onefc.com/events/"
   },
   {
    "id": "box-20261003-whittaker-vs-wallace",
@@ -2810,8 +4094,32 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "one-20261003-onefightnight48",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE Fight Night 48",
+   "headline": "ONE Fight Night 48",
+   "date": "2026-10-03T01:00:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/onefightnight48/"
   },
   {
    "id": "ufc-600061182",
@@ -2846,6 +4154,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -2861,6 +4179,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
       }
      ]
     },
@@ -2878,7 +4206,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -2917,7 +4265,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -2942,6 +4310,7 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
@@ -2978,7 +4347,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=280&h=360"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -3003,8 +4392,32 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "one-20261017-one-samurai-4",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE SAMURAI 4",
+   "headline": "ONE SAMURAI 4",
+   "date": "2026-10-17T07:00:00Z",
+   "datePrecision": "time",
+   "venue": "Ariake Arena",
+   "location": "Tokyo",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-samurai-4/"
   },
   {
    "id": "ufc-600060773",
@@ -3039,6 +4452,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Mike Malott",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3165120.png&w=280&h=360"
+      },
+      {
+       "name": "Joaquin Buckley",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4024714.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -3054,6 +4477,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Nate Landwehr",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3821549.png&w=280&h=360"
+      },
+      {
+       "name": "Mandel Nallo",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4063786.png&w=280&h=360"
       }
      ]
     },
@@ -3071,6 +4504,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Erin Blanchfield",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4350796.png&w=280&h=360"
+      },
+      {
+       "name": "Jasmine Jasudavicius",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4835135.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -3086,6 +4529,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Tanner Boser",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4232775.png&w=280&h=360"
+      },
+      {
+       "name": "Jhonata Diniz",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145497.png&w=280&h=360"
       }
      ]
     },
@@ -3103,6 +4556,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Kyle Daukaus",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4329444.png&w=280&h=360"
+      },
+      {
+       "name": "Marc-Andre Barriault",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4415883.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -3118,6 +4581,16 @@
        "name": "Paramount+",
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Chelsea Chandler",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4319785.png&w=280&h=360"
+      },
+      {
+       "name": "Melissa Croden",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4947922.png&w=280&h=360"
       }
      ]
     },
@@ -3135,6 +4608,16 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Katlyn Cerminara",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4026490.png&w=280&h=360"
+      },
+      {
+       "name": "Jamey-Lyn Horth",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4689227.png&w=280&h=360"
+      }
      ]
     },
     {
@@ -3151,7 +4634,27 @@
        "url": "https://www.paramountplus.com/",
        "kind": "streaming"
       }
+     ],
+     "portraits": [
+      {
+       "name": "Charles Jourdain",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4421978.png&w=280&h=360"
+      },
+      {
+       "name": "Timmy Cuamba",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5123311.png&w=280&h=360"
+      }
      ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Mike Malott",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3165120.png&w=280&h=360"
+    },
+    {
+     "name": "Joaquin Buckley",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4024714.png&w=280&h=360"
     }
    ],
    "note": null,
@@ -3176,42 +4679,21 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
-   "id": "one-20261107-one-fight-night-48",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "other",
-   "name": "ONE Fight Night 48",
-   "headline": "ONE Fight Night 48",
-   "date": "2026-11-07T00:00:00Z",
-   "datePrecision": "day",
-   "venue": "Lumpinee Boxing Stadium",
-   "location": "Bangkok, Thailand",
-   "watch": [
-    {
-     "name": "Prime Video",
-     "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "note": "Bangkok local date shown — this airs in the US the evening before, typically 9pm ET / 8pm CT on Prime Video.",
-   "link": "https://www.onefc.com/events/"
-  },
-  {
-   "id": "one-20261212-one-fight-night-49",
+   "id": "one-20261107-onefightnight49",
    "sport": "mma",
    "org": "ONE",
    "tier": "other",
    "name": "ONE Fight Night 49",
    "headline": "ONE Fight Night 49",
-   "date": "2026-12-12T00:00:00Z",
-   "datePrecision": "day",
-   "venue": "Lumpinee Boxing Stadium",
-   "location": "Bangkok, Thailand",
+   "date": "2026-11-07T02:00:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
    "watch": [
     {
      "name": "Prime Video",
@@ -3220,8 +4702,55 @@
     }
    ],
    "card": [],
-   "note": "Bangkok local date shown — this airs in the US the evening before, typically 9pm ET / 8pm CT on Prime Video.",
-   "link": "https://www.onefc.com/events/"
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/onefightnight49/"
+  },
+  {
+   "id": "one-20261118-one-samurai-5",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE SAMURAI 5",
+   "headline": "ONE SAMURAI 5",
+   "date": "2026-11-18T08:30:00Z",
+   "datePrecision": "time",
+   "venue": "EBARA WAVE Arena Ota",
+   "location": "Tokyo",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-samurai-5/"
+  },
+  {
+   "id": "one-20261202-one-samurai-6",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE SAMURAI 6",
+   "headline": "ONE SAMURAI 6",
+   "date": "2026-12-02T08:30:00Z",
+   "datePrecision": "time",
+   "venue": "Yokohama Buntai",
+   "location": "Yokohama",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-samurai-6/"
   },
   {
    "id": "box-20261212-benavidez-vs-cieslak",
@@ -3242,8 +4771,32 @@
     }
    ],
    "card": [],
+   "art": null,
    "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "one-20261212-onefightnight50",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE Fight Night 50",
+   "headline": "ONE Fight Night 50",
+   "date": "2026-12-12T02:00:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/onefightnight50/"
   }
  ]
 }
