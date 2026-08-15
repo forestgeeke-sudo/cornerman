@@ -339,6 +339,18 @@ main { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
 }
 .card__meta { margin: 0 0 .55rem; font-size: .88rem; color: var(--ink-soft); }
 
+/* Caveats that keep a date from being misread (e.g. Asian cards that air in
+   the US the evening before). */
+.note {
+  margin: 0 0 .55rem;
+  padding: .35rem .6rem;
+  font-size: .82rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  background: rgba(196, 98, 45, .09);
+  border-left: 2px solid var(--rust);
+}
+
 /* ---------- watch chips ---------- */
 
 .chips { display: flex; flex-wrap: wrap; gap: .4rem; }

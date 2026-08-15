@@ -34,10 +34,14 @@ UA_API = "Cornerman/1.0 (+https://github.com/forestgeeke-sudo/cornerman)"
 UA_WEB = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
           "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
 
+# org=None means "derive the promotion from the event title". ESPN's "other"
+# bucket is a genuine catch-all -- it carries real cards (Road to UFC, Super
+# RIZIN) that have no dedicated feed, labelled only "Other" with no broadcaster.
 ESPN_LEAGUES = [
     ("ufc", "UFC"),
     ("pfl", "PFL"),
     ("bellator", "Bellator"),
+    ("other", None),
 ]
 
 
@@ -85,6 +89,13 @@ def parse_espn_event(ev, org):
     if not comps:
         return None
 
+    name = ev.get("name") or ev.get("shortName") or "Untitled card"
+    fallback_watch = []
+    if org is None:
+        org, fallback_watch = sources.identify(name)
+        if org is None:
+            return None      # unrecognised catch-all entry: better absent than mislabelled
+
     # ESPN returns bouts in running order: the main event is last.
     bouts = list(reversed(comps))
 
@@ -108,7 +119,8 @@ def parse_espn_event(ev, org):
                 names.append(nm)
         return names
 
-    event_watch = sources.resolve_all(broadcasters(comps[0]))
+    event_watch = (sources.resolve_all(broadcasters(comps[0]))
+                   or sources.resolve_all(fallback_watch))
 
     card = []
     for i, c in enumerate(bouts):
@@ -129,7 +141,6 @@ def parse_espn_event(ev, org):
             "watch": sources.resolve_all(broadcasters(c)) or event_watch,
         })
 
-    name = ev.get("name") or ev.get("shortName") or "Untitled card"
     headline = name.split(":", 1)[1].strip() if ":" in name else (
         " vs. ".join(card[0]["fighters"]) if card else name)
 
@@ -152,6 +163,7 @@ def parse_espn_event(ev, org):
         "location": location,
         "watch": event_watch,
         "card": card,
+        "note": None,
         "link": link,
     }
 
@@ -172,7 +184,7 @@ def scan_mma(start, end):
             if parsed and parsed["date"]:
                 events.append(parsed)
                 got += 1
-        print(f"  {org}: {got} events")
+        print(f"  {org or 'Other promotions'}: {got} events")
     return events
 
 
@@ -259,9 +271,83 @@ def scan_boxing(today, end):
             "location": place or None,
             "watch": sources.resolve_all([x.strip() for x in re.split(r"[/,&]| and ", bcast) if x.strip()]),
             "card": [],
+            "note": None,
             "link": BOX_URL,
         })
     print(f"  Boxing: {len(events)} events")
+    return events
+
+
+# --------------------------------------------------------------------------
+# ONE Championship
+# --------------------------------------------------------------------------
+
+ONE_URL = ("https://en.wikipedia.org/w/api.php?action=parse"
+           "&page=List_of_ONE_Championship_events&prop=wikitext&section=1&format=json")
+
+# ONE's Asian cards run in the Bangkok morning so they land in US prime time,
+# which means the announced local date is a day ahead of the US airing. We have
+# no reliable start time, so say so rather than quietly shifting the date.
+ONE_TZ_NOTE = ("Bangkok local date shown — this airs in the US the evening "
+               "before, typically 9pm ET / 8pm CT on Prime Video.")
+
+
+def _wiki_clean(s):
+    s = re.sub(r"<ref.*?(?:/>|</ref>)", "", s, flags=re.S)
+    s = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", s)   # [[a|b]] -> b
+    s = re.sub(r"\{\{[^}]*\}\}", "", s)
+    s = re.sub(r"''+", "", s)
+    return html.unescape(re.sub(r"\s+", " ", s)).strip()
+
+
+def scan_one(today, end):
+    """ONE Championship's scheduled-events table on Wikipedia.
+
+    ESPN carries no ONE feed at all, and ONE is a genuinely major promotion
+    (exclusive on Prime Video in the US), so it's worth the extra source.
+    """
+    try:
+        data = json.loads(fetch(ONE_URL))
+        txt = data["parse"]["wikitext"]["*"]
+    except Exception as e:
+        warn(f"ONE feed failed: {e}")
+        return []
+
+    events = []
+    for row in txt.split("|-"):
+        cells = [_wiki_clean(c) for c in re.findall(r"^\|(?!-)(.*)$", row, re.M)]
+        if len(cells) < 5:
+            continue
+        name, date_s, venue, loc = cells[1], cells[2], cells[3], cells[4]
+        try:
+            d = datetime.strptime(date_s, "%B %d, %Y").replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+        if not (today.date() <= d.date() <= end.date()):
+            continue
+
+        venue = None if venue.upper() == "TBD" else venue
+        loc = None if loc.upper() == "TBD" else loc
+        asian = bool(loc and not re.search(r"United States|USA|Canada", loc, re.I))
+
+        slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")[:48]
+        events.append({
+            "id": f"one-{d:%Y%m%d}-{slug}",
+            "sport": "mma",
+            "org": "ONE",
+            "tier": "other",
+            "name": name,
+            "headline": name,
+            "date": d.strftime("%Y-%m-%dT00:00:00Z"),
+            "datePrecision": "day",
+            "venue": venue,
+            "location": loc,
+            "watch": sources.resolve_all(["Prime Video"]),
+            "card": [],
+            "note": ONE_TZ_NOTE if asian else None,
+            "link": "https://www.onefc.com/events/",
+        })
+    print(f"  ONE: {len(events)} events")
     return events
 
 
@@ -272,13 +358,15 @@ def main():
     end = now + timedelta(days=HORIZON_DAYS)
     print(f"Scanning {now:%Y-%m-%d} -> {end:%Y-%m-%d}")
 
-    events = scan_mma(now, end)
-    mma_count = len(events)
-    events += scan_boxing(now, end)
+    # ESPN is the backbone (UFC/PFL) and always has cards on the books, so an
+    # empty result there means the feed is broken, not that MMA stopped. Count
+    # it on its own -- the smaller sources must not be able to satisfy the
+    # guard on ESPN's behalf.
+    espn_events = scan_mma(now, end)
+    events = espn_events + scan_one(now, end) + scan_boxing(now, end)
 
-    # A scan that loses MMA entirely is a broken scan, not an empty weekend.
-    if mma_count == 0:
-        print("ERROR: no MMA events found; refusing to overwrite a good feed.",
+    if not espn_events:
+        print("ERROR: ESPN returned no events; refusing to overwrite a good feed.",
               file=sys.stderr)
         return 1
 

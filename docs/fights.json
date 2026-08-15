@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-15T05:11:11Z",
+ "generated": "2026-08-15T05:32:49Z",
  "counts": {
-  "mma": 18,
+  "mma": 24,
   "boxing": 46
  },
  "events": [
@@ -24,6 +24,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -45,6 +46,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -66,6 +68,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -87,6 +90,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -301,6 +305,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600059185/league/ufc"
   },
   {
@@ -322,6 +327,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -424,6 +430,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060733/league/ufc"
   },
   {
@@ -445,6 +452,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -466,6 +474,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -487,6 +496,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -508,6 +518,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -529,6 +540,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -550,6 +562,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -700,6 +713,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060493/league/ufc"
   },
   {
@@ -914,6 +928,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060446/league/pfl"
   },
   {
@@ -1016,6 +1031,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060734/league/ufc"
   },
   {
@@ -1037,7 +1053,47 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "ufc-600060731",
+   "sport": "mma",
+   "org": "UFC",
+   "tier": "other",
+   "name": "Road to UFC Season 5: Semifinals",
+   "headline": "Semifinals",
+   "date": "2026-08-28T09:00Z",
+   "datePrecision": "time",
+   "venue": "Shanghai Indoor Stadium",
+   "location": "Shanghai, China",
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": "Lightweight",
+     "fighters": [
+      "Darrius Flowers",
+      "Taiyilake Nueraji"
+     ],
+     "watch": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/",
+       "kind": "streaming"
+      }
+     ]
+    }
+   ],
+   "note": null,
+   "link": null
   },
   {
    "id": "box-20260829-itauma-vs-hrgovic",
@@ -1058,6 +1114,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1079,6 +1136,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1100,6 +1158,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1121,6 +1180,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1142,6 +1202,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1163,6 +1224,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1184,6 +1246,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1205,6 +1268,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1226,6 +1290,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1392,6 +1457,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060620/league/ufc"
   },
   {
@@ -1430,6 +1496,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060735/league/ufc"
   },
   {
@@ -1451,6 +1518,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1472,6 +1540,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1493,6 +1562,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1514,7 +1584,30 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "one-20260905-one-fight-night-46",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE Fight Night 46",
+   "headline": "ONE Fight Night 46",
+   "date": "2026-09-05T00:00:00Z",
+   "datePrecision": "day",
+   "venue": "Lumpinee Boxing Stadium",
+   "location": "Bangkok, Thailand",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "note": "Bangkok local date shown — this airs in the US the evening before, typically 9pm ET / 8pm CT on Prime Video.",
+   "link": "https://www.onefc.com/events/"
   },
   {
    "id": "box-20260905-taylor-vs-pili",
@@ -1535,6 +1628,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1556,6 +1650,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1577,6 +1672,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1598,6 +1694,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1796,6 +1893,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600059993/league/ufc"
   },
   {
@@ -1834,7 +1932,47 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060736/league/ufc"
+  },
+  {
+   "id": "rizin-600060793",
+   "sport": "mma",
+   "org": "RIZIN",
+   "tier": "other",
+   "name": "Super RIZIN 5",
+   "headline": "AJ McKee vs. Razhabali Shaydullaev",
+   "date": "2026-09-10T09:00Z",
+   "datePrecision": "time",
+   "venue": "Kyocera Dome",
+   "location": "Osaka, Japan",
+   "watch": [
+    {
+     "name": "RIZIN.TV",
+     "url": "https://www.rizin.tv/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": "Featherweight",
+     "fighters": [
+      "AJ McKee",
+      "Razhabali Shaydullaev"
+     ],
+     "watch": [
+      {
+       "name": "RIZIN.TV",
+       "url": "https://www.rizin.tv/",
+       "kind": "streaming"
+      }
+     ]
+    }
+   ],
+   "note": null,
+   "link": null
   },
   {
    "id": "box-20260912-alvarez-vs-mbilli",
@@ -1855,6 +1993,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1876,6 +2015,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1897,6 +2037,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -1918,6 +2059,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2100,6 +2242,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060772/league/ufc"
   },
   {
@@ -2138,6 +2281,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060737/league/ufc"
   },
   {
@@ -2159,6 +2303,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2180,6 +2325,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2201,6 +2347,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2431,6 +2578,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc"
   },
   {
@@ -2469,6 +2617,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060738/league/ufc"
   },
   {
@@ -2490,6 +2639,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2511,6 +2661,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2532,6 +2683,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2553,6 +2705,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2574,6 +2727,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2612,7 +2766,30 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060739/league/ufc"
+  },
+  {
+   "id": "one-20261003-one-fight-night-47",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE Fight Night 47",
+   "headline": "ONE Fight Night 47",
+   "date": "2026-10-03T00:00:00Z",
+   "datePrecision": "day",
+   "venue": "Lumpinee Boxing Stadium",
+   "location": "Bangkok, Thailand",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "note": "Bangkok local date shown — this airs in the US the evening before, typically 9pm ET / 8pm CT on Prime Video.",
+   "link": "https://www.onefc.com/events/"
   },
   {
    "id": "box-20261003-whittaker-vs-wallace",
@@ -2633,6 +2810,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2703,6 +2881,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061182/league/ufc"
   },
   {
@@ -2741,6 +2920,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060740/league/ufc"
   },
   {
@@ -2762,6 +2942,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2800,6 +2981,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060741/league/ufc"
   },
   {
@@ -2821,6 +3003,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   },
   {
@@ -2971,6 +3154,7 @@
      ]
     }
    ],
+   "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc"
   },
   {
@@ -2992,7 +3176,52 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
+  },
+  {
+   "id": "one-20261107-one-fight-night-48",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE Fight Night 48",
+   "headline": "ONE Fight Night 48",
+   "date": "2026-11-07T00:00:00Z",
+   "datePrecision": "day",
+   "venue": "Lumpinee Boxing Stadium",
+   "location": "Bangkok, Thailand",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "note": "Bangkok local date shown — this airs in the US the evening before, typically 9pm ET / 8pm CT on Prime Video.",
+   "link": "https://www.onefc.com/events/"
+  },
+  {
+   "id": "one-20261212-one-fight-night-49",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE Fight Night 49",
+   "headline": "ONE Fight Night 49",
+   "date": "2026-12-12T00:00:00Z",
+   "datePrecision": "day",
+   "venue": "Lumpinee Boxing Stadium",
+   "location": "Bangkok, Thailand",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "note": "Bangkok local date shown — this airs in the US the evening before, typically 9pm ET / 8pm CT on Prime Video.",
+   "link": "https://www.onefc.com/events/"
   },
   {
    "id": "box-20261212-benavidez-vs-cieslak",
@@ -3013,6 +3242,7 @@
     }
    ],
    "card": [],
+   "note": null,
    "link": "https://boxing-schedule.com/"
   }
  ]

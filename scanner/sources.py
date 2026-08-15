@@ -4,6 +4,8 @@ Broadcaster strings come back from the feeds in a dozen spellings ("ESPN+",
 "ESPN Plus", "espn+"), so match on a normalised key rather than exactly.
 """
 
+import re
+
 # key -> (display name, url, kind)
 SERVICES = {
     "paramount+": ("Paramount+", "https://www.paramountplus.com/", "streaming"),
@@ -38,7 +40,24 @@ SERVICES = {
     "tiktok": ("TikTok LIVE", "https://www.tiktok.com/live", "streaming"),
     "nolimitboxing": ("No Limit Boxing", None, "other"),
     "matchtv": ("Match TV", None, "tv"),
+    "rizintv": ("RIZIN.TV", "https://www.rizin.tv/", "streaming"),
+    "abema": ("ABEMA", "https://abema.tv/", "streaming"),
+    "onefc": ("ONE (onefc.com)", "https://www.onefc.com/", "streaming"),
 }
+
+# ESPN lumps smaller promotions into an "other" bucket and lists no broadcaster
+# for them. These are the promotions worth naming, matched against the event
+# title, with the service that actually carries them in the US.
+PROMOTIONS = [
+    (r"road to ufc",       "UFC",   ["UFC Fight Pass"]),
+    (r"\brizin\b",         "RIZIN", ["RIZIN.TV"]),
+    (r"\bone\b.*(?:fight night|championship)|^one[ :]", "ONE", ["Prime Video"]),
+    (r"cage warriors",     "Cage Warriors", ["UFC Fight Pass"]),
+    (r"\blfa\b|legacy fighting", "LFA", ["UFC Fight Pass"]),
+    (r"invicta",           "Invicta FC", ["UFC Fight Pass"]),
+    (r"\bksw\b",           "KSW", []),
+    (r"oktagon",           "Oktagon", []),
+]
 
 # Placeholder strings the sources use when a broadcaster isn't announced yet.
 UNANNOUNCED = {"tba", "tbc", "tbd", "n/a", "na", "none", "unknown"}
@@ -61,6 +80,18 @@ def resolve(name):
         return {"name": disp, "url": url, "kind": kind}
     # Unknown broadcaster: keep the name, we just have nowhere to point.
     return {"name": name, "url": None, "kind": "other"}
+
+
+def identify(event_name):
+    """Name the promotion behind an event title, and how to watch it.
+
+    Used for ESPN's catch-all bucket, which carries real events but labels
+    them only "Other" with no broadcaster.
+    """
+    for pattern, org, watch in PROMOTIONS:
+        if re.search(pattern, event_name or "", re.I):
+            return org, watch
+    return None, []
 
 
 def resolve_all(names):

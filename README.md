@@ -28,7 +28,19 @@ Nothing here needs a server, a database, or a paid API key.
 | Source | Covers | Notes |
 |---|---|---|
 | ESPN public schedule feed | UFC, PFL, Bellator | Full bout order, weight classes, broadcaster |
+| ESPN `other` bucket | Road to UFC, Super RIZIN | Real cards with no dedicated feed; ESPN labels them only "Other" with no broadcaster, so `sources.PROMOTIONS` names the promotion and its service |
+| Wikipedia | ONE Championship | ESPN carries no ONE feed at all; ONE is exclusive to Prime Video in the US |
 | boxing-schedule.com | Boxing | Date, matchup, venue, broadcaster |
+
+All 48 MMA leagues ESPN tracks were probed: only `ufc`, `pfl` and `other` have
+any forward schedule. Cage Warriors, KSW, LFA, RIZIN and Bellator have
+dedicated ESPN feeds that are **empty** — kept in `PROMOTIONS` so they resolve
+if they ever reappear, but don't expect data from those slugs.
+
+**ONE's dates need care.** ONE's Bangkok cards run in the local morning to hit
+US prime time, so the announced local date is a day *ahead* of the US airing.
+There's no reliable start time in the source, so those events carry a `note`
+saying so rather than having their date silently shifted.
 
 Only factual schedule data is taken: dates, fighters, venues, broadcasters.
 Affiliate links in the boxing source are discarded — "where to watch" links

@@ -201,6 +201,16 @@ function buildCard(e) {
   const meta = [whenText(e, true), [e.venue, e.location].filter(Boolean).join(', ')]
     .filter(Boolean).join('  ·  ');
   node.querySelector('.card__meta').textContent = meta;
+
+  // Caveats that would otherwise make the date misleading (e.g. Asian cards
+  // that air in the US the evening before) ride along with the event.
+  if (e.note) {
+    const n = document.createElement('p');
+    n.className = 'note';
+    n.textContent = e.note;
+    node.querySelector('.card__meta').after(n);
+  }
+
   node.querySelector('.card__watch').appendChild(chips(e.watch));
 
   node.querySelector('[data-ics]').onclick = () => downloadIcs(e);
