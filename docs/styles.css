@@ -141,25 +141,31 @@ main { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
 .faces {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   gap: 0;
   flex: 1 1 20rem;
   min-width: 14rem;
   max-width: 28rem;
   background: rgba(123, 34, 49, .08);
+  overflow: hidden;
 }
 .faces[hidden] { display: none !important; }
 .faces img {
   display: block;
   width: 50%;
   height: auto;
-  aspect-ratio: 600 / 436;
-  object-fit: contain;
-  object-position: center;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  /* ESPN shots have empty studio above the head and a hard crop at the chest.
+     Pin to the lower part of the frame, then fade the chest line out. */
+  object-position: 50% 78%;
   filter: grayscale(1) contrast(1.15) brightness(.88);
   mix-blend-mode: multiply;
+  -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 62%, transparent 100%);
 }
+.faces--solo img { width: 100%; }
 .faces--solo img { width: 100%; }
 .faces::after {
   content: "";
@@ -173,8 +179,8 @@ main { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
 .faces__vs {
   position: absolute;
   left: 50%;
-  bottom: .55rem;
-  transform: translateX(-50%);
+  top: 58%;
+  transform: translate(-50%, -50%);
   z-index: 1;
   font-family: var(--poster);
   font-size: .62rem;
@@ -190,6 +196,7 @@ main { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
   flex: 1 1 26rem;
   max-width: 32rem;
   min-width: 16rem;
+  align-self: center;
   border-left: 1px solid var(--edge);
 }
 
