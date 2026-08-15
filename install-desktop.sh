@@ -41,7 +41,7 @@ Comment=Upcoming MMA and boxing cards, and where to watch them
 Exec=${BROWSER} --app=${URL} --class=${APP_ID} --name=${APP_ID}
 Icon=${APP_ID}
 Terminal=false
-Categories=Sports;News;
+Categories=Network;Sports;News;
 Keywords=MMA;UFC;boxing;fights;schedule;
 StartupWMClass=${APP_ID}
 EOF
