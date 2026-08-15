@@ -50,11 +50,27 @@ function countdownText(d) {
 
 /* ---------- watch chips ---------- */
 
-/* Chrome --app has no tab strip, so target=_blank navigates this window
-   and there is no Back. Force a real popup window instead. */
+/* Chrome --app on Linux/Wayland turns window.open(..., 'popup=yes,width=…')
+   into a few-pixel window jammed off the top-left of the screen. Clicking
+   that then hands the URL to the OS, which on Fedora opens GNOME Calendar
+   instead of Google Calendar in a browser.
+
+   The desktop installer registers x-cornerman: and launches a real Chrome
+   window (no --app). Phones must not go through that — a normal https tap
+   is what opens the Google Calendar app. */
+function inChromelessDesktop() {
+  if (window.matchMedia('(pointer: coarse)').matches) return false;
+  if (window.matchMedia('(display-mode: standalone)').matches) return true;
+  try { return window.toolbar && window.toolbar.visible === false; }
+  catch { return false; }
+}
+
 function openOutsideApp(url) {
-  const opened = window.open(
-    url, '_blank', 'noopener,noreferrer,popup=yes,width=1280,height=800');
+  if (inChromelessDesktop()) {
+    location.assign('x-cornerman:?u=' + encodeURIComponent(url));
+    return;
+  }
+  const opened = window.open(url, '_blank');
   if (opened) opened.opener = null;
 }
 
@@ -106,14 +122,17 @@ function googleCalUrl(e) {
     dates = `${gcalDay(d)}/${gcalDay(next)}`;
   }
 
-  const q = new URLSearchParams({
-    action: 'TEMPLATE',
-    text: e.name || '',
-    dates,
-    details,
-    location: where || watch,
-  });
-  return `https://calendar.google.com/calendar/event?${q}`;
+  /* dates must keep a raw `/` — `%2F` makes Google Calendar drop the times.
+     `/calendar/render?action=TEMPLATE` is the create-event URL; `/event` is
+     for opening an existing shared event and just 404s a blank page. */
+  const q = [
+    'action=TEMPLATE',
+    `text=${encodeURIComponent(e.name || '')}`,
+    `dates=${dates}`,
+    `details=${encodeURIComponent(details)}`,
+    `location=${encodeURIComponent(where || watch)}`,
+  ].join('&');
+  return `https://calendar.google.com/calendar/render?${q}`;
 }
 
 /* ---------- filtering ---------- */
@@ -319,6 +338,7 @@ load();
 document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
 
 document.addEventListener('click', ev => {
+  if (!inChromelessDesktop()) return;
   const a = ev.target.closest('a[href]');
   if (!a) return;
   let url;
