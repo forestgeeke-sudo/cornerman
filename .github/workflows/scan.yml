@@ -1,0 +1,49 @@
+name: Scan fights
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"     # every 6 hours, off the hour to dodge the rush
+  workflow_dispatch:            # and a manual "run it now" button
+  push:
+    branches: [main]
+    paths:
+      - "scanner/**"
+      - ".github/workflows/scan.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cornerman-write
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scan the schedules
+        run: python scanner/scan.py
+
+      - name: Commit the feed if it changed
+        run: |
+          if git diff --quiet -- docs/fights.json; then
+            echo "No change in the feed."
+            exit 0
+          fi
+          git config user.name  "cornerman-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/fights.json
+          git commit -m "Update fight feed ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          # The notify job writes to this repo too; rebase before pushing.
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin main && exit 0
+            echo "push attempt $i failed, retrying"
+            sleep 5
+          done
+          exit 1

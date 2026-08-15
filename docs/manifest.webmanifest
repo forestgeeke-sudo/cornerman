@@ -1,0 +1,15 @@
+{
+  "name": "Cornerman",
+  "short_name": "Cornerman",
+  "description": "Upcoming MMA and boxing cards, and where to watch them.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F2E9DC",
+  "theme_color": "#7B2231",
+  "orientation": "any",
+  "categories": ["sports", "news"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
