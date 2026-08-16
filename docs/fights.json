@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T12:58:46Z",
+ "generated": "2026-08-16T18:45:23Z",
  "counts": {
   "mma": 36
  },
@@ -1675,6 +1675,32 @@
     {
      "order": 2,
      "slot": "comain",
+     "weight": "Lightweight",
+     "fighters": [
+      "Farés Ziam",
+      "Axel Sola"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Farés Ziam",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4083018.png&w=350&h=254"
+      },
+      {
+       "name": "Axel Sola",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5245078.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Michael Page",
@@ -1699,7 +1725,7 @@
      ]
     },
     {
-     "order": 3,
+     "order": 4,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -1725,7 +1751,33 @@
      ]
     },
     {
-     "order": 4,
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Muhammad Naimov",
+      "Losene Keita"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Muhammad Naimov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4690540.png&w=350&h=254"
+      },
+      {
+       "name": "Losene Keita",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5192314.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -1751,7 +1803,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 7,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -1777,85 +1829,7 @@
      ]
     },
     {
-     "order": 6,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Farés Ziam",
-      "Axel Sola"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Farés Ziam",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4083018.png&w=350&h=254"
-      },
-      {
-       "name": "Axel Sola",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5245078.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 7,
-     "slot": "undercard",
-     "weight": "W Bantamweight",
-     "fighters": [
-      "Nora Cornolle",
-      "Klaudia Syguła"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Nora Cornolle",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4916974.png&w=350&h=254"
-      },
-      {
-       "name": "Klaudia Syguła",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122175.png&w=350&h=254"
-      }
-     ]
-    },
-    {
      "order": 8,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Nathaniel Wood",
-      "Mairon Santos"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Nathaniel Wood",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3950354.png&w=350&h=254"
-      },
-      {
-       "name": "Mairon Santos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4914573.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -1881,12 +1855,12 @@
      ]
     },
     {
-     "order": 10,
+     "order": 9,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
-      "Muhammad Naimov",
-      "Losene Keita"
+      "Nathaniel Wood",
+      "Mairon Santos"
      ],
      "watch": [
       {
@@ -1897,12 +1871,38 @@
      ],
      "portraits": [
       {
-       "name": "Muhammad Naimov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4690540.png&w=350&h=254"
+       "name": "Nathaniel Wood",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3950354.png&w=350&h=254"
       },
       {
-       "name": "Losene Keita",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5192314.png&w=350&h=254"
+       "name": "Mairon Santos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4914573.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "slot": "undercard",
+     "weight": "W Bantamweight",
+     "fighters": [
+      "Nora Cornolle",
+      "Klaudia Syguła"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Nora Cornolle",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4916974.png&w=350&h=254"
+      },
+      {
+       "name": "Klaudia Syguła",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122175.png&w=350&h=254"
       }
      ]
     },
