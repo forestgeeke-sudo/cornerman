@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-16T01:56:23Z",
+ "generated": "2026-08-16T06:57:14Z",
  "counts": {
-  "mma": 33
+  "mma": 36
  },
  "events": [
   {
@@ -290,6 +290,32 @@
     {
      "order": 4,
      "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Mason Jones",
+      "MarQuel Mederos"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Mason Jones",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4419470.png&w=350&h=254"
+      },
+      {
+       "name": "MarQuel Mederos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5157668.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
       "Carli Judice",
@@ -314,7 +340,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 6,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -340,7 +366,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 7,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -366,12 +392,12 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
-      "Mason Jones",
-      "MarQuel Mederos"
+      "Chris Padilla",
+      "Nasrat Haqparast"
      ],
      "watch": [
       {
@@ -382,38 +408,12 @@
      ],
      "portraits": [
       {
-       "name": "Mason Jones",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4419470.png&w=350&h=254"
+       "name": "Chris Padilla",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3163772.png&w=350&h=254"
       },
       {
-       "name": "MarQuel Mederos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5157668.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 8,
-     "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Anthony Wint",
-      "Terrance Chatman"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Anthony Wint",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3128853.png&w=350&h=254"
-      },
-      {
-       "name": "Terrance Chatman",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397621.png&w=350&h=254"
+       "name": "Nasrat Haqparast",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4277795.png&w=350&h=254"
       }
      ]
     },
@@ -446,10 +446,10 @@
     {
      "order": 10,
      "slot": "undercard",
-     "weight": "Lightweight",
+     "weight": "Featherweight",
      "fighters": [
-      "Chris Padilla",
-      "Nasrat Haqparast"
+      "Jamall Emmers",
+      "Lerryan Douglas"
      ],
      "watch": [
       {
@@ -460,12 +460,12 @@
      ],
      "portraits": [
       {
-       "name": "Chris Padilla",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3163772.png&w=350&h=254"
+       "name": "Jamall Emmers",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3915502.png&w=350&h=254"
       },
       {
-       "name": "Nasrat Haqparast",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4277795.png&w=350&h=254"
+       "name": "Lerryan Douglas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4958170.png&w=350&h=254"
       }
      ]
     },
@@ -492,6 +492,58 @@
       {
        "name": "Shanelle Dyer",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5157674.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Marcio Barbosa",
+      "Ryan Kuse"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Marcio Barbosa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5099679.png&w=350&h=254"
+      },
+      {
+       "name": "Ryan Kuse",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5243186.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Anthony Wint",
+      "Terrance Chatman"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Anthony Wint",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3128853.png&w=350&h=254"
+      },
+      {
+       "name": "Terrance Chatman",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397621.png&w=350&h=254"
       }
      ]
     }
@@ -2887,6 +2939,91 @@
    "link": "https://www.onefc.com/events/one-friday-fights-172/"
   },
   {
+   "id": "ufc-600061266",
+   "sport": "mma",
+   "org": "UFC",
+   "tier": "fight_night",
+   "name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+   "headline": "Rosas Jr. vs. Barcelos",
+   "date": "2026-09-26T19:00Z",
+   "datePrecision": "time",
+   "venue": "Meta APEX",
+   "location": "Las Vegas, NV",
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://www.paramountplus.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Raoni Barcelos",
+      "Raul Rosas Jr."
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Raoni Barcelos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3075570.png&w=350&h=254"
+      },
+      {
+       "name": "Raul Rosas Jr.",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088844.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Raoni Barcelos",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3075570.png&w=350&h=254"
+    },
+    {
+     "name": "Raul Rosas Jr.",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088844.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061266/league/ufc"
+  },
+  {
    "id": "ufc-600060739",
    "sport": "mma",
    "org": "UFC",
@@ -3462,6 +3599,273 @@
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc"
   },
   {
+   "id": "ufc-600061267",
+   "sport": "mma",
+   "org": "UFC",
+   "tier": "numbered",
+   "name": "UFC 333: Volkanovski vs. Evloev",
+   "headline": "Volkanovski vs. Evloev",
+   "date": "2026-10-24T14:00Z",
+   "datePrecision": "time",
+   "venue": "Etihad Arena",
+   "location": "Abu Dhabi, United Arab Emirates",
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://www.paramountplus.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": "Featherweight",
+     "fighters": [
+      "Alexander Volkanovski",
+      "Movsar Evloev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Alexander Volkanovski",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3949584.png&w=350&h=254"
+      },
+      {
+       "name": "Movsar Evloev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4029275.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Merab Dvalishvili",
+      "Petr Yan"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Merab Dvalishvili",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3948572.png&w=350&h=254"
+      },
+      {
+       "name": "Petr Yan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4293517.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Ramazan Temirov",
+      "Lone'er Kavanagh"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Ramazan Temirov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895691.png&w=350&h=254"
+      },
+      {
+       "name": "Lone'er Kavanagh",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5147737.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Alexander Volkov",
+      "Rizvan Kuniev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Alexander Volkov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2993650.png&w=350&h=254"
+      },
+      {
+       "name": "Rizvan Kuniev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001837.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Arnold Allen",
+      "Aaron Pico"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Arnold Allen",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3902098.png&w=350&h=254"
+      },
+      {
+       "name": "Aaron Pico",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4199009.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Azamat Murzakanov",
+      "Dominick Reyes"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Azamat Murzakanov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4227265.png&w=350&h=254"
+      },
+      {
+       "name": "Dominick Reyes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4233039.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Abus Magomedov",
+      "Cam Rowston"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Abus Magomedov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3077822.png&w=350&h=254"
+      },
+      {
+       "name": "Cam Rowston",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4694832.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
+     "weight": null,
+     "fighters": [
+      "Nikita Krylov",
+      "Abdul-Rakhman Yakhyaev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Nikita Krylov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3026263.png&w=350&h=254"
+      },
+      {
+       "name": "Abdul-Rakhman Yakhyaev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5291025.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Grant Dawson",
+      "Nurullo Aliev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Grant Dawson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3931156.png&w=350&h=254"
+      },
+      {
+       "name": "Nurullo Aliev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5092398.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Alexander Volkanovski",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3949584.png&w=350&h=254"
+    },
+    {
+     "name": "Movsar Evloev",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4029275.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc"
+  },
+  {
    "id": "one-20261107-onefightnight49",
    "sport": "mma",
    "org": "ONE",
@@ -3483,6 +3887,91 @@
    "art": null,
    "note": null,
    "link": "https://www.onefc.com/events/onefightnight49/"
+  },
+  {
+   "id": "ufc-600061268",
+   "sport": "mma",
+   "org": "UFC",
+   "tier": "fight_night",
+   "name": "UFC Fight Night: Bonfim vs. Brady",
+   "headline": "Bonfim vs. Brady",
+   "date": "2026-11-07T22:00Z",
+   "datePrecision": "time",
+   "venue": "Meta APEX",
+   "location": "Las Vegas, NV",
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://www.paramountplus.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": "Welterweight",
+     "fighters": [
+      "Sean Brady",
+      "Gabriel Bonfim"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Sean Brady",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4295192.png&w=350&h=254"
+      },
+      {
+       "name": "Gabriel Bonfim",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4921516.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Sean Brady",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4295192.png&w=350&h=254"
+    },
+    {
+     "name": "Gabriel Bonfim",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4921516.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc"
   },
   {
    "id": "one-20261118-one-samurai-5",
