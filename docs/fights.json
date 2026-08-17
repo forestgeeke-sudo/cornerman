@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T18:45:23Z",
+ "generated": "2026-08-17T01:53:40Z",
  "counts": {
   "mma": 36
  },
@@ -342,58 +342,6 @@
     {
      "order": 6,
      "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Kennedy Nzechukwu",
-      "Shamil Gaziev"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Kennedy Nzechukwu",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4245094.png&w=350&h=254"
-      },
-      {
-       "name": "Shamil Gaziev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145498.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 7,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Wes Schultz",
-      "Jackson McVey"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Wes Schultz",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5057023.png&w=350&h=254"
-      },
-      {
-       "name": "Jackson McVey",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5291733.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 8,
-     "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
       "Chris Padilla",
@@ -418,7 +366,33 @@
      ]
     },
     {
-     "order": 9,
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Kennedy Nzechukwu",
+      "Shamil Gaziev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Kennedy Nzechukwu",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4245094.png&w=350&h=254"
+      },
+      {
+       "name": "Shamil Gaziev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145498.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -444,7 +418,7 @@
      ]
     },
     {
-     "order": 10,
+     "order": 9,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -470,33 +444,7 @@
      ]
     },
     {
-     "order": 11,
-     "slot": "undercard",
-     "weight": "W Strawweight",
-     "fighters": [
-      "Elise Reed",
-      "Shanelle Dyer"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Elise Reed",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4836482.png&w=350&h=254"
-      },
-      {
-       "name": "Shanelle Dyer",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5157674.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 12,
+     "order": 10,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -522,7 +470,33 @@
      ]
     },
     {
-     "order": 13,
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Wes Schultz",
+      "Jackson McVey"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Wes Schultz",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5057023.png&w=350&h=254"
+      },
+      {
+       "name": "Jackson McVey",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5291733.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -544,6 +518,32 @@
       {
        "name": "Terrance Chatman",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397621.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "slot": "undercard",
+     "weight": "W Strawweight",
+     "fighters": [
+      "Elise Reed",
+      "Shanelle Dyer"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Elise Reed",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4836482.png&w=350&h=254"
+      },
+      {
+       "name": "Shanelle Dyer",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5157674.png&w=350&h=254"
       }
      ]
     }
