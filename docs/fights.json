@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T13:03:51Z",
+ "generated": "2026-08-17T18:55:31Z",
  "counts": {
   "mma": 36
  },
@@ -316,7 +316,7 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": "W Strawweight",
+     "weight": "W Flyweight",
      "fighters": [
       "Carli Judice",
       "Jeisla Chaves"
@@ -342,10 +342,10 @@
     {
      "order": 6,
      "slot": "undercard",
-     "weight": "Lightweight",
+     "weight": "Heavyweight",
      "fighters": [
-      "Chris Padilla",
-      "Nasrat Haqparast"
+      "Anthony Wint",
+      "Terrance Chatman"
      ],
      "watch": [
       {
@@ -356,17 +356,43 @@
      ],
      "portraits": [
       {
-       "name": "Chris Padilla",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3163772.png&w=350&h=254"
+       "name": "Anthony Wint",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3128853.png&w=350&h=254"
       },
       {
-       "name": "Nasrat Haqparast",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4277795.png&w=350&h=254"
+       "name": "Terrance Chatman",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397621.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 7,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Jamall Emmers",
+      "Lerryan Douglas"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jamall Emmers",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3915502.png&w=350&h=254"
+      },
+      {
+       "name": "Lerryan Douglas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4958170.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -392,12 +418,12 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
-      "Gauge Young",
-      "Stan Dorsainvil"
+      "Chris Padilla",
+      "Nasrat Haqparast"
      ],
      "watch": [
       {
@@ -408,38 +434,12 @@
      ],
      "portraits": [
       {
-       "name": "Gauge Young",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5085318.png&w=350&h=254"
+       "name": "Chris Padilla",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3163772.png&w=350&h=254"
       },
       {
-       "name": "Stan Dorsainvil",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397038.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Jamall Emmers",
-      "Lerryan Douglas"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Jamall Emmers",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3915502.png&w=350&h=254"
-      },
-      {
-       "name": "Lerryan Douglas",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4958170.png&w=350&h=254"
+       "name": "Nasrat Haqparast",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4277795.png&w=350&h=254"
       }
      ]
     },
@@ -472,6 +472,32 @@
     {
      "order": 11,
      "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Gauge Young",
+      "Stan Dorsainvil"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Gauge Young",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5085318.png&w=350&h=254"
+      },
+      {
+       "name": "Stan Dorsainvil",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397038.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Wes Schultz",
@@ -492,32 +518,6 @@
       {
        "name": "Jackson McVey",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5291733.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 12,
-     "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Anthony Wint",
-      "Terrance Chatman"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Anthony Wint",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3128853.png&w=350&h=254"
-      },
-      {
-       "name": "Terrance Chatman",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397621.png&w=350&h=254"
       }
      ]
     },
