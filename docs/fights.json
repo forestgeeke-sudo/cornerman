@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-18T13:06:05Z",
+ "generated": "2026-08-18T18:54:45Z",
  "counts": {
   "mma": 36
  },
@@ -1329,32 +1329,6 @@
     {
      "order": 7,
      "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Sean Woodson",
-      "Jack Jenkins"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Sean Woodson",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4566991.png&w=350&h=254"
-      },
-      {
-       "name": "Jack Jenkins",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088885.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 8,
-     "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
       "Rei Tsuruya",
@@ -1375,6 +1349,32 @@
       {
        "name": "Kevin Borjas",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144066.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Sean Woodson",
+      "Jack Jenkins"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Sean Woodson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4566991.png&w=350&h=254"
+      },
+      {
+       "name": "Jack Jenkins",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088885.png&w=350&h=254"
       }
      ]
     },
