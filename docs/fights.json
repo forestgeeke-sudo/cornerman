@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T18:55:31Z",
+ "generated": "2026-08-18T01:48:38Z",
  "counts": {
   "mma": 36
  },
@@ -635,10 +635,10 @@
     {
      "order": 3,
      "slot": "undercard",
-     "weight": "Bantamweight",
+     "weight": "W Flyweight",
      "fighters": [
-      "Gustavo Oliveira",
-      "Marcirley Alves"
+      "Taila Santos",
+      "Sabrinna de Sousa"
      ],
      "watch": [
       {
@@ -649,12 +649,12 @@
      ],
      "portraits": [
       {
-       "name": "Gustavo Oliveira",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5104264.png&w=350&h=254"
+       "name": "Taila Santos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3170347.png&w=350&h=254"
       },
       {
-       "name": "Marcirley Alves",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120295.png&w=350&h=254"
+       "name": "Sabrinna de Sousa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5293617.png&w=350&h=254"
       }
      ]
     },
@@ -689,8 +689,8 @@
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
-      "Magomed Magomedov",
-      "Daniel Marcos"
+      "Nkosi Ndebele",
+      "Marcirley Alves"
      ],
      "watch": [
       {
@@ -701,22 +701,22 @@
      ],
      "portraits": [
       {
-       "name": "Magomed Magomedov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2966188.png&w=350&h=254"
+       "name": "Nkosi Ndebele",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4935334.png&w=350&h=254"
       },
       {
-       "name": "Daniel Marcos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088886.png&w=350&h=254"
+       "name": "Marcirley Alves",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120295.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 6,
      "slot": "undercard",
-     "weight": "W Flyweight",
+     "weight": "Bantamweight",
      "fighters": [
-      "Taila Santos",
-      "Sabrinna de Sousa"
+      "Magomed Magomedov",
+      "Daniel Marcos"
      ],
      "watch": [
       {
@@ -727,12 +727,12 @@
      ],
      "portraits": [
       {
-       "name": "Taila Santos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3170347.png&w=350&h=254"
+       "name": "Magomed Magomedov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2966188.png&w=350&h=254"
       },
       {
-       "name": "Sabrinna de Sousa",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5293617.png&w=350&h=254"
+       "name": "Daniel Marcos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088886.png&w=350&h=254"
       }
      ]
     },
@@ -768,7 +768,7 @@
      "weight": "Lightweight",
      "fighters": [
       "Dakota Bush",
-      "Mirafzal Akhtamov"
+      "Morquez Forest"
      ],
      "watch": [
       {
@@ -783,8 +783,8 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4372290.png&w=350&h=254"
       },
       {
-       "name": "Mirafzal Akhtamov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5260270.png&w=350&h=254"
+       "name": "Morquez Forest",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5271265.png&w=350&h=254"
       }
      ]
     },
@@ -3581,6 +3581,32 @@
       {
        "name": "Timmy Cuamba",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5123311.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Gilbert Urbina",
+      "Julien LeBlanc"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Gilbert Urbina",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4375574.png&w=350&h=254"
+      },
+      {
+       "name": "Julien LeBlanc",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4807973.png&w=350&h=254"
       }
      ]
     }
