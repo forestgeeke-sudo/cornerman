@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T01:51:29Z",
+ "generated": "2026-08-19T07:03:31Z",
  "counts": {
   "mma": 35
  },
@@ -2948,16 +2948,48 @@
    "org": "UFC",
    "tier": "numbered",
    "name": "UFC 332",
-   "headline": "Deiveson Figueiredo vs. Payton Talbott",
+   "headline": "TBA vs. Opponent TBA",
    "date": "2026-10-03T21:00Z",
    "datePrecision": "time",
    "venue": "Delta Center",
    "location": "Salt Lake City, UT",
-   "watch": [],
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://www.paramountplus.com/",
+     "kind": "streaming"
+    }
+   ],
    "card": [
     {
      "order": 1,
      "slot": "main",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
      "weight": "Bantamweight",
      "fighters": [
       "Deiveson Figueiredo",
@@ -2982,59 +3014,7 @@
      ]
     },
     {
-     "order": 2,
-     "slot": "comain",
-     "weight": "Middleweight",
-     "fighters": [
-      "Roman Kopylov",
-      "Ateba Gautier"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Roman Kopylov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4300149.png&w=350&h=254"
-      },
-      {
-       "name": "Ateba Gautier",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218421.png&w=350&h=254"
-      }
-     ]
-    },
-    {
      "order": 3,
-     "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Court McGee",
-      "Eric Nolan"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Court McGee",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504639.png&w=350&h=254"
-      },
-      {
-       "name": "Eric Nolan",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290958.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -3060,7 +3040,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 4,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -3086,6 +3066,32 @@
      ]
     },
     {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Roman Kopylov",
+      "Ateba Gautier"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Roman Kopylov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4300149.png&w=350&h=254"
+      },
+      {
+       "name": "Ateba Gautier",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218421.png&w=350&h=254"
+      }
+     ]
+    },
+    {
      "order": 6,
      "slot": "undercard",
      "weight": "Flyweight",
@@ -3093,7 +3099,13 @@
       "Alden Coria",
       "Imanol Rodriguez"
      ],
-     "watch": [],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
      "portraits": [
       {
        "name": "Alden Coria",
@@ -3104,16 +3116,68 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289578.png&w=350&h=254"
       }
      ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Andrey Pulyaev",
+      "Damian Pinas"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Andrey Pulyaev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5211225.png&w=350&h=254"
+      },
+      {
+       "name": "Damian Pinas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292022.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Court McGee",
+      "Eric Nolan"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Court McGee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504639.png&w=350&h=254"
+      },
+      {
+       "name": "Eric Nolan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290958.png&w=350&h=254"
+      }
+     ]
     }
    ],
    "art": [
     {
-     "name": "Deiveson Figueiredo",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4189320.png&w=350&h=254"
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
     },
     {
-     "name": "Payton Talbott",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144008.png&w=350&h=254"
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
     }
    ],
    "note": null,
