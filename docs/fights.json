@@ -1,172 +1,9 @@
 {
- "generated": "2026-08-18T18:54:45Z",
+ "generated": "2026-08-19T01:51:29Z",
  "counts": {
-  "mma": 36
+  "mma": 35
  },
  "events": [
-  {
-   "id": "ufc-600060733",
-   "sport": "mma",
-   "org": "UFC",
-   "tier": "contender",
-   "name": "Dana White's Contender Series: Season 10, Week 2",
-   "headline": "Season 10, Week 2",
-   "date": "2026-08-18T23:00Z",
-   "datePrecision": "time",
-   "venue": "Meta APEX",
-   "location": "Las Vegas, NV",
-   "watch": [
-    {
-     "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "Welterweight",
-     "fighters": [
-      "Kaik Brito",
-      "Namo Fazil"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Kaik Brito",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5056138.png&w=350&h=254"
-      },
-      {
-       "name": "Namo Fazil",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215178.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "Middleweight",
-     "fighters": [
-      "Trent Miller",
-      "Douglas Rodrigues"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Trent Miller",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5216997.png&w=350&h=254"
-      },
-      {
-       "name": "Douglas Rodrigues",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369435.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Logan Paxton",
-      "Cristian Pérez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Logan Paxton",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5139609.png&w=350&h=254"
-      },
-      {
-       "name": "Cristian Pérez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5180489.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
-     "weight": "Light Heavyweight",
-     "fighters": [
-      "Alik Lorenz",
-      "Mahamed Aly"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Alik Lorenz",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5220971.png&w=350&h=254"
-      },
-      {
-       "name": "Mahamed Aly",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307811.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Roman Puga",
-      "Taner Trembley"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Roman Puga",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5116187.png&w=350&h=254"
-      },
-      {
-       "name": "Taner Trembley",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369439.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "Kaik Brito",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5056138.png&w=350&h=254"
-    },
-    {
-     "name": "Namo Fazil",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215178.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600060733/league/ufc"
-  },
   {
    "id": "one-20260821-one-friday-fights-167",
    "sport": "mma",
@@ -3111,26 +2948,20 @@
    "org": "UFC",
    "tier": "numbered",
    "name": "UFC 332",
-   "headline": "TBA vs. Opponent TBA",
+   "headline": "Deiveson Figueiredo vs. Payton Talbott",
    "date": "2026-10-03T21:00Z",
    "datePrecision": "time",
    "venue": "Delta Center",
    "location": "Salt Lake City, UT",
-   "watch": [
-    {
-     "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
-    }
-   ],
+   "watch": [],
    "card": [
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
+     "weight": "Bantamweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Deiveson Figueiredo",
+      "Payton Talbott"
      ],
      "watch": [
       {
@@ -3141,22 +2972,22 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Deiveson Figueiredo",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4189320.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Payton Talbott",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144008.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 2,
      "slot": "comain",
-     "weight": null,
+     "weight": "Middleweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Roman Kopylov",
+      "Ateba Gautier"
      ],
      "watch": [
       {
@@ -3167,22 +2998,22 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Roman Kopylov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4300149.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Ateba Gautier",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218421.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 3,
      "slot": "undercard",
-     "weight": null,
+     "weight": "Welterweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Court McGee",
+      "Eric Nolan"
      ],
      "watch": [
       {
@@ -3193,24 +3024,96 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Court McGee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504639.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Eric Nolan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290958.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Johnny Walker",
+      "Mick Parkin"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Johnny Walker",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3146944.png&w=350&h=254"
+      },
+      {
+       "name": "Mick Parkin",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060505.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Marvin Vettori",
+      "Ismail Naurdiev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Marvin Vettori",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001851.png&w=350&h=254"
+      },
+      {
+       "name": "Ismail Naurdiev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4412813.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Alden Coria",
+      "Imanol Rodriguez"
+     ],
+     "watch": [],
+     "portraits": [
+      {
+       "name": "Alden Coria",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5099732.png&w=350&h=254"
+      },
+      {
+       "name": "Imanol Rodriguez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289578.png&w=350&h=254"
       }
      ]
     }
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Deiveson Figueiredo",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4189320.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Payton Talbott",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144008.png&w=350&h=254"
     }
    ],
    "note": null,
