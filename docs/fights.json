@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T18:51:31Z",
+ "generated": "2026-08-20T01:49:42Z",
  "counts": {
   "mma": 35
  },
@@ -472,32 +472,6 @@
     {
      "order": 3,
      "slot": "undercard",
-     "weight": "W Flyweight",
-     "fighters": [
-      "Taila Santos",
-      "Sabrinna de Sousa"
-     ],
-     "watch": [
-      {
-       "name": "ESPN",
-       "url": "https://www.espn.com/watch/",
-       "kind": "tv"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Taila Santos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3170347.png&w=350&h=254"
-      },
-      {
-       "name": "Sabrinna de Sousa",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5293617.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
       "Luke Trainer",
@@ -522,7 +496,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 4,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -548,7 +522,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 5,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -570,6 +544,32 @@
       {
        "name": "Daniel Marcos",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088886.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Taila Santos",
+      "Sabrinna de Sousa"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Taila Santos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3170347.png&w=350&h=254"
+      },
+      {
+       "name": "Sabrinna de Sousa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5293617.png&w=350&h=254"
       }
      ]
     },
@@ -3424,32 +3424,6 @@
     {
      "order": 4,
      "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Tanner Boser",
-      "Jhonata Diniz"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Tanner Boser",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4232775.png&w=350&h=254"
-      },
-      {
-       "name": "Jhonata Diniz",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145497.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Kyle Daukaus",
@@ -3474,33 +3448,7 @@
      ]
     },
     {
-     "order": 6,
-     "slot": "undercard",
-     "weight": "W Bantamweight",
-     "fighters": [
-      "Chelsea Chandler",
-      "Melissa Croden"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Chelsea Chandler",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4319785.png&w=350&h=254"
-      },
-      {
-       "name": "Melissa Croden",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4947922.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 7,
+     "order": 5,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -3526,11 +3474,63 @@
      ]
     },
     {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Tanner Boser",
+      "Jhonata Diniz"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Tanner Boser",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4232775.png&w=350&h=254"
+      },
+      {
+       "name": "Jhonata Diniz",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145497.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "W Bantamweight",
+     "fighters": [
+      "Chelsea Chandler",
+      "Melissa Croden"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Chelsea Chandler",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4319785.png&w=350&h=254"
+      },
+      {
+       "name": "Melissa Croden",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4947922.png&w=350&h=254"
+      }
+     ]
+    },
+    {
      "order": 8,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
-      "Charles Jourdain",
+      "Louis Jourdain",
       "Timmy Cuamba"
      ],
      "watch": [
@@ -3542,8 +3542,8 @@
      ],
      "portraits": [
       {
-       "name": "Charles Jourdain",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4421978.png&w=350&h=254"
+       "name": "Louis Jourdain",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4877916.png&w=350&h=254"
       },
       {
        "name": "Timmy Cuamba",
