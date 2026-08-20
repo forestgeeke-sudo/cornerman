@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-20T01:49:42Z",
+ "generated": "2026-08-20T07:03:55Z",
  "counts": {
-  "mma": 35
+  "mma": 36
  },
  "events": [
   {
@@ -405,7 +405,7 @@
    "tier": "other",
    "name": "PFL Tampa: Cyborg vs. Vieira",
    "headline": "Cyborg vs. Vieira",
-   "date": "2026-08-22T23:00Z",
+   "date": "2026-08-22T21:30Z",
    "datePrecision": "time",
    "venue": "Benchmark International Arena",
    "location": "Tampa, FL",
@@ -472,32 +472,6 @@
     {
      "order": 3,
      "slot": "undercard",
-     "weight": "Light Heavyweight",
-     "fighters": [
-      "Luke Trainer",
-      "Roland Dunlap"
-     ],
-     "watch": [
-      {
-       "name": "ESPN",
-       "url": "https://www.espn.com/watch/",
-       "kind": "tv"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Luke Trainer",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4875324.png&w=350&h=254"
-      },
-      {
-       "name": "Roland Dunlap",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4881053.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
       "Nkosi Ndebele",
@@ -518,6 +492,32 @@
       {
        "name": "Marcirley Alves",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120295.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Luke Trainer",
+      "Roland Dunlap"
+     ],
+     "watch": [
+      {
+       "name": "ESPN",
+       "url": "https://www.espn.com/watch/",
+       "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Luke Trainer",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4875324.png&w=350&h=254"
+      },
+      {
+       "name": "Roland Dunlap",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4881053.png&w=350&h=254"
       }
      ]
     },
@@ -3300,6 +3300,91 @@
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060741/league/ufc"
+  },
+  {
+   "id": "pfl-600061331",
+   "sport": "mma",
+   "org": "PFL",
+   "tier": "other",
+   "name": "PFL Chicago: Carmouche vs. Bishop 2",
+   "headline": "Carmouche vs. Bishop 2",
+   "date": "2026-10-17T00:00Z",
+   "datePrecision": "time",
+   "venue": "Wintrust Arena",
+   "location": "Chicago, IL",
+   "watch": [
+    {
+     "name": "ESPN+",
+     "url": "https://plus.espn.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Liz Carmouche",
+      "Jena Bishop"
+     ],
+     "watch": [
+      {
+       "name": "ESPN2",
+       "url": "https://www.espn.com/watch/",
+       "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Liz Carmouche",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2554674.png&w=350&h=254"
+      },
+      {
+       "name": "Jena Bishop",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110272.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Liz Carmouche",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2554674.png&w=350&h=254"
+    },
+    {
+     "name": "Jena Bishop",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110272.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061331/league/pfl"
   },
   {
    "id": "one-20261017-one-samurai-4",
