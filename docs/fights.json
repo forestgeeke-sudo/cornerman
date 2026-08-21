@@ -1,32 +1,9 @@
 {
- "generated": "2026-08-21T13:08:54Z",
+ "generated": "2026-08-21T18:53:55Z",
  "counts": {
-  "mma": 36
+  "mma": 35
  },
  "events": [
-  {
-   "id": "one-20260821-one-friday-fights-167",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "contender",
-   "name": "ONE Friday Fights 167 & The Inner Circle 27",
-   "headline": "ONE Friday Fights 167 & The Inner Circle 27",
-   "date": "2026-08-21T11:30:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "YouTube",
-     "url": "https://www.youtube.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-167/"
-  },
   {
    "id": "ufc-600060493",
    "sport": "mma",
