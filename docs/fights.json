@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T18:57:10Z",
+ "generated": "2026-08-21T01:55:52Z",
  "counts": {
   "mma": 36
  },
@@ -1192,6 +1192,32 @@
     {
      "order": 8,
      "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Bilal Hasan",
+      "Nilson Rojas"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Bilal Hasan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264405.png&w=350&h=254"
+      },
+      {
+       "name": "Nilson Rojas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5399264.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
       "Sean Woodson",
@@ -1216,7 +1242,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 10,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
@@ -1766,6 +1792,32 @@
       {
        "name": "Matthieu Letho Duclos",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5013686.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "W Strawweight",
+     "fighters": [
+      "Sofia Montenegro",
+      "Delphine Benouaich"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Sofia Montenegro",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5308770.png&w=350&h=254"
+      },
+      {
+       "name": "Delphine Benouaich",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5345643.png&w=350&h=254"
       }
      ]
     }
@@ -3457,32 +3509,6 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": "Lightweight",
-     "fighters": [
-      "Nate Landwehr",
-      "Mandel Nallo"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Nate Landwehr",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3821549.png&w=350&h=254"
-      },
-      {
-       "name": "Mandel Nallo",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4063786.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
       "Erin Blanchfield",
@@ -3507,7 +3533,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 3,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -3533,7 +3559,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 4,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -3555,6 +3581,32 @@
       {
        "name": "Jamey-Lyn Horth",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4689227.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Nate Landwehr",
+      "Mandel Nallo"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Nate Landwehr",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3821549.png&w=350&h=254"
+      },
+      {
+       "name": "Mandel Nallo",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4063786.png&w=350&h=254"
       }
      ]
     },
