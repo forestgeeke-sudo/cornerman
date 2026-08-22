@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21T18:53:55Z",
+ "generated": "2026-08-22T01:48:43Z",
  "counts": {
   "mma": 35
  },
@@ -1169,32 +1169,6 @@
     {
      "order": 8,
      "slot": "undercard",
-     "weight": "Flyweight",
-     "fighters": [
-      "Bilal Hasan",
-      "Nilson Rojas"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Bilal Hasan",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264405.png&w=350&h=254"
-      },
-      {
-       "name": "Nilson Rojas",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5399264.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
       "Sean Woodson",
@@ -1215,6 +1189,32 @@
       {
        "name": "Jack Jenkins",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5088885.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Bilal Hasan",
+      "Nilson Rojas"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Bilal Hasan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264405.png&w=350&h=254"
+      },
+      {
+       "name": "Nilson Rojas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5399264.png&w=350&h=254"
       }
      ]
     },
@@ -2050,6 +2050,32 @@
     {
      "order": 3,
      "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Tommy McMillen",
+      "Marwan Rahiki"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Tommy McMillen",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212849.png&w=350&h=254"
+      },
+      {
+       "name": "Marwan Rahiki",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5302274.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
       "Alexa Grasso",
@@ -2074,7 +2100,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 5,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -2100,7 +2126,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 6,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -2126,7 +2152,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 7,
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
@@ -2152,7 +2178,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -2178,7 +2204,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -2204,7 +2230,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 10,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -2226,32 +2252,6 @@
       {
        "name": "Regina Tarin",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5338118.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Tommy McMillen",
-      "Marwan Rahiki"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Tommy McMillen",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212849.png&w=350&h=254"
-      },
-      {
-       "name": "Marwan Rahiki",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5302274.png&w=350&h=254"
       }
      ]
     }
