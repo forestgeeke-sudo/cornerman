@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T01:48:43Z",
+ "generated": "2026-08-22T06:57:19Z",
  "counts": {
   "mma": 35
  },
@@ -1119,6 +1119,32 @@
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
+      "Bilal Hasan",
+      "Nilson Rojas"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Bilal Hasan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264405.png&w=350&h=254"
+      },
+      {
+       "name": "Nilson Rojas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5399264.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
       "Namsrai Batbayar",
       "Andre Lima"
      ],
@@ -1141,7 +1167,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
@@ -1167,7 +1193,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -1193,12 +1219,12 @@
      ]
     },
     {
-     "order": 9,
+     "order": 10,
      "slot": "undercard",
-     "weight": "Flyweight",
+     "weight": "Bantamweight",
      "fighters": [
-      "Bilal Hasan",
-      "Nilson Rojas"
+      "Xiao Long",
+      "Francesco Nuzzi"
      ],
      "watch": [
       {
@@ -1209,17 +1235,43 @@
      ],
      "portraits": [
       {
-       "name": "Bilal Hasan",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264405.png&w=350&h=254"
+       "name": "Xiao Long",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4894864.png&w=350&h=254"
       },
       {
-       "name": "Nilson Rojas",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5399264.png&w=350&h=254"
+       "name": "Francesco Nuzzi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080560.png&w=350&h=254"
       }
      ]
     },
     {
-     "order": 10,
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Lawrence Lui",
+      "Hector Santiago"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Lawrence Lui",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5220183.png&w=350&h=254"
+      },
+      {
+       "name": "Hector Santiago",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401062.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
@@ -1241,6 +1293,32 @@
       {
        "name": "Julia Polastri",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4686723.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Ding Meng",
+      "Cameron Nelson"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Ding Meng",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4813565.png&w=350&h=254"
+      },
+      {
+       "name": "Cameron Nelson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5393007.png&w=350&h=254"
       }
      ]
     }
@@ -2232,6 +2310,32 @@
     {
      "order": 10,
      "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Rodrigo Vera",
+      "Ramiro Jimenez"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Rodrigo Vera",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4422430.png&w=350&h=254"
+      },
+      {
+       "name": "Ramiro Jimenez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290796.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
       "JJ Aldrich",
@@ -2252,6 +2356,32 @@
       {
        "name": "Regina Tarin",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5338118.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Rafa Garcia",
+      "Rongzhu"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Rafa Garcia",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4690549.png&w=350&h=254"
+      },
+      {
+       "name": "Rongzhu",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4773371.png&w=350&h=254"
       }
      ]
     }
