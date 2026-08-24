@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T13:11:22Z",
+ "generated": "2026-08-24T18:57:50Z",
  "counts": {
   "mma": 35
  },
@@ -401,32 +401,6 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": "Light Heavyweight",
-     "fighters": [
-      "Junior Tafa",
-      "Ce Liu"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Junior Tafa",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122234.png&w=350&h=254"
-      },
-      {
-       "name": "Ce Liu",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292011.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 6,
-     "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
       "Bilal Hasan",
@@ -451,7 +425,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 6,
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
@@ -477,7 +451,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 7,
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
@@ -503,7 +477,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 8,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -529,7 +503,7 @@
      ]
     },
     {
-     "order": 10,
+     "order": 9,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -555,7 +529,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 10,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -581,7 +555,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 11,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
@@ -607,7 +581,7 @@
      ]
     },
     {
-     "order": 13,
+     "order": 12,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
