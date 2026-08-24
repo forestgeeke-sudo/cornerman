@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-23T18:46:26Z",
+ "generated": "2026-08-24T01:56:15Z",
  "counts": {
-  "mma": 33
+  "mma": 35
  },
  "events": [
   {
@@ -192,7 +192,7 @@
      "weight": "Lightweight",
      "fighters": [
       "Darrius Flowers",
-      "Taiyilake Nueraji"
+      "Maheshate"
      ],
      "watch": [
       {
@@ -207,8 +207,34 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4358252.png&w=350&h=254"
       },
       {
-       "name": "Taiyilake Nueraji",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5138994.png&w=350&h=254"
+       "name": "Maheshate",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895360.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Middleweight",
+     "fighters": [
+      "Tre'ston Vines",
+      "Yilizhati Maimaitijiang"
+     ],
+     "watch": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Tre'ston Vines",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4910400.png&w=350&h=254"
+      },
+      {
+       "name": "Yilizhati Maimaitijiang",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369423.png&w=350&h=254"
       }
      ]
     }
@@ -219,8 +245,8 @@
      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4358252.png&w=350&h=254"
     },
     {
-     "name": "Taiyilake Nueraji",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5138994.png&w=350&h=254"
+     "name": "Maheshate",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895360.png&w=350&h=254"
     }
    ],
    "note": null,
@@ -3495,6 +3521,117 @@
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc"
   },
   {
+   "id": "ufc-600061400",
+   "sport": "mma",
+   "org": "UFC",
+   "tier": "numbered",
+   "name": "UFC 334",
+   "headline": "TBA vs. Opponent TBA",
+   "date": "2026-11-14T22:00Z",
+   "datePrecision": "time",
+   "venue": "Madison Square Garden",
+   "location": "New York, NY",
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://www.paramountplus.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc"
+  },
+  {
    "id": "one-20261118-one-samurai-5",
    "sport": "mma",
    "org": "ONE",
@@ -3562,6 +3699,117 @@
    "art": null,
    "note": null,
    "link": "https://www.onefc.com/events/onefightnight50/"
+  },
+  {
+   "id": "ufc-600061401",
+   "sport": "mma",
+   "org": "UFC",
+   "tier": "numbered",
+   "name": "UFC 335",
+   "headline": "TBA vs. Opponent TBA",
+   "date": "2026-12-12T22:00Z",
+   "datePrecision": "time",
+   "venue": "T-Mobile Arena",
+   "location": "Las Vegas, NV",
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://www.paramountplus.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc"
   }
  ]
 }
