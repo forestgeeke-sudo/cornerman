@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T13:09:37Z",
+ "generated": "2026-08-25T18:55:24Z",
  "counts": {
   "mma": 36
  },
@@ -401,7 +401,7 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": null,
+     "weight": "Light Heavyweight",
      "fighters": [
       "Liu Ce",
       "Levi Rodrigues Jr."
