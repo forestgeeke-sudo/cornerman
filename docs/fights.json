@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-24T18:57:50Z",
+ "generated": "2026-08-25T01:50:24Z",
  "counts": {
-  "mma": 35
+  "mma": 36
  },
  "events": [
   {
@@ -401,6 +401,32 @@
     {
      "order": 5,
      "slot": "undercard",
+     "weight": null,
+     "fighters": [
+      "Liu Ce",
+      "Levi Rodrigues Jr."
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Liu Ce",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292011.png&w=350&h=254"
+      },
+      {
+       "name": "Levi Rodrigues Jr.",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5312089.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
       "Bilal Hasan",
@@ -425,7 +451,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 7,
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
@@ -451,7 +477,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
@@ -477,7 +503,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -503,7 +529,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 10,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -529,7 +555,7 @@
      ]
     },
     {
-     "order": 10,
+     "order": 11,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -555,7 +581,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 12,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
@@ -581,7 +607,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 13,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -1216,6 +1242,32 @@
       {
        "name": "Opponent TBA",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Quentin Pasley",
+      "Arlind Berisha"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Quentin Pasley",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307124.png&w=350&h=254"
+      },
+      {
+       "name": "Arlind Berisha",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369721.png&w=350&h=254"
       }
      ]
     }
@@ -2900,6 +2952,32 @@
     {
      "order": 2,
      "slot": "comain",
+     "weight": "Lightweight",
+     "fighters": [
+      "Nate Landwehr",
+      "Mandel Nallo"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Nate Landwehr",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3821549.png&w=350&h=254"
+      },
+      {
+       "name": "Mandel Nallo",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4063786.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
       "Erin Blanchfield",
@@ -2924,7 +3002,7 @@
      ]
     },
     {
-     "order": 3,
+     "order": 4,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -2950,7 +3028,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 5,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -2972,32 +3050,6 @@
       {
        "name": "Jamey-Lyn Horth",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4689227.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Nate Landwehr",
-      "Mandel Nallo"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Nate Landwehr",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3821549.png&w=350&h=254"
-      },
-      {
-       "name": "Mandel Nallo",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4063786.png&w=350&h=254"
       }
      ]
     },
@@ -3102,6 +3154,32 @@
       {
        "name": "Julien LeBlanc",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4807973.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Chad Anheliger",
+      "Steven Koslow"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Chad Anheliger",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4816062.png&w=350&h=254"
+      },
+      {
+       "name": "Steven Koslow",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5119740.png&w=350&h=254"
       }
      ]
     }
@@ -3385,6 +3463,91 @@
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc"
+  },
+  {
+   "id": "ufc-600061420",
+   "sport": "mma",
+   "org": "UFC",
+   "tier": "fight_night",
+   "name": "UFC Fight Night: Las Vegas",
+   "headline": "Las Vegas",
+   "date": "2026-10-31T21:00Z",
+   "datePrecision": "time",
+   "venue": "Meta APEX",
+   "location": "Las Vegas, NV",
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://www.paramountplus.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Middleweight",
+     "fighters": [
+      "Joe Kropschot",
+      "Nick Klein"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Joe Kropschot",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4687604.png&w=350&h=254"
+      },
+      {
+       "name": "Nick Klein",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc"
   },
   {
    "id": "one-20261107-onefightnight49",
