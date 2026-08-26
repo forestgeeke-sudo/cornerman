@@ -1,172 +1,9 @@
 {
- "generated": "2026-08-25T18:55:24Z",
+ "generated": "2026-08-26T01:56:39Z",
  "counts": {
-  "mma": 36
+  "mma": 37
  },
  "events": [
-  {
-   "id": "ufc-600060734",
-   "sport": "mma",
-   "org": "UFC",
-   "tier": "contender",
-   "name": "Dana White's Contender Series: Season 10, Week 3",
-   "headline": "Season 10, Week 3",
-   "date": "2026-08-25T23:00Z",
-   "datePrecision": "time",
-   "venue": "Meta APEX",
-   "location": "Las Vegas, NV",
-   "watch": [
-    {
-     "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "W Bantamweight",
-     "fighters": [
-      "Bella Mir",
-      "Alex Apodaca"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Bella Mir",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369428.png&w=350&h=254"
-      },
-      {
-       "name": "Alex Apodaca",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5394582.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Mario Piazzon",
-      "Guilherme Uriel"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Mario Piazzon",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149190.png&w=350&h=254"
-      },
-      {
-       "name": "Guilherme Uriel",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5220468.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Gary Balletto",
-      "Sean Clancy Jr."
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Gary Balletto",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4351084.png&w=350&h=254"
-      },
-      {
-       "name": "Sean Clancy Jr.",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5364353.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Ronald Humphrey",
-      "Alexis Miranda"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Ronald Humphrey",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5361909.png&w=350&h=254"
-      },
-      {
-       "name": "Alexis Miranda",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5364354.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Carlos Petruzzella",
-      "Nick Galanti"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Carlos Petruzzella",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264647.png&w=350&h=254"
-      },
-      {
-       "name": "Nick Galanti",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296770.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "Bella Mir",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369428.png&w=350&h=254"
-    },
-    {
-     "name": "Alex Apodaca",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5394582.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600060734/league/ufc"
-  },
   {
    "id": "ufc-600060731",
    "sport": "mma",
@@ -1620,32 +1457,6 @@
     {
      "order": 9,
      "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Kelvin Gastelum",
-      "Yousri Belgaroui"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Kelvin Gastelum",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3026011.png&w=350&h=254"
-      },
-      {
-       "name": "Yousri Belgaroui",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149815.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
-     "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
       "Rodrigo Vera",
@@ -1670,7 +1481,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 10,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -1696,7 +1507,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 11,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -3297,32 +3108,6 @@
     {
      "order": 4,
      "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Alexander Volkov",
-      "Rizvan Kuniev"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Alexander Volkov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2993650.png&w=350&h=254"
-      },
-      {
-       "name": "Rizvan Kuniev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001837.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
       "Arnold Allen",
@@ -3343,6 +3128,32 @@
       {
        "name": "Aaron Pico",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4199009.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Alexander Volkov",
+      "Rizvan Kuniev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Alexander Volkov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2993650.png&w=350&h=254"
+      },
+      {
+       "name": "Rizvan Kuniev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001837.png&w=350&h=254"
       }
      ]
     },
@@ -3401,7 +3212,7 @@
     {
      "order": 8,
      "slot": "undercard",
-     "weight": null,
+     "weight": "Light Heavyweight",
      "fighters": [
       "Nikita Krylov",
       "Abdul-Rakhman Yakhyaev"
@@ -3656,6 +3467,91 @@
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc"
+  },
+  {
+   "id": "pfl-600061421",
+   "sport": "mma",
+   "org": "PFL",
+   "tier": "other",
+   "name": "PFL Dubai",
+   "headline": "TBA vs. Opponent TBA",
+   "date": "2026-11-14T14:00Z",
+   "datePrecision": "time",
+   "venue": "Coca-Cola Arena",
+   "location": "Dubai, United Arab Emirates",
+   "watch": [
+    {
+     "name": "ESPN+",
+     "url": "https://plus.espn.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl"
   },
   {
    "id": "ufc-600061400",
@@ -3947,6 +3843,91 @@
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc"
+  },
+  {
+   "id": "pfl-600061422",
+   "sport": "mma",
+   "org": "PFL",
+   "tier": "other",
+   "name": "PFL Lyon",
+   "headline": "TBA vs. Opponent TBA",
+   "date": "2026-12-19T14:00Z",
+   "datePrecision": "time",
+   "venue": "LDLC Arena",
+   "location": "Lyon, France",
+   "watch": [
+    {
+     "name": "ESPN+",
+     "url": "https://plus.espn.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+    },
+    {
+     "name": "Opponent TBA",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl"
   }
  ]
 }
