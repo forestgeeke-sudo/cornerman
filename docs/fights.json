@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T20:01:28Z",
+ "generated": "2026-08-27T09:43:03Z",
  "counts": {
   "mma": 37
  },
@@ -1249,32 +1249,6 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": "Featherweight",
-     "fighters": [
-      "Yair Rodriguez",
-      "Jean Silva"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Yair Rodriguez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3155420.png&w=350&h=254"
-      },
-      {
-       "name": "Jean Silva",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145766.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
      "weight": "Flyweight",
      "fighters": [
       "Brandon Moreno",
@@ -1299,8 +1273,8 @@
      ]
     },
     {
-     "order": 3,
-     "slot": "undercard",
+     "order": 2,
+     "slot": "comain",
      "weight": "Featherweight",
      "fighters": [
       "Tommy McMillen",
@@ -1325,7 +1299,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 3,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -1351,7 +1325,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 4,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -1377,7 +1351,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 5,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -1403,7 +1377,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 6,
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
@@ -1429,7 +1403,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 7,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -1455,7 +1429,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 8,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -1481,7 +1455,7 @@
      ]
     },
     {
-     "order": 10,
+     "order": 9,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -1507,7 +1481,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 10,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -1535,12 +1509,12 @@
    ],
    "art": [
     {
-     "name": "Yair Rodriguez",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3155420.png&w=350&h=254"
+     "name": "Brandon Moreno",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3027545.png&w=350&h=254"
     },
     {
-     "name": "Jean Silva",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145766.png&w=350&h=254"
+     "name": "Joseph Morales",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4238229.png&w=350&h=254"
     }
    ],
    "note": null,
