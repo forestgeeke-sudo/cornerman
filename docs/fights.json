@@ -1,117 +1,9 @@
 {
- "generated": "2026-08-28T11:19:48Z",
+ "generated": "2026-08-28T22:16:07Z",
  "counts": {
-  "mma": 37
+  "mma": 35
  },
  "events": [
-  {
-   "id": "ufc-600060731",
-   "sport": "mma",
-   "org": "UFC",
-   "tier": "other",
-   "name": "Road to UFC Season 5: Semifinals",
-   "headline": "Semifinals",
-   "date": "2026-08-28T09:00Z",
-   "datePrecision": "time",
-   "venue": "Shanghai Indoor Stadium",
-   "location": "Shanghai, China",
-   "watch": [
-    {
-     "name": "UFC Fight Pass",
-     "url": "https://ufcfightpass.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "Lightweight",
-     "fighters": [
-      "Darrius Flowers",
-      "Maheshate"
-     ],
-     "watch": [
-      {
-       "name": "UFC Fight Pass",
-       "url": "https://ufcfightpass.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Darrius Flowers",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4358252.png&w=350&h=254"
-      },
-      {
-       "name": "Maheshate",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895360.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "Middleweight",
-     "fighters": [
-      "Tre'ston Vines",
-      "Yilizhati Maimaitijiang"
-     ],
-     "watch": [
-      {
-       "name": "UFC Fight Pass",
-       "url": "https://ufcfightpass.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Tre'ston Vines",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4910400.png&w=350&h=254"
-      },
-      {
-       "name": "Yilizhati Maimaitijiang",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369423.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "Darrius Flowers",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4358252.png&w=350&h=254"
-    },
-    {
-     "name": "Maheshate",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895360.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": null
-  },
-  {
-   "id": "one-20260828-one-friday-fights-168",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "contender",
-   "name": "ONE Friday Fights 168 & The Inner Circle 28",
-   "headline": "ONE Friday Fights 168 & The Inner Circle 28",
-   "date": "2026-08-28T11:30:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "YouTube",
-     "url": "https://www.youtube.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-168/"
-  },
   {
    "id": "ufc-600060620",
    "sport": "mma",
@@ -449,7 +341,7 @@
      "weight": "Welterweight",
      "fighters": [
       "Ding Meng",
-      "Cameron Nelson"
+      "Cam Nelson"
      ],
      "watch": [
       {
@@ -464,7 +356,7 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4813565.png&w=350&h=254"
       },
       {
-       "name": "Cameron Nelson",
+       "name": "Cam Nelson",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5393007.png&w=350&h=254"
       }
      ]
@@ -674,8 +566,8 @@
    "sport": "mma",
    "org": "ONE",
    "tier": "other",
-   "name": "ONE Fight Night 47",
-   "headline": "ONE Fight Night 47",
+   "name": "ONE Fight Night 47: Stamp vs. Flores on Prime Video",
+   "headline": "Stamp vs. Flores on Prime Video",
    "date": "2026-09-05T01:00:00Z",
    "datePrecision": "time",
    "venue": "Lumpinee Stadium",
@@ -792,6 +684,32 @@
     {
      "order": 4,
      "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Punahele Soriano",
+      "Daniil Donchenko"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Punahele Soriano",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4423214.png&w=350&h=254"
+      },
+      {
+       "name": "Daniil Donchenko",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289841.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
       "Morgan Charrière",
@@ -816,7 +734,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 6,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -842,7 +760,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 7,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -868,7 +786,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -894,7 +812,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -920,7 +838,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 10,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -946,7 +864,33 @@
      ]
     },
     {
-     "order": 10,
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Michael Aljarouj",
+      "Fabia Sintes"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Michael Aljarouj",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5142304.png&w=350&h=254"
+      },
+      {
+       "name": "Fabia Sintes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401055.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
      "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
@@ -972,33 +916,7 @@
      ]
     },
     {
-     "order": 11,
-     "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Punahele Soriano",
-      "Daniil Donchenko"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Punahele Soriano",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4423214.png&w=350&h=254"
-      },
-      {
-       "name": "Daniil Donchenko",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289841.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 12,
+     "order": 13,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -1020,32 +938,6 @@
       {
        "name": "Matthieu Letho Duclos",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5013686.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 13,
-     "slot": "undercard",
-     "weight": "Flyweight",
-     "fighters": [
-      "Michael Aljarouj",
-      "Fabia Sintes"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Michael Aljarouj",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5142304.png&w=350&h=254"
-      },
-      {
-       "name": "Fabia Sintes",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401055.png&w=350&h=254"
       }
      ]
     },
