@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T22:13:55Z",
+ "generated": "2026-08-28T11:19:48Z",
  "counts": {
   "mma": 37
  },
@@ -974,6 +974,32 @@
     {
      "order": 11,
      "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Punahele Soriano",
+      "Daniil Donchenko"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Punahele Soriano",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4423214.png&w=350&h=254"
+      },
+      {
+       "name": "Daniil Donchenko",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289841.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Luis Felipe Dias",
@@ -998,7 +1024,33 @@
      ]
     },
     {
-     "order": 12,
+     "order": 13,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Michael Aljarouj",
+      "Fabia Sintes"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Michael Aljarouj",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5142304.png&w=350&h=254"
+      },
+      {
+       "name": "Fabia Sintes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401055.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 14,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
@@ -1232,8 +1284,8 @@
    "sport": "mma",
    "org": "UFC",
    "tier": "other",
-   "name": "Noche UFC: Rodriguez vs. Silva",
-   "headline": "Rodriguez vs. Silva",
+   "name": "Noche UFC: Silva vs. Delgado",
+   "headline": "Silva vs. Delgado",
    "date": "2026-09-12T18:00Z",
    "datePrecision": "time",
    "venue": "Desert Diamond Arena",
@@ -1249,6 +1301,32 @@
     {
      "order": 1,
      "slot": "main",
+     "weight": "Featherweight",
+     "fighters": [
+      "Jean Silva",
+      "Jose Miguel Delgado"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jean Silva",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145766.png&w=350&h=254"
+      },
+      {
+       "name": "Jose Miguel Delgado",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5223435.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
      "weight": "Flyweight",
      "fighters": [
       "Brandon Moreno",
@@ -1273,8 +1351,8 @@
      ]
     },
     {
-     "order": 2,
-     "slot": "comain",
+     "order": 3,
+     "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
       "Tommy McMillen",
@@ -1299,7 +1377,7 @@
      ]
     },
     {
-     "order": 3,
+     "order": 4,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -1325,7 +1403,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 5,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -1351,7 +1429,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 6,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -1377,7 +1455,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 7,
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
@@ -1403,7 +1481,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -1429,7 +1507,33 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Yousri Belgaroui",
+      "Djorden Santos"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Yousri Belgaroui",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149815.png&w=350&h=254"
+      },
+      {
+       "name": "Djorden Santos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5211247.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -1455,33 +1559,7 @@
      ]
     },
     {
-     "order": 9,
-     "slot": "undercard",
-     "weight": "W Flyweight",
-     "fighters": [
-      "JJ Aldrich",
-      "Regina Tarin"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "JJ Aldrich",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3136289.png&w=350&h=254"
-      },
-      {
-       "name": "Regina Tarin",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5338118.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
+     "order": 11,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -1505,16 +1583,42 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4773371.png&w=350&h=254"
       }
      ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "JJ Aldrich",
+      "Regina Tarin"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "JJ Aldrich",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3136289.png&w=350&h=254"
+      },
+      {
+       "name": "Regina Tarin",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5338118.png&w=350&h=254"
+      }
+     ]
     }
    ],
    "art": [
     {
-     "name": "Brandon Moreno",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3027545.png&w=350&h=254"
+     "name": "Jean Silva",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145766.png&w=350&h=254"
     },
     {
-     "name": "Joseph Morales",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4238229.png&w=350&h=254"
+     "name": "Jose Miguel Delgado",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5223435.png&w=350&h=254"
     }
    ],
    "note": null,
@@ -2103,10 +2207,10 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": null,
+     "weight": "Middleweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Robert Bryczek",
+      "Rodolfo Vieira"
      ],
      "watch": [
       {
@@ -2117,12 +2221,246 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Robert Bryczek",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4341572.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Rodolfo Vieira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426250.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "W Strawweight",
+     "fighters": [
+      "Valesca Machado",
+      "Melissa Amaya"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Valesca Machado",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4836549.png&w=350&h=254"
+      },
+      {
+       "name": "Melissa Amaya",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5169699.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Ilimbek Akylbek Uulu",
+      "Mehemmedeli Osmanli"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Ilimbek Akylbek Uulu",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5345639.png&w=350&h=254"
+      },
+      {
+       "name": "Mehemmedeli Osmanli",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5345640.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Ricky Simon",
+      "Montel Jackson"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Ricky Simon",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3922491.png&w=350&h=254"
+      },
+      {
+       "name": "Montel Jackson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4339130.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Christian Edwards",
+      "Rodolfo Bellato"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Christian Edwards",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4799517.png&w=350&h=254"
+      },
+      {
+       "name": "Rodolfo Bellato",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060489.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Brady Hiestand",
+      "Rinya Nakamura"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Brady Hiestand",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4815974.png&w=350&h=254"
+      },
+      {
+       "name": "Rinya Nakamura",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5068624.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Alatengheili",
+      "John Castaneda"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Alatengheili",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3154389.png&w=350&h=254"
+      },
+      {
+       "name": "John Castaneda",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4063869.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Elves Brener",
+      "Josiah Harrell"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Elves Brener",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110006.png&w=350&h=254"
+      },
+      {
+       "name": "Josiah Harrell",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149546.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "slot": "undercard",
+     "weight": "W Bantamweight",
+     "fighters": [
+      "Norma Dumont",
+      "Ailin Perez"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Norma Dumont",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418784.png&w=350&h=254"
+      },
+      {
+       "name": "Ailin Perez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5075333.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "W Strawweight",
+     "fighters": [
+      "Vanessa Demopoulos",
+      "Yazmin Jauregui"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Vanessa Demopoulos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4683395.png&w=350&h=254"
+      },
+      {
+       "name": "Yazmin Jauregui",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5063403.png&w=350&h=254"
       }
      ]
     }
