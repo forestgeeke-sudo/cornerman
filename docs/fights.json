@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T22:48:14Z",
+ "generated": "2026-09-01T05:03:23Z",
  "counts": {
   "mma": 34
  },
@@ -632,32 +632,6 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
-     "fighters": [
-      "TBA",
-      "Opponent TBA"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
-      },
-      {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
      "weight": "Light Heavyweight",
      "fighters": [
       "Quentin Pasley",
@@ -680,16 +654,120 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369721.png&w=350&h=254"
       }
      ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Welterweight",
+     "fighters": [
+      "Isaac Moreno",
+      "Reginaldo Junior"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Isaac Moreno",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264395.png&w=350&h=254"
+      },
+      {
+       "name": "Reginaldo Junior",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5291155.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Christian Echols",
+      "Martin Kozák"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Christian Echols",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4816065.png&w=350&h=254"
+      },
+      {
+       "name": "Martin Kozák",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5364366.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Kwon Won Il",
+      "Apollo Gomes"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Kwon Won Il",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4907790.png&w=350&h=254"
+      },
+      {
+       "name": "Apollo Gomes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369425.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Colton Loud",
+      "Christian Natividad"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Colton Loud",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5362761.png&w=350&h=254"
+      },
+      {
+       "name": "Christian Natividad",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5445622.png&w=350&h=254"
+      }
+     ]
     }
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Quentin Pasley",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307124.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Arlind Berisha",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369721.png&w=350&h=254"
     }
    ],
    "note": null,
