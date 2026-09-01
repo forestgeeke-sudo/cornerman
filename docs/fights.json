@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-01T16:36:38Z",
+ "generated": "2026-09-01T20:59:49Z",
  "counts": {
-  "mma": 34
+  "mma": 45
  },
  "events": [
   {
@@ -469,32 +469,6 @@
     {
      "order": 10,
      "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Nathaniel Wood",
-      "Mairon Santos"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Nathaniel Wood",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3950354.png&w=350&h=254"
-      },
-      {
-       "name": "Mairon Santos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4914573.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 11,
-     "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
       "Michael Aljarouj",
@@ -519,7 +493,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 11,
      "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
@@ -545,7 +519,7 @@
      ]
     },
     {
-     "order": 13,
+     "order": 12,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -571,7 +545,7 @@
      ]
     },
     {
-     "order": 14,
+     "order": 13,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
@@ -2137,6 +2111,29 @@
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060739/league/ufc"
   },
   {
+   "id": "one-20261002-one-friday-fights-173",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 173 & The Inner Circle 33",
+   "headline": "ONE Friday Fights 173 & The Inner Circle 33",
+   "date": "2026-10-02T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-173/"
+  },
+  {
    "id": "one-20261003-onefightnight48",
    "sport": "mma",
    "org": "ONE",
@@ -2460,6 +2457,29 @@
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060740/league/ufc"
   },
   {
+   "id": "one-20261009-one-friday-fights-174",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 174 & The Inner Circle 34",
+   "headline": "ONE Friday Fights 174 & The Inner Circle 34",
+   "date": "2026-10-09T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-174/"
+  },
+  {
    "id": "ufc-600060741",
    "sport": "mma",
    "org": "UFC",
@@ -2517,6 +2537,29 @@
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600060741/league/ufc"
+  },
+  {
+   "id": "one-20261016-one-friday-fights-175",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 175 & The Inner Circle 35",
+   "headline": "ONE Friday Fights 175 & The Inner Circle 35",
+   "date": "2026-10-16T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-175/"
   },
   {
    "id": "pfl-600061331",
@@ -3187,6 +3230,29 @@
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc"
   },
   {
+   "id": "one-20261030-one-friday-fights-176",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 176 & The Inner Circle 36",
+   "headline": "ONE Friday Fights 176 & The Inner Circle 36",
+   "date": "2026-10-30T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-176/"
+  },
+  {
    "id": "ufc-600061420",
    "sport": "mma",
    "org": "UFC",
@@ -3270,6 +3336,29 @@
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc"
+  },
+  {
+   "id": "one-20261106-one-friday-fights-177",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 177 & The Inner Circle 37",
+   "headline": "ONE Friday Fights 177 & The Inner Circle 37",
+   "date": "2026-11-06T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-177/"
   },
   {
    "id": "one-20261107-onefightnight49",
@@ -3378,6 +3467,29 @@
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc"
+  },
+  {
+   "id": "one-20261113-one-friday-fights-178",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 178 & The Inner Circle 38",
+   "headline": "ONE Friday Fights 178 & The Inner Circle 38",
+   "date": "2026-11-13T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-178/"
   },
   {
    "id": "pfl-600061421",
@@ -3599,6 +3711,52 @@
    "link": "https://www.onefc.com/events/one-samurai-5/"
   },
   {
+   "id": "one-20261120-one-friday-fights-179",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 179 & The Inner Circle 39",
+   "headline": "ONE Friday Fights 179 & The Inner Circle 39",
+   "date": "2026-11-20T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-179/"
+  },
+  {
+   "id": "one-20261127-one-friday-fights-180",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 180 & The Inner Circle 40",
+   "headline": "ONE Friday Fights 180 & The Inner Circle 40",
+   "date": "2026-11-27T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-180/"
+  },
+  {
    "id": "one-20261202-one-samurai-6",
    "sport": "mma",
    "org": "ONE",
@@ -3620,6 +3778,52 @@
    "art": null,
    "note": null,
    "link": "https://www.onefc.com/events/one-samurai-6/"
+  },
+  {
+   "id": "one-20261204-one-friday-fights-181",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 181 & The Inner Circle 41",
+   "headline": "ONE Friday Fights 181 & The Inner Circle 41",
+   "date": "2026-12-04T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-181/"
+  },
+  {
+   "id": "one-20261211-one-friday-fights-182",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 182 & The Inner Circle 42",
+   "headline": "ONE Friday Fights 182 & The Inner Circle 42",
+   "date": "2026-12-11T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-182/"
   },
   {
    "id": "one-20261212-onefightnight50",
@@ -3754,6 +3958,29 @@
    ],
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc"
+  },
+  {
+   "id": "one-20261218-one-friday-fights-183",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "contender",
+   "name": "ONE Friday Fights 183 & The Inner Circle 43",
+   "headline": "ONE Friday Fights 183 & The Inner Circle 43",
+   "date": "2026-12-18T11:30:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/one-friday-fights-183/"
   },
   {
    "id": "pfl-600061422",
