@@ -1,172 +1,9 @@
 {
- "generated": "2026-09-01T20:59:49Z",
+ "generated": "2026-09-02T04:28:32Z",
  "counts": {
   "mma": 45
  },
  "events": [
-  {
-   "id": "ufc-600060735",
-   "sport": "mma",
-   "org": "UFC",
-   "tier": "contender",
-   "name": "Dana White's Contender Series: Season 10, Week 4",
-   "headline": "Season 10, Week 4",
-   "date": "2026-09-01T23:00Z",
-   "datePrecision": "time",
-   "venue": "Meta APEX",
-   "location": "Las Vegas, NV",
-   "watch": [
-    {
-     "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "Welterweight",
-     "fighters": [
-      "Patrick Rivera",
-      "Adam Darby"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Patrick Rivera",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4791642.png&w=350&h=254"
-      },
-      {
-       "name": "Adam Darby",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369446.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "Middleweight",
-     "fighters": [
-      "Brandon Holmes",
-      "Modestino Rodrigues"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Brandon Holmes",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296762.png&w=350&h=254"
-      },
-      {
-       "name": "Modestino Rodrigues",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5364355.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Liam McCracken",
-      "Silvestre Sanchez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Liam McCracken",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5125221.png&w=350&h=254"
-      },
-      {
-       "name": "Silvestre Sanchez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369437.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Gabriel Lorenço",
-      "Charlie Cleveland"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Gabriel Lorenço",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215710.png&w=350&h=254"
-      },
-      {
-       "name": "Charlie Cleveland",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369424.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Adam Livingston",
-      "Hunter Smith"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Adam Livingston",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307815.png&w=350&h=254"
-      },
-      {
-       "name": "Hunter Smith",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5364357.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "Patrick Rivera",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4791642.png&w=350&h=254"
-    },
-    {
-     "name": "Adam Darby",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369446.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600060735/league/ufc"
-  },
   {
    "id": "one-20260904-one-friday-fights-169",
    "sport": "mma",
@@ -341,8 +178,8 @@
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
-      "Morgan Charrière",
-      "Felipe Lima"
+      "Trevor Peek",
+      "Kurtis Campbell"
      ],
      "watch": [
       {
@@ -353,12 +190,12 @@
      ],
      "portraits": [
       {
-       "name": "Morgan Charrière",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4324622.png&w=350&h=254"
+       "name": "Trevor Peek",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5048900.png&w=350&h=254"
       },
       {
-       "name": "Felipe Lima",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5101694.png&w=350&h=254"
+       "name": "Kurtis Campbell",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310075.png&w=350&h=254"
       }
      ]
     },
@@ -391,6 +228,32 @@
     {
      "order": 7,
      "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Morgan Charrière",
+      "Felipe Lima"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Morgan Charrière",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4324622.png&w=350&h=254"
+      },
+      {
+       "name": "Felipe Lima",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5101694.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
       "Ryan Spann",
@@ -411,32 +274,6 @@
       {
        "name": "Mario Pinto",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218817.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 8,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Trevor Peek",
-      "Kurtis Campbell"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Trevor Peek",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5048900.png&w=350&h=254"
-      },
-      {
-       "name": "Kurtis Campbell",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310075.png&w=350&h=254"
       }
      ]
     },
@@ -469,6 +306,32 @@
     {
      "order": 10,
      "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Nathaniel Wood",
+      "Pavel Andrusca"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Nathaniel Wood",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3950354.png&w=350&h=254"
+      },
+      {
+       "name": "Pavel Andrusca",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5445620.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
       "Michael Aljarouj",
@@ -493,7 +356,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 12,
      "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
@@ -519,7 +382,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 13,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -545,7 +408,7 @@
      ]
     },
     {
-     "order": 13,
+     "order": 14,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
@@ -2480,6 +2343,91 @@
    "link": "https://www.onefc.com/events/one-friday-fights-174/"
   },
   {
+   "id": "ufc-600061541",
+   "sport": "mma",
+   "org": "UFC",
+   "tier": "fight_night",
+   "name": "UFC Fight Night: Allen vs. Duncan",
+   "headline": "Allen vs. Duncan",
+   "date": "2026-10-10T21:00Z",
+   "datePrecision": "time",
+   "venue": "Meta APEX",
+   "location": "Las Vegas, NV",
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://www.paramountplus.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": "Middleweight",
+     "fighters": [
+      "Brendan Allen",
+      "Christian Leroy Duncan"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Brendan Allen",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4025699.png&w=350&h=254"
+      },
+      {
+       "name": "Christian Leroy Duncan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4848674.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Brendan Allen",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4025699.png&w=350&h=254"
+    },
+    {
+     "name": "Christian Leroy Duncan",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4848674.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061541/league/ufc"
+  },
+  {
    "id": "ufc-600060741",
    "sport": "mma",
    "org": "UFC",
@@ -3274,32 +3222,6 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
-     "fighters": [
-      "TBA",
-      "Opponent TBA"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
-      },
-      {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
      "weight": "Middleweight",
      "fighters": [
       "Joe Kropschot",
@@ -3322,16 +3244,42 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
       }
      ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+      }
+     ]
     }
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Joe Kropschot",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4687604.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Nick Klein",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
     }
    ],
    "note": null,
