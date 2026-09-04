@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T04:27:38Z",
+ "generated": "2026-09-04T11:14:03Z",
  "counts": {
   "mma": 45
  },
@@ -1372,10 +1372,10 @@
     {
      "order": 9,
      "slot": "undercard",
-     "weight": "Middleweight",
+     "weight": "Featherweight",
      "fighters": [
-      "Edmen Shahbazyan",
-      "Brunno Ferreira"
+      "Michael Aswell",
+      "JooSang Yoo"
      ],
      "watch": [
       {
@@ -1386,69 +1386,17 @@
      ],
      "portraits": [
       {
-       "name": "Edmen Shahbazyan",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4354318.png&w=350&h=254"
+       "name": "Michael Aswell",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212738.png&w=350&h=254"
       },
       {
-       "name": "Brunno Ferreira",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5077131.png&w=350&h=254"
+       "name": "JooSang Yoo",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5282139.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 10,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Giga Chikadze",
-      "Joanderson Brito"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Giga Chikadze",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3957071.png&w=350&h=254"
-      },
-      {
-       "name": "Joanderson Brito",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4422355.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 11,
-     "slot": "undercard",
-     "weight": "W Flyweight",
-     "fighters": [
-      "Casey O'Neill",
-      "Eduarda Moura"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Casey O'Neill",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4699589.png&w=350&h=254"
-      },
-      {
-       "name": "Eduarda Moura",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5143888.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 12,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -1474,12 +1422,12 @@
      ]
     },
     {
-     "order": 13,
+     "order": 11,
      "slot": "undercard",
-     "weight": "Featherweight",
+     "weight": "Middleweight",
      "fighters": [
-      "Michael Aswell",
-      "JooSang Yoo"
+      "Edmen Shahbazyan",
+      "Brunno Ferreira"
      ],
      "watch": [
       {
@@ -1490,12 +1438,64 @@
      ],
      "portraits": [
       {
-       "name": "Michael Aswell",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212738.png&w=350&h=254"
+       "name": "Edmen Shahbazyan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4354318.png&w=350&h=254"
       },
       {
-       "name": "JooSang Yoo",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5282139.png&w=350&h=254"
+       "name": "Brunno Ferreira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5077131.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Casey O'Neill",
+      "Eduarda Moura"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Casey O'Neill",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4699589.png&w=350&h=254"
+      },
+      {
+       "name": "Eduarda Moura",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5143888.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Giga Chikadze",
+      "Joanderson Brito"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Giga Chikadze",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3957071.png&w=350&h=254"
+      },
+      {
+       "name": "Joanderson Brito",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4422355.png&w=350&h=254"
       }
      ]
     }
