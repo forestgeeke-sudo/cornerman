@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T04:22:29Z",
+ "generated": "2026-09-05T10:31:15Z",
  "counts": {
   "mma": 43
  },
@@ -950,6 +950,58 @@
     },
     {
      "order": 11,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Drakkar Klose",
+      "Tommy Gantt"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Drakkar Klose",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4079621.png&w=350&h=254"
+      },
+      {
+       "name": "Tommy Gantt",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307814.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Jessie Rosas",
+      "Sean King"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jessie Rosas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5387599.png&w=350&h=254"
+      },
+      {
+       "name": "Sean King",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401058.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
