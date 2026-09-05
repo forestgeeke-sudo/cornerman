@@ -1,32 +1,9 @@
 {
- "generated": "2026-09-04T20:43:29Z",
+ "generated": "2026-09-05T04:22:29Z",
  "counts": {
-  "mma": 44
+  "mma": 43
  },
  "events": [
-  {
-   "id": "one-20260905-onefightnight47",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "other",
-   "name": "ONE Fight Night 47: Stamp vs. Flores on Prime Video",
-   "headline": "Stamp vs. Flores on Prime Video",
-   "date": "2026-09-05T01:00:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "Prime Video",
-     "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/onefightnight47/"
-  },
   {
    "id": "ufc-600059993",
    "sport": "mma",
@@ -948,32 +925,6 @@
     {
      "order": 10,
      "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Rodrigo Vera",
-      "Ramiro Jimenez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Rodrigo Vera",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4422430.png&w=350&h=254"
-      },
-      {
-       "name": "Ramiro Jimenez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290796.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 11,
-     "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
       "Rafa Garcia",
@@ -998,7 +949,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 11,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -2870,6 +2821,32 @@
       {
        "name": "Steven Koslow",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5119740.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Louie Sutherland",
+      "Javad Mahjoub"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Louie Sutherland",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080572.png&w=350&h=254"
+      },
+      {
+       "name": "Javad Mahjoub",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5405986.png&w=350&h=254"
       }
      ]
     }
