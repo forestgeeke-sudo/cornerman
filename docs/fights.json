@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T20:17:38Z",
+ "generated": "2026-09-06T04:33:53Z",
  "counts": {
   "mma": 42
  },
@@ -530,32 +530,6 @@
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
-      "Rafa Garcia",
-      "Rongzhu"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Rafa Garcia",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4690549.png&w=350&h=254"
-      },
-      {
-       "name": "Rongzhu",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4773371.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 11,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
       "Drakkar Klose",
       "Tommy Gantt"
      ],
@@ -574,6 +548,32 @@
       {
        "name": "Tommy Gantt",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307814.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Rafa Garcia",
+      "Rongzhu"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Rafa Garcia",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4690549.png&w=350&h=254"
+      },
+      {
+       "name": "Rongzhu",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4773371.png&w=350&h=254"
       }
      ]
     },
@@ -1607,8 +1607,8 @@
    "sport": "mma",
    "org": "UFC",
    "tier": "numbered",
-   "name": "UFC 332",
-   "headline": "TBA vs. Opponent TBA",
+   "name": "UFC 332: Silva vs. Wang",
+   "headline": "Silva vs. Wang",
    "date": "2026-10-03T21:00Z",
    "datePrecision": "time",
    "venue": "Delta Center",
@@ -1624,10 +1624,10 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
+     "weight": "W Flyweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Natalia Silva",
+      "Wang Cong"
      ],
      "watch": [
       {
@@ -1638,12 +1638,12 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Natalia Silva",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4054605.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Wang Cong",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4215200.png&w=350&h=254"
       }
      ]
     },
@@ -1832,12 +1832,12 @@
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Natalia Silva",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4054605.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Wang Cong",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4215200.png&w=350&h=254"
     }
    ],
    "note": null,
