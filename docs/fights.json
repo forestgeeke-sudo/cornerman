@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T12:25:51Z",
+ "generated": "2026-09-07T21:29:06Z",
  "counts": {
   "mma": 42
  },
@@ -1754,10 +1754,10 @@
     {
      "order": 6,
      "slot": "undercard",
-     "weight": "Heavyweight",
+     "weight": "Welterweight",
      "fighters": [
-      "Johnny Walker",
-      "Mick Parkin"
+      "Roberto Soldić",
+      "Khaos Williams"
      ],
      "watch": [
       {
@@ -1768,17 +1768,95 @@
      ],
      "portraits": [
       {
-       "name": "Johnny Walker",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3146944.png&w=350&h=254"
+       "name": "Roberto Soldić",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4274796.png&w=350&h=254"
       },
       {
-       "name": "Mick Parkin",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060505.png&w=350&h=254"
+       "name": "Khaos Williams",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4612580.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 7,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Court McGee",
+      "Eric Nolan"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Court McGee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504639.png&w=350&h=254"
+      },
+      {
+       "name": "Eric Nolan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290958.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Rafael Dos Anjos",
+      "Alexander Hernandez"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Rafael Dos Anjos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335687.png&w=350&h=254"
+      },
+      {
+       "name": "Alexander Hernandez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4018757.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "King Green",
+      "Esteban Ribovics"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "King Green",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2502364.png&w=350&h=254"
+      },
+      {
+       "name": "Esteban Ribovics",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074131.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -1804,12 +1882,12 @@
      ]
     },
     {
-     "order": 8,
+     "order": 11,
      "slot": "undercard",
-     "weight": "Welterweight",
+     "weight": "Heavyweight",
      "fighters": [
-      "Court McGee",
-      "Eric Nolan"
+      "Johnny Walker",
+      "Mick Parkin"
      ],
      "watch": [
       {
@@ -1820,12 +1898,38 @@
      ],
      "portraits": [
       {
-       "name": "Court McGee",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504639.png&w=350&h=254"
+       "name": "Johnny Walker",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3146944.png&w=350&h=254"
       },
       {
-       "name": "Eric Nolan",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290958.png&w=350&h=254"
+       "name": "Mick Parkin",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060505.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Marcus McGhee",
+      "Bernardo Sopaj"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Marcus McGhee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895760.png&w=350&h=254"
+      },
+      {
+       "name": "Bernardo Sopaj",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080883.png&w=350&h=254"
       }
      ]
     }
@@ -2987,10 +3091,10 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": null,
+     "weight": "W Bantamweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Tainara Lisboa",
+      "Lucia Szabova"
      ],
      "watch": [
       {
@@ -3001,12 +3105,12 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Tainara Lisboa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Lucia Szabova",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
       }
      ]
     }
