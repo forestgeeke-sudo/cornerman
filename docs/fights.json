@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T20:21:52Z",
+ "generated": "2026-09-07T04:35:03Z",
  "counts": {
   "mma": 42
  },
@@ -2140,10 +2140,88 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": null,
+     "weight": "Featherweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Timur Khizriev",
+      "Gabriel Braga"
+     ],
+     "watch": [
+      {
+       "name": "ESPN2",
+       "url": "https://www.espn.com/watch/",
+       "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Timur Khizriev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4894428.png&w=350&h=254"
+      },
+      {
+       "name": "Gabriel Braga",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5124792.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Denis Goltsov",
+      "Maxwell Djantou Nana"
+     ],
+     "watch": [
+      {
+       "name": "ESPN2",
+       "url": "https://www.espn.com/watch/",
+       "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Denis Goltsov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3024604.png&w=350&h=254"
+      },
+      {
+       "name": "Maxwell Djantou Nana",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5219953.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Sarvarjon Khamidov",
+      "Rafael do Nascimento"
+     ],
+     "watch": [
+      {
+       "name": "ESPN2",
+       "url": "https://www.espn.com/watch/",
+       "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Sarvarjon Khamidov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5022142.png&w=350&h=254"
+      },
+      {
+       "name": "Rafael do Nascimento",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110471.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Alexander Shabliy",
+      "Landry Ward"
      ],
      "watch": [
       {
@@ -2154,12 +2232,64 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Alexander Shabliy",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4205092.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Landry Ward",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5172392.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Emiliano Sordi",
+      "Abraham Bably"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Emiliano Sordi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3146345.png&w=350&h=254"
+      },
+      {
+       "name": "Abraham Bably",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080573.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Lucero Acosta",
+      "Shannon Clark"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Lucero Acosta",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4921671.png&w=350&h=254"
+      },
+      {
+       "name": "Shannon Clark",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5211222.png&w=350&h=254"
       }
      ]
     }
