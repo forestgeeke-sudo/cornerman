@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T16:35:38Z",
+ "generated": "2026-09-08T21:06:48Z",
  "counts": {
   "mma": 42
  },
@@ -1252,10 +1252,10 @@
     {
      "order": 3,
      "slot": "undercard",
-     "weight": "W Strawweight",
+     "weight": "Bantamweight",
      "fighters": [
-      "Valesca Machado",
-      "Melissa Amaya"
+      "Brady Hiestand",
+      "Rinya Nakamura"
      ],
      "watch": [
       {
@@ -1266,12 +1266,12 @@
      ],
      "portraits": [
       {
-       "name": "Valesca Machado",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4836549.png&w=350&h=254"
+       "name": "Brady Hiestand",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4815974.png&w=350&h=254"
       },
       {
-       "name": "Melissa Amaya",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5169699.png&w=350&h=254"
+       "name": "Rinya Nakamura",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5068624.png&w=350&h=254"
       }
      ]
     },
@@ -1304,10 +1304,10 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": "Bantamweight",
+     "weight": "W Strawweight",
      "fighters": [
-      "Ricky Simon",
-      "Montel Jackson"
+      "Valesca Machado",
+      "Melissa Amaya"
      ],
      "watch": [
       {
@@ -1318,17 +1318,43 @@
      ],
      "portraits": [
       {
-       "name": "Ricky Simon",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3922491.png&w=350&h=254"
+       "name": "Valesca Machado",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4836549.png&w=350&h=254"
       },
       {
-       "name": "Montel Jackson",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4339130.png&w=350&h=254"
+       "name": "Melissa Amaya",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5169699.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 6,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Elves Brener",
+      "Josiah Harrell"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Elves Brener",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110006.png&w=350&h=254"
+      },
+      {
+       "name": "Josiah Harrell",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149546.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -1354,12 +1380,12 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
-      "Brady Hiestand",
-      "Rinya Nakamura"
+      "Ricky Simon",
+      "Montel Jackson"
      ],
      "watch": [
       {
@@ -1370,17 +1396,17 @@
      ],
      "portraits": [
       {
-       "name": "Brady Hiestand",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4815974.png&w=350&h=254"
+       "name": "Ricky Simon",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3922491.png&w=350&h=254"
       },
       {
-       "name": "Rinya Nakamura",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5068624.png&w=350&h=254"
+       "name": "Montel Jackson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4339130.png&w=350&h=254"
       }
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -1402,32 +1428,6 @@
       {
        "name": "John Castaneda",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4063869.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Elves Brener",
-      "Josiah Harrell"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Elves Brener",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110006.png&w=350&h=254"
-      },
-      {
-       "name": "Josiah Harrell",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149546.png&w=350&h=254"
       }
      ]
     },
