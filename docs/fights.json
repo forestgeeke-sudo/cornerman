@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T11:13:32Z",
+ "generated": "2026-09-08T16:35:38Z",
  "counts": {
   "mma": 42
  },
@@ -1676,10 +1676,10 @@
     {
      "order": 3,
      "slot": "undercard",
-     "weight": "Middleweight",
+     "weight": "Lightweight",
      "fighters": [
-      "Roman Kopylov",
-      "Ateba Gautier"
+      "King Green",
+      "Esteban Ribovics"
      ],
      "watch": [
       {
@@ -1690,69 +1690,17 @@
      ],
      "portraits": [
       {
-       "name": "Roman Kopylov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4300149.png&w=350&h=254"
+       "name": "King Green",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2502364.png&w=350&h=254"
       },
       {
-       "name": "Ateba Gautier",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218421.png&w=350&h=254"
+       "name": "Esteban Ribovics",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074131.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 4,
-     "slot": "undercard",
-     "weight": "Flyweight",
-     "fighters": [
-      "Alden Coria",
-      "Imanol Rodriguez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Alden Coria",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5099732.png&w=350&h=254"
-      },
-      {
-       "name": "Imanol Rodriguez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289578.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Andrey Pulyaev",
-      "Damian Pinas"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Andrey Pulyaev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5211225.png&w=350&h=254"
-      },
-      {
-       "name": "Damian Pinas",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292022.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 6,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -1778,12 +1726,12 @@
      ]
     },
     {
-     "order": 7,
+     "order": 5,
      "slot": "undercard",
-     "weight": "Welterweight",
+     "weight": "Middleweight",
      "fighters": [
-      "Court McGee",
-      "Eric Nolan"
+      "Roman Kopylov",
+      "Ateba Gautier"
      ],
      "watch": [
       {
@@ -1794,22 +1742,74 @@
      ],
      "portraits": [
       {
-       "name": "Court McGee",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504639.png&w=350&h=254"
+       "name": "Roman Kopylov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4300149.png&w=350&h=254"
       },
       {
-       "name": "Eric Nolan",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290958.png&w=350&h=254"
+       "name": "Ateba Gautier",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218421.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Alden Coria",
+      "Imanol Rodriguez"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Alden Coria",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5099732.png&w=350&h=254"
+      },
+      {
+       "name": "Imanol Rodriguez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289578.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Andrey Pulyaev",
+      "Damian Pinas"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Andrey Pulyaev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5211225.png&w=350&h=254"
+      },
+      {
+       "name": "Damian Pinas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292022.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 8,
      "slot": "undercard",
-     "weight": "Lightweight",
+     "weight": "Bantamweight",
      "fighters": [
-      "Rafael Dos Anjos",
-      "Alexander Hernandez"
+      "Marcus McGhee",
+      "Bernardo Sopaj"
      ],
      "watch": [
       {
@@ -1820,69 +1820,17 @@
      ],
      "portraits": [
       {
-       "name": "Rafael Dos Anjos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335687.png&w=350&h=254"
+       "name": "Marcus McGhee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895760.png&w=350&h=254"
       },
       {
-       "name": "Alexander Hernandez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4018757.png&w=350&h=254"
+       "name": "Bernardo Sopaj",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080883.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 9,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "King Green",
-      "Esteban Ribovics"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "King Green",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2502364.png&w=350&h=254"
-      },
-      {
-       "name": "Esteban Ribovics",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074131.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Marvin Vettori",
-      "Ismail Naurdiev"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Marvin Vettori",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001851.png&w=350&h=254"
-      },
-      {
-       "name": "Ismail Naurdiev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4412813.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 11,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -1908,12 +1856,12 @@
      ]
     },
     {
-     "order": 12,
+     "order": 10,
      "slot": "undercard",
-     "weight": "Bantamweight",
+     "weight": "Lightweight",
      "fighters": [
-      "Marcus McGhee",
-      "Bernardo Sopaj"
+      "Rafael Dos Anjos",
+      "Alexander Hernandez"
      ],
      "watch": [
       {
@@ -1924,12 +1872,64 @@
      ],
      "portraits": [
       {
-       "name": "Marcus McGhee",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895760.png&w=350&h=254"
+       "name": "Rafael Dos Anjos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335687.png&w=350&h=254"
       },
       {
-       "name": "Bernardo Sopaj",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080883.png&w=350&h=254"
+       "name": "Alexander Hernandez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4018757.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Marvin Vettori",
+      "Ismail Naurdiev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Marvin Vettori",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001851.png&w=350&h=254"
+      },
+      {
+       "name": "Ismail Naurdiev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4412813.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Court McGee",
+      "Eric Nolan"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Court McGee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504639.png&w=350&h=254"
+      },
+      {
+       "name": "Eric Nolan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290958.png&w=350&h=254"
       }
      ]
     }
