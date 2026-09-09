@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T04:37:44Z",
+ "generated": "2026-09-09T11:18:20Z",
  "counts": {
   "mma": 41
  },
@@ -502,10 +502,10 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
+     "weight": "Welterweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Zevan Hunt",
+      "Mayton Perea"
      ],
      "watch": [
       {
@@ -516,24 +516,128 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Zevan Hunt",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369672.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Mayton Perea",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369676.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Middleweight",
+     "fighters": [
+      "Oscar Ravello",
+      "Igor Cavalcanti"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Oscar Ravello",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4872704.png&w=350&h=254"
+      },
+      {
+       "name": "Igor Cavalcanti",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5214599.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Ednilson Santos",
+      "Akbar Abdullaev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Ednilson Santos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5113920.png&w=350&h=254"
+      },
+      {
+       "name": "Akbar Abdullaev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5210077.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Hugo Guillon",
+      "Luis Hernandez"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Hugo Guillon",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369426.png&w=350&h=254"
+      },
+      {
+       "name": "Luis Hernandez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369427.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Antonio Monteiro",
+      "Tyshawn Williams"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Antonio Monteiro",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5057385.png&w=350&h=254"
+      },
+      {
+       "name": "Tyshawn Williams",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369685.png&w=350&h=254"
       }
      ]
     }
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Zevan Hunt",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369672.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Mayton Perea",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369676.png&w=350&h=254"
     }
    ],
    "note": null,
