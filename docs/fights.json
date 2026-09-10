@@ -1,68 +1,9 @@
 {
- "generated": "2026-09-10T11:14:40Z",
+ "generated": "2026-09-10T16:21:39Z",
  "counts": {
-  "mma": 41
+  "mma": 40
  },
  "events": [
-  {
-   "id": "rizin-600060793",
-   "sport": "mma",
-   "org": "RIZIN",
-   "tier": "other",
-   "name": "Super RIZIN 5",
-   "headline": "AJ McKee vs. Razhabali Shaydullaev",
-   "date": "2026-09-10T09:00Z",
-   "datePrecision": "time",
-   "venue": "Kyocera Dome",
-   "location": "Osaka, Japan",
-   "watch": [
-    {
-     "name": "RIZIN.TV",
-     "url": "https://www.rizin.tv/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "Featherweight",
-     "fighters": [
-      "AJ McKee",
-      "Razhabali Shaydullaev"
-     ],
-     "watch": [
-      {
-       "name": "RIZIN.TV",
-       "url": "https://www.rizin.tv/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "AJ McKee",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3821379.png&w=350&h=254"
-      },
-      {
-       "name": "Razhabali Shaydullaev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130414.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "AJ McKee",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3821379.png&w=350&h=254"
-    },
-    {
-     "name": "Razhabali Shaydullaev",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130414.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": null
-  },
   {
    "id": "one-20260911-one-friday-fights-170",
    "sport": "mma",
