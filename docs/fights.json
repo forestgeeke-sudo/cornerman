@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T20:53:57Z",
+ "generated": "2026-09-10T04:37:29Z",
  "counts": {
   "mma": 41
  },
@@ -287,7 +287,7 @@
     {
      "order": 7,
      "slot": "undercard",
-     "weight": "Flyweight",
+     "weight": "Catch Weight",
      "fighters": [
       "Tim Elliott",
       "Édgar Cháirez"
@@ -3228,8 +3228,8 @@
    "sport": "mma",
    "org": "PFL",
    "tier": "other",
-   "name": "PFL Dubai",
-   "headline": "TBA vs. Opponent TBA",
+   "name": "PFL Dubai: Nemkov vs. Bilostenniy",
+   "headline": "Nemkov vs. Bilostenniy",
    "date": "2026-11-14T14:00Z",
    "datePrecision": "time",
    "venue": "Coca-Cola Arena",
@@ -3245,10 +3245,10 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
+     "weight": "Heavyweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Vadim Nemkov",
+      "Sergei Bilostenniy"
      ],
      "watch": [
       {
@@ -3259,18 +3259,44 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Vadim Nemkov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3955014.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Sergei Bilostenniy",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4293151.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 2,
      "slot": "comain",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Oleg Popov",
+      "Pouya Rahmani"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Oleg Popov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4336342.png&w=350&h=254"
+      },
+      {
+       "name": "Pouya Rahmani",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5272739.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
      "weight": null,
      "fighters": [
       "TBA",
@@ -3297,12 +3323,12 @@
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Vadim Nemkov",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3955014.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Sergei Bilostenniy",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4293151.png&w=350&h=254"
     }
    ],
    "note": null,
@@ -3719,8 +3745,8 @@
    "sport": "mma",
    "org": "PFL",
    "tier": "other",
-   "name": "PFL Lyon",
-   "headline": "TBA vs. Opponent TBA",
+   "name": "PFL Lyon: Lapilus vs. McKee",
+   "headline": "Lapilus vs. McKee",
    "date": "2026-12-19T14:00Z",
    "datePrecision": "time",
    "venue": "LDLC Arena",
@@ -3736,10 +3762,10 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
+     "weight": "Bantamweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Taylor Lapilus",
+      "Mitch McKee"
      ],
      "watch": [
       {
@@ -3750,12 +3776,12 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Taylor Lapilus",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3151934.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Mitch McKee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5083027.png&w=350&h=254"
       }
      ]
     },
@@ -3788,12 +3814,12 @@
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Taylor Lapilus",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3151934.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Mitch McKee",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5083027.png&w=350&h=254"
     }
    ],
    "note": null,
