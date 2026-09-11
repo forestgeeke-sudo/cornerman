@@ -1,32 +1,9 @@
 {
- "generated": "2026-09-11T11:16:12Z",
+ "generated": "2026-09-11T16:25:48Z",
  "counts": {
-  "mma": 40
+  "mma": 39
  },
  "events": [
-  {
-   "id": "one-20260911-one-friday-fights-170",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "contender",
-   "name": "ONE Friday Fights 170 & The Inner Circle 30",
-   "headline": "ONE Friday Fights 170 & The Inner Circle 30",
-   "date": "2026-09-11T11:30:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "YouTube",
-     "url": "https://www.youtube.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-170/"
-  },
   {
    "id": "one-20260912-one-samurai-3",
    "sport": "mma",
