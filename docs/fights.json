@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T20:49:23Z",
+ "generated": "2026-09-11T04:35:21Z",
  "counts": {
   "mma": 40
  },
@@ -2126,32 +2126,6 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": "Featherweight",
-     "fighters": [
-      "Timur Khizriev",
-      "Gabriel Braga"
-     ],
-     "watch": [
-      {
-       "name": "ESPN2",
-       "url": "https://www.espn.com/watch/",
-       "kind": "tv"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Timur Khizriev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4894428.png&w=350&h=254"
-      },
-      {
-       "name": "Gabriel Braga",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5124792.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
       "Denis Goltsov",
@@ -2176,7 +2150,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 3,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -2198,6 +2172,32 @@
       {
        "name": "Rafael do Nascimento",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110471.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Timur Khizriev",
+      "Gabriel Braga"
+     ],
+     "watch": [
+      {
+       "name": "ESPN2",
+       "url": "https://www.espn.com/watch/",
+       "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Timur Khizriev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4894428.png&w=350&h=254"
+      },
+      {
+       "name": "Gabriel Braga",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5124792.png&w=350&h=254"
       }
      ]
     },
@@ -2230,32 +2230,6 @@
     {
      "order": 6,
      "slot": "undercard",
-     "weight": "Light Heavyweight",
-     "fighters": [
-      "Emiliano Sordi",
-      "Abraham Bably"
-     ],
-     "watch": [
-      {
-       "name": "ESPN+",
-       "url": "https://plus.espn.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Emiliano Sordi",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3146345.png&w=350&h=254"
-      },
-      {
-       "name": "Abraham Bably",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080573.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 7,
-     "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
       "Lucero Acosta",
@@ -2276,6 +2250,32 @@
       {
        "name": "Shannon Clark",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5211222.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Emiliano Sordi",
+      "Abraham Bably"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Emiliano Sordi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3146345.png&w=350&h=254"
+      },
+      {
+       "name": "Abraham Bably",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080573.png&w=350&h=254"
       }
      ]
     }
