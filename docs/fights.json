@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T15:29:15Z",
+ "generated": "2026-09-12T20:31:07Z",
  "counts": {
   "mma": 38
  },
@@ -315,7 +315,7 @@
      "weight": "Featherweight",
      "fighters": [
       "Jessie Rosas",
-      "Sean King"
+      "Sean King III"
      ],
      "watch": [
       {
@@ -330,7 +330,7 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5387599.png&w=350&h=254"
       },
       {
-       "name": "Sean King",
+       "name": "Sean King III",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401058.png&w=350&h=254"
       }
      ]
@@ -373,7 +373,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600060772/league/ufc"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600060772"
   },
   {
    "id": "ufc-600060737",
@@ -2715,32 +2715,6 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Alexander Volkov",
-      "Rizvan Kuniev"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Alexander Volkov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2993650.png&w=350&h=254"
-      },
-      {
-       "name": "Rizvan Kuniev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001837.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 6,
-     "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
       "Azamat Murzakanov",
@@ -2765,7 +2739,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 6,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -2791,7 +2765,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 7,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -2817,7 +2791,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 8,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -2839,6 +2813,32 @@
       {
        "name": "Nurullo Aliev",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5092398.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Alexander Volkov",
+      "Rizvan Kuniev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Alexander Volkov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2993650.png&w=350&h=254"
+      },
+      {
+       "name": "Rizvan Kuniev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001837.png&w=350&h=254"
       }
      ]
     }
