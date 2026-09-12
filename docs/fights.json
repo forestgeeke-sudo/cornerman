@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T20:55:48Z",
+ "generated": "2026-09-12T04:30:22Z",
  "counts": {
   "mma": 39
  },
@@ -2181,6 +2181,32 @@
     {
      "order": 5,
      "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Emiliano Sordi",
+      "Abraham Bably"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Emiliano Sordi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3146345.png&w=350&h=254"
+      },
+      {
+       "name": "Abraham Bably",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080573.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
       "Alexander Shabliy",
@@ -2205,7 +2231,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 7,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -2227,32 +2253,6 @@
       {
        "name": "Shannon Clark",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5211222.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 7,
-     "slot": "undercard",
-     "weight": "Light Heavyweight",
-     "fighters": [
-      "Emiliano Sordi",
-      "Abraham Bably"
-     ],
-     "watch": [
-      {
-       "name": "ESPN+",
-       "url": "https://plus.espn.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Emiliano Sordi",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3146345.png&w=350&h=254"
-      },
-      {
-       "name": "Abraham Bably",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080573.png&w=350&h=254"
       }
      ]
     }
