@@ -1,32 +1,9 @@
 {
- "generated": "2026-09-12T10:41:44Z",
+ "generated": "2026-09-12T15:29:15Z",
  "counts": {
-  "mma": 39
+  "mma": 38
  },
  "events": [
-  {
-   "id": "one-20260912-one-samurai-3",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "other",
-   "name": "ONE SAMURAI 3",
-   "headline": "ONE SAMURAI 3",
-   "date": "2026-09-12T08:30:00Z",
-   "datePrecision": "time",
-   "venue": "Yokohama Buntai",
-   "location": "Yokohama",
-   "watch": [
-    {
-     "name": "Prime Video",
-     "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/one-samurai-3/"
-  },
   {
    "id": "ufc-600060772",
    "sport": "mma",
