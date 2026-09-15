@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T04:50:21Z",
+ "generated": "2026-09-15T11:40:18Z",
  "counts": {
   "mma": 37
  },
@@ -2530,6 +2530,32 @@
     {
      "order": 1,
      "slot": "main",
+     "weight": "Lightweight",
+     "fighters": [
+      "Renato Moicano",
+      "Tom Nolan"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Renato Moicano",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3028863.png&w=350&h=254"
+      },
+      {
+       "name": "Tom Nolan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144007.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
      "weight": "W Flyweight",
      "fighters": [
       "Tainara Lisboa",
@@ -2554,8 +2580,8 @@
      ]
     },
     {
-     "order": 2,
-     "slot": "comain",
+     "order": 3,
+     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Joe Kropschot",
@@ -2582,12 +2608,12 @@
    ],
    "art": [
     {
-     "name": "Tainara Lisboa",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
+     "name": "Renato Moicano",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3028863.png&w=350&h=254"
     },
     {
-     "name": "Lucia Szabova",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
+     "name": "Tom Nolan",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144007.png&w=350&h=254"
     }
    ],
    "note": null,
