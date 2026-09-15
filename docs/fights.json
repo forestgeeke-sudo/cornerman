@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T21:47:15Z",
+ "generated": "2026-09-15T04:50:21Z",
  "counts": {
   "mma": 37
  },
@@ -290,32 +290,6 @@
     {
      "order": 4,
      "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Renato Moicano",
-      "Brian Ortega"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Renato Moicano",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3028863.png&w=350&h=254"
-      },
-      {
-       "name": "Brian Ortega",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3045737.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
       "Alonzo Menifield",
@@ -340,7 +314,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 5,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -366,7 +340,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 6,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -392,7 +366,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 7,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -418,7 +392,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 8,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -444,7 +418,7 @@
      ]
     },
     {
-     "order": 10,
+     "order": 9,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -470,7 +444,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 10,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -496,7 +470,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 11,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -522,7 +496,7 @@
      ]
     },
     {
-     "order": 13,
+     "order": 12,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -2539,8 +2513,8 @@
    "sport": "mma",
    "org": "UFC",
    "tier": "fight_night",
-   "name": "UFC Fight Night: Las Vegas",
-   "headline": "Las Vegas",
+   "name": "UFC Fight Night: Moicano vs. Nolan",
+   "headline": "Moicano vs. Nolan",
    "date": "2026-10-31T21:00Z",
    "datePrecision": "time",
    "venue": "Meta APEX",
@@ -2556,6 +2530,32 @@
     {
      "order": 1,
      "slot": "main",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Tainara Lisboa",
+      "Lucia Szabova"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Tainara Lisboa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
+      },
+      {
+       "name": "Lucia Szabova",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
      "weight": "Middleweight",
      "fighters": [
       "Joe Kropschot",
@@ -2578,42 +2578,16 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
       }
      ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "W Bantamweight",
-     "fighters": [
-      "Tainara Lisboa",
-      "Lucia Szabova"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Tainara Lisboa",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
-      },
-      {
-       "name": "Lucia Szabova",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
-      }
-     ]
     }
    ],
    "art": [
     {
-     "name": "Joe Kropschot",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4687604.png&w=350&h=254"
+     "name": "Tainara Lisboa",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
     },
     {
-     "name": "Nick Klein",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
+     "name": "Lucia Szabova",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
     }
    ],
    "note": null,
