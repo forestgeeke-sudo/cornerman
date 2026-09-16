@@ -1,172 +1,9 @@
 {
- "generated": "2026-09-15T21:17:29Z",
+ "generated": "2026-09-16T04:45:30Z",
  "counts": {
-  "mma": 37
+  "mma": 36
  },
  "events": [
-  {
-   "id": "ufc-600060737",
-   "sport": "mma",
-   "org": "UFC",
-   "tier": "contender",
-   "name": "Dana White's Contender Series: Season 10, Week 6",
-   "headline": "Season 10, Week 6",
-   "date": "2026-09-15T23:00Z",
-   "datePrecision": "time",
-   "venue": "Meta APEX",
-   "location": "Las Vegas, NV",
-   "watch": [
-    {
-     "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "Welterweight",
-     "fighters": [
-      "Zevan Hunt",
-      "Mayton Perea"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Zevan Hunt",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369672.png&w=350&h=254"
-      },
-      {
-       "name": "Mayton Perea",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369676.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "Middleweight",
-     "fighters": [
-      "Oscar Ravello",
-      "Igor Cavalcanti"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Oscar Ravello",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4872704.png&w=350&h=254"
-      },
-      {
-       "name": "Igor Cavalcanti",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5214599.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Ednilson Santos",
-      "Akbar Abdullaev"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Ednilson Santos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5113920.png&w=350&h=254"
-      },
-      {
-       "name": "Akbar Abdullaev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5210077.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Hugo Guillon",
-      "Luis Hernandez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Hugo Guillon",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369426.png&w=350&h=254"
-      },
-      {
-       "name": "Luis Hernandez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369427.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Antonio Monteiro",
-      "Tyshawn Williams"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Antonio Monteiro",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5057385.png&w=350&h=254"
-      },
-      {
-       "name": "Tyshawn Williams",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369685.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "Zevan Hunt",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369672.png&w=350&h=254"
-    },
-    {
-     "name": "Mayton Perea",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369676.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600060737/league/ufc"
-  },
   {
    "id": "one-20260918-one-friday-fights-171",
    "sport": "mma",
@@ -557,10 +394,10 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
+     "weight": "Middleweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Norbert Növényi Jr.",
+      "Theo Haig"
      ],
      "watch": [
       {
@@ -571,24 +408,128 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Norbert Növényi Jr.",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4588646.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Theo Haig",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4977642.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Welterweight",
+     "fighters": [
+      "Jaden Ortega",
+      "Alvi Dasuyev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jaden Ortega",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310774.png&w=350&h=254"
+      },
+      {
+       "name": "Alvi Dasuyev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369732.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Paris Moran",
+      "Marcos Degli"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Paris Moran",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060520.png&w=350&h=254"
+      },
+      {
+       "name": "Marcos Degli",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5143890.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Callum Connor",
+      "Piero Guaylupo"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Callum Connor",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369733.png&w=350&h=254"
+      },
+      {
+       "name": "Piero Guaylupo",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369736.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Damian Piwowarczyk",
+      "Emilio Quissua"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Damian Piwowarczyk",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122908.png&w=350&h=254"
+      },
+      {
+       "name": "Emilio Quissua",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369434.png&w=350&h=254"
       }
      ]
     }
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Norbert Növényi Jr.",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4588646.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Theo Haig",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4977642.png&w=350&h=254"
     }
    ],
    "note": null,
@@ -2821,32 +2762,6 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": null,
-     "fighters": [
-      "Sergio Pettis",
-      "Joji Goto"
-     ],
-     "watch": [
-      {
-       "name": "ESPN+",
-       "url": "https://plus.espn.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Sergio Pettis",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3002028.png&w=350&h=254"
-      },
-      {
-       "name": "Joji Goto",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5277000.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
       "Oleg Popov",
@@ -2871,12 +2786,12 @@
      ]
     },
     {
-     "order": 4,
+     "order": 3,
      "slot": "undercard",
-     "weight": null,
+     "weight": "Welterweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Abubakar Nurmagomedov",
+      "David Martinez"
      ],
      "watch": [
       {
@@ -2887,12 +2802,38 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Abubakar Nurmagomedov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3895515.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "David Martinez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215204.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": null,
+     "fighters": [
+      "Sergio Pettis",
+      "Joji Goto"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Sergio Pettis",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3002028.png&w=350&h=254"
+      },
+      {
+       "name": "Joji Goto",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5277000.png&w=350&h=254"
       }
      ]
     },
@@ -2919,6 +2860,32 @@
       {
        "name": "Khasan Magomedsharipov",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4715264.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": null,
+     "fighters": [
+      "TBA",
+      "Opponent TBA"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+      },
+      {
+       "name": "Opponent TBA",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
       }
      ]
     }
