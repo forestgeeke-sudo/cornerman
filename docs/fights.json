@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T21:56:43Z",
+ "generated": "2026-09-22T04:50:22Z",
  "counts": {
   "mma": 34
  },
@@ -197,7 +197,7 @@
    "tier": "fight_night",
    "name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
    "headline": "Rosas Jr. vs. Barcelos",
-   "date": "2026-09-26T19:00Z",
+   "date": "2026-09-26T21:00Z",
    "datePrecision": "time",
    "venue": "Meta APEX",
    "location": "Las Vegas, NV",
@@ -472,6 +472,32 @@
     {
      "order": 11,
      "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Mickey Gall",
+      "Sedriques Dumas"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Mickey Gall",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3960470.png&w=350&h=254"
+      },
+      {
+       "name": "Sedriques Dumas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060467.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
       "Vanessa Demopoulos",
@@ -621,7 +647,7 @@
    "tier": "numbered",
    "name": "UFC 332: Silva vs. Wang",
    "headline": "Silva vs. Wang",
-   "date": "2026-10-03T21:00Z",
+   "date": "2026-10-03T20:00Z",
    "datePrecision": "time",
    "venue": "Delta Center",
    "location": "Salt Lake City, UT",
@@ -1473,7 +1499,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061331/league/pfl"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061331"
   },
   {
    "id": "one-20261017-one-samurai-4",
@@ -1482,7 +1508,7 @@
    "tier": "other",
    "name": "ONE SAMURAI 4",
    "headline": "ONE SAMURAI 4",
-   "date": "2026-10-17T07:00:00Z",
+   "date": "2026-10-17T06:30:00Z",
    "datePrecision": "time",
    "venue": "Ariake Arena",
    "location": "Tokyo",
@@ -2108,7 +2134,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061267"
   },
   {
    "id": "one-20261030-one-friday-fights-176",
@@ -2242,7 +2268,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061420"
   },
   {
    "id": "one-20261106-one-friday-fights-177",
@@ -2373,7 +2399,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061268"
   },
   {
    "id": "one-20261113-one-friday-fights-178",
@@ -2585,7 +2611,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061421"
   },
   {
    "id": "ufc-600061400",
