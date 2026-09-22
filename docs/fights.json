@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T04:50:22Z",
+ "generated": "2026-09-22T11:33:21Z",
  "counts": {
   "mma": 34
  },
@@ -533,7 +533,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061266/league/ufc"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061266"
   },
   {
    "id": "ufc-600060739",
@@ -592,7 +592,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600060739/league/ufc"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600060739"
   },
   {
    "id": "one-20261002-one-friday-fights-173",
@@ -1009,7 +1009,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061182/league/ufc"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061182"
   },
   {
    "id": "ufc-600060740",
@@ -1499,7 +1499,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061331"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061331/league/pfl"
   },
   {
    "id": "one-20261017-one-samurai-4",
@@ -2399,7 +2399,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061268"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc"
   },
   {
    "id": "one-20261113-one-friday-fights-178",
@@ -2611,7 +2611,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061421"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl"
   },
   {
    "id": "ufc-600061400",
