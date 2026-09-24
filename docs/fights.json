@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T21:28:31Z",
+ "generated": "2026-09-24T04:44:46Z",
  "counts": {
   "mma": 33
  },
@@ -1249,32 +1249,6 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Denis Goltsov",
-      "Maxwell Djantou Nana"
-     ],
-     "watch": [
-      {
-       "name": "ESPN2",
-       "url": "https://www.espn.com/watch/",
-       "kind": "tv"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Denis Goltsov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3024604.png&w=350&h=254"
-      },
-      {
-       "name": "Maxwell Djantou Nana",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5219953.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
       "Sarvarjon Khamidov",
@@ -1299,7 +1273,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 3,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -1325,7 +1299,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 4,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -1334,9 +1308,9 @@
      ],
      "watch": [
       {
-       "name": "ESPN+",
-       "url": "https://plus.espn.com/",
-       "kind": "streaming"
+       "name": "ESPN2",
+       "url": "https://www.espn.com/watch/",
+       "kind": "tv"
       }
      ],
      "portraits": [
@@ -1351,33 +1325,7 @@
      ]
     },
     {
-     "order": 6,
-     "slot": "undercard",
-     "weight": "Bantamweight",
-     "fighters": [
-      "Alexander Shabliy",
-      "Landry Ward"
-     ],
-     "watch": [
-      {
-       "name": "ESPN+",
-       "url": "https://plus.espn.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Alexander Shabliy",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4205092.png&w=350&h=254"
-      },
-      {
-       "name": "Landry Ward",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5172392.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 7,
+     "order": 5,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -1403,7 +1351,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 6,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -2413,6 +2361,32 @@
     {
      "order": 2,
      "slot": "comain",
+     "weight": "Welterweight",
+     "fighters": [
+      "Patrick Habirora",
+      "Omar El Dafrawy"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Patrick Habirora",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5196656.png&w=350&h=254"
+      },
+      {
+       "name": "Omar El Dafrawy",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215143.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
       "Oleg Popov",
@@ -2437,7 +2411,7 @@
      ]
     },
     {
-     "order": 3,
+     "order": 4,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -2463,7 +2437,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 5,
      "slot": "undercard",
      "weight": null,
      "fighters": [
@@ -2489,7 +2463,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 6,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -2511,32 +2485,6 @@
       {
        "name": "Khasan Magomedsharipov",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4715264.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 6,
-     "slot": "undercard",
-     "weight": null,
-     "fighters": [
-      "TBA",
-      "Opponent TBA"
-     ],
-     "watch": [
-      {
-       "name": "ESPN+",
-       "url": "https://plus.espn.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
-      },
-      {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
       }
      ]
     }
@@ -3201,7 +3149,7 @@
    "tier": "other",
    "name": "PFL Lyon: Lapilus vs. McKee",
    "headline": "Lapilus vs. McKee",
-   "date": "2026-12-19T14:00Z",
+   "date": "2026-12-19T16:00Z",
    "datePrecision": "time",
    "venue": "LDLC Arena",
    "location": "Lyon, France",
