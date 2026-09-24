@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T04:44:46Z",
+ "generated": "2026-09-24T11:40:36Z",
  "counts": {
   "mma": 33
  },
@@ -1082,10 +1082,10 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": null,
+     "weight": "Welterweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Ismael Bonfim",
+      "Francisco Prado"
      ],
      "watch": [
       {
@@ -1096,12 +1096,12 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Ismael Bonfim",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3093513.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Francisco Prado",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5123216.png&w=350&h=254"
       }
      ]
     }
@@ -1208,7 +1208,7 @@
    "tier": "other",
    "name": "PFL Chicago: Carmouche vs. Bishop 2",
    "headline": "Carmouche vs. Bishop 2",
-   "date": "2026-10-17T00:00Z",
+   "date": "2026-10-16T22:00Z",
    "datePrecision": "time",
    "venue": "Wintrust Arena",
    "location": "Chicago, IL",
@@ -1249,32 +1249,6 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": "Bantamweight",
-     "fighters": [
-      "Sarvarjon Khamidov",
-      "Rafael do Nascimento"
-     ],
-     "watch": [
-      {
-       "name": "ESPN2",
-       "url": "https://www.espn.com/watch/",
-       "kind": "tv"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Sarvarjon Khamidov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5022142.png&w=350&h=254"
-      },
-      {
-       "name": "Rafael do Nascimento",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110471.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
       "Timur Khizriev",
@@ -1295,6 +1269,32 @@
       {
        "name": "Gabriel Braga",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5124792.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Sarvarjon Khamidov",
+      "Rafael do Nascimento"
+     ],
+     "watch": [
+      {
+       "name": "ESPN2",
+       "url": "https://www.espn.com/watch/",
+       "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Sarvarjon Khamidov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5022142.png&w=350&h=254"
+      },
+      {
+       "name": "Rafael do Nascimento",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110471.png&w=350&h=254"
       }
      ]
     },
@@ -2253,10 +2253,10 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": null,
+     "weight": "Featherweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Keiichiro Nakamura",
+      "Ollie Schmid"
      ],
      "watch": [
       {
@@ -2267,12 +2267,12 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Keiichiro Nakamura",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5327937.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Ollie Schmid",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5346907.png&w=350&h=254"
       }
      ]
     }
