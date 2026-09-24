@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T17:07:06Z",
+ "generated": "2026-09-24T21:28:32Z",
  "counts": {
   "mma": 33
  },
@@ -75,10 +75,10 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": "Middleweight",
+     "weight": "W Bantamweight",
      "fighters": [
-      "Robert Bryczek",
-      "Rodolfo Vieira"
+      "Norma Dumont",
+      "Ailin Perez"
      ],
      "watch": [
       {
@@ -89,12 +89,12 @@
      ],
      "portraits": [
       {
-       "name": "Robert Bryczek",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4341572.png&w=350&h=254"
+       "name": "Norma Dumont",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418784.png&w=350&h=254"
       },
       {
-       "name": "Rodolfo Vieira",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426250.png&w=350&h=254"
+       "name": "Ailin Perez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5075333.png&w=350&h=254"
       }
      ]
     },
@@ -179,6 +179,32 @@
     {
      "order": 6,
      "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Robert Bryczek",
+      "Rodolfo Vieira"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Robert Bryczek",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4341572.png&w=350&h=254"
+      },
+      {
+       "name": "Rodolfo Vieira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426250.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
       "Christian Edwards",
@@ -203,7 +229,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -229,7 +255,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -251,32 +277,6 @@
       {
        "name": "Montel Jackson",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4339130.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
-     "weight": "W Bantamweight",
-     "fighters": [
-      "Norma Dumont",
-      "Ailin Perez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Norma Dumont",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418784.png&w=350&h=254"
-      },
-      {
-       "name": "Ailin Perez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5075333.png&w=350&h=254"
       }
      ]
     },
@@ -308,32 +308,6 @@
     },
     {
      "order": 11,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Mickey Gall",
-      "Sedriques Dumas"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Mickey Gall",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3960470.png&w=350&h=254"
-      },
-      {
-       "name": "Sedriques Dumas",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060467.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 12,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
