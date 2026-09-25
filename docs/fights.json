@@ -1,32 +1,9 @@
 {
- "generated": "2026-09-25T11:47:26Z",
+ "generated": "2026-09-25T17:07:24Z",
  "counts": {
-  "mma": 33
+  "mma": 32
  },
  "events": [
-  {
-   "id": "one-20260925-one-friday-fights-172",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "contender",
-   "name": "ONE Friday Fights 172 & The Inner Circle 32",
-   "headline": "ONE Friday Fights 172 & The Inner Circle 32",
-   "date": "2026-09-25T11:30:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "YouTube",
-     "url": "https://www.youtube.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-172/"
-  },
   {
    "id": "ufc-600061266",
    "sport": "mma",
