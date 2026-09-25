@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T21:28:32Z",
+ "generated": "2026-09-25T04:53:18Z",
  "counts": {
   "mma": 33
  },
@@ -101,6 +101,32 @@
     {
      "order": 3,
      "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Sedriques Dumas",
+      "Luis Hernandez"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Sedriques Dumas",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060467.png&w=350&h=254"
+      },
+      {
+       "name": "Luis Hernandez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369427.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
       "Ilimbek Akylbek Uulu",
@@ -125,7 +151,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 5,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
@@ -151,7 +177,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 6,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -177,7 +203,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 7,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -203,7 +229,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -229,7 +255,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -255,7 +281,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 10,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -281,7 +307,7 @@
      ]
     },
     {
-     "order": 10,
+     "order": 11,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -307,7 +333,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 12,
      "slot": "undercard",
      "weight": "W Strawweight",
      "fighters": [
@@ -368,32 +394,6 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": "W Strawweight",
-     "fighters": [
-      "Camila Reynoso",
-      "Aieza Bertolso"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Camila Reynoso",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5345644.png&w=350&h=254"
-      },
-      {
-       "name": "Aieza Bertolso",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401056.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
      "weight": "Lightweight",
      "fighters": [
       "George Staines",
@@ -414,6 +414,32 @@
       {
        "name": "Loai Abushaar",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401059.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Zaurbek Sabanov",
+      "Adama Diop"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Zaurbek Sabanov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369436.png&w=350&h=254"
+      },
+      {
+       "name": "Adama Diop",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369444.png&w=350&h=254"
       }
      ]
     },
@@ -446,6 +472,32 @@
     {
      "order": 4,
      "slot": "undercard",
+     "weight": "W Strawweight",
+     "fighters": [
+      "Camila Reynoso",
+      "Aieza Bertolso"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Camila Reynoso",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5345644.png&w=350&h=254"
+      },
+      {
+       "name": "Aieza Bertolso",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401056.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
       "Ilias Bulaid",
@@ -468,42 +520,16 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5077314.png&w=350&h=254"
       }
      ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Zaurbek Sabanov",
-      "Adama Diop"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Zaurbek Sabanov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369436.png&w=350&h=254"
-      },
-      {
-       "name": "Adama Diop",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369444.png&w=350&h=254"
-      }
-     ]
     }
    ],
    "art": [
     {
-     "name": "Camila Reynoso",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5345644.png&w=350&h=254"
+     "name": "George Staines",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401045.png&w=350&h=254"
     },
     {
-     "name": "Aieza Bertolso",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401056.png&w=350&h=254"
+     "name": "Loai Abushaar",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401059.png&w=350&h=254"
     }
    ],
    "note": null,
