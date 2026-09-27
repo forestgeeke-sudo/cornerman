@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T11:58:08Z",
+ "generated": "2026-09-27T16:55:50Z",
  "counts": {
   "mma": 32
  },
@@ -933,6 +933,32 @@
     {
      "order": 4,
      "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "J.P. Saint Louis",
+      "Oualy Tandia"
+     ],
+     "watch": [
+      {
+       "name": "ESPN2",
+       "url": "https://www.espn.com/watch/",
+       "kind": "tv"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "J.P. Saint Louis",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4378418.png&w=350&h=254"
+      },
+      {
+       "name": "Oualy Tandia",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5440547.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
       "Emiliano Sordi",
@@ -957,7 +983,33 @@
      ]
     },
     {
-     "order": 5,
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Gamid Khizriev",
+      "Michael Boylan"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Gamid Khizriev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5355506.png&w=350&h=254"
+      },
+      {
+       "name": "Michael Boylan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5382518.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -983,7 +1035,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 8,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -1005,6 +1057,162 @@
       {
        "name": "Cássio Barão",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5450810.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Trey Waters",
+      "Eliezer Kubanza"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Trey Waters",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5092403.png&w=350&h=254"
+      },
+      {
+       "name": "Eliezer Kubanza",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110297.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Cobey Fehr",
+      "Rosario Romero"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Cobey Fehr",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5355508.png&w=350&h=254"
+      },
+      {
+       "name": "Rosario Romero",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5452137.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Chelsea Hackett",
+      "Paulina Wisniewska"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Chelsea Hackett",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4689226.png&w=350&h=254"
+      },
+      {
+       "name": "Paulina Wisniewska",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5210203.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Noah Hermosillo",
+      "Caden Cox"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Noah Hermosillo",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5365587.png&w=350&h=254"
+      },
+      {
+       "name": "Caden Cox",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5454024.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "slot": "undercard",
+     "weight": "W Strawweight",
+     "fighters": [
+      "Giulliany Perea",
+      "Benita van Rooij"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Giulliany Perea",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5221340.png&w=350&h=254"
+      },
+      {
+       "name": "Benita van Rooij",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5331633.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 14,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Morquez Forest",
+      "Levan Khabalaev"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Morquez Forest",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5271265.png&w=350&h=254"
+      },
+      {
+       "name": "Levan Khabalaev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5382419.png&w=350&h=254"
       }
      ]
     }
@@ -2822,6 +3030,84 @@
     {
      "order": 2,
      "slot": "comain",
+     "weight": "Middleweight",
+     "fighters": [
+      "Bryan Battle",
+      "Boris Mbarga Atangana"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Bryan Battle",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4815998.png&w=350&h=254"
+      },
+      {
+       "name": "Boris Mbarga Atangana",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292380.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Abdoul Abdouraguimov",
+      "Andreeas Binder"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Abdoul Abdouraguimov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4245706.png&w=350&h=254"
+      },
+      {
+       "name": "Andreeas Binder",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5179657.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Fabian Edwards",
+      "Ilian Bouafia"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Fabian Edwards",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4341543.png&w=350&h=254"
+      },
+      {
+       "name": "Ilian Bouafia",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5287881.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
      "weight": null,
      "fighters": [
       "TBA",
