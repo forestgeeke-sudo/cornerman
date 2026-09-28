@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T13:47:54Z",
+ "generated": "2026-09-28T23:13:58Z",
  "counts": {
   "mma": 32
  },
@@ -546,6 +546,32 @@
     },
     {
      "order": 13,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Jacobe Smith",
+      "Bruce Whitehead"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jacobe Smith",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149961.png&w=350&h=254"
+      },
+      {
+       "name": "Bruce Whitehead",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5311402.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 14,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
