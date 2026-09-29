@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T23:13:58Z",
+ "generated": "2026-09-29T05:39:55Z",
  "counts": {
   "mma": 32
  },
@@ -521,32 +521,6 @@
     {
      "order": 12,
      "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Marvin Vettori",
-      "Ismail Naurdiev"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Marvin Vettori",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001851.png&w=350&h=254"
-      },
-      {
-       "name": "Ismail Naurdiev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4412813.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 13,
-     "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
       "Jacobe Smith",
@@ -567,6 +541,32 @@
       {
        "name": "Bruce Whitehead",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5311402.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Marvin Vettori",
+      "Ismail Naurdiev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Marvin Vettori",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001851.png&w=350&h=254"
+      },
+      {
+       "name": "Ismail Naurdiev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4412813.png&w=350&h=254"
       }
      ]
     },
