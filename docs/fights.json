@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T05:28:16Z",
+ "generated": "2026-09-30T12:29:25Z",
  "counts": {
   "mma": 31
  },
@@ -332,32 +332,6 @@
     {
      "order": 11,
      "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Rafael Dos Anjos",
-      "Alexander Hernandez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Rafael Dos Anjos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335687.png&w=350&h=254"
-      },
-      {
-       "name": "Alexander Hernandez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4018757.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 12,
-     "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
       "Jacobe Smith",
@@ -378,6 +352,32 @@
       {
        "name": "Bruce Whitehead",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5311402.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Rafael Dos Anjos",
+      "Alexander Hernandez"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Rafael Dos Anjos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335687.png&w=350&h=254"
+      },
+      {
+       "name": "Alexander Hernandez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4018757.png&w=350&h=254"
       }
      ]
     },
