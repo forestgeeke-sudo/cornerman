@@ -1,146 +1,9 @@
 {
- "generated": "2026-09-29T22:12:11Z",
+ "generated": "2026-09-30T05:28:16Z",
  "counts": {
-  "mma": 32
+  "mma": 31
  },
  "events": [
-  {
-   "id": "ufc-600060739",
-   "sport": "mma",
-   "org": "UFC",
-   "tier": "contender",
-   "name": "Dana White's Contender Series: Season 10, Week 8",
-   "headline": "Season 10, Week 8",
-   "date": "2026-09-29T23:00Z",
-   "datePrecision": "time",
-   "venue": "Meta APEX",
-   "location": "Las Vegas, NV",
-   "watch": [
-    {
-     "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "Lightweight",
-     "fighters": [
-      "George Staines",
-      "Loai Abushaar"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "George Staines",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401045.png&w=350&h=254"
-      },
-      {
-       "name": "Loai Abushaar",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401059.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Zaurbek Sabanov",
-      "Adama Diop"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Zaurbek Sabanov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369436.png&w=350&h=254"
-      },
-      {
-       "name": "Adama Diop",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369444.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Luca Borando",
-      "Ian Escuza"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Luca Borando",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5311705.png&w=350&h=254"
-      },
-      {
-       "name": "Ian Escuza",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401057.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
-     "weight": "W Strawweight",
-     "fighters": [
-      "Camila Reynoso",
-      "Aieza Bertolso"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Camila Reynoso",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5345644.png&w=350&h=254"
-      },
-      {
-       "name": "Aieza Bertolso",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401056.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "George Staines",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401045.png&w=350&h=254"
-    },
-    {
-     "name": "Loai Abushaar",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401059.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600060739/league/ufc"
-  },
   {
    "id": "one-20261002-one-friday-fights-173",
    "sport": "mma",
@@ -1936,32 +1799,6 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": "W Flyweight",
-     "fighters": [
-      "Tainara Lisboa",
-      "Lucia Szabova"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Tainara Lisboa",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
-      },
-      {
-       "name": "Lucia Szabova",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Joe Kropschot",
@@ -1982,6 +1819,32 @@
       {
        "name": "Nick Klein",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Tainara Lisboa",
+      "Lucia Szabova"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Tainara Lisboa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
+      },
+      {
+       "name": "Lucia Szabova",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
       }
      ]
     }
