@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-30T22:12:20Z",
+ "generated": "2026-10-01T05:46:52Z",
  "counts": {
-  "mma": 31
+  "mma": 32
  },
  "events": [
   {
@@ -254,32 +254,6 @@
     {
      "order": 8,
      "slot": "undercard",
-     "weight": "Bantamweight",
-     "fighters": [
-      "Marcus McGhee",
-      "Bernardo Sopaj"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Marcus McGhee",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895760.png&w=350&h=254"
-      },
-      {
-       "name": "Bernardo Sopaj",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080883.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
       "Anthony Wint",
@@ -304,7 +278,7 @@
      ]
     },
     {
-     "order": 10,
+     "order": 9,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -330,7 +304,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 10,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -356,7 +330,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 11,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -382,7 +356,7 @@
      ]
     },
     {
-     "order": 13,
+     "order": 12,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -408,7 +382,7 @@
      ]
     },
     {
-     "order": 14,
+     "order": 13,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -2597,6 +2571,273 @@
    "link": "https://www.onefc.com/events/one-friday-fights-179/"
   },
   {
+   "id": "ufc-600061665",
+   "sport": "mma",
+   "org": "UFC",
+   "tier": "fight_night",
+   "name": "UFC Fight Night: Procházka vs. Stirling",
+   "headline": "Procházka vs. Stirling",
+   "date": "2026-11-21T14:00Z",
+   "datePrecision": "time",
+   "venue": "ABHA Arena",
+   "location": "Doha, Qatar",
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://www.paramountplus.com/",
+     "kind": "streaming"
+    }
+   ],
+   "card": [
+    {
+     "order": 1,
+     "slot": "main",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Jiří Procházka",
+      "Navajo Stirling"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jiří Procházka",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3156612.png&w=350&h=254"
+      },
+      {
+       "name": "Navajo Stirling",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5216713.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Featherweight",
+     "fighters": [
+      "Aljamain Sterling",
+      "Kevin Vallejos"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Aljamain Sterling",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3031559.png&w=350&h=254"
+      },
+      {
+       "name": "Kevin Vallejos",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145681.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Brian Ortega",
+      "Dan Hooker"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Brian Ortega",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3045737.png&w=350&h=254"
+      },
+      {
+       "name": "Dan Hooker",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3109135.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Jared Cannonier",
+      "Ikram Aliskerov"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jared Cannonier",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3154860.png&w=350&h=254"
+      },
+      {
+       "name": "Ikram Aliskerov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684776.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Shamil Gaziev",
+      "Tallison Teixeira"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Shamil Gaziev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145498.png&w=350&h=254"
+      },
+      {
+       "name": "Tallison Teixeira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212856.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Jake Matthews",
+      "Tahir Abdullayev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jake Matthews",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3089915.png&w=350&h=254"
+      },
+      {
+       "name": "Tahir Abdullayev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4394753.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Aleksandre Topuria",
+      "Santiago Luna"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Aleksandre Topuria",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5185662.png&w=350&h=254"
+      },
+      {
+       "name": "Santiago Luna",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307799.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Kyoji Horiguchi",
+      "Asu Almabayev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Kyoji Horiguchi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2613374.png&w=350&h=254"
+      },
+      {
+       "name": "Asu Almabayev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4294926.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Amir Albazi",
+      "Alessandro Costa"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Amir Albazi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684848.png&w=350&h=254"
+      },
+      {
+       "name": "Alessandro Costa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074121.png&w=350&h=254"
+      }
+     ]
+    }
+   ],
+   "art": [
+    {
+     "name": "Jiří Procházka",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3156612.png&w=350&h=254"
+    },
+    {
+     "name": "Navajo Stirling",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5216713.png&w=350&h=254"
+    }
+   ],
+   "note": null,
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc"
+  },
+  {
    "id": "one-20261127-one-friday-fights-180",
    "sport": "mma",
    "org": "ONE",
@@ -2971,10 +3212,10 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": null,
+     "weight": "Bantamweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Liam Gittins",
+      "Baris Adiguzel"
      ],
      "watch": [
       {
@@ -2985,12 +3226,12 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Liam Gittins",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4709157.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Baris Adiguzel",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5295060.png&w=350&h=254"
       }
      ]
     }
