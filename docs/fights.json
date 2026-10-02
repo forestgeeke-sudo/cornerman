@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T22:38:35Z",
+ "generated": "2026-10-02T05:31:49Z",
  "counts": {
   "mma": 32
  },
@@ -254,6 +254,32 @@
     {
      "order": 8,
      "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Marcus McGhee",
+      "Anthony Romero"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Marcus McGhee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895760.png&w=350&h=254"
+      },
+      {
+       "name": "Anthony Romero",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5454993.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
       "Anthony Wint",
@@ -278,7 +304,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 10,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -304,7 +330,7 @@
      ]
     },
     {
-     "order": 10,
+     "order": 11,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -330,7 +356,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 12,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -356,7 +382,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 13,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -382,7 +408,7 @@
      ]
     },
     {
-     "order": 13,
+     "order": 14,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -1270,8 +1296,8 @@
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
-      "Gilbert Urbina",
-      "Julien LeBlanc"
+      "Julien LeBlanc",
+      "Nick Galanti"
      ],
      "watch": [
       {
@@ -1282,12 +1308,12 @@
      ],
      "portraits": [
       {
-       "name": "Gilbert Urbina",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4375574.png&w=350&h=254"
-      },
-      {
        "name": "Julien LeBlanc",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4807973.png&w=350&h=254"
+      },
+      {
+       "name": "Nick Galanti",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296770.png&w=350&h=254"
       }
      ]
     },
