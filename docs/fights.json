@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T05:31:49Z",
+ "generated": "2026-10-02T12:28:23Z",
  "counts": {
   "mma": 32
  },
@@ -256,8 +256,8 @@
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
-      "Marcus McGhee",
-      "Anthony Romero"
+      "Anthony Romero",
+      "Marcus McGhee"
      ],
      "watch": [
       {
@@ -268,12 +268,12 @@
      ],
      "portraits": [
       {
-       "name": "Marcus McGhee",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895760.png&w=350&h=254"
+       "name": "Anthony Romero",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684470.png&w=350&h=254"
       },
       {
-       "name": "Anthony Romero",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5454993.png&w=350&h=254"
+       "name": "Marcus McGhee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895760.png&w=350&h=254"
       }
      ]
     },
