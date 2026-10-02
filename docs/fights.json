@@ -1,32 +1,9 @@
 {
- "generated": "2026-10-02T12:28:23Z",
+ "generated": "2026-10-02T22:10:34Z",
  "counts": {
-  "mma": 32
+  "mma": 31
  },
  "events": [
-  {
-   "id": "one-20261002-one-friday-fights-173",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "contender",
-   "name": "ONE Friday Fights 173 & The Inner Circle 33",
-   "headline": "ONE Friday Fights 173 & The Inner Circle 33",
-   "date": "2026-10-02T11:30:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "YouTube",
-     "url": "https://www.youtube.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-173/"
-  },
   {
    "id": "one-20261003-onefightnight48",
    "sport": "mma",
