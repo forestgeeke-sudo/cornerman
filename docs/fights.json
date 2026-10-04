@@ -1,406 +1,9 @@
 {
- "generated": "2026-10-03T21:11:24Z",
+ "generated": "2026-10-04T05:47:34Z",
  "counts": {
-  "mma": 30
+  "mma": 29
  },
  "events": [
-  {
-   "id": "ufc-600061182",
-   "sport": "mma",
-   "org": "UFC",
-   "tier": "numbered",
-   "name": "UFC 332: Silva vs. Wang",
-   "headline": "Silva vs. Wang",
-   "date": "2026-10-03T20:00Z",
-   "datePrecision": "time",
-   "venue": "Delta Center",
-   "location": "Salt Lake City, UT",
-   "watch": [
-    {
-     "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "W Flyweight",
-     "fighters": [
-      "Natalia Silva",
-      "Wang Cong"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Natalia Silva",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4054605.png&w=350&h=254"
-      },
-      {
-       "name": "Wang Cong",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4215200.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "Bantamweight",
-     "fighters": [
-      "Deiveson Figueiredo",
-      "Payton Talbott"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Deiveson Figueiredo",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4189320.png&w=350&h=254"
-      },
-      {
-       "name": "Payton Talbott",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144008.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "King Green",
-      "Esteban Ribovics"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "King Green",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2502364.png&w=350&h=254"
-      },
-      {
-       "name": "Esteban Ribovics",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074131.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Roberto Soldić",
-      "Khaos Williams"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Roberto Soldić",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4274796.png&w=350&h=254"
-      },
-      {
-       "name": "Khaos Williams",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4612580.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Roman Kopylov",
-      "Ateba Gautier"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Roman Kopylov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4300149.png&w=350&h=254"
-      },
-      {
-       "name": "Ateba Gautier",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218421.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 6,
-     "slot": "undercard",
-     "weight": "Flyweight",
-     "fighters": [
-      "Alden Coria",
-      "Imanol Rodriguez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Alden Coria",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5099732.png&w=350&h=254"
-      },
-      {
-       "name": "Imanol Rodriguez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289578.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 7,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Andrey Pulyaev",
-      "Damian Pinas"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Andrey Pulyaev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5211225.png&w=350&h=254"
-      },
-      {
-       "name": "Damian Pinas",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292022.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 8,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Anthony Romero",
-      "Marcus McGhee"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Anthony Romero",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684470.png&w=350&h=254"
-      },
-      {
-       "name": "Marcus McGhee",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895760.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Anthony Wint",
-      "Lucas Armand"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Anthony Wint",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3128853.png&w=350&h=254"
-      },
-      {
-       "name": "Lucas Armand",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5450121.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
-     "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Johnny Walker",
-      "Mick Parkin"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Johnny Walker",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3146944.png&w=350&h=254"
-      },
-      {
-       "name": "Mick Parkin",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060505.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 11,
-     "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Jacobe Smith",
-      "Bruce Whitehead"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Jacobe Smith",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149961.png&w=350&h=254"
-      },
-      {
-       "name": "Bruce Whitehead",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5311402.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 12,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Rafael Dos Anjos",
-      "Alexander Hernandez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Rafael Dos Anjos",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335687.png&w=350&h=254"
-      },
-      {
-       "name": "Alexander Hernandez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4018757.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 13,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Marvin Vettori",
-      "Ismail Naurdiev"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Marvin Vettori",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4001851.png&w=350&h=254"
-      },
-      {
-       "name": "Ismail Naurdiev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4412813.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 14,
-     "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Court McGee",
-      "Eric Nolan"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Court McGee",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504639.png&w=350&h=254"
-      },
-      {
-       "name": "Eric Nolan",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5290958.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "Natalia Silva",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4054605.png&w=350&h=254"
-    },
-    {
-     "name": "Wang Cong",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4215200.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061182"
-  },
   {
    "id": "ufc-600060740",
    "sport": "mma",
@@ -2430,32 +2033,6 @@
     {
      "order": 3,
      "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Keiichiro Nakamura",
-      "Ollie Schmid"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Keiichiro Nakamura",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5327937.png&w=350&h=254"
-      },
-      {
-       "name": "Ollie Schmid",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5346907.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Wes Schultz",
@@ -2480,7 +2057,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 4,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -2506,7 +2083,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 5,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -2532,7 +2109,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 6,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -2558,7 +2135,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 7,
      "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
@@ -2580,6 +2157,32 @@
       {
        "name": "Nina Milošević",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5361791.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Keiichiro Nakamura",
+      "Ollie Schmid"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Keiichiro Nakamura",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5327937.png&w=350&h=254"
+      },
+      {
+       "name": "Ollie Schmid",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5346907.png&w=350&h=254"
       }
      ]
     },
@@ -3717,8 +3320,8 @@
    "sport": "mma",
    "org": "UFC",
    "tier": "numbered",
-   "name": "UFC 335",
-   "headline": "TBA vs. Opponent TBA",
+   "name": "UFC 335: Oliveira vs. Lopes",
+   "headline": "Oliveira vs. Lopes",
    "date": "2026-12-12T22:00Z",
    "datePrecision": "time",
    "venue": "T-Mobile Arena",
@@ -3734,10 +3337,10 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
+     "weight": "Lightweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Charles Oliveira",
+      "Diego Lopes"
      ],
      "watch": [
       {
@@ -3748,22 +3351,22 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Charles Oliveira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504169.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Diego Lopes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4881999.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 2,
      "slot": "comain",
-     "weight": null,
+     "weight": "Middleweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Joe Pyfer",
+      "Bo Nickal"
      ],
      "watch": [
       {
@@ -3774,12 +3377,12 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Joe Pyfer",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684135.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Bo Nickal",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5061870.png&w=350&h=254"
       }
      ]
     },
@@ -3812,12 +3415,12 @@
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Charles Oliveira",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504169.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Diego Lopes",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4881999.png&w=350&h=254"
     }
    ],
    "note": null,
