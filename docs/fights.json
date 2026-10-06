@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T13:19:39Z",
+ "generated": "2026-10-06T22:37:53Z",
  "counts": {
   "mma": 29
  },
@@ -26,10 +26,10 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": "W Bantamweight",
+     "weight": "Light Heavyweight",
      "fighters": [
-      "Alivia Bierley",
-      "Summer Onley"
+      "Preston LaGrange",
+      "Nell Ariano"
      ],
      "watch": [
       {
@@ -40,12 +40,12 @@
      ],
      "portraits": [
       {
-       "name": "Alivia Bierley",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369445.png&w=350&h=254"
+       "name": "Preston LaGrange",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350158.png&w=350&h=254"
       },
       {
-       "name": "Summer Onley",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397622.png&w=350&h=254"
+       "name": "Nell Ariano",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397620.png&w=350&h=254"
       }
      ]
     },
@@ -130,10 +130,10 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": "Light Heavyweight",
+     "weight": "W Bantamweight",
      "fighters": [
-      "Preston LaGrange",
-      "Nell Ariano"
+      "Alivia Bierley",
+      "Summer Onley"
      ],
      "watch": [
       {
@@ -144,24 +144,24 @@
      ],
      "portraits": [
       {
-       "name": "Preston LaGrange",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350158.png&w=350&h=254"
+       "name": "Alivia Bierley",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369445.png&w=350&h=254"
       },
       {
-       "name": "Nell Ariano",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397620.png&w=350&h=254"
+       "name": "Summer Onley",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397622.png&w=350&h=254"
       }
      ]
     }
    ],
    "art": [
     {
-     "name": "Alivia Bierley",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369445.png&w=350&h=254"
+     "name": "Preston LaGrange",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350158.png&w=350&h=254"
     },
     {
-     "name": "Summer Onley",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397622.png&w=350&h=254"
+     "name": "Nell Ariano",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397620.png&w=350&h=254"
     }
    ],
    "note": null,
