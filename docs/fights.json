@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T00:00:36Z",
+ "generated": "2026-10-06T06:15:39Z",
  "counts": {
   "mma": 29
  },
@@ -557,10 +557,10 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
+     "weight": "Featherweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Ilias Bulaid",
+      "Erick Visconde"
      ],
      "watch": [
       {
@@ -571,24 +571,50 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Ilias Bulaid",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4886803.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Erick Visconde",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5077314.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "W Bantamweight",
+     "fighters": [
+      "Aline Pereira",
+      "Smilla Sundell"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Aline Pereira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110864.png&w=350&h=254"
+      },
+      {
+       "name": "Smilla Sundell",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5402155.png&w=350&h=254"
       }
      ]
     }
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Ilias Bulaid",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4886803.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Erick Visconde",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5077314.png&w=350&h=254"
     }
    ],
    "note": null,
@@ -2045,8 +2071,8 @@
    "sport": "mma",
    "org": "ONE",
    "tier": "other",
-   "name": "ONE Fight Night 49",
-   "headline": "ONE Fight Night 49",
+   "name": "ONE Fight Night 49: Gabriel Vs. Rasulov",
+   "headline": "Gabriel Vs. Rasulov",
    "date": "2026-11-07T02:00:00Z",
    "datePrecision": "time",
    "venue": "Lumpinee Stadium",
