@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T14:30:26Z",
+ "generated": "2026-10-06T00:00:36Z",
  "counts": {
   "mma": 29
  },
@@ -26,10 +26,10 @@
     {
      "order": 1,
      "slot": "main",
-     "weight": null,
+     "weight": "W Bantamweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Alivia Bierley",
+      "Summer Onley"
      ],
      "watch": [
       {
@@ -40,24 +40,128 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Alivia Bierley",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369445.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Summer Onley",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397622.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "slot": "comain",
+     "weight": "Welterweight",
+     "fighters": [
+      "Salhahuddin Everett",
+      "Ozzy Martin"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Salhahuddin Everett",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5392114.png&w=350&h=254"
+      },
+      {
+       "name": "Ozzy Martin",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5392117.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Roque Conceição",
+      "Alexander Chavez"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Roque Conceição",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310567.png&w=350&h=254"
+      },
+      {
+       "name": "Alexander Chavez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5455115.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Mateus Soares",
+      "Ryuho Miyaguchi"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Mateus Soares",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5308528.png&w=350&h=254"
+      },
+      {
+       "name": "Ryuho Miyaguchi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5361793.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Preston LaGrange",
+      "Nell Ariano"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Preston LaGrange",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350158.png&w=350&h=254"
+      },
+      {
+       "name": "Nell Ariano",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397620.png&w=350&h=254"
       }
      ]
     }
    ],
    "art": [
     {
-     "name": "TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+     "name": "Alivia Bierley",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369445.png&w=350&h=254"
     },
     {
-     "name": "Opponent TBA",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+     "name": "Summer Onley",
+     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397622.png&w=350&h=254"
     }
    ],
    "note": null,
