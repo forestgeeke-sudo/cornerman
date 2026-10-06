@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T06:15:39Z",
+ "generated": "2026-10-06T13:19:39Z",
  "counts": {
   "mma": 29
  },
@@ -316,32 +316,6 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": "Light Heavyweight",
-     "fighters": [
-      "Gerald Meerschaert",
-      "Julius Walker"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Gerald Meerschaert",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2553261.png&w=350&h=254"
-      },
-      {
-       "name": "Julius Walker",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264398.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 6,
-     "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
       "Otari Tanzilovi",
@@ -362,6 +336,32 @@
       {
        "name": "Malcolm Wellmaker",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212854.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Gerald Meerschaert",
+      "Julius Walker"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Gerald Meerschaert",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2553261.png&w=350&h=254"
+      },
+      {
+       "name": "Julius Walker",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264398.png&w=350&h=254"
       }
      ]
     },
