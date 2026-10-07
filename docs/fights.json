@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T13:16:31Z",
+ "generated": "2026-10-07T23:02:50Z",
  "counts": {
   "mma": 28
  },
@@ -1052,6 +1052,32 @@
     {
      "order": 3,
      "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Kyle Nelson",
+      "Cristian Pérez"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Kyle Nelson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4408436.png&w=350&h=254"
+      },
+      {
+       "name": "Cristian Pérez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5180489.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Kyle Daukaus",
@@ -1076,7 +1102,7 @@
      ]
     },
     {
-     "order": 4,
+     "order": 5,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -1102,7 +1128,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 6,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -1128,7 +1154,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 7,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -1154,7 +1180,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -1180,12 +1206,12 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
-      "Louie Sutherland",
-      "Javad Mahjoub"
+      "Javad Mahjoub",
+      "Joel Faglier"
      ],
      "watch": [
       {
@@ -1196,22 +1222,22 @@
      ],
      "portraits": [
       {
-       "name": "Louie Sutherland",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080572.png&w=350&h=254"
-      },
-      {
        "name": "Javad Mahjoub",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5405986.png&w=350&h=254"
+      },
+      {
+       "name": "Joel Faglier",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5454260.png&w=350&h=254"
       }
      ]
     },
     {
-     "order": 9,
+     "order": 10,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
       "Katlyn Cerminara",
-      "Jamey-Lyn Horth"
+      "Mackenzie Stiller"
      ],
      "watch": [
       {
@@ -1226,13 +1252,13 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4026490.png&w=350&h=254"
       },
       {
-       "name": "Jamey-Lyn Horth",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4689227.png&w=350&h=254"
+       "name": "Mackenzie Stiller",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130806.png&w=350&h=254"
       }
      ]
     },
     {
-     "order": 10,
+     "order": 11,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -1258,7 +1284,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 12,
      "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
@@ -1284,7 +1310,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 13,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
