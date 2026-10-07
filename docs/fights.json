@@ -1,172 +1,9 @@
 {
- "generated": "2026-10-06T22:37:53Z",
+ "generated": "2026-10-07T05:54:00Z",
  "counts": {
-  "mma": 29
+  "mma": 28
  },
  "events": [
-  {
-   "id": "ufc-600060740",
-   "sport": "mma",
-   "org": "UFC",
-   "tier": "contender",
-   "name": "Dana White's Contender Series: Season 10, Week 9",
-   "headline": "Season 10, Week 9",
-   "date": "2026-10-06T23:00Z",
-   "datePrecision": "time",
-   "venue": "Meta APEX",
-   "location": "Las Vegas, NV",
-   "watch": [
-    {
-     "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "Light Heavyweight",
-     "fighters": [
-      "Preston LaGrange",
-      "Nell Ariano"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Preston LaGrange",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350158.png&w=350&h=254"
-      },
-      {
-       "name": "Nell Ariano",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397620.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "Welterweight",
-     "fighters": [
-      "Salhahuddin Everett",
-      "Ozzy Martin"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Salhahuddin Everett",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5392114.png&w=350&h=254"
-      },
-      {
-       "name": "Ozzy Martin",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5392117.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
-     "weight": "Flyweight",
-     "fighters": [
-      "Roque Conceição",
-      "Alexander Chavez"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Roque Conceição",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310567.png&w=350&h=254"
-      },
-      {
-       "name": "Alexander Chavez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5455115.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
-     "weight": "Bantamweight",
-     "fighters": [
-      "Mateus Soares",
-      "Ryuho Miyaguchi"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Mateus Soares",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5308528.png&w=350&h=254"
-      },
-      {
-       "name": "Ryuho Miyaguchi",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5361793.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "W Bantamweight",
-     "fighters": [
-      "Alivia Bierley",
-      "Summer Onley"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Alivia Bierley",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5369445.png&w=350&h=254"
-      },
-      {
-       "name": "Summer Onley",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397622.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "Preston LaGrange",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350158.png&w=350&h=254"
-    },
-    {
-     "name": "Nell Ariano",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397620.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600060740/league/ufc"
-  },
   {
    "id": "one-20261009-one-friday-fights-174",
    "sport": "mma",
@@ -603,6 +440,84 @@
       {
        "name": "Smilla Sundell",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5402155.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Will Rentz",
+      "Luis Francischinelli"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Will Rentz",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310099.png&w=350&h=254"
+      },
+      {
+       "name": "Luis Francischinelli",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401060.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Davi Cabral",
+      "Douglas da Lapa"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Davi Cabral",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5367388.png&w=350&h=254"
+      },
+      {
+       "name": "Douglas da Lapa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401598.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Jason Asher",
+      "Greg Foster"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jason Asher",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5454992.png&w=350&h=254"
+      },
+      {
+       "name": "Greg Foster",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5455116.png&w=350&h=254"
       }
      ]
     }
@@ -1534,32 +1449,6 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Arnold Allen",
-      "Aaron Pico"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Arnold Allen",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3902098.png&w=350&h=254"
-      },
-      {
-       "name": "Aaron Pico",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4199009.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 6,
-     "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
       "Azamat Murzakanov",
@@ -1584,7 +1473,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 6,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -1610,7 +1499,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 7,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -1636,7 +1525,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 8,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -1662,7 +1551,7 @@
      ]
     },
     {
-     "order": 10,
+     "order": 9,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -3423,29 +3312,6 @@
    "link": "https://www.onefc.com/events/one-friday-fights-182/"
   },
   {
-   "id": "one-20261212-onefightnight50",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "other",
-   "name": "ONE Fight Night 50",
-   "headline": "ONE Fight Night 50",
-   "date": "2026-12-12T02:00:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "Prime Video",
-     "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/onefightnight50/"
-  },
-  {
    "id": "ufc-600061401",
    "sport": "mma",
    "org": "UFC",
@@ -3578,6 +3444,29 @@
    "art": null,
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-183/"
+  },
+  {
+   "id": "one-20261219-onefightnight50",
+   "sport": "mma",
+   "org": "ONE",
+   "tier": "other",
+   "name": "ONE Fight Night 50",
+   "headline": "ONE Fight Night 50",
+   "date": "2026-12-19T02:00:00Z",
+   "datePrecision": "time",
+   "venue": "Lumpinee Stadium",
+   "location": "Bangkok",
+   "watch": [
+    {
+     "name": "Prime Video",
+     "url": "https://www.amazon.com/gp/video/storefront",
+     "kind": "streaming"
+    }
+   ],
+   "card": [],
+   "art": null,
+   "note": null,
+   "link": "https://www.onefc.com/events/onefightnight50/"
   },
   {
    "id": "pfl-600061422",
