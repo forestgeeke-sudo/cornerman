@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T13:23:16Z",
+ "generated": "2026-10-08T23:18:11Z",
  "counts": {
   "mma": 28
  },
@@ -1182,58 +1182,6 @@
     {
      "order": 8,
      "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Julien LeBlanc",
-      "Nick Galanti"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Julien LeBlanc",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4807973.png&w=350&h=254"
-      },
-      {
-       "name": "Nick Galanti",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296770.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
-     "weight": "W Flyweight",
-     "fighters": [
-      "Katlyn Cerminara",
-      "Jamey-Lyn Horth"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Katlyn Cerminara",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4026490.png&w=350&h=254"
-      },
-      {
-       "name": "Jamey-Lyn Horth",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4689227.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
-     "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
       "Chad Anheliger",
@@ -1258,7 +1206,33 @@
      ]
     },
     {
-     "order": 11,
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Julien LeBlanc",
+      "Nick Galanti"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Julien LeBlanc",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4807973.png&w=350&h=254"
+      },
+      {
+       "name": "Nick Galanti",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296770.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
      "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
@@ -1284,7 +1258,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 11,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
