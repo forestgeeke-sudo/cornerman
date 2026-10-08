@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T23:02:50Z",
+ "generated": "2026-10-08T05:57:49Z",
  "counts": {
   "mma": 28
  },
@@ -1208,36 +1208,10 @@
     {
      "order": 9,
      "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Javad Mahjoub",
-      "Joel Faglier"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Javad Mahjoub",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5405986.png&w=350&h=254"
-      },
-      {
-       "name": "Joel Faglier",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5454260.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
-     "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
       "Katlyn Cerminara",
-      "Mackenzie Stiller"
+      "Jamey-Lyn Horth"
      ],
      "watch": [
       {
@@ -1252,13 +1226,13 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4026490.png&w=350&h=254"
       },
       {
-       "name": "Mackenzie Stiller",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130806.png&w=350&h=254"
+       "name": "Jamey-Lyn Horth",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4689227.png&w=350&h=254"
       }
      ]
     },
     {
-     "order": 11,
+     "order": 10,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -1284,7 +1258,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 11,
      "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
@@ -1310,7 +1284,7 @@
      ]
     },
     {
-     "order": 13,
+     "order": 12,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
