@@ -1,32 +1,9 @@
 {
- "generated": "2026-10-09T13:11:28Z",
+ "generated": "2026-10-09T22:35:18Z",
  "counts": {
-  "mma": 28
+  "mma": 27
  },
  "events": [
-  {
-   "id": "one-20261009-one-friday-fights-174",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "contender",
-   "name": "ONE Friday Fights 174 & The Inner Circle 34",
-   "headline": "ONE Friday Fights 174 & The Inner Circle 34",
-   "date": "2026-10-09T11:30:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "YouTube",
-     "url": "https://www.youtube.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-174/"
-  },
   {
    "id": "ufc-600061541",
    "sport": "mma",
