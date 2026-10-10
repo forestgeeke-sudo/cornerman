@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T12:26:15Z",
+ "generated": "2026-10-10T21:39:14Z",
  "counts": {
   "mma": 27
  },
@@ -347,7 +347,7 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061541/league/ufc"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061541"
   },
   {
    "id": "ufc-600060741",
@@ -1185,32 +1185,6 @@
     {
      "order": 9,
      "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Julien LeBlanc",
-      "Nick Galanti"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Julien LeBlanc",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4807973.png&w=350&h=254"
-      },
-      {
-       "name": "Nick Galanti",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296770.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
-     "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
       "Chelsea Chandler",
@@ -1235,7 +1209,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 10,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -1257,6 +1231,84 @@
       {
        "name": "Cody Chovancek",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5282412.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Julien LeBlanc",
+      "Nick Galanti"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Julien LeBlanc",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4807973.png&w=350&h=254"
+      },
+      {
+       "name": "Nick Galanti",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296770.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Javad Mahjoub",
+      "Joel Faglier"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Javad Mahjoub",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5405986.png&w=350&h=254"
+      },
+      {
+       "name": "Joel Faglier",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5454260.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Katlyn Cerminara",
+      "Mackenzie Stiller"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Katlyn Cerminara",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4026490.png&w=350&h=254"
+      },
+      {
+       "name": "Mackenzie Stiller",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130806.png&w=350&h=254"
       }
      ]
     }
