@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T22:35:18Z",
+ "generated": "2026-10-10T05:47:08Z",
  "counts": {
   "mma": 27
  },
@@ -3310,6 +3310,32 @@
     {
      "order": 2,
      "slot": "comain",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Sergei Pavlovich",
+      "Alex Pereira"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Sergei Pavlovich",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4217395.png&w=350&h=254"
+      },
+      {
+       "name": "Alex Pereira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4705658.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Joe Pyfer",
@@ -3334,7 +3360,7 @@
      ]
     },
     {
-     "order": 3,
+     "order": 4,
      "slot": "undercard",
      "weight": null,
      "fighters": [
