@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T05:47:08Z",
+ "generated": "2026-10-10T12:26:15Z",
  "counts": {
   "mma": 27
  },
@@ -1503,6 +1503,32 @@
     },
     {
      "order": 9,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Aaron Pico",
+      "Losene Keita"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Aaron Pico",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4199009.png&w=350&h=254"
+      },
+      {
+       "name": "Losene Keita",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5192314.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
