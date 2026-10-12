@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T21:54:30Z",
+ "generated": "2026-10-12T05:51:18Z",
  "counts": {
   "mma": 26
  },
@@ -814,84 +814,6 @@
     {
      "order": 8,
      "slot": "undercard",
-     "weight": "Bantamweight",
-     "fighters": [
-      "Chad Anheliger",
-      "Steven Koslow"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Chad Anheliger",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4816062.png&w=350&h=254"
-      },
-      {
-       "name": "Steven Koslow",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5119740.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
-     "weight": "W Bantamweight",
-     "fighters": [
-      "Chelsea Chandler",
-      "Melissa Croden"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Chelsea Chandler",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4319785.png&w=350&h=254"
-      },
-      {
-       "name": "Melissa Croden",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4947922.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
-     "slot": "undercard",
-     "weight": "Bantamweight",
-     "fighters": [
-      "SuYoung You",
-      "Cody Chovancek"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "SuYoung You",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5044361.png&w=350&h=254"
-      },
-      {
-       "name": "Cody Chovancek",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5282412.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 11,
-     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Julien LeBlanc",
@@ -916,7 +838,7 @@
      ]
     },
     {
-     "order": 12,
+     "order": 9,
      "slot": "undercard",
      "weight": "Heavyweight",
      "fighters": [
@@ -942,7 +864,7 @@
      ]
     },
     {
-     "order": 13,
+     "order": 10,
      "slot": "undercard",
      "weight": "W Flyweight",
      "fighters": [
@@ -964,6 +886,84 @@
       {
        "name": "Mackenzie Stiller",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130806.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Chad Anheliger",
+      "Steven Koslow"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Chad Anheliger",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4816062.png&w=350&h=254"
+      },
+      {
+       "name": "Steven Koslow",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5119740.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "W Bantamweight",
+     "fighters": [
+      "Chelsea Chandler",
+      "Melissa Croden"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Chelsea Chandler",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4319785.png&w=350&h=254"
+      },
+      {
+       "name": "Melissa Croden",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4947922.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "SuYoung You",
+      "Cody Chovancek"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "SuYoung You",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5044361.png&w=350&h=254"
+      },
+      {
+       "name": "Cody Chovancek",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5282412.png&w=350&h=254"
       }
      ]
     }
