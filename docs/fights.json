@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T14:06:21Z",
+ "generated": "2026-10-13T22:40:57Z",
  "counts": {
   "mma": 26
  },
@@ -1107,32 +1107,6 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Aaron Pico",
-      "Losene Keita"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Aaron Pico",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4199009.png&w=350&h=254"
-      },
-      {
-       "name": "Losene Keita",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5192314.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 6,
-     "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
       "Azamat Murzakanov",
@@ -1157,7 +1131,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 6,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -1183,7 +1157,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 7,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -1209,7 +1183,7 @@
      ]
     },
     {
-     "order": 9,
+     "order": 8,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -1231,6 +1205,32 @@
       {
        "name": "Nurullo Aliev",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5092398.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Aaron Pico",
+      "Losene Keita"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Aaron Pico",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4199009.png&w=350&h=254"
+      },
+      {
+       "name": "Losene Keita",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5192314.png&w=350&h=254"
       }
      ]
     },
@@ -2210,6 +2210,32 @@
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
+      "Movlid Khaybulaev",
+      "Asaël Adjoudj"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Movlid Khaybulaev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4300148.png&w=350&h=254"
+      },
+      {
+       "name": "Asaël Adjoudj",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4894845.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
       "Adam Borics",
       "Khasan Magomedsharipov"
      ],
@@ -2228,6 +2254,136 @@
       {
        "name": "Khasan Magomedsharipov",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4715264.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Rhys McKee",
+      "Ernesto Rodriguez"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Rhys McKee",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4078243.png&w=350&h=254"
+      },
+      {
+       "name": "Ernesto Rodriguez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5077053.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Shem Rock",
+      "Connor Hughes"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Shem Rock",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4913882.png&w=350&h=254"
+      },
+      {
+       "name": "Connor Hughes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5138049.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Alexei Pergande",
+      "Akhmed Magomedov"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Alexei Pergande",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4969980.png&w=350&h=254"
+      },
+      {
+       "name": "Akhmed Magomedov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5078211.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Khamzat Abaev",
+      "Leon Hill"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Khamzat Abaev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289354.png&w=350&h=254"
+      },
+      {
+       "name": "Leon Hill",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5456549.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "Bantamweight",
+     "fighters": [
+      "Nawras Abzakh",
+      "Lewis McGrillen"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Nawras Abzakh",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4385256.png&w=350&h=254"
+      },
+      {
+       "name": "Lewis McGrillen",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5137435.png&w=350&h=254"
       }
      ]
     }
@@ -3324,6 +3480,32 @@
       {
        "name": "Baris Adiguzel",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5295060.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Adam Meskini",
+      "Brandon Brachet"
+     ],
+     "watch": [
+      {
+       "name": "ESPN+",
+       "url": "https://plus.espn.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Adam Meskini",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5146397.png&w=350&h=254"
+      },
+      {
+       "name": "Brandon Brachet",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5456311.png&w=350&h=254"
       }
      ]
     }
