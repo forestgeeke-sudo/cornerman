@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T15:16:11Z",
+ "generated": "2026-10-13T00:35:56Z",
  "counts": {
   "mma": 26
  },
@@ -130,7 +130,7 @@
     {
      "order": 5,
      "slot": "undercard",
-     "weight": "Featherweight",
+     "weight": "Lightweight",
      "fighters": [
       "Jason Asher",
       "Greg Foster"
@@ -552,8 +552,8 @@
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
-      "Morquez Forest",
-      "Levan Khabalaev"
+      "Levan Khabalaev",
+      "Brock Hamer"
      ],
      "watch": [
       {
@@ -564,12 +564,12 @@
      ],
      "portraits": [
       {
-       "name": "Morquez Forest",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5271265.png&w=350&h=254"
-      },
-      {
        "name": "Levan Khabalaev",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5382419.png&w=350&h=254"
+      },
+      {
+       "name": "Brock Hamer",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5458437.png&w=350&h=254"
       }
      ]
     }
@@ -2643,7 +2643,7 @@
    "tier": "fight_night",
    "name": "UFC Fight Night: Procházka vs. Stirling",
    "headline": "Procházka vs. Stirling",
-   "date": "2026-11-21T14:00Z",
+   "date": "2026-11-21T15:00Z",
    "datePrecision": "time",
    "venue": "ABHA Arena",
    "location": "Doha, Qatar",
