@@ -1,172 +1,9 @@
 {
- "generated": "2026-10-13T22:40:57Z",
+ "generated": "2026-10-14T04:48:22Z",
  "counts": {
-  "mma": 26
+  "mma": 25
  },
  "events": [
-  {
-   "id": "ufc-600060741",
-   "sport": "mma",
-   "org": "UFC",
-   "tier": "contender",
-   "name": "Dana White's Contender Series: Season 10, Week 10",
-   "headline": "Season 10, Week 10",
-   "date": "2026-10-13T23:00Z",
-   "datePrecision": "time",
-   "venue": "Meta APEX",
-   "location": "Las Vegas, NV",
-   "watch": [
-    {
-     "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [
-    {
-     "order": 1,
-     "slot": "main",
-     "weight": "Featherweight",
-     "fighters": [
-      "Ilias Bulaid",
-      "Erick Visconde"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Ilias Bulaid",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4886803.png&w=350&h=254"
-      },
-      {
-       "name": "Erick Visconde",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5077314.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 2,
-     "slot": "comain",
-     "weight": "W Bantamweight",
-     "fighters": [
-      "Aline Pereira",
-      "Smilla Sundell"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Aline Pereira",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110864.png&w=350&h=254"
-      },
-      {
-       "name": "Smilla Sundell",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5402155.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Will Rentz",
-      "Luis Francischinelli"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Will Rentz",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310099.png&w=350&h=254"
-      },
-      {
-       "name": "Luis Francischinelli",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401060.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Davi Cabral",
-      "Douglas da Lapa"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Davi Cabral",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5367388.png&w=350&h=254"
-      },
-      {
-       "name": "Douglas da Lapa",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5401598.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Jason Asher",
-      "Greg Foster"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Jason Asher",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5454992.png&w=350&h=254"
-      },
-      {
-       "name": "Greg Foster",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5455116.png&w=350&h=254"
-      }
-     ]
-    }
-   ],
-   "art": [
-    {
-     "name": "Ilias Bulaid",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4886803.png&w=350&h=254"
-    },
-    {
-     "name": "Erick Visconde",
-     "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5077314.png&w=350&h=254"
-    }
-   ],
-   "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600060741/league/ufc"
-  },
   {
    "id": "one-20261016-one-friday-fights-175",
    "sport": "mma",
@@ -1374,7 +1211,7 @@
      "weight": "W Flyweight",
      "fighters": [
       "Tainara Lisboa",
-      "Lucia Szabova"
+      "Lucia Szabová"
      ],
      "watch": [
       {
@@ -1389,7 +1226,7 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
       },
       {
-       "name": "Lucia Szabova",
+       "name": "Lucia Szabová",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
       }
      ]
