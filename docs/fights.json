@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T17:06:44Z",
+ "generated": "2026-10-14T21:37:55Z",
  "counts": {
   "mma": 25
  },
@@ -1182,58 +1182,6 @@
     {
      "order": 2,
      "slot": "comain",
-     "weight": "Middleweight",
-     "fighters": [
-      "Joe Kropschot",
-      "Nick Klein"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Joe Kropschot",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4687604.png&w=350&h=254"
-      },
-      {
-       "name": "Nick Klein",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 3,
-     "slot": "undercard",
-     "weight": "W Flyweight",
-     "fighters": [
-      "Tainara Lisboa",
-      "Lucia Szabová"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Tainara Lisboa",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
-      },
-      {
-       "name": "Lucia Szabová",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
       "Carlos Leal",
@@ -1258,7 +1206,7 @@
      ]
     },
     {
-     "order": 5,
+     "order": 3,
      "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
@@ -1284,12 +1232,12 @@
      ]
     },
     {
-     "order": 6,
+     "order": 4,
      "slot": "undercard",
-     "weight": "W Strawweight",
+     "weight": "Welterweight",
      "fighters": [
-      "Piera Rodriguez",
-      "Talita Alencar"
+      "Jean-Paul Lebosnoyani",
+      "Farman Hasanov"
      ],
      "watch": [
       {
@@ -1300,12 +1248,64 @@
      ],
      "portraits": [
       {
-       "name": "Piera Rodriguez",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4816066.png&w=350&h=254"
+       "name": "Jean-Paul Lebosnoyani",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4629138.png&w=350&h=254"
       },
       {
-       "name": "Talita Alencar",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5139556.png&w=350&h=254"
+       "name": "Farman Hasanov",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350562.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Gaston Bolaños",
+      "Francis Marshall"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Gaston Bolaños",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4393818.png&w=350&h=254"
+      },
+      {
+       "name": "Francis Marshall",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060394.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Andre Petroski",
+      "Azamat Bekoev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Andre Petroski",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4697476.png&w=350&h=254"
+      },
+      {
+       "name": "Azamat Bekoev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5123963.png&w=350&h=254"
       }
      ]
     },
@@ -1338,58 +1338,6 @@
     {
      "order": 8,
      "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Jean-Paul Lebosnoyani",
-      "Farman Hasanov"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Jean-Paul Lebosnoyani",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4629138.png&w=350&h=254"
-      },
-      {
-       "name": "Farman Hasanov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350562.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
-     "weight": "Middleweight",
-     "fighters": [
-      "Andre Petroski",
-      "Azamat Bekoev"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Andre Petroski",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4697476.png&w=350&h=254"
-      },
-      {
-       "name": "Azamat Bekoev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5123963.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 10,
-     "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
       "Julian Erosa",
@@ -1414,12 +1362,12 @@
      ]
     },
     {
-     "order": 11,
+     "order": 9,
      "slot": "undercard",
-     "weight": "Featherweight",
+     "weight": "Middleweight",
      "fighters": [
-      "Gaston Bolaños",
-      "Francis Marshall"
+      "Joe Kropschot",
+      "Nick Klein"
      ],
      "watch": [
       {
@@ -1430,12 +1378,64 @@
      ],
      "portraits": [
       {
-       "name": "Gaston Bolaños",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4393818.png&w=350&h=254"
+       "name": "Joe Kropschot",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4687604.png&w=350&h=254"
       },
       {
-       "name": "Francis Marshall",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060394.png&w=350&h=254"
+       "name": "Nick Klein",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "slot": "undercard",
+     "weight": "W Strawweight",
+     "fighters": [
+      "Piera Rodriguez",
+      "Talita Alencar"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Piera Rodriguez",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4816066.png&w=350&h=254"
+      },
+      {
+       "name": "Talita Alencar",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5139556.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Tainara Lisboa",
+      "Lucia Szabová"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Tainara Lisboa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
+      },
+      {
+       "name": "Lucia Szabová",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
       }
      ]
     }
@@ -1573,10 +1573,10 @@
     {
      "order": 3,
      "slot": "undercard",
-     "weight": "Middleweight",
+     "weight": "Bantamweight",
      "fighters": [
-      "Wes Schultz",
-      "Mantas Kondratavičius"
+      "Davey Grant",
+      "Elijah Smith"
      ],
      "watch": [
       {
@@ -1587,147 +1587,17 @@
      ],
      "portraits": [
       {
-       "name": "Wes Schultz",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5057023.png&w=350&h=254"
+       "name": "Davey Grant",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3070984.png&w=350&h=254"
       },
       {
-       "name": "Mantas Kondratavičius",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264925.png&w=350&h=254"
+       "name": "Elijah Smith",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144797.png&w=350&h=254"
       }
      ]
     },
     {
      "order": 4,
-     "slot": "undercard",
-     "weight": "Light Heavyweight",
-     "fighters": [
-      "Billy Elekana",
-      "Lucas Fernando"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Billy Elekana",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5078114.png&w=350&h=254"
-      },
-      {
-       "name": "Lucas Fernando",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5119021.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Lucas Brennan",
-      "Austin Bashi"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Lucas Brennan",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4795284.png&w=350&h=254"
-      },
-      {
-       "name": "Austin Bashi",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120304.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 6,
-     "slot": "undercard",
-     "weight": "W Flyweight",
-     "fighters": [
-      "Karine Silva",
-      "Gabriella Fernandes"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Karine Silva",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3309918.png&w=350&h=254"
-      },
-      {
-       "name": "Gabriella Fernandes",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4871203.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 7,
-     "slot": "undercard",
-     "weight": "W Bantamweight",
-     "fighters": [
-      "Priscila Cachoeira",
-      "Nina Milošević"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Priscila Cachoeira",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4277049.png&w=350&h=254"
-      },
-      {
-       "name": "Nina Milošević",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5361791.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 8,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Keiichiro Nakamura",
-      "Ollie Schmid"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Keiichiro Nakamura",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5327937.png&w=350&h=254"
-      },
-      {
-       "name": "Ollie Schmid",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5346907.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
      "slot": "undercard",
      "weight": "Welterweight",
      "fighters": [
@@ -1753,12 +1623,12 @@
      ]
     },
     {
-     "order": 10,
+     "order": 5,
      "slot": "undercard",
-     "weight": "Welterweight",
+     "weight": "Light Heavyweight",
      "fighters": [
-      "Jonny Parsons",
-      "Jose Henrique"
+      "Billy Elekana",
+      "Lucas Fernando"
      ],
      "watch": [
       {
@@ -1769,22 +1639,22 @@
      ],
      "portraits": [
       {
-       "name": "Jonny Parsons",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4880114.png&w=350&h=254"
+       "name": "Billy Elekana",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5078114.png&w=350&h=254"
       },
       {
-       "name": "Jose Henrique",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080485.png&w=350&h=254"
+       "name": "Lucas Fernando",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5119021.png&w=350&h=254"
       }
      ]
     },
     {
-     "order": 11,
+     "order": 6,
      "slot": "undercard",
-     "weight": "Bantamweight",
+     "weight": "Middleweight",
      "fighters": [
-      "Davey Grant",
-      "Elijah Smith"
+      "Wes Schultz",
+      "Mantas Kondratavičius"
      ],
      "watch": [
       {
@@ -1795,17 +1665,69 @@
      ],
      "portraits": [
       {
-       "name": "Davey Grant",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3070984.png&w=350&h=254"
+       "name": "Wes Schultz",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5057023.png&w=350&h=254"
       },
       {
-       "name": "Elijah Smith",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144797.png&w=350&h=254"
+       "name": "Mantas Kondratavičius",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264925.png&w=350&h=254"
       }
      ]
     },
     {
-     "order": 12,
+     "order": 7,
+     "slot": "undercard",
+     "weight": "Heavyweight",
+     "fighters": [
+      "Gabriel Lorenço",
+      "Alvin Hines"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Gabriel Lorenço",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215710.png&w=350&h=254"
+      },
+      {
+       "name": "Alvin Hines",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5229339.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Karine Silva",
+      "Gabriella Fernandes"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Karine Silva",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3309918.png&w=350&h=254"
+      },
+      {
+       "name": "Gabriella Fernandes",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4871203.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 9,
      "slot": "undercard",
      "weight": "Featherweight",
      "fighters": [
@@ -1831,12 +1753,12 @@
      ]
     },
     {
-     "order": 13,
+     "order": 10,
      "slot": "undercard",
-     "weight": "Heavyweight",
+     "weight": "Featherweight",
      "fighters": [
-      "Gabriel Lorenço",
-      "Alvin Hines"
+      "Keiichiro Nakamura",
+      "Ollie Schmid"
      ],
      "watch": [
       {
@@ -1847,12 +1769,90 @@
      ],
      "portraits": [
       {
-       "name": "Gabriel Lorenço",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215710.png&w=350&h=254"
+       "name": "Keiichiro Nakamura",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5327937.png&w=350&h=254"
       },
       {
-       "name": "Alvin Hines",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5229339.png&w=350&h=254"
+       "name": "Ollie Schmid",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5346907.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Lucas Brennan",
+      "Austin Bashi"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Lucas Brennan",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4795284.png&w=350&h=254"
+      },
+      {
+       "name": "Austin Bashi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120304.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "slot": "undercard",
+     "weight": "W Bantamweight",
+     "fighters": [
+      "Priscila Cachoeira",
+      "Nina Milošević"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Priscila Cachoeira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4277049.png&w=350&h=254"
+      },
+      {
+       "name": "Nina Milošević",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5361791.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Jonny Parsons",
+      "Jose Henrique"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jonny Parsons",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4880114.png&w=350&h=254"
+      },
+      {
+       "name": "Jose Henrique",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080485.png&w=350&h=254"
       }
      ]
     }
