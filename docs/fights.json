@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T11:22:43Z",
+ "generated": "2026-10-15T16:56:21Z",
  "counts": {
   "mma": 25
  },
@@ -944,6 +944,32 @@
     {
      "order": 5,
      "slot": "undercard",
+     "weight": "Featherweight",
+     "fighters": [
+      "Aaron Pico",
+      "Losene Keita"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Aaron Pico",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4199009.png&w=350&h=254"
+      },
+      {
+       "name": "Losene Keita",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5192314.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
       "Azamat Murzakanov",
@@ -968,7 +994,7 @@
      ]
     },
     {
-     "order": 6,
+     "order": 7,
      "slot": "undercard",
      "weight": "Light Heavyweight",
      "fighters": [
@@ -994,7 +1020,7 @@
      ]
     },
     {
-     "order": 7,
+     "order": 8,
      "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
@@ -1020,7 +1046,7 @@
      ]
     },
     {
-     "order": 8,
+     "order": 9,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -1042,32 +1068,6 @@
       {
        "name": "Nurullo Aliev",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5092398.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 9,
-     "slot": "undercard",
-     "weight": "Featherweight",
-     "fighters": [
-      "Aaron Pico",
-      "Losene Keita"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Aaron Pico",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4199009.png&w=350&h=254"
-      },
-      {
-       "name": "Losene Keita",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5192314.png&w=350&h=254"
       }
      ]
     },
