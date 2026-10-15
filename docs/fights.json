@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T21:37:55Z",
+ "generated": "2026-10-15T04:32:50Z",
  "counts": {
   "mma": 25
  },
@@ -1094,6 +1094,32 @@
       {
        "name": "Asaf Chopurov",
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5454811.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
+     "weight": "Middleweight",
+     "fighters": [
+      "Abubakar Vagaev",
+      "Jacob Malkoun"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Abubakar Vagaev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3960340.png&w=350&h=254"
+      },
+      {
+       "name": "Jacob Malkoun",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4687434.png&w=350&h=254"
       }
      ]
     }
@@ -3088,10 +3114,10 @@
     {
      "order": 4,
      "slot": "undercard",
-     "weight": null,
+     "weight": "Flyweight",
      "fighters": [
-      "TBA",
-      "Opponent TBA"
+      "Brandon Moreno",
+      "Charles Johnson"
      ],
      "watch": [
       {
@@ -3102,12 +3128,64 @@
      ],
      "portraits": [
       {
-       "name": "TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       "name": "Brandon Moreno",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3027545.png&w=350&h=254"
       },
       {
-       "name": "Opponent TBA",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       "name": "Charles Johnson",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4375156.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
+     "weight": "W Flyweight",
+     "fighters": [
+      "Maycee Barber",
+      "Carli Judice"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Maycee Barber",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4246307.png&w=350&h=254"
+      },
+      {
+       "name": "Carli Judice",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5172179.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "slot": "undercard",
+     "weight": "Light Heavyweight",
+     "fighters": [
+      "Junior Tafa",
+      "Quentin Pasley"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Junior Tafa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122234.png&w=350&h=254"
+      },
+      {
+       "name": "Quentin Pasley",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307124.png&w=350&h=254"
       }
      ]
     }
