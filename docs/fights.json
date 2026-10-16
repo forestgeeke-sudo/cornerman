@@ -1,32 +1,9 @@
 {
- "generated": "2026-10-16T11:17:28Z",
+ "generated": "2026-10-16T16:34:53Z",
  "counts": {
-  "mma": 25
+  "mma": 24
  },
  "events": [
-  {
-   "id": "one-20261016-one-friday-fights-175",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "contender",
-   "name": "ONE Friday Fights 175 & The Inner Circle 35",
-   "headline": "ONE Friday Fights 175 & The Inner Circle 35",
-   "date": "2026-10-16T11:30:00Z",
-   "datePrecision": "time",
-   "venue": "Lumpinee Stadium",
-   "location": "Bangkok",
-   "watch": [
-    {
-     "name": "YouTube",
-     "url": "https://www.youtube.com/",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-175/"
-  },
   {
    "id": "pfl-600061331",
    "sport": "mma",
