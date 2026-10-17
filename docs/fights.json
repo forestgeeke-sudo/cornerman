@@ -1,32 +1,9 @@
 {
- "generated": "2026-10-17T04:20:23Z",
+ "generated": "2026-10-17T10:37:45Z",
  "counts": {
-  "mma": 23
+  "mma": 22
  },
  "events": [
-  {
-   "id": "one-20261017-one-samurai-4",
-   "sport": "mma",
-   "org": "ONE",
-   "tier": "other",
-   "name": "ONE SAMURAI 4",
-   "headline": "ONE SAMURAI 4",
-   "date": "2026-10-17T06:30:00Z",
-   "datePrecision": "time",
-   "venue": "Ariake Arena",
-   "location": "Tokyo",
-   "watch": [
-    {
-     "name": "Prime Video",
-     "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
-    }
-   ],
-   "card": [],
-   "art": null,
-   "note": null,
-   "link": "https://www.onefc.com/events/one-samurai-4/"
-  },
   {
    "id": "ufc-600060773",
    "sport": "mma",
