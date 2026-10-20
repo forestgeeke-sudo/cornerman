@@ -197,12 +197,15 @@ function googleCalUrl(e) {
     ...((e.segments || []).map(s => `${s.name}: ${s.start ? whenText({ date: s.start, datePrecision: 'time' }, true) : 'time TBA'} — ${(s.platforms || []).map(p => `${p.name} (${p.access || 'unconfirmed'})`).join(', ') || 'availability unconfirmed'}`)),
     ...((e.segments || []).map(s => s.sourceUrl ? `Viewing source: ${s.sourceUrl}` : '')),
     e.link ? `Event source: ${e.link}` : '',
+    hasTimedStart(e) ? 'Calendar end time is an estimate.' : '',
     '', 'Added by Cornerman',
   ].filter(Boolean).join('\n');
 
   let dates;
   if (hasTimedStart(e)) {
-    const end = new Date(d.getTime() + 3 * 3600e3);
+    const ends = [d.getTime() + 3 * 3600e3, Date.parse(e.scheduledEnd || '')];
+    (e.segments || []).filter(s => !s.stale && s.start).forEach(s => ends.push(Date.parse(s.start) + 3 * 3600e3));
+    const end = new Date(Math.max(...ends.filter(Number.isFinite)));
     dates = `${gcalUtc(d)}/${gcalUtc(end)}`;
   } else {
     const next = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + 1, d.getUTCHours()));

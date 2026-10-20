@@ -97,3 +97,11 @@ test('Chicago local midnight conversion handles month and year boundaries', () =
   assert.equal(zoneInstant(2026, 11, 1, 3).toISOString(), '2026-11-01T09:00:00.000Z');
   assert.equal(zoneInstant(2027, 3, 14, 3).toISOString(), '2027-03-14T08:00:00.000Z');
 });
+
+test('calendar covers the main card after early prelims, with an estimated end', () => {
+  const { googleCalUrl } = ui();
+  const event = {name:'UFC 333',date:'2026-10-24',datePrecision:'day',earliestBroadcastStart:'2026-10-24T14:00:00Z',segments:[{name:'Main card',start:'2026-10-24T18:00:00Z',stale:false}]};
+  const url=googleCalUrl(event);
+  assert.match(url,/dates=20261024T140000Z\/20261024T210000Z/);
+  assert.match(decodeURIComponent(url),/Calendar end time is an estimate/);
+});
