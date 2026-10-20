@@ -50,6 +50,7 @@ class ProviderCache:
             fresh=[];status='failed'
             errors=[f'{type(error).__name__}: {error}']
         current={identity(e):e for e in fresh}
+        current_ids={e['id'] for e in fresh}
         for e in fresh:
             e['sourceStale']=False
             e['lastSeen']=stamp(self.now)
@@ -57,7 +58,7 @@ class ProviderCache:
         ttl=MISSING_TTL if status=='ok' else FAILURE_TTL
         retained=[]
         for previous in old.get('events',[]):
-            if identity(previous) in current:continue
+            if identity(previous) in current or previous['id'] in current_ids:continue
             seen=instant(previous.get('lastSeen'))
             if seen and self.now-seen <= ttl:
                 e=copy.deepcopy(previous)

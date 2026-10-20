@@ -117,10 +117,12 @@ def access(e, now):
 def merge_events(events, now):
     """Provider order is precedence (ESPN first, official event pages last)."""
     merged = {}
+    ids = {}
     cancelled = set()
     for incoming in events:
         e = copy.deepcopy(incoming)
-        key = identity(e)
+        key = ids.get(e['id'], identity(e))
+        ids[e['id']] = key
         if e.get('status') in ('cancelled','postponed','completed'):
             cancelled.add(key)
         elif e.get('status') == 'rescheduled':

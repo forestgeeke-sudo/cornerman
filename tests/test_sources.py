@@ -128,6 +128,17 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(merge_events([a,self.ufc()],NOW),[])
         b=self.ufc();b['status']='rescheduled'
         self.assertEqual(len(merge_events([a,b],NOW)),1)
+    def test_unnumbered_reschedule_keeps_one_stable_publisher_id(self):
+        a=new_event('Regional Showcase','Regional','2026-10-24','https://official.test/event/123')
+        b=new_event('Regional Showcase','Regional','2026-10-31','https://official.test/event/123')
+        es=merge_events([a,b],NOW)
+        self.assertEqual(len(es),1);self.assertEqual(es[0]['eventDay'],'2026-10-31')
+        with tempfile.TemporaryDirectory() as d:
+            path=Path(d)/'p.json';c=ProviderCache(path,NOW)
+            c.run('official','url',lambda:[a]);c.save()
+            c=ProviderCache(path,NOW+timedelta(hours=1))
+            es=c.run('official','url',lambda:[b])
+            self.assertEqual(len(es),1);self.assertEqual(es[0]['eventDay'],'2026-10-31')
     def test_provider_failure_preserves_then_expires(self):
         with tempfile.TemporaryDirectory() as d:
             path=Path(d)/'providers.json'
