@@ -275,6 +275,8 @@ main { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
   border-bottom: 2px solid var(--oxblood);
 }
 .filters__group { display: flex; }
+.filter-select { display: inline-flex; align-items: center; gap: .4rem; font-family: var(--poster); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; }
+.filter-select select { max-width: 10rem; padding: .35rem; color: var(--ink); background: var(--paper); border: 1px solid var(--edge-hard); }
 
 .tab {
   font-family: var(--poster);
@@ -445,6 +447,13 @@ a.chip:hover { background: var(--oxblood); border-color: var(--oxblood); }
   color: var(--ink-soft);
   border: 1px dashed var(--edge-hard);
 }
+.availability { margin: .45rem 0 0; color: var(--ink-soft); font-size: .76rem; }
+.viewing { margin-top: .45rem; font-size: .82rem; }
+.viewing summary { cursor: pointer; font-family: var(--poster); letter-spacing: .08em; }
+.viewing__body { display: grid; gap: .55rem; margin-top: .5rem; }
+.viewing__body section { padding: .45rem; border-left: 2px solid var(--rust); overflow-wrap: anywhere; }
+.viewing__body h4, .viewing__body p { margin: 0 0 .3rem; }
+.viewing__body small { display: block; margin-top: .3rem; color: var(--ink-soft); }
 
 /* ---------- buttons ---------- */
 

@@ -1,0 +1,16 @@
+{
+  "captured": "2026-10-20",
+  "region": "US",
+  "method": "Public HTTP; factual fragments of actual source markup; Fight Pass normal guest session with lo2 market US verified; no credentials retained.",
+  "sources": {
+    "ufc333.html": "https://www.ufc.com/event/ufc-333",
+    "ufc335.html": "https://www.ufc.com/event/ufc-335",
+    "ufc336.html": "https://www.ufc.com/event/ufc-336",
+    "fightpass.json": "https://ufcfightpass.com/upcoming",
+    "lfa.html": "https://www.lfa.com/events/",
+    "eternal.html": "https://eternalmma.com/events/",
+    "fury.html": "https://www.furyfc.tv/events",
+    "cw-calendar.json": "https://cagewarriors.com/wp-json/wp/v2/pages/9707",
+    "legacy-events.json": "Original tracked feed at repository starting HEAD"
+  }
+}

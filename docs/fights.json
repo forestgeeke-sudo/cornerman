@@ -1,25 +1,479 @@
 {
- "generated": "2026-10-20T21:34:12Z",
+ "schemaVersion": 2,
+ "generated": "2026-10-20T23:04:12Z",
+ "region": "US",
+ "timezone": "America/Chicago",
+ "subscriptions": [
+  "Paramount+",
+  "UFC Fight Pass"
+ ],
+ "freeServices": [
+  "YouTube"
+ ],
  "counts": {
-  "mma": 22
+  "boxing": 1,
+  "grappling": 2,
+  "mma": 56
  },
+ "providers": [
+  {
+   "provider": "espn:ufc",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261020-20270418",
+   "status": "ok",
+   "found": 7,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "espn:pfl",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261020-20270418",
+   "status": "ok",
+   "found": 2,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "espn:bellator",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261020-20270418",
+   "status": "ok",
+   "found": 0,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "espn:other",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261020-20270418",
+   "status": "ok",
+   "found": 0,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "one",
+   "url": "https://www.onefc.com/events/",
+   "status": "ok",
+   "found": 13,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "lfa",
+   "url": "https://www.lfa.com/events/",
+   "status": "ok",
+   "found": 5,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "eternal",
+   "url": "https://eternalmma.com/events/",
+   "status": "ok",
+   "found": 4,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "cage-warriors",
+   "url": "https://cagewarriors.com/cage-warriors-events/",
+   "status": "failed",
+   "found": 0,
+   "retained": 6,
+   "lastSuccess": "2026-10-20T22:52:44Z",
+   "errors": [
+    "RuntimeError: Official REST currently HTTP 403; retaining the earlier successful verified response"
+   ]
+  },
+  {
+   "provider": "lux",
+   "url": "https://luxfightleague.com/eventos/",
+   "status": "degraded",
+   "found": 1,
+   "retained": 0,
+   "lastSuccess": null,
+   "errors": [
+    "https://luxfightleague.com/eventos/lux-063-queretaro/"
+   ]
+  },
+  {
+   "provider": "fury",
+   "url": "https://www.furyfc.tv/events",
+   "status": "ok",
+   "found": 3,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "cffc",
+   "url": "https://cffc.tv/tickets",
+   "status": "ok",
+   "found": 3,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "bfl",
+   "url": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
+   "status": "ok",
+   "found": 1,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "ufc-bjj",
+   "url": "https://www.ufc.com/ufcbjj",
+   "status": "ok",
+   "found": 2,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "fightpass",
+   "url": "https://ufcfightpass.com/upcoming",
+   "status": "ok",
+   "found": 15,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "ufc",
+   "url": "https://www.ufc.com/events",
+   "status": "ok",
+   "found": 8,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  }
+ ],
  "events": [
+  {
+   "id": "uae-warriors-74-b0ba5349",
+   "name": "UAE WARRIORS 74",
+   "org": "UAE Warriors",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "UAE WARRIORS 74",
+   "date": "2026-10-22T17:00:00Z",
+   "eventDay": "2026-10-22",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-22T17:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-22T17:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/316118",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/316118",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/316118",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "ADNEX Abu Dhabi",
+   "link": "https://ufcfightpass.com/live/316118",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-10-22T21:00:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/316118",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
+  },
+  {
+   "id": "lfa-244-woodley-vs-havener-3e93e51e",
+   "name": "LFA 244 – Woodley vs. Havener",
+   "org": "LFA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "LFA 244 – Woodley vs. Havener",
+   "date": "2026-10-23",
+   "eventDay": "2026-10-23",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Main card",
+     "start": null,
+     "platforms": [
+      {
+       "name": "VICE TV",
+       "url": "https://www.vicetv.com/",
+       "kind": "tv",
+       "access": "paid",
+       "covered": false,
+       "confirmed": true
+      },
+      {
+       "name": "FloCombat",
+       "url": "https://www.flocombat.com/",
+       "kind": "other",
+       "access": "paid",
+       "covered": false,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.lfa.com/event/lfa-244-mashantucket-connecticut/",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    }
+   ],
+   "coverageComplete": false,
+   "watch": [
+    {
+     "name": "VICE TV",
+     "url": "https://www.vicetv.com/",
+     "kind": "tv",
+     "access": "paid",
+     "covered": false,
+     "confirmed": true
+    },
+    {
+     "name": "FloCombat",
+     "url": "https://www.flocombat.com/",
+     "kind": "other",
+     "access": "paid",
+     "covered": false,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": "Foxwoods Resort Casino",
+   "location": "Mashantucket, Connecticut",
+   "link": "https://www.lfa.com/event/lfa-244-mashantucket-connecticut/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "lfa",
+     "url": "https://www.lfa.com/event/lfa-244-mashantucket-connecticut/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "other_service"
+  },
+  {
+   "id": "combat-fc-14-0b0d7e28",
+   "name": "COMBAT FC 14",
+   "org": "Combat FC",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "COMBAT FC 14",
+   "date": "2026-10-24T01:00:00Z",
+   "eventDay": "2026-10-24",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-24T01:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-24T01:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/316119",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/316119",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/316119",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Shriners Auditorium Wilmington, MA",
+   "link": "https://ufcfightpass.com/live/316119",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-10-24T05:00:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/316119",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
+  },
   {
    "id": "ufc-600061267",
    "sport": "mma",
+   "status": "scheduled",
    "org": "UFC",
    "tier": "numbered",
-   "name": "UFC 333: Volkanovski vs. Evloev",
-   "headline": "Volkanovski vs. Evloev",
-   "date": "2026-10-24T14:00Z",
+   "name": "UFC 333",
+   "headline": "UFC 333",
+   "date": "2026-10-24T14:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-10-24T14:00Z",
+   "eventDay": "2026-10-24",
+   "segments": [
+    {
+     "name": "Main card",
+     "start": "2026-10-24T18:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-333",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Prelims",
+     "start": "2026-10-24T16:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-333",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Early prelims",
+     "start": "2026-10-24T14:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      },
+      {
+       "name": "UFC Fight Pass",
+       "url": "http://www.ufcfightpass.com",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-333",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
    "venue": "Etihad Arena",
    "location": "Abu Dhabi, United Arab Emirates",
    "watch": [
     {
      "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
+     "url": "https://ufc.ac/4v2K4zW",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    },
+    {
+     "name": "UFC Fight Pass",
+     "url": "http://www.ufcfightpass.com",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
     }
    ],
    "card": [
@@ -399,7 +853,496 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc"
+   "link": "https://www.ufc.com/event/ufc-333",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "espn:ufc",
+     "url": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/313037",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "ufc",
+     "url": "https://www.ufc.com/event/ufc-333",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "scheduledEnd": "2026-10-24T18:00:00Z",
+   "availability": "included",
+   "earliestBroadcastStart": "2026-10-24T14:00:00Z",
+   "mainCardStart": "2026-10-24T18:00:00Z"
+  },
+  {
+   "id": "wow-33-2faca2a9",
+   "name": "WOW 33",
+   "org": "WOW FC",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "WOW 33",
+   "date": "2026-10-24T19:45:00Z",
+   "eventDay": "2026-10-24",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-24T19:45:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-24T19:45:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/318187",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/318187",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/318187",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Buesa Arena  Vitoria-Gasteiz, Spain",
+   "link": "https://ufcfightpass.com/live/318187",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-10-25T00:45:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/318187",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
+  },
+  {
+   "id": "peter-welch-s-athletics-rising-stars-boxing-f42c1cfb",
+   "name": "PETER WELCH’S ATHLETICS: RISING STARS BOXING",
+   "org": "Peter Welch's Athletics",
+   "sport": "boxing",
+   "tier": "other",
+   "headline": "PETER WELCH’S ATHLETICS: RISING STARS BOXING",
+   "date": "2026-10-24T23:00:00Z",
+   "eventDay": "2026-10-24",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-24T23:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-24T23:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/318189",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/318189",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/318189",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Dorchester Armory Dorchester, MA, USA",
+   "link": "https://ufcfightpass.com/live/318189",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-10-25T03:00:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/318189",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
+  },
+  {
+   "id": "tuff-n-uff-158-e16d2107",
+   "name": "TUFF-N-UFF 158",
+   "org": "Tuff-N-Uff",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "TUFF-N-UFF 158",
+   "date": "2026-10-25T02:30:00Z",
+   "eventDay": "2026-10-25",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-25T02:30:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-25T02:30:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/316120",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/316120",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/316120",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Sahara Las Vegas, NV",
+   "link": "https://ufcfightpass.com/live/316120",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-10-25T06:30:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/316120",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
+  },
+  {
+   "id": "apfc-ifl-4-88195809",
+   "name": "APFC: IFL 4",
+   "org": "APFC / IFL",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "APFC: IFL 4",
+   "date": "2026-10-25T16:00:00Z",
+   "eventDay": "2026-10-25",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-25T16:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-25T16:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/316121",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/316121",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/316121",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Koramangala Indoor Stadium,  Bangalore, India",
+   "link": "https://ufcfightpass.com/live/316121",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-10-25T20:00:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/316121",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
+  },
+  {
+   "id": "fury-as-62-bbdcbeb6",
+   "name": "FURY AS 62",
+   "org": "Fury Fighting Championship",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "FURY AS 62",
+   "date": "2026-10-25T18:00:00Z",
+   "eventDay": "2026-10-25",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-25T18:00:00Z",
+   "mainCardStart": "2026-10-25T18:00:00Z",
+   "segments": [
+    {
+     "name": "Main card",
+     "start": "2026-10-25T18:00:00Z",
+     "platforms": [
+      {
+       "name": "Clear Life",
+       "url": "https://share.clearlife.live/app",
+       "kind": "other",
+       "access": "unconfirmed",
+       "covered": false,
+       "confirmed": false
+      }
+     ],
+     "sourceUrl": "https://www.furyfc.tv/events",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "Clear Life",
+     "url": "https://share.clearlife.live/app",
+     "kind": "other",
+     "access": "unconfirmed",
+     "covered": false,
+     "confirmed": false
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://www.furyfc.tv/events",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fury",
+     "url": "https://www.furyfc.tv/events",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
+  },
+  {
+   "id": "inka-mma-62-28aba9a4",
+   "name": "INKA MMA 62",
+   "org": "INKA MMA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "INKA MMA 62",
+   "date": "2026-10-29T03:00:00Z",
+   "eventDay": "2026-10-29",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-29T03:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-29T03:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/316122",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/316122",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/316122",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Lima, Peru",
+   "link": "https://ufcfightpass.com/live/316122",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-10-29T07:00:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/316122",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
+  },
+  {
+   "id": "ufc-bjj-13-c62ec0c6",
+   "name": "UFC BJJ 13",
+   "org": "UFC BJJ",
+   "sport": "grappling",
+   "tier": "other",
+   "headline": "UFC BJJ 13",
+   "date": "2026-10-30T00:00:00Z",
+   "eventDay": "2026-10-30",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-30T00:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-30T00:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/316139",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/316139",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/316139",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Meta Apex Las Vegas, NV, USA",
+   "link": "https://ufcfightpass.com/live/316139",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "ufc-bjj",
+     "url": "https://www.ufc.com/ufcbjj",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/316139",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "scheduledEnd": "2026-10-30T04:00:00Z",
+   "availability": "included"
   },
   {
    "id": "one-20261030-one-friday-fights-176",
@@ -410,36 +1353,323 @@
    "headline": "ONE Friday Fights 176 & The Inner Circle 36",
    "date": "2026-10-30T11:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-10-30T11:30:00Z",
+   "eventDay": "2026-10-30",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "YouTube",
      "url": "https://www.youtube.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-176/"
+   "link": "https://www.onefc.com/events/one-friday-fights-176/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-friday-fights-176/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "lfa-245-khamzaev-vs-prescendo-4aaffd47",
+   "name": "LFA 245 – Khamzaev vs. Prescendo",
+   "org": "LFA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "LFA 245 – Khamzaev vs. Prescendo",
+   "date": "2026-10-31T01:00:00Z",
+   "eventDay": "2026-10-30",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-31T01:00:00Z",
+   "mainCardStart": "2026-10-31T01:00:00Z",
+   "segments": [
+    {
+     "name": "Main card",
+     "start": "2026-10-31T01:00:00Z",
+     "platforms": [
+      {
+       "name": "VICE TV",
+       "url": "https://www.vicetv.com/",
+       "kind": "tv",
+       "access": "paid",
+       "covered": false,
+       "confirmed": true
+      },
+      {
+       "name": "FloCombat",
+       "url": "https://www.flocombat.com/",
+       "kind": "other",
+       "access": "paid",
+       "covered": false,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.lfa.com/event/lfa-245-niagara-falls-new-york/",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    }
+   ],
+   "coverageComplete": false,
+   "watch": [
+    {
+     "name": "VICE TV",
+     "url": "https://www.vicetv.com/",
+     "kind": "tv",
+     "access": "paid",
+     "covered": false,
+     "confirmed": true
+    },
+    {
+     "name": "FloCombat",
+     "url": "https://www.flocombat.com/",
+     "kind": "other",
+     "access": "paid",
+     "covered": false,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": "Seneca Niagara Resort and Casino",
+   "location": "Niagara Falls, NY, United States",
+   "link": "https://www.lfa.com/event/lfa-245-niagara-falls-new-york/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "lfa",
+     "url": "https://www.lfa.com/event/lfa-245-niagara-falls-new-york/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "other_service"
+  },
+  {
+   "id": "eternal-mma-111-perth-b3b6beb6",
+   "name": "ETERNAL MMA 111",
+   "org": "Eternal MMA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "ETERNAL MMA 111",
+   "date": "2026-10-31T10:00:00Z",
+   "eventDay": "2026-10-31",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-31T10:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-31T10:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/316125",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/316125",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/316125",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": "Perth HPC",
+   "location": "Perth HBC Perth, AU",
+   "link": "https://ufcfightpass.com/live/316125",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "eternal",
+     "url": "https://eternalmma.com/events/eternal-mma-111-perth/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/316125",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "scheduledEnd": "2026-10-31T13:00:00Z",
+   "availability": "included"
+  },
+  {
+   "id": "ares-44-f6e69dc1",
+   "name": "ARES 44",
+   "org": "ARES FC",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "ARES 44",
+   "date": "2026-10-31T16:30:00Z",
+   "eventDay": "2026-10-31",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-10-31T16:30:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-10-31T16:30:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/316127",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/316127",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/316127",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Zénith de Strasbourg Strasbourg, France",
+   "link": "https://ufcfightpass.com/live/316127",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-10-31T20:30:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/316127",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
   },
   {
    "id": "ufc-600061420",
    "sport": "mma",
+   "status": "scheduled",
    "org": "UFC",
    "tier": "fight_night",
-   "name": "UFC Fight Night: Moicano vs. Nolan",
-   "headline": "Moicano vs. Nolan",
-   "date": "2026-10-31T21:00Z",
+   "name": "UFC Fight Night",
+   "headline": "UFC Fight Night",
+   "date": "2026-10-31T21:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-10-31T21:00Z",
+   "eventDay": "2026-10-31",
+   "segments": [
+    {
+     "name": "Main card",
+     "start": "2026-11-01T00:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Prelims",
+     "start": "2026-10-31T21:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
    "venue": "Meta APEX",
    "location": "Las Vegas, NV",
    "watch": [
     {
      "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
+     "url": "https://ufc.ac/4v2K4zW",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
     }
    ],
    "card": [
@@ -741,7 +1971,90 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc"
+   "link": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "espn:ufc",
+     "url": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "ufc",
+     "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included",
+   "earliestBroadcastStart": "2026-10-31T21:00:00Z",
+   "mainCardStart": "2026-11-01T00:00:00Z"
+  },
+  {
+   "id": "anthony-pettis-fc-26-c216799c",
+   "name": "ANTHONY PETTIS FC 26",
+   "org": "Anthony Pettis FC",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "ANTHONY PETTIS FC 26",
+   "date": "2026-11-01T00:00:00Z",
+   "eventDay": "2026-11-01",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-11-01T00:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-11-01T00:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/313395",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/313395",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/313395",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Chicago, IL",
+   "link": "https://ufcfightpass.com/live/313395",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-11-01T04:00:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/313395",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
   },
   {
    "id": "one-20261106-one-friday-fights-177",
@@ -752,19 +2065,171 @@
    "headline": "ONE Friday Fights 177 & The Inner Circle 37",
    "date": "2026-11-06T11:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-06T11:30:00Z",
+   "eventDay": "2026-11-06",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "YouTube",
      "url": "https://www.youtube.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-177/"
+   "link": "https://www.onefc.com/events/one-friday-fights-177/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-friday-fights-177/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "lux-064-monterrey-bfe433aa",
+   "name": "LUX 064 – Monterrey",
+   "org": "Lux Fight League",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "LUX 064 – Monterrey",
+   "date": "2026-11-06T18:00:00Z",
+   "eventDay": "2026-11-06",
+   "datePrecision": "time",
+   "scheduledStart": "2026-11-06T18:00:00Z",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://luxfightleague.com/eventos/lux-064-monterrey/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "lux",
+     "url": "https://luxfightleague.com/eventos/lux-064-monterrey/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
+  },
+  {
+   "id": "samourai-mma-22-d0889792",
+   "name": "SAMOURAI MMA 22",
+   "org": "Samourai MMA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "SAMOURAI MMA 22",
+   "date": "2026-11-06T23:00:00Z",
+   "eventDay": "2026-11-06",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-11-06T23:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-11-06T23:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/313844",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/313844",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/313844",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://ufcfightpass.com/live/313844",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-11-07T04:00:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/313844",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
+  },
+  {
+   "id": "cw-212-spanish-showcase-bcf380f1",
+   "name": "CW 212: Spanish Showcase",
+   "org": "Cage Warriors",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "CW 212: Spanish Showcase",
+   "date": "2026-11-07",
+   "eventDay": "2026-11-07",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://cagewarriors.com/cw-212-london-spanish-showcase/",
+   "note": null,
+   "status": "scheduled",
+   "lastSeen": "2026-10-20T22:52:44Z",
+   "sources": [
+    {
+     "provider": "cage-warriors",
+     "url": "https://cagewarriors.com/wp-json/wp/v2/pages/9707",
+     "verifiedAt": "2026-10-20T22:52:44Z"
+    }
+   ],
+   "sourceStale": true,
+   "availability": "unconfirmed"
   },
   {
    "id": "one-20261107-onefightnight49",
@@ -775,36 +2240,105 @@
    "headline": "Gabriel Vs. Rasulov",
    "date": "2026-11-07T02:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-07T02:00:00Z",
+   "eventDay": "2026-11-07",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "Prime Video",
      "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/onefightnight49/"
+   "link": "https://www.onefc.com/events/onefightnight49/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/onefightnight49/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
   },
   {
    "id": "ufc-600061268",
    "sport": "mma",
+   "status": "scheduled",
    "org": "UFC",
    "tier": "fight_night",
-   "name": "UFC Fight Night: Bonfim vs. Brady",
-   "headline": "Bonfim vs. Brady",
-   "date": "2026-11-07T22:00Z",
+   "name": "UFC Fight Night",
+   "headline": "UFC Fight Night",
+   "date": "2026-11-07T22:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-07T22:00Z",
+   "eventDay": "2026-11-07",
+   "segments": [
+    {
+     "name": "Main card",
+     "start": "2026-11-08T01:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Prelims",
+     "start": "2026-11-07T22:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
    "venue": "Meta APEX",
    "location": "Las Vegas, NV",
    "watch": [
     {
      "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
+     "url": "https://ufc.ac/4v2K4zW",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
     }
    ],
    "card": [
@@ -1158,7 +2692,200 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc"
+   "link": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "espn:ufc",
+     "url": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "ufc",
+     "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included",
+   "earliestBroadcastStart": "2026-11-07T22:00:00Z",
+   "mainCardStart": "2026-11-08T01:00:00Z"
+  },
+  {
+   "id": "cffc-nextgen-5-ebbe03ec",
+   "name": "CFFC NextGen 5",
+   "org": "CFFC",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "CFFC NextGen 5",
+   "date": "2026-11-07T23:00:00Z",
+   "eventDay": "2026-11-07",
+   "datePrecision": "time",
+   "scheduledStart": "2026-11-07T23:00:00Z",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Prelims",
+     "start": null,
+     "platforms": [],
+     "sourceUrl": "https://cffc.tv/tickets/cage-fury-cffc-nextgen-next-generation-5-saturday-november-7-2026-hard-rock-hotel-casino-atlantic-city-nj-mma-fights-show-event-tickets",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "scheduledStart": "2026-11-07T23:00:00Z",
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    }
+   ],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://cffc.tv/tickets/cage-fury-cffc-nextgen-next-generation-5-saturday-november-7-2026-hard-rock-hotel-casino-atlantic-city-nj-mma-fights-show-event-tickets",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "cffc",
+     "url": "https://cffc.tv/tickets/cage-fury-cffc-nextgen-next-generation-5-saturday-november-7-2026-hard-rock-hotel-casino-atlantic-city-nj-mma-fights-show-event-tickets",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
+  },
+  {
+   "id": "fury-challenger-series-17-bbdcbeb6",
+   "name": "FURY CHALLENGER SERIES 17",
+   "org": "Fury Fighting Championship",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "FURY CHALLENGER SERIES 17",
+   "date": "2026-11-08T19:00:00Z",
+   "eventDay": "2026-11-08",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-11-08T19:00:00Z",
+   "mainCardStart": "2026-11-08T22:30:00Z",
+   "segments": [
+    {
+     "name": "Prelims",
+     "start": "2026-11-08T19:00:00Z",
+     "platforms": [
+      {
+       "name": "OnlyFans",
+       "url": "https://onlyfans.com/furyfighting",
+       "kind": "other",
+       "access": "unconfirmed",
+       "covered": false,
+       "confirmed": false
+      }
+     ],
+     "sourceUrl": "https://www.furyfc.tv/events",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    },
+    {
+     "name": "Main card",
+     "start": "2026-11-08T22:30:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/home",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.furyfc.tv/events",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "OnlyFans",
+     "url": "https://onlyfans.com/furyfighting",
+     "kind": "other",
+     "access": "unconfirmed",
+     "covered": false,
+     "confirmed": false
+    },
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/home",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://www.furyfc.tv/events",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fury",
+     "url": "https://www.furyfc.tv/events",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "partial"
+  },
+  {
+   "id": "lfa-246-tba-f8fcb267",
+   "name": "LFA 246 – TBA",
+   "org": "LFA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "LFA 246 – TBA",
+   "date": "2026-11-13",
+   "eventDay": "2026-11-13",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://www.lfa.com/event/lfa-246-tba/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "lfa",
+     "url": "https://www.lfa.com/event/lfa-246-tba/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
   },
   {
    "id": "one-20261113-one-friday-fights-178",
@@ -1169,36 +2896,129 @@
    "headline": "ONE Friday Fights 178 & The Inner Circle 38",
    "date": "2026-11-13T11:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-13T11:30:00Z",
+   "eventDay": "2026-11-13",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "YouTube",
      "url": "https://www.youtube.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-178/"
+   "link": "https://www.onefc.com/events/one-friday-fights-178/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-friday-fights-178/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "eternal-mma-112-gold-coast-7a2d265a",
+   "name": "Eternal MMA 112: Gold Coast",
+   "org": "Eternal MMA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "Eternal MMA 112: Gold Coast",
+   "date": "2026-11-14",
+   "eventDay": "2026-11-14",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": "Southport Sharks",
+   "location": "Queensland",
+   "link": "https://eternalmma.com/events/eternal-mma-112-gold-coast/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "eternal",
+     "url": "https://eternalmma.com/events/eternal-mma-112-gold-coast/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
+  },
+  {
+   "id": "cw-213-london-dc01ff67",
+   "name": "CW 213 London",
+   "org": "Cage Warriors",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "CW 213 London",
+   "date": "2026-11-14",
+   "eventDay": "2026-11-14",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://cagewarriors.com/cw-213-london/",
+   "note": null,
+   "status": "scheduled",
+   "lastSeen": "2026-10-20T22:52:44Z",
+   "sources": [
+    {
+     "provider": "cage-warriors",
+     "url": "https://cagewarriors.com/wp-json/wp/v2/pages/9707",
+     "verifiedAt": "2026-10-20T22:52:44Z"
+    }
+   ],
+   "sourceStale": true,
+   "availability": "unconfirmed"
   },
   {
    "id": "pfl-600061421",
    "sport": "mma",
+   "status": "scheduled",
    "org": "PFL",
    "tier": "other",
    "name": "PFL Dubai: Nemkov vs. Bilostenniy",
    "headline": "Nemkov vs. Bilostenniy",
    "date": "2026-11-14T14:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-14T14:00Z",
+   "eventDay": "2026-11-14",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Coca-Cola Arena",
    "location": "Dubai, United Arab Emirates",
    "watch": [
     {
      "name": "ESPN+",
      "url": "https://plus.espn.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [
@@ -1526,24 +3346,124 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "espn:pfl",
+     "url": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
   },
   {
    "id": "ufc-600061400",
    "sport": "mma",
+   "status": "scheduled",
    "org": "UFC",
    "tier": "numbered",
-   "name": "UFC 334: Gane vs. Hokit",
-   "headline": "Gane vs. Hokit",
-   "date": "2026-11-14T22:00Z",
+   "name": "Polymarket UFC 334",
+   "headline": "Polymarket UFC 334",
+   "date": "2026-11-14T22:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-14T22:00Z",
+   "eventDay": "2026-11-14",
+   "segments": [
+    {
+     "name": "Main card",
+     "start": "2026-11-15T02:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-334",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Prelims",
+     "start": "2026-11-15T00:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-334",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Early prelims",
+     "start": "2026-11-14T22:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      },
+      {
+       "name": "UFC Fight Pass",
+       "url": "http://www.ufcfightpass.com",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-334",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
    "venue": "Madison Square Garden",
-   "location": "New York, NY",
+   "location": "Madison Square Garden New York, NY, USA",
    "watch": [
     {
      "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
+     "url": "https://ufc.ac/4v2K4zW",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    },
+    {
+     "name": "UFC Fight Pass",
+     "url": "http://www.ufcfightpass.com",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
     }
    ],
    "card": [
@@ -1871,7 +3791,30 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc"
+   "link": "https://www.ufc.com/event/ufc-334",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "espn:ufc",
+     "url": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/316406",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "ufc",
+     "url": "https://www.ufc.com/event/ufc-334",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "scheduledEnd": "2026-11-15T01:00:00Z",
+   "availability": "included",
+   "earliestBroadcastStart": "2026-11-14T22:00:00Z",
+   "mainCardStart": "2026-11-15T02:00:00Z"
   },
   {
    "id": "one-20261118-one-samurai-5",
@@ -1882,19 +3825,71 @@
    "headline": "ONE SAMURAI 5",
    "date": "2026-11-18T08:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-18T08:30:00Z",
+   "eventDay": "2026-11-18",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "EBARA WAVE Arena Ota",
    "location": "Tokyo",
    "watch": [
     {
      "name": "Prime Video",
      "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-samurai-5/"
+   "link": "https://www.onefc.com/events/one-samurai-5/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-samurai-5/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "lfa-247-breno-vs-torres-c74d794a",
+   "name": "LFA 247 – Breno vs Torres",
+   "org": "LFA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "LFA 247 – Breno vs Torres",
+   "date": "2026-11-20",
+   "eventDay": "2026-11-20",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": "Arizona Financial Theatre",
+   "location": "Phoenix, AZ, United States",
+   "link": "https://www.lfa.com/event/lfa-247-breno-vs-torres/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "lfa",
+     "url": "https://www.lfa.com/event/lfa-247-breno-vs-torres/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
   },
   {
    "id": "one-20261120-one-friday-fights-179",
@@ -1905,36 +3900,199 @@
    "headline": "ONE Friday Fights 179 & The Inner Circle 39",
    "date": "2026-11-20T11:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-20T11:30:00Z",
+   "eventDay": "2026-11-20",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "YouTube",
      "url": "https://www.youtube.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-179/"
+   "link": "https://www.onefc.com/events/one-friday-fights-179/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-friday-fights-179/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "fury-challenger-series-18-bbdcbeb6",
+   "name": "FURY CHALLENGER SERIES 18",
+   "org": "Fury Fighting Championship",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "FURY CHALLENGER SERIES 18",
+   "date": "2026-11-20T23:15:00Z",
+   "eventDay": "2026-11-20",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-11-20T23:15:00Z",
+   "mainCardStart": "2026-11-21T02:00:00Z",
+   "segments": [
+    {
+     "name": "Prelims",
+     "start": "2026-11-20T23:15:00Z",
+     "platforms": [
+      {
+       "name": "OnlyFans",
+       "url": "https://onlyfans.com/furyfighting",
+       "kind": "other",
+       "access": "unconfirmed",
+       "covered": false,
+       "confirmed": false
+      }
+     ],
+     "sourceUrl": "https://www.furyfc.tv/events",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    },
+    {
+     "name": "Main card",
+     "start": "2026-11-21T02:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/home",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.furyfc.tv/events",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "OnlyFans",
+     "url": "https://onlyfans.com/furyfighting",
+     "kind": "other",
+     "access": "unconfirmed",
+     "covered": false,
+     "confirmed": false
+    },
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/home",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://www.furyfc.tv/events",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fury",
+     "url": "https://www.furyfc.tv/events",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "partial"
   },
   {
    "id": "ufc-600061665",
    "sport": "mma",
+   "status": "scheduled",
    "org": "UFC",
    "tier": "fight_night",
-   "name": "UFC Fight Night: Procházka vs. Stirling",
-   "headline": "Procházka vs. Stirling",
-   "date": "2026-11-21T15:00Z",
+   "name": "UFC Fight Night",
+   "headline": "UFC Fight Night",
+   "date": "2026-11-21T15:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-21T15:00Z",
+   "eventDay": "2026-11-21",
+   "segments": [
+    {
+     "name": "Prelims",
+     "start": "2026-11-21T15:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Main card",
+     "start": "2026-11-21T18:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
    "venue": "ABHA Arena",
    "location": "Doha, Qatar",
    "watch": [
     {
      "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
+     "url": "https://ufc.ac/4v2K4zW",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
     }
    ],
    "card": [
@@ -2184,7 +4342,89 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc"
+   "link": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "espn:ufc",
+     "url": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "ufc",
+     "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included",
+   "earliestBroadcastStart": "2026-11-21T15:00:00Z",
+   "mainCardStart": "2026-11-21T18:00:00Z"
+  },
+  {
+   "id": "cw-214-unplugged-3ef2b3e8",
+   "name": "CW 214 Unplugged",
+   "org": "Cage Warriors",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "CW 214 Unplugged",
+   "date": "2026-11-27",
+   "eventDay": "2026-11-27",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": null,
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://cagewarriors.com/wp-json/wp/v2/pages/9707",
+     "verifiedAt": "2026-10-20T22:52:44Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://cagewarriors.com/cage-warriors-events/",
+   "note": null,
+   "status": "scheduled",
+   "lastSeen": "2026-10-20T22:52:44Z",
+   "sources": [
+    {
+     "provider": "cage-warriors",
+     "url": "https://cagewarriors.com/wp-json/wp/v2/pages/9707",
+     "verifiedAt": "2026-10-20T22:52:44Z"
+    }
+   ],
+   "sourceStale": true,
+   "availability": "included"
   },
   {
    "id": "one-20261127-one-friday-fights-180",
@@ -2195,19 +4435,139 @@
    "headline": "ONE Friday Fights 180 & The Inner Circle 40",
    "date": "2026-11-27T11:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-11-27T11:30:00Z",
+   "eventDay": "2026-11-27",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "YouTube",
      "url": "https://www.youtube.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-180/"
+   "link": "https://www.onefc.com/events/one-friday-fights-180/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-friday-fights-180/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "eternal-mma-113-geelong-756297e1",
+   "name": "Eternal MMA 113: Geelong",
+   "org": "Eternal MMA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "Eternal MMA 113: Geelong",
+   "date": "2026-11-28",
+   "eventDay": "2026-11-28",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": "Geelong Arena",
+   "location": "110 Victoria St, North Geelong VIC 3215",
+   "link": "https://eternalmma.com/events/eternal-mma-113-geelong/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "eternal",
+     "url": "https://eternalmma.com/events/eternal-mma-113-geelong/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
+  },
+  {
+   "id": "cw-215-manchester-3ef2b3e8",
+   "name": "CW 215 Manchester",
+   "org": "Cage Warriors",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "CW 215 Manchester",
+   "date": "2026-11-28",
+   "eventDay": "2026-11-28",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://cagewarriors.com/cage-warriors-events/",
+   "note": null,
+   "status": "scheduled",
+   "lastSeen": "2026-10-20T22:52:44Z",
+   "sources": [
+    {
+     "provider": "cage-warriors",
+     "url": "https://cagewarriors.com/wp-json/wp/v2/pages/9707",
+     "verifiedAt": "2026-10-20T22:52:44Z"
+    }
+   ],
+   "sourceStale": true,
+   "availability": "unconfirmed"
+  },
+  {
+   "id": "cw-amateur-academy-2-3ef2b3e8",
+   "name": "CW Amateur Academy 2",
+   "org": "Cage Warriors",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "CW Amateur Academy 2",
+   "date": "2026-11-29",
+   "eventDay": "2026-11-29",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://cagewarriors.com/cage-warriors-events/",
+   "note": null,
+   "status": "scheduled",
+   "lastSeen": "2026-10-20T22:52:44Z",
+   "sources": [
+    {
+     "provider": "cage-warriors",
+     "url": "https://cagewarriors.com/wp-json/wp/v2/pages/9707",
+     "verifiedAt": "2026-10-20T22:52:44Z"
+    }
+   ],
+   "sourceStale": true,
+   "availability": "unconfirmed"
   },
   {
    "id": "one-20261202-one-samurai-6",
@@ -2218,19 +4578,136 @@
    "headline": "ONE SAMURAI 6",
    "date": "2026-12-02T08:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-12-02T08:30:00Z",
+   "eventDay": "2026-12-02",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Yokohama Buntai",
    "location": "Yokohama",
    "watch": [
     {
      "name": "Prime Video",
      "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-samurai-6/"
+   "link": "https://www.onefc.com/events/one-samurai-6/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-samurai-6/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "bfl-89-bde1c3e9",
+   "name": "BFL 89",
+   "org": "Battlefield Fight League",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "BFL 89",
+   "date": "2026-12-03",
+   "eventDay": "2026-12-03",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Main card",
+     "start": null,
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": false,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "bfl",
+     "url": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "partial"
+  },
+  {
+   "id": "ufc-bjj-14-c62ec0c6",
+   "name": "UFC BJJ 14",
+   "org": "UFC BJJ",
+   "sport": "grappling",
+   "tier": "other",
+   "headline": "UFC BJJ 14",
+   "date": "2026-12-03",
+   "eventDay": "2026-12-03",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://www.ufc.com/ufcbjj",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "ufc-bjj",
+     "url": "https://www.ufc.com/ufcbjj",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
   },
   {
    "id": "one-20261204-one-friday-fights-181",
@@ -2241,19 +4718,132 @@
    "headline": "ONE Friday Fights 181 & The Inner Circle 41",
    "date": "2026-12-04T11:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-12-04T11:30:00Z",
+   "eventDay": "2026-12-04",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "YouTube",
      "url": "https://www.youtube.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-181/"
+   "link": "https://www.onefc.com/events/one-friday-fights-181/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-friday-fights-181/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "cw-216-newcastle-3ef2b3e8",
+   "name": "CW 216 Newcastle",
+   "org": "Cage Warriors",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "CW 216 Newcastle",
+   "date": "2026-12-05",
+   "eventDay": "2026-12-05",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://cagewarriors.com/cage-warriors-events/",
+   "note": null,
+   "status": "scheduled",
+   "lastSeen": "2026-10-20T22:52:44Z",
+   "sources": [
+    {
+     "provider": "cage-warriors",
+     "url": "https://cagewarriors.com/wp-json/wp/v2/pages/9707",
+     "verifiedAt": "2026-10-20T22:52:44Z"
+    }
+   ],
+   "sourceStale": true,
+   "availability": "unconfirmed"
+  },
+  {
+   "id": "cffc-162-9175143c",
+   "name": "CFFC 162",
+   "org": "CFFC",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "CFFC 162",
+   "date": "2026-12-05T00:00:00Z",
+   "eventDay": "2026-12-04",
+   "datePrecision": "time",
+   "scheduledStart": "2026-12-05T00:00:00Z",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Prelims",
+     "start": null,
+     "platforms": [],
+     "sourceUrl": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "scheduledStart": "2026-12-05T00:00:00Z",
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    },
+    {
+     "name": "Main card",
+     "start": null,
+     "platforms": [],
+     "sourceUrl": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "scheduledStart": "2026-12-05T02:00:00Z",
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    }
+   ],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "cffc",
+     "url": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
   },
   {
    "id": "one-20261211-one-friday-fights-182",
@@ -2264,36 +4854,208 @@
    "headline": "ONE Friday Fights 182 & The Inner Circle 42",
    "date": "2026-12-11T11:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-12-11T11:30:00Z",
+   "eventDay": "2026-12-11",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "YouTube",
      "url": "https://www.youtube.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-182/"
+   "link": "https://www.onefc.com/events/one-friday-fights-182/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-friday-fights-182/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "fury-fc-126-3d8d66bd",
+   "name": "FURY FC 126",
+   "org": "Fury Fighting Championship",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "FURY FC 126",
+   "date": "2026-12-11T21:00:00Z",
+   "eventDay": "2026-12-11",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-12-11T21:00:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-12-11T21:00:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/313842",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/313842",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/313842",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Imagen Venues Houston, TX USA",
+   "link": "https://ufcfightpass.com/live/313842",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-12-12T00:00:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/313842",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
   },
   {
    "id": "ufc-600061401",
    "sport": "mma",
+   "status": "scheduled",
    "org": "UFC",
    "tier": "numbered",
-   "name": "UFC 335: Oliveira vs. Lopes",
-   "headline": "Oliveira vs. Lopes",
-   "date": "2026-12-12T22:00Z",
+   "name": "UFC 335",
+   "headline": "UFC 335",
+   "date": "2026-12-12T22:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-12-12T22:00Z",
+   "eventDay": "2026-12-12",
+   "segments": [
+    {
+     "name": "Early prelims",
+     "start": "2026-12-12T22:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      },
+      {
+       "name": "UFC Fight Pass",
+       "url": "http://www.ufcfightpass.com",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-335",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Prelims",
+     "start": "2026-12-13T00:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-335",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Main card",
+     "start": "2026-12-13T02:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-335",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
    "venue": "T-Mobile Arena",
    "location": "Las Vegas, NV",
    "watch": [
     {
      "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
+     "url": "https://ufc.ac/4v2K4zW",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    },
+    {
+     "name": "UFC Fight Pass",
+     "url": "http://www.ufcfightpass.com",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
     }
    ],
    "card": [
@@ -2465,7 +5227,58 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc"
+   "link": "https://www.ufc.com/event/ufc-335",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "espn:ufc",
+     "url": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "ufc",
+     "url": "https://www.ufc.com/event/ufc-335",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included",
+   "earliestBroadcastStart": "2026-12-12T22:00:00Z",
+   "mainCardStart": "2026-12-13T02:00:00Z"
+  },
+  {
+   "id": "lfa-248-tba-6ad752a5",
+   "name": "LFA 248 – TBA",
+   "org": "LFA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "LFA 248 – TBA",
+   "date": "2026-12-18",
+   "eventDay": "2026-12-18",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://www.lfa.com/event/lfa-248-tba/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "lfa",
+     "url": "https://www.lfa.com/event/lfa-248-tba/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
   },
   {
    "id": "one-20261218-one-friday-fights-183",
@@ -2476,19 +5289,37 @@
    "headline": "ONE Friday Fights 183 & The Inner Circle 43",
    "date": "2026-12-18T11:30:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-12-18T11:30:00Z",
+   "eventDay": "2026-12-18",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "YouTube",
      "url": "https://www.youtube.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-friday-fights-183/"
+   "link": "https://www.onefc.com/events/one-friday-fights-183/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-friday-fights-183/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
   },
   {
    "id": "one-20261219-onefightnight50",
@@ -2499,36 +5330,61 @@
    "headline": "ONE Fight Night 50",
    "date": "2026-12-19T02:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-12-19T02:00:00Z",
+   "eventDay": "2026-12-19",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Lumpinee Stadium",
    "location": "Bangkok",
    "watch": [
     {
      "name": "Prime Video",
      "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/onefightnight50/"
+   "link": "https://www.onefc.com/events/onefightnight50/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/onefightnight50/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
   },
   {
    "id": "pfl-600061422",
    "sport": "mma",
+   "status": "scheduled",
    "org": "PFL",
    "tier": "other",
    "name": "PFL Lyon: Lapilus vs. McKee",
    "headline": "Lapilus vs. McKee",
    "date": "2026-12-19T16:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2026-12-19T16:00Z",
+   "eventDay": "2026-12-19",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "LDLC Arena",
    "location": "Lyon, France",
    "watch": [
     {
      "name": "ESPN+",
      "url": "https://plus.espn.com/",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [
@@ -2700,24 +5556,148 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl"
+   "link": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "espn:pfl",
+     "url": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
+  },
+  {
+   "id": "cffc-163-d725156b",
+   "name": "CFFC 163",
+   "org": "CFFC",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "CFFC 163",
+   "date": "2026-12-19T23:00:00Z",
+   "eventDay": "2026-12-19",
+   "datePrecision": "time",
+   "scheduledStart": "2026-12-19T23:00:00Z",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Prelims",
+     "start": null,
+     "platforms": [],
+     "sourceUrl": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "scheduledStart": "2026-12-19T23:00:00Z",
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    },
+    {
+     "name": "Main card",
+     "start": null,
+     "platforms": [],
+     "sourceUrl": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "scheduledStart": "2026-12-20T01:00:00Z",
+     "stale": false,
+     "covered": false,
+     "subscriptionCovered": false
+    }
+   ],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "cffc",
+     "url": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
   },
   {
    "id": "ufc-600062191",
    "sport": "mma",
+   "status": "scheduled",
    "org": "UFC",
    "tier": "numbered",
    "name": "UFC 336",
-   "headline": "TBA vs. Opponent TBA",
-   "date": "2027-01-30T22:00Z",
+   "headline": "UFC 336",
+   "date": "2027-01-31T00:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2027-01-30T22:00Z",
+   "eventDay": "2027-01-31",
+   "segments": [
+    {
+     "name": "Prelims",
+     "start": "2027-01-31T00:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-336",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Main card",
+     "start": "2027-01-31T02:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-336",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
    "venue": "Scotiabank Arena",
    "location": "Toronto, ON",
    "watch": [
     {
      "name": "Paramount+",
-     "url": "https://www.paramountplus.com/",
-     "kind": "streaming"
+     "url": "https://ufc.ac/4v2K4zW",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
     }
    ],
    "card": [
@@ -2811,7 +5791,144 @@
     }
    ],
    "note": null,
-   "link": "https://www.espn.com/mma/fightcenter/_/id/600062191/league/ufc"
+   "link": "https://www.ufc.com/event/ufc-336",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "espn:ufc",
+     "url": "https://www.espn.com/mma/fightcenter/_/id/600062191/league/ufc",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    },
+    {
+     "provider": "ufc",
+     "url": "https://www.ufc.com/event/ufc-336",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included",
+   "earliestBroadcastStart": "2027-01-31T00:00:00Z",
+   "mainCardStart": "2027-01-31T02:00:00Z"
+  },
+  {
+   "id": "eternal-mma-114-sydney-d691ad97",
+   "name": "Eternal MMA 114: Sydney",
+   "org": "Eternal MMA",
+   "sport": "mma",
+   "tier": "other",
+   "headline": "Eternal MMA 114: Sydney",
+   "date": "2027-02-06",
+   "eventDay": "2027-02-06",
+   "datePrecision": "day",
+   "scheduledStart": null,
+   "earliestBroadcastStart": null,
+   "mainCardStart": null,
+   "segments": [],
+   "coverageComplete": false,
+   "watch": [],
+   "card": [],
+   "art": null,
+   "venue": "Rosehill Gardens Racecourse",
+   "location": "New South Wales",
+   "link": "https://eternalmma.com/events/eternal-mma-114-sydney/",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "eternal",
+     "url": "https://eternalmma.com/events/eternal-mma-114-sydney/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed"
+  },
+  {
+   "id": "ufc-fight-night-dd0fe888",
+   "name": "UFC Fight Night",
+   "org": "UFC",
+   "sport": "mma",
+   "tier": "fight_night",
+   "headline": "UFC Fight Night",
+   "date": "2027-02-06T20:00:00Z",
+   "eventDay": "2027-02-06",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2027-02-06T20:00:00Z",
+   "mainCardStart": "2027-02-06T22:00:00Z",
+   "segments": [
+    {
+     "name": "Prelims",
+     "start": "2027-02-06T20:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Main card",
+     "start": "2027-02-06T22:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+     "verifiedAt": "2026-10-20T23:04:12Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "Paramount+",
+     "url": "https://ufc.ac/4v2K4zW",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": null,
+   "link": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+   "note": null,
+   "status": "scheduled",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "ufc",
+     "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "included"
   },
   {
    "id": "one-20270325-one-qatar",
@@ -2822,19 +5939,37 @@
    "headline": "Qatar",
    "date": "2027-03-25T21:00:00Z",
    "datePrecision": "time",
+   "scheduledStart": "2027-03-25T21:00:00Z",
+   "eventDay": "2027-03-25",
+   "segments": [],
+   "coverageComplete": false,
    "venue": "Aspire Dome",
    "location": "Doha",
    "watch": [
     {
      "name": "Prime Video",
      "url": "https://www.amazon.com/gp/video/storefront",
-     "kind": "streaming"
+     "kind": "streaming",
+     "confirmed": false,
+     "covered": false
     }
    ],
    "card": [],
    "art": null,
    "note": null,
-   "link": "https://www.onefc.com/events/one-qatar/"
+   "link": "https://www.onefc.com/events/one-qatar/",
+   "sourceStale": false,
+   "lastSeen": "2026-10-20T23:04:12Z",
+   "sources": [
+    {
+     "provider": "one",
+     "url": "https://www.onefc.com/events/one-qatar/",
+     "verifiedAt": "2026-10-20T23:04:12Z"
+    }
+   ],
+   "availability": "unconfirmed",
+   "earliestBroadcastStart": null,
+   "mainCardStart": null
   }
  ]
 }

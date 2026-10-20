@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "scanner/**"
+      - "scanner/**.py"
       - ".github/workflows/scan.yml"
 
 permissions:
@@ -21,7 +21,9 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -32,13 +34,13 @@ jobs:
 
       - name: Commit the feed if it changed
         run: |
-          if git diff --quiet -- docs/fights.json; then
+          if git diff --quiet -- docs/fights.json docs/coverage.json scanner/state/providers.json; then
             echo "No change in the feed."
             exit 0
           fi
           git config user.name  "cornerman-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/fights.json
+          git add docs/fights.json docs/coverage.json scanner/state/providers.json
           git commit -m "Update fight feed ($(date -u '+%Y-%m-%d %H:%M UTC'))"
           # A laptop push can land while this job is running. Concurrency
           # only serialises Actions jobs, so rebase can still conflict on
@@ -52,11 +54,11 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             python scanner/scan.py
-            if git diff --quiet -- docs/fights.json; then
+            if git diff --quiet -- docs/fights.json docs/coverage.json scanner/state/providers.json; then
               echo "Feed already matches main."
               exit 0
             fi
-            git add docs/fights.json
+            git add docs/fights.json docs/coverage.json scanner/state/providers.json
             git commit -m "Update fight feed ($(date -u '+%Y-%m-%d %H:%M UTC'))"
             sleep 5
           done

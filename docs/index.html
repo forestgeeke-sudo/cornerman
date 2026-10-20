@@ -51,6 +51,18 @@
       <input type="checkbox" id="bigOnly">
       <span>Big cards only</span>
     </label>
+    <label class="check">
+      <input type="checkbox" id="includedOnly" aria-label="Show events I can watch">
+      <span>I can watch</span>
+    </label>
+    <label class="filter-select">Sport
+      <select id="sportFilter" aria-label="Filter by sport">
+        <option value="all">All sports</option><option value="mma">MMA</option>
+        <option value="grappling">Grappling</option><option value="kickboxing">Kickboxing</option>
+        <option value="muay_thai">Muay Thai</option><option value="boxing">Boxing</option>
+        <option value="combat_sports">Combat sports</option>
+      </select>
+    </label>
     <input type="search" id="search" class="search" placeholder="Search fighter, org, venue…"
            aria-label="Search fighter, organisation or venue">
   </nav>
@@ -65,7 +77,7 @@
 
 <footer class="foot">
   <p>Scanned <span id="stamp">—</span> · refreshes every 6 hours whether or not this machine is on.</p>
-  <p class="foot__src">MMA via ESPN's public schedule feed and ONE Championship · Times shown in your local zone.</p>
+  <p class="foot__src">Event and viewing details from the sources linked on each card · Times shown in America/Chicago · <a href="coverage.json">Coverage report</a></p>
 </footer>
 
 <template id="cardTpl">
@@ -79,6 +91,8 @@
       <h3 class="card__bout"></h3>
       <p class="card__meta"></p>
       <div class="chips card__watch"></div>
+      <p class="availability"></p>
+      <details class="viewing" hidden><summary>Viewing breakdown</summary><div class="viewing__body"></div></details>
       <div class="card__tools">
         <button class="link-btn card__toggle" hidden>Full card</button>
         <a class="link-btn" data-ics target="_blank" rel="noopener noreferrer">Add to calendar</a>

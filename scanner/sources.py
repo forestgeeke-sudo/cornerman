@@ -27,6 +27,7 @@ SERVICES = {
     "hulu": ("Hulu", "https://www.hulu.com/", "streaming"),
     "max": ("Max", "https://www.max.com/", "streaming"),
     "peacock": ("Peacock", "https://www.peacocktv.com/", "streaming"),
+    "vicetv": ("VICE TV", "https://www.vicetv.com/", "tv"),
     "youtube": ("YouTube", "https://www.youtube.com/", "streaming"),
     "triller": ("Triller TV", "https://triller.tv/", "streaming"),
     "fox": ("FOX", "https://www.fox.com/live/", "tv"),
@@ -47,16 +48,34 @@ SERVICES = {
 
 # ESPN lumps smaller promotions into an "other" bucket and lists no broadcaster
 # for them. These are the promotions worth naming, matched against the event
-# title, with the service that actually carries them in the US.
+# title. This is identity metadata; event-specific sources establish rights.
 PROMOTIONS = [
-    (r"road to ufc",       "UFC",   ["UFC Fight Pass"]),
-    (r"\brizin\b",         "RIZIN", ["RIZIN.TV"]),
-    (r"\bone\b.*(?:fight night|championship)|^one[ :]", "ONE", ["Prime Video"]),
-    (r"cage warriors",     "Cage Warriors", ["UFC Fight Pass"]),
-    (r"\blfa\b|legacy fighting", "LFA", ["UFC Fight Pass"]),
-    (r"invicta",           "Invicta FC", ["UFC Fight Pass"]),
-    (r"\bksw\b",           "KSW", []),
-    (r"oktagon",           "Oktagon", []),
+    # Identity only. Rights always require event-specific evidence.
+    (r"ufc bjj", "UFC BJJ", []),
+    (r"(?:ufc )?fight pass invitational", "UFC Fight Pass Invitational", []),
+    (r"\bufc\b|contender series", "UFC", []),
+    (r"\brizin\b", "RIZIN", []),
+    (r"\bone\b.*(?:fight night|championship)|^one[ :]", "ONE", []),
+    (r"cage warriors|^cw\s*\d", "Cage Warriors", []),
+    (r"\blfa\b|legacy fighting", "LFA", []),
+    (r"fury (?:fc|fighting|challenger|as)", "Fury Fighting Championship", []),
+    (r"cffc|cage fury", "CFFC", []),
+    (r"lux", "Lux Fight League", []),
+    (r"eternal", "Eternal MMA", []),
+    (r"uae warriors", "UAE Warriors", []),
+    (r"battlefield|^bfl\s*\d", "Battlefield Fight League", []),
+    (r"samourai", "Samourai MMA", []),
+    (r"combat fc", "Combat FC", []),
+    (r"^wow\s", "WOW FC", []),
+    (r"tuff.n.uff", "Tuff-N-Uff", []),
+    (r"inka mma", "INKA MMA", []),
+    (r"^ares\s", "ARES FC", []),
+    (r"anthony pettis", "Anthony Pettis FC", []),
+    (r"apfc.*ifl", "APFC / IFL", []),
+    (r"peter welch", "Peter Welch's Athletics", []),
+    (r"invicta", "Invicta FC", []),
+    (r"\bksw\b", "KSW", []),
+    (r"oktagon", "Oktagon", []),
 ]
 
 # Placeholder strings the sources use when a broadcaster isn't announced yet.
@@ -83,7 +102,7 @@ def resolve(name):
 
 
 def identify(event_name):
-    """Name the promotion behind an event title, and how to watch it.
+    """Name the promotion behind an event title; no inferred viewing rights.
 
     Used for ESPN's catch-all bucket, which carries real events but labels
     them only "Other" with no broadcaster.

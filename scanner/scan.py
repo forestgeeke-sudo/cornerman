@@ -1,15 +1,9 @@
 #!/usr/bin/env python3
-"""Cornerman scanner: build docs/fights.json from public schedule feeds.
+"""Build the existing static Cornerman feed from complementary public schedules.
 
-Runs on GitHub Actions, not on anyone's desktop. Stdlib only on purpose --
-no dependency can rot out from under a job that runs unattended for months.
-
-Sources:
-  MMA    ESPN's public scoreboard JSON (UFC, PFL, Bellator). Key-free.
-  ONE    onefc.com/events (Wikipedia's list lags and skips Friday Fights).
-
-Boxing is not scanned. DAZN-priced cards were crowding the list and
-aren't what this app is for.
+ESPN and ONE are retained. Official UFC segments, the public US Fight Pass
+catalogue and regional calendars supplement discovery. Stdlib only; unattended
+GitHub Actions retain bounded last-good provider observations on failure.
 """
 
 import gzip
@@ -25,6 +19,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import sources
+import providers
+from health import ProviderCache, write_json
+from model import merge_events, instant, stamp
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "fights.json"
@@ -138,6 +135,9 @@ def parse_espn_event(ev, org):
     event_watch = (sources.resolve_all(broadcasters(comps[0]))
                    or sources.resolve_all(fallback_watch))
 
+    for w in event_watch:
+        w.update(confirmed=False, covered=False)
+
     card = []
     for i, c in enumerate(bouts):
         fighters, portraits = [], []
@@ -171,15 +171,24 @@ def parse_espn_event(ev, org):
             link = l["href"]
             break
 
+    raw_status = (ev.get('status') or comps[0].get('status') or {}).get('type') or {}
+    status_name = raw_status.get('name', '').lower()
+    status = ('cancelled' if 'cancel' in status_name else 'postponed' if 'postpon' in status_name
+              else 'completed' if raw_status.get('completed') else 'scheduled')
     return {
         "id": f"{org.lower()}-{ev.get('id')}",
         "sport": "mma",
+        "status": status,
         "org": org,
         "tier": classify_ufc(name) if org == "UFC" else "other",
         "name": name,
         "headline": headline,
         "date": ev.get("date"),
         "datePrecision": "time",
+        "scheduledStart": ev.get("date"),
+        "eventDay": ev.get("date", "")[:10],
+        "segments": [],
+        "coverageComplete": False,
         "venue": venue,
         "location": location,
         "watch": event_watch,
@@ -229,13 +238,11 @@ def scan_one(today, end):
     try:
         page = fetch(ONE_URL, ua=UA_WEB)
     except Exception as e:
-        warn(f"ONE feed failed: {e}")
-        return []
+        raise RuntimeError(f"ONE request failed: {type(e).__name__}") from e
 
     start, stop = page.find('id="upcoming"'), page.find('id="past"')
     if start < 0:
-        warn("ONE page layout changed -- no upcoming section")
-        return []
+        raise ValueError("ONE page layout changed -- no upcoming section")
     chunk = page[start:stop if stop > start else None]
 
     events, seen = [], set()
@@ -272,6 +279,10 @@ def scan_one(today, end):
             "headline": headline,
             "date": when.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "datePrecision": "time",
+            "scheduledStart": when.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "eventDay": when.strftime("%Y-%m-%d"),
+            "segments": [],
+            "coverageComplete": False,
             "venue": venue,
             "location": location,
             "watch": sources.resolve_all(
@@ -281,6 +292,11 @@ def scan_one(today, end):
             "note": None,
             "link": href.split("?")[0],
         })
+    for e in events:
+        for w in e["watch"]:
+            w.update(confirmed=False, covered=False)
+    if not events:
+        raise ValueError("ONE upcoming section contained no dated events")
     print(f"  ONE: {len(events)} events")
     return events
 
@@ -291,54 +307,68 @@ def main():
     now = datetime.now(timezone.utc)
     end = now + timedelta(days=HORIZON_DAYS)
     print(f"Scanning {now:%Y-%m-%d} -> {end:%Y-%m-%d}")
-
-    # ESPN is the backbone (UFC/PFL) and always has cards on the books, so an
-    # empty result there means the feed is broken, not that MMA stopped. Count
-    # it on its own -- the smaller sources must not be able to satisfy the
-    # guard on ESPN's behalf.
-    espn_events = scan_mma(now, end)
-    events = espn_events + scan_one(now, end)
-
-    if not espn_events:
-        print("ERROR: ESPN returned no events; refusing to overwrite a good feed.",
-              file=sys.stderr)
+    previous = json.loads(OUT.read_text()) if OUT.exists() else {}
+    cache = ProviderCache(ROOT / 'scanner/state/providers.json', now, previous)
+    events = []
+    for i, (slug, org) in enumerate(ESPN_LEAGUES):
+        if i: time.sleep(1.8)
+        url=f'https://site.api.espn.com/apis/site/v2/sports/mma/{slug}/scoreboard?dates={now:%Y%m%d}-{end:%Y%m%d}'
+        def read_espn(url=url, org=org):
+            data=json.loads(fetch(url))
+            if not isinstance(data.get('events'),list):raise ValueError('ESPN events array missing')
+            if org in ('UFC','PFL') and not data['events']:raise ValueError('ESPN primary calendar unexpectedly empty')
+            return [e for raw in data['events'] if (e:=parse_espn_event(raw,org)) and e.get('date')]
+        events += cache.run('espn:'+slug,url,read_espn)
+    events += cache.run('one',ONE_URL,lambda:scan_one(now,end))
+    web=lambda url:fetch(url,ua=UA_WEB)
+    calendars=[
+      ('lfa','https://www.lfa.com/events/',lambda:providers.bounded(providers.parse_structured(web('https://www.lfa.com/events/'),'LFA','https://www.lfa.com/events/',now),now,end)),
+      ('eternal','https://eternalmma.com/events/',lambda:providers.bounded(providers.parse_structured(web('https://eternalmma.com/events/'),'Eternal MMA','https://eternalmma.com/events/',now),now,end)),
+      ('cage-warriors','https://cagewarriors.com/cage-warriors-events/',lambda:providers.fetch_cw(web,now,end)),
+      ('lux','https://luxfightleague.com/eventos/',lambda:providers.fetch_lux(web,now,end)),
+      ('fury','https://www.furyfc.tv/events',lambda:providers.bounded(providers.parse_fury(web('https://www.furyfc.tv/events'),now),now,end)),
+      ('cffc','https://cffc.tv/tickets',lambda:providers.fetch_cffc(web,now,end)),
+      ('bfl','https://battlefieldfl.com/bfl-event-type/upcoming-events/',lambda:providers.bounded(providers.parse_bfl(web('https://battlefieldfl.com/bfl-event-type/upcoming-events/'),now),now,end)),
+      ('ufc-bjj','https://www.ufc.com/ufcbjj',lambda:providers.bounded(providers.parse_bjj(web('https://www.ufc.com/ufcbjj'),now),now,end)),
+      ('fightpass',providers.FP_SITE+'/upcoming',lambda:providers.fetch_fightpass(web,now,end)),
+      ('ufc',providers.UFC_INDEX,lambda:providers.scan_ufc(web,now,end)),
+    ]
+    for name,url,reader in calendars:events += cache.run(name,url,reader)
+    deduped=merge_events(events,now)
+    deduped=[e for e in deduped if e['date'][:10]<=end.date().isoformat()]
+    if not deduped and previous.get('events') and not any(d['status']=='ok' for d in cache.diagnostics):
+        print('ERROR: all providers failed; preserving last good feed',file=sys.stderr)
         return 1
-
-    cutoff = now - timedelta(hours=3)
-    skip_watch = {"dazn", "dazn ppv"}
-    seen, deduped = set(), []
-    for e in sorted(events, key=lambda e: e["date"]):
-        if e["id"] in seen:
-            continue
-        if e.get("sport") == "boxing":
-            continue
-        if any((w.get("name") or "").lower() in skip_watch for w in e.get("watch") or []):
-            continue
-        d = datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
-        if e.get("datePrecision") == "time":
-            if d <= cutoff:
-                continue
-        else:
-            # Keep a date-only row through the following morning so an
-            # evening card isn't dropped at UTC midnight.
-            day_end = datetime(d.year, d.month, d.day, tzinfo=timezone.utc)
-            if now >= day_end + timedelta(days=1, hours=3):
-                continue
-        seen.add(e["id"])
-        deduped.append(e)
-
-    payload = {
-        "generated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "counts": {
-            "mma": sum(1 for e in deduped if e["sport"] == "mma"),
-        },
-        "events": deduped,
-    }
-
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, indent=1, ensure_ascii=False) + "\n",
-                   encoding="utf-8")
-    print(f"Wrote {OUT} -- {len(deduped)} events")
+    payload={'schemaVersion':2,'generated':stamp(now),'region':'US','timezone':'America/Chicago',
+             'subscriptions':['Paramount+','UFC Fight Pass'],'freeServices':['YouTube'],
+             'counts':{sport:sum(e['sport']==sport for e in deduped) for sport in sorted({e['sport'] for e in deduped})},
+             'providers':cache.diagnostics,'events':deduped}
+    cache.save()
+    write_json(OUT,payload)
+    checklist=['UFC','Cage Warriors','LFA','Fury Fighting Championship','CFFC','Lux Fight League',
+               'Eternal MMA','UAE Warriors','Battlefield Fight League','Samourai MMA','UFC BJJ','UFC Fight Pass Invitational']
+    orgs=sorted(set(checklist)|{e['org'] for e in deduped})
+    coverage={'verifiedAt':stamp(now),'horizonDays':HORIZON_DAYS,'priorityDays':30,
+              'providers':cache.diagnostics,'promotions':[]}
+    for org in orgs:
+        es=[e for e in deduped if e['org']==org]
+        coverage['promotions'].append({'promotion':org,'events':len(es),
+            'next30Days':sum(e['date'][:10]<=(now+timedelta(days=30)).date().isoformat() for e in es),
+            'watchable':sum(e['availability'] in ('included','partial','free') for e in es),
+            'unconfirmed':sum(e['availability']=='unconfirmed' for e in es),
+            'sources':sorted({s['provider'] for e in es for s in e.get('sources',[])}),
+            'gap':None if es else 'No upcoming listing verified by connected calendars; not proof of no events'})
+    coverage['limitations']=[
+      'Fight Pass publishes a rolling live catalogue, often shorter than 180 days; promotion calendars extend discovery.',
+      'A normal subscription is verified from event-specific US guest purchase options; PPV is never included.',
+      'ONE legacy watch chips remain unconfirmed until event-specific US segment evidence is available.',
+      'Samourai discovery currently relies on the Fight Pass catalogue; no independent live calendar adapter.',
+      'Cage Warriors front-end blocks automated requests; official WordPress REST fallback is monitored.',
+      'Venue first-bell times are scheduledStart, not verified broadcast starts.',
+      'No schedule can prove completeness. Failed observations expire after 7 days, rights after 3 days, omitted listings after 48 hours.'
+    ]
+    write_json(ROOT/'docs/coverage.json',coverage)
+    print(f'Wrote {OUT}: {len(deduped)} events')
     return 0
 
 

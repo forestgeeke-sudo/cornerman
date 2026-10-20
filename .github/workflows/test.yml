@@ -1,0 +1,26 @@
+name: Tests
+on:
+  pull_request:
+  push:
+    paths:
+      - 'scanner/**.py'
+      - 'tests/**'
+      - 'docs/app.js'
+      - '.github/workflows/**'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m unittest discover -s tests -v
+      - run: node --check docs/app.js && node --check docs/sw.js
+      - run: TZ=UTC node --test tests/test_ui.js
+      - run: TZ=Pacific/Auckland node --test tests/test_ui.js

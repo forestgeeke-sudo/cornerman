@@ -1,0 +1,1184 @@
+[
+ {
+  "accessLevel": "GRANTED",
+  "type": "LIVE",
+  "id": 318184,
+  "title": "UFC 333: PRESS CONFERENCE",
+  "location": "Etihad Arena, Yas Island United Arab Emirates",
+  "startDate": 1792674000000,
+  "endDate": 1792681200000,
+  "availablePurchases": []
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316118,
+  "title": "UAE WARRIORS 74",
+  "location": "ADNEX Abu Dhabi",
+  "startDate": 1792688400000,
+  "endDate": 1792702800000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 318185,
+  "title": "UFC 333: ON THE LINE",
+  "location": "Meta Apex Las Vegas, NV, USA",
+  "startDate": 1792695600000,
+  "endDate": 1792699200000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "GRANTED",
+  "type": "LIVE",
+  "id": 318186,
+  "title": "UFC 333: CEREMONIAL WEIGH-IN",
+  "location": "Etihad Arena, Yas Island United Arab Emirates",
+  "startDate": 1792764000000,
+  "endDate": 1792771200000,
+  "availablePurchases": []
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316119,
+  "title": "COMBAT FC 14",
+  "location": "Shriners Auditorium Wilmington, MA",
+  "startDate": 1792803600000,
+  "endDate": 1792818000000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 313037,
+  "title": "(ESPA\u00d1OL) UFC 333: FIGHT PASS PRELIMINARES",
+  "startDate": 1792850400000,
+  "endDate": 1792864800000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 313015,
+  "title": "UFC 333: FIGHT PASS PRELIMS",
+  "startDate": 1792850400000,
+  "endDate": 1792861200000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 313016,
+  "title": "UFC 333: FIGHT PASS PRELIMS",
+  "startDate": 1792850400000,
+  "endDate": 1792861200000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 318187,
+  "title": "WOW 33",
+  "location": "Buesa Arena  Vitoria-Gasteiz, Spain",
+  "startDate": 1792871100000,
+  "endDate": 1792889100000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "GRANTED",
+  "type": "LIVE",
+  "id": 313290,
+  "title": "UFC 333: POST-FIGHT PRESS CONFERENCE",
+  "startDate": 1792876500000,
+  "endDate": 1792883700000,
+  "availablePurchases": []
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 318189,
+  "title": "PETER WELCH\u2019S ATHLETICS: RISING STARS BOXING",
+  "location": "Dorchester Armory Dorchester, MA, USA",
+  "startDate": 1792882800000,
+  "endDate": 1792897200000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316120,
+  "title": "TUFF-N-UFF 158",
+  "location": "Sahara Las Vegas, NV",
+  "startDate": 1792895400000,
+  "endDate": 1792909800000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316121,
+  "title": "APFC: IFL 4",
+  "location": "Koramangala Indoor Stadium,  Bangalore, India",
+  "startDate": 1792944000000,
+  "endDate": 1792958400000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316122,
+  "title": "INKA MMA 62",
+  "location": "Lima, Peru",
+  "startDate": 1793242800000,
+  "endDate": 1793257200000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316123,
+  "title": "(ESPA\u00d1OL) INKA MMA 62",
+  "location": "Lima, Peru",
+  "startDate": 1793242800000,
+  "endDate": 1793257200000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316139,
+  "title": "UFC BJJ 13",
+  "location": "Meta Apex Las Vegas, NV, USA",
+  "startDate": 1793318400000,
+  "endDate": 1793332800000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316140,
+  "title": "(ESPA\u00d1OL) UFC BJJ 13",
+  "location": "Meta Apex Las Vegas, NV, USA",
+  "startDate": 1793318400000,
+  "endDate": 1793332800000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316125,
+  "title": "ETERNAL MMA 111",
+  "location": "Perth HBC Perth, AU",
+  "startDate": 1793440800000,
+  "endDate": 1793451600000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316127,
+  "title": "ARES 44",
+  "location": "Z\u00e9nith de Strasbourg Strasbourg, France",
+  "startDate": 1793464200000,
+  "endDate": 1793478600000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 313395,
+  "title": "ANTHONY PETTIS FC 26",
+  "location": "Chicago, IL",
+  "startDate": 1793491200000,
+  "endDate": 1793505600000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "GRANTED",
+  "type": "LIVE",
+  "id": 316206,
+  "title": "UFC VEGAS 123: POST-FIGHT PRESS CONFERENCE",
+  "location": "Meta Apex Las Vegas, NV, USA",
+  "startDate": 1793502900000,
+  "endDate": 1793510100000,
+  "availablePurchases": []
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 313844,
+  "title": "SAMOURAI MMA 22",
+  "startDate": 1794006000000,
+  "endDate": 1794024000000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 313845,
+  "title": "(FRAN\u00c7AIS) SAMOURAI MMA 22",
+  "startDate": 1794006000000,
+  "endDate": 1794024000000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "GRANTED",
+  "type": "LIVE",
+  "id": 316218,
+  "title": "UFC VEGAS 124: POST-FIGHT PRESS CONFERENCE",
+  "location": "Meta Apex Las Vegas, NV, USA",
+  "startDate": 1794107700000,
+  "endDate": 1794114900000,
+  "availablePurchases": []
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316406,
+  "title": "UFC 334: FIGHT PASS PRELIMS",
+  "location": "Madison Square Garden New York, NY, USA",
+  "startDate": 1794690000000,
+  "endDate": 1794704400000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316407,
+  "title": "(ESPA\u00d1OL) UFC 334: FIGHT PASS PRELIMINARES",
+  "location": "Madison Square Garden New York, NY, USA",
+  "startDate": 1794690000000,
+  "endDate": 1794704400000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316405,
+  "title": "POLYMARKET UFC 334: FIGHT PASS PRELIMS",
+  "location": "Madison Square Garden New York, NY, USA",
+  "startDate": 1794690000000,
+  "endDate": 1794704400000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 316415,
+  "title": "UFC 334: PRELIMS",
+  "location": "Madison Square Garden New York, NY, USA",
+  "startDate": 1794697200000,
+  "endDate": 1794708000000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ },
+ {
+  "accessLevel": "GRANTED",
+  "type": "LIVE",
+  "id": 317105,
+  "title": "UFC 334: POST-FIGHT PRESS CONFERENCE",
+  "location": "Madison Square Garden New York, NY, USA",
+  "startDate": 1794716100000,
+  "endDate": 1794723300000,
+  "availablePurchases": []
+ },
+ {
+  "accessLevel": "DENIED",
+  "type": "LIVE",
+  "id": 313842,
+  "title": "FURY FC 126",
+  "location": "Imagen Venues Houston, TX USA",
+  "startDate": 1797022800000,
+  "endDate": 1797033600000,
+  "availablePurchases": [
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.monthly.subscription",
+    "name": "Monthly",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1M",
+     "subscriptionMarketingPricePeriod": "P1M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.3month.subscription",
+    "name": "Three Month",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P3M",
+     "subscriptionMarketingPricePeriod": "P3M"
+    }
+   },
+   {
+    "rokuIapCode": "dce.ufc.family.1.fightpass.annual.subscription.v2",
+    "name": "Annual",
+    "purchaseStrategy": {
+     "type": "SUBSCRIPTION",
+     "minimumBillingPeriods": 0,
+     "minimumCommitmentSchedule": [],
+     "cancellationNoticePeriodDays": 0,
+     "subscriptionPeriod": "P1Y",
+     "subscriptionMarketingPricePeriod": "P1Y"
+    }
+   }
+  ]
+ }
+]

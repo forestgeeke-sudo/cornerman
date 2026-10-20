@@ -1,0 +1,402 @@
+{
+ "verifiedAt": "2026-10-20T23:04:12Z",
+ "horizonDays": 180,
+ "priorityDays": 30,
+ "providers": [
+  {
+   "provider": "espn:ufc",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261020-20270418",
+   "status": "ok",
+   "found": 7,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "espn:pfl",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261020-20270418",
+   "status": "ok",
+   "found": 2,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "espn:bellator",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261020-20270418",
+   "status": "ok",
+   "found": 0,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "espn:other",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261020-20270418",
+   "status": "ok",
+   "found": 0,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "one",
+   "url": "https://www.onefc.com/events/",
+   "status": "ok",
+   "found": 13,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "lfa",
+   "url": "https://www.lfa.com/events/",
+   "status": "ok",
+   "found": 5,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "eternal",
+   "url": "https://eternalmma.com/events/",
+   "status": "ok",
+   "found": 4,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "cage-warriors",
+   "url": "https://cagewarriors.com/cage-warriors-events/",
+   "status": "failed",
+   "found": 0,
+   "retained": 6,
+   "lastSuccess": "2026-10-20T22:52:44Z",
+   "errors": [
+    "RuntimeError: Official REST currently HTTP 403; retaining the earlier successful verified response"
+   ]
+  },
+  {
+   "provider": "lux",
+   "url": "https://luxfightleague.com/eventos/",
+   "status": "degraded",
+   "found": 1,
+   "retained": 0,
+   "lastSuccess": null,
+   "errors": [
+    "https://luxfightleague.com/eventos/lux-063-queretaro/"
+   ]
+  },
+  {
+   "provider": "fury",
+   "url": "https://www.furyfc.tv/events",
+   "status": "ok",
+   "found": 3,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "cffc",
+   "url": "https://cffc.tv/tickets",
+   "status": "ok",
+   "found": 3,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "bfl",
+   "url": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
+   "status": "ok",
+   "found": 1,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "ufc-bjj",
+   "url": "https://www.ufc.com/ufcbjj",
+   "status": "ok",
+   "found": 2,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "fightpass",
+   "url": "https://ufcfightpass.com/upcoming",
+   "status": "ok",
+   "found": 15,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  },
+  {
+   "provider": "ufc",
+   "url": "https://www.ufc.com/events",
+   "status": "ok",
+   "found": 8,
+   "retained": 0,
+   "lastSuccess": "2026-10-20T23:04:12Z",
+   "errors": []
+  }
+ ],
+ "promotions": [
+  {
+   "promotion": "APFC / IFL",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "ARES FC",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Anthony Pettis FC",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Battlefield Fight League",
+   "events": 1,
+   "next30Days": 0,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "bfl"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "CFFC",
+   "events": 3,
+   "next30Days": 1,
+   "watchable": 0,
+   "unconfirmed": 3,
+   "sources": [
+    "cffc"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Cage Warriors",
+   "events": 6,
+   "next30Days": 2,
+   "watchable": 1,
+   "unconfirmed": 5,
+   "sources": [
+    "cage-warriors"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Combat FC",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Eternal MMA",
+   "events": 4,
+   "next30Days": 2,
+   "watchable": 1,
+   "unconfirmed": 3,
+   "sources": [
+    "eternal",
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Fury Fighting Championship",
+   "events": 4,
+   "next30Days": 2,
+   "watchable": 3,
+   "unconfirmed": 1,
+   "sources": [
+    "fightpass",
+    "fury"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "INKA MMA",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "LFA",
+   "events": 5,
+   "next30Days": 3,
+   "watchable": 0,
+   "unconfirmed": 3,
+   "sources": [
+    "lfa"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Lux Fight League",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 0,
+   "unconfirmed": 1,
+   "sources": [
+    "lux"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "ONE",
+   "events": 13,
+   "next30Days": 5,
+   "watchable": 0,
+   "unconfirmed": 13,
+   "sources": [
+    "one"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "PFL",
+   "events": 2,
+   "next30Days": 1,
+   "watchable": 0,
+   "unconfirmed": 2,
+   "sources": [
+    "espn:pfl"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Peter Welch's Athletics",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Samourai MMA",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Tuff-N-Uff",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "UAE Warriors",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "UFC",
+   "events": 8,
+   "next30Days": 4,
+   "watchable": 8,
+   "unconfirmed": 0,
+   "sources": [
+    "espn:ufc",
+    "fightpass",
+    "ufc"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "UFC BJJ",
+   "events": 2,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 1,
+   "sources": [
+    "fightpass",
+    "ufc-bjj"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "UFC Fight Pass Invitational",
+   "events": 0,
+   "next30Days": 0,
+   "watchable": 0,
+   "unconfirmed": 0,
+   "sources": [],
+   "gap": "No upcoming listing verified by connected calendars; not proof of no events"
+  },
+  {
+   "promotion": "WOW FC",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  }
+ ],
+ "limitations": [
+  "Fight Pass publishes a rolling live catalogue, often shorter than 180 days; promotion calendars extend discovery.",
+  "A normal subscription is verified from event-specific US guest purchase options; PPV is never included.",
+  "ONE legacy watch chips remain unconfirmed until event-specific US segment evidence is available.",
+  "Samourai discovery currently relies on the Fight Pass catalogue; no independent live calendar adapter.",
+  "Cage Warriors front-end blocks automated requests; official WordPress REST fallback is monitored.",
+  "Venue first-bell times are scheduledStart, not verified broadcast starts.",
+  "No schedule can prove completeness. Failed observations expire after 7 days, rights after 3 days, omitted listings after 48 hours."
+ ]
+}
