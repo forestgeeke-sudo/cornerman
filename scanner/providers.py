@@ -308,12 +308,12 @@ def parse_fury(page, now):
             tm=re.search(key+r':\s*.*?(\d{1,2}):(\d{2})\s*([ap])m\s*CT',text,re.I)
             if not tm:continue
             d=datetime.fromisoformat(day).replace(hour=int(tm[1])%12+(12 if tm[3].lower()=='p' else 0),minute=int(tm[2]),tzinfo=ZoneInfo('America/Chicago'))
-            anchors=[a for a in section.find('a') if re.search('WATCH '+('PRELIMS' if label=='Prelims' else '(?:MAIN CARD|FIGHT CARD)'),a.text,re.I)]
+            anchors=[a for a in section.find('a') if re.search('WATCH (?:FREE )?'+('PRELIMS' if label=='Prelims' else '(?:MAIN CARD|FIGHT CARD)'),a.text,re.I)]
             ps=[]
             for a in anchors:
                 href=a.attrs.get('href','')
                 if 'ufcfightpass.com' in href:ps.append(platform('UFC Fight Pass',url=href))
-                if re.search(r'youtube\.com/watch|youtu\.be/',href):ps.append(platform('YouTube','free',href))
+                if re.search(r'youtube\.com/watch|youtu\.be/',href):ps.append(platform('YouTube','free' if re.search(r'\bfree\b|gratis',a.text+' '+text,re.I) else 'unconfirmed',href))
                 if 'onlyfans.com' in href:ps.append(platform('OnlyFans','unconfirmed',href))
                 if 'clearlife.live' in href:ps.append(platform('Clear Life','unconfirmed',href))
             e['segments'].append(segment(label,stamp(d),ps,e['link'],now))

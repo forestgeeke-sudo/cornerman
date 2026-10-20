@@ -58,6 +58,10 @@ class SourceTests(unittest.TestCase):
         page=page.replace('https://onlyfans.com/furyfighting','https://youtube.com/watch?v=event-prelims')
         es=providers.parse_fury(page,NOW)
         self.assertEqual(es[1]['segments'][0]['platforms'][0]['name'],'YouTube')
+        self.assertEqual(access(es[1],NOW)['availability'],'partial')
+        self.assertFalse(es[1]['segments'][0]['platforms'][0].get('access')=='free')
+        es=providers.parse_fury(page.replace('WATCH PRELIMS','WATCH FREE PRELIMS'),NOW)
+        self.assertEqual(es[1]['segments'][0]['platforms'][0]['access'],'free')
     def test_cw_calendar_is_scoped_before_partnership_footer(self):
         fixture=(FIX/'cw-calendar.json').read_text()
         es=providers.fetch_cw(lambda url:fixture,NOW,NOW+timedelta(days=180))
