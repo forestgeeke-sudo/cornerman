@@ -187,3 +187,28 @@ Choose **run** only for a real due production pass. Do not use a fabricated
 ```
 
 The existing desktop launcher and external Google Calendar handling remain intact.
+
+## Android launcher icon
+
+`launchers/android/` builds a tiny native launcher that opens this same website
+in the phone's browser when tapped. It requests no permissions and has no
+background component or copy of the web app. The signed APK can be installed
+through an existing authorized ADB connection without opening an activity or
+injecting screen input:
+
+```bash
+bash launchers/android/build.sh
+bash launchers/android/install.sh              # normal phone-adb connection
+bash launchers/android/install.sh DEVICE_ID    # explicit authorized USB device
+```
+
+The build reuses the existing local SDK/JDK under
+`~/.local/share/work-hours-toolchain/` (`CORNERMAN_ANDROID_TOOLCHAIN` can select
+another root). It also needs `rsvg-convert`. Outputs are ignored under `.cache/`;
+the personal signing key/password remain outside Git under
+`~/.local/share/cornerman-launcher/`. Preserve those private files for future APK
+updates; never commit them. There is no automatic installer/watcher.
+
+The icon is named **Cornerman** in the app drawer. Home-screen placement depends
+on the phone launcher; explicit pinning may require a visible Android confirmation.
+Uninstall `dev.forest.cornerman` to remove it.
