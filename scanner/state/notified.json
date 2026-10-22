@@ -22,6 +22,17 @@
       "status": "sent",
       "updated": "2026-10-21T15:36:43.445124+00:00"
     },
+    "digest:2026-10-22:1": {
+      "job": {
+        "at": "2026-10-22T09:00:00-05:00",
+        "body": "Cornerman \u2014 Thursday, October 22\nAll events in the next 48 hours; at least the next five when available.\n\n1. UAE WARRIORS 74\nFirst broadcast: Thu Oct 22, 12:00 PM CDT\nIncluded in your subscriptions\nLive event: Thu Oct 22, 12:00 PM CDT \u2014 UFC Fight Pass (included)\n\n2. LFA 244 \u2013 Woodley vs. Havener\n2026-10-23 \u2014 time unconfirmed\nOther service / separate payment\nMain card: time unconfirmed \u2014 VICE TV (separate payment), FloCombat (separate payment)\n\n3. COMBAT FC 14\nFirst broadcast: Fri Oct 23, 8:00 PM CDT\nIncluded in your subscriptions\nLive event: Fri Oct 23, 8:00 PM CDT \u2014 UFC Fight Pass (included)\n\n4. UFC 333\nFirst broadcast: Sat Oct 24, 9:00 AM CDT\nMain card: Sat Oct 24, 1:00 PM CDT\nIncluded in your subscriptions\nMain card: Sat Oct 24, 1:00 PM CDT \u2014 Paramount+ (included)\nPrelims: Sat Oct 24, 11:00 AM CDT \u2014 Paramount+ (included)\nEarly prelims: Sat Oct 24, 9:00 AM CDT \u2014 Paramount+ (included), UFC Fight Pass (included)\n\n5. WOW 33\nFirst broadcast: Sat Oct 24, 2:45 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 24, 2:45 PM CDT \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-10-22:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-10-22 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-10-22T14:05:43.298380+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
@@ -80,6 +91,15 @@
         "key": "digest:2026-10-21:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-10-21 (1/1)"
+      }
+    ],
+    "2026-10-22": [
+      {
+        "at": "2026-10-22T09:00:00-05:00",
+        "body": "Cornerman \u2014 Thursday, October 22\nAll events in the next 48 hours; at least the next five when available.\n\n1. UAE WARRIORS 74\nFirst broadcast: Thu Oct 22, 12:00 PM CDT\nIncluded in your subscriptions\nLive event: Thu Oct 22, 12:00 PM CDT \u2014 UFC Fight Pass (included)\n\n2. LFA 244 \u2013 Woodley vs. Havener\n2026-10-23 \u2014 time unconfirmed\nOther service / separate payment\nMain card: time unconfirmed \u2014 VICE TV (separate payment), FloCombat (separate payment)\n\n3. COMBAT FC 14\nFirst broadcast: Fri Oct 23, 8:00 PM CDT\nIncluded in your subscriptions\nLive event: Fri Oct 23, 8:00 PM CDT \u2014 UFC Fight Pass (included)\n\n4. UFC 333\nFirst broadcast: Sat Oct 24, 9:00 AM CDT\nMain card: Sat Oct 24, 1:00 PM CDT\nIncluded in your subscriptions\nMain card: Sat Oct 24, 1:00 PM CDT \u2014 Paramount+ (included)\nPrelims: Sat Oct 24, 11:00 AM CDT \u2014 Paramount+ (included)\nEarly prelims: Sat Oct 24, 9:00 AM CDT \u2014 Paramount+ (included), UFC Fight Pass (included)\n\n5. WOW 33\nFirst broadcast: Sat Oct 24, 2:45 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 24, 2:45 PM CDT \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-10-22:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-10-22 (1/1)"
       }
     ]
   },
