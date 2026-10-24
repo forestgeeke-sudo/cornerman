@@ -44,6 +44,17 @@
       "status": "sent",
       "updated": "2026-10-23T13:48:31.564567+00:00"
     },
+    "digest:2026-10-24:1": {
+      "job": {
+        "at": "2026-10-24T09:00:00-05:00",
+        "body": "Cornerman \u2014 Saturday, October 24\nAll events in the next 48 hours; at least the next five when available.\n\n1. WOW 33\nFirst broadcast: Sat Oct 24, 2:45 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 24, 2:45 PM CDT \u2014 UFC Fight Pass (included)\n\n2. PETER WELCH\u2019S ATHLETICS: RISING STARS BOXING\nFirst broadcast: Sat Oct 24, 6:00 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 24, 6:00 PM CDT \u2014 UFC Fight Pass (included)\n\n3. TUFF-N-UFF 158\nFirst broadcast: Sat Oct 24, 9:00 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 24, 9:00 PM CDT \u2014 UFC Fight Pass (included)\n\n4. APFC: IFL 4\nFirst broadcast: Sun Oct 25, 11:00 AM CDT\nIncluded in your subscriptions\nLive event: Sun Oct 25, 11:00 AM CDT \u2014 UFC Fight Pass (included)\n\n5. FURY AS 62\nFirst broadcast: Sun Oct 25, 1:00 PM CDT\nMain card: Sun Oct 25, 1:00 PM CDT\nViewing access unconfirmed\nMain card: Sun Oct 25, 1:00 PM CDT \u2014 Clear Life (unconfirmed)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-10-24:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-10-24 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-10-24T14:53:29.439747+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
@@ -142,6 +153,15 @@
         "key": "digest:2026-10-23:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-10-23 (1/1)"
+      }
+    ],
+    "2026-10-24": [
+      {
+        "at": "2026-10-24T09:00:00-05:00",
+        "body": "Cornerman \u2014 Saturday, October 24\nAll events in the next 48 hours; at least the next five when available.\n\n1. WOW 33\nFirst broadcast: Sat Oct 24, 2:45 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 24, 2:45 PM CDT \u2014 UFC Fight Pass (included)\n\n2. PETER WELCH\u2019S ATHLETICS: RISING STARS BOXING\nFirst broadcast: Sat Oct 24, 6:00 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 24, 6:00 PM CDT \u2014 UFC Fight Pass (included)\n\n3. TUFF-N-UFF 158\nFirst broadcast: Sat Oct 24, 9:00 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 24, 9:00 PM CDT \u2014 UFC Fight Pass (included)\n\n4. APFC: IFL 4\nFirst broadcast: Sun Oct 25, 11:00 AM CDT\nIncluded in your subscriptions\nLive event: Sun Oct 25, 11:00 AM CDT \u2014 UFC Fight Pass (included)\n\n5. FURY AS 62\nFirst broadcast: Sun Oct 25, 1:00 PM CDT\nMain card: Sun Oct 25, 1:00 PM CDT\nViewing access unconfirmed\nMain card: Sun Oct 25, 1:00 PM CDT \u2014 Clear Life (unconfirmed)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-10-24:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-10-24 (1/1)"
       }
     ]
   },
