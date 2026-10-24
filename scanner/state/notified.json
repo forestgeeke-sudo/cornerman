@@ -83,6 +83,17 @@
       "status": "sent",
       "updated": "2026-10-23T18:42:50.253914+00:00"
     },
+    "ufc-600061267:imminent": {
+      "job": {
+        "at": "2026-10-24T12:30:00+00:00",
+        "body": "UFC 333\nFirst broadcast: Sat Oct 24, 9:00 AM CDT\nMain card: Sat Oct 24, 1:00 PM CDT\nIncluded in your subscriptions\nMain card: Sat Oct 24, 1:00 PM CDT \u2014 Paramount+ (included)\nPrelims: Sat Oct 24, 11:00 AM CDT \u2014 Paramount+ (included)\nEarly prelims: Sat Oct 24, 9:00 AM CDT \u2014 Paramount+ (included), UFC Fight Pass (included)\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "ufc-600061267:imminent",
+        "priority": "high",
+        "title": "Starting soon: UFC 333"
+      },
+      "status": "pending",
+      "updated": "2026-10-24T11:38:03.153827+00:00"
+    },
     "ufc-600061541:dayof": {
       "status": "sent",
       "updated": "2026-10-10T14:44:03.701371+00:00"
