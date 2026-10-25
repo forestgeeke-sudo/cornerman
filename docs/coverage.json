@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-10-25T16:11:00Z",
+ "verifiedAt": "2026-10-25T20:47:21Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 6,
    "retained": 1,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 13,
    "retained": 0,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
@@ -65,7 +65,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
@@ -96,7 +96,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
@@ -105,7 +105,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
@@ -114,7 +114,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
@@ -123,16 +123,16 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 9,
-   "retained": 5,
-   "lastSuccess": "2026-10-25T16:11:00Z",
+   "found": 8,
+   "retained": 6,
+   "lastSuccess": "2026-10-25T20:47:21Z",
    "errors": []
   },
   {
