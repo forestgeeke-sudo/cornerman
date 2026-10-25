@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-10-25T04:35:42Z",
+ "verifiedAt": "2026-10-25T11:19:50Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 6,
    "retained": 1,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -45,17 +45,19 @@
    "status": "ok",
    "found": 13,
    "retained": 0,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
    "provider": "lfa",
    "url": "https://www.lfa.com/events/",
-   "status": "ok",
-   "found": 4,
-   "retained": 1,
+   "status": "failed",
+   "found": 0,
+   "retained": 5,
    "lastSuccess": "2026-10-25T04:35:42Z",
-   "errors": []
+   "errors": [
+    "TimeoutError: The read operation timed out"
+   ]
   },
   {
    "provider": "eternal",
@@ -63,7 +65,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -94,7 +96,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -103,7 +105,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -112,7 +114,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -121,7 +123,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -130,7 +132,7 @@
    "status": "ok",
    "found": 9,
    "retained": 5,
-   "lastSuccess": "2026-10-25T04:35:42Z",
+   "lastSuccess": "2026-10-25T11:19:50Z",
    "errors": []
   },
   {
@@ -249,8 +251,8 @@
   },
   {
    "promotion": "LFA",
-   "events": 5,
-   "next30Days": 4,
+   "events": 4,
+   "next30Days": 3,
    "watchable": 0,
    "unconfirmed": 2,
    "sources": [
@@ -292,29 +294,7 @@
    "gap": null
   },
   {
-   "promotion": "Peter Welch's Athletics",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
-   "unconfirmed": 0,
-   "sources": [
-    "fightpass"
-   ],
-   "gap": null
-  },
-  {
    "promotion": "Samourai MMA",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
-   "unconfirmed": 0,
-   "sources": [
-    "fightpass"
-   ],
-   "gap": null
-  },
-  {
-   "promotion": "Tuff-N-Uff",
    "events": 1,
    "next30Days": 1,
    "watchable": 1,
