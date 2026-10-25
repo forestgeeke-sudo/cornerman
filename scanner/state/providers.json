@@ -2,6 +2,1782 @@
  "espn:ufc": {
   "events": [
    {
+    "id": "ufc-600061420",
+    "sport": "mma",
+    "status": "scheduled",
+    "org": "UFC",
+    "tier": "fight_night",
+    "name": "UFC Fight Night: Moicano vs. Nolan",
+    "headline": "Moicano vs. Nolan",
+    "date": "2026-10-31T21:00Z",
+    "datePrecision": "time",
+    "scheduledStart": "2026-10-31T21:00Z",
+    "eventDay": "2026-10-31",
+    "segments": [],
+    "coverageComplete": false,
+    "venue": "Meta APEX",
+    "location": "Las Vegas, NV",
+    "watch": [
+     {
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/",
+      "kind": "streaming",
+      "confirmed": false,
+      "covered": false
+     }
+    ],
+    "card": [
+     {
+      "order": 1,
+      "slot": "main",
+      "weight": "Lightweight",
+      "fighters": [
+       "Renato Moicano",
+       "Tom Nolan"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Renato Moicano",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3028863.png&w=350&h=254"
+       },
+       {
+        "name": "Tom Nolan",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144007.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 2,
+      "slot": "comain",
+      "weight": "Flyweight",
+      "fighters": [
+       "Ode' Osbourne",
+       "Cody Durden"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Ode' Osbourne",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4424224.png&w=350&h=254"
+       },
+       {
+        "name": "Cody Durden",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4686725.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 3,
+      "slot": "undercard",
+      "weight": "W Bantamweight",
+      "fighters": [
+       "Yana Santos",
+       "Luana Santos"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Yana Santos",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3154898.png&w=350&h=254"
+       },
+       {
+        "name": "Luana Santos",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110469.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 4,
+      "slot": "undercard",
+      "weight": "Welterweight",
+      "fighters": [
+       "Jean-Paul Lebosnoyani",
+       "Farman Hasanov"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Jean-Paul Lebosnoyani",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4629138.png&w=350&h=254"
+       },
+       {
+        "name": "Farman Hasanov",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350562.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 5,
+      "slot": "undercard",
+      "weight": "Featherweight",
+      "fighters": [
+       "Dakota Hope",
+       "Francis Marshall"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Dakota Hope",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4898914.png&w=350&h=254"
+       },
+       {
+        "name": "Francis Marshall",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060394.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 6,
+      "slot": "undercard",
+      "weight": "Middleweight",
+      "fighters": [
+       "Andre Petroski",
+       "Azamat Bekoev"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Andre Petroski",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4697476.png&w=350&h=254"
+       },
+       {
+        "name": "Azamat Bekoev",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5123963.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 7,
+      "slot": "undercard",
+      "weight": "Welterweight",
+      "fighters": [
+       "Theodor Berggren",
+       "Rodrigo Sezinando"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Theodor Berggren",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5085010.png&w=350&h=254"
+       },
+       {
+        "name": "Rodrigo Sezinando",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289853.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 8,
+      "slot": "undercard",
+      "weight": "Featherweight",
+      "fighters": [
+       "Julian Erosa",
+       "JeongYeong Lee"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Julian Erosa",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3955577.png&w=350&h=254"
+       },
+       {
+        "name": "JeongYeong Lee",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5068724.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 9,
+      "slot": "undercard",
+      "weight": "Middleweight",
+      "fighters": [
+       "Joe Kropschot",
+       "Nick Klein"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Joe Kropschot",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4687604.png&w=350&h=254"
+       },
+       {
+        "name": "Nick Klein",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 10,
+      "slot": "undercard",
+      "weight": "W Strawweight",
+      "fighters": [
+       "Piera Rodriguez",
+       "Talita Alencar"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Piera Rodriguez",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4816066.png&w=350&h=254"
+       },
+       {
+        "name": "Talita Alencar",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5139556.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 11,
+      "slot": "undercard",
+      "weight": "Welterweight",
+      "fighters": [
+       "Randy Brown",
+       "Jacobe Smith"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Randy Brown",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3960071.png&w=350&h=254"
+       },
+       {
+        "name": "Jacobe Smith",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149961.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 12,
+      "slot": "undercard",
+      "weight": "W Flyweight",
+      "fighters": [
+       "Tainara Lisboa",
+       "Lucia Szabová"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Tainara Lisboa",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
+       },
+       {
+        "name": "Lucia Szabová",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 13,
+      "slot": "undercard",
+      "weight": "Middleweight",
+      "fighters": [
+       "Mickey Gall",
+       "Zach Reese"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Mickey Gall",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3960470.png&w=350&h=254"
+       },
+       {
+        "name": "Zach Reese",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5143223.png&w=350&h=254"
+       }
+      ]
+     }
+    ],
+    "art": [
+     {
+      "name": "Renato Moicano",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3028863.png&w=350&h=254"
+     },
+     {
+      "name": "Tom Nolan",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144007.png&w=350&h=254"
+     }
+    ],
+    "note": null,
+    "link": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "espn:ufc",
+      "url": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-600061268",
+    "sport": "mma",
+    "status": "scheduled",
+    "org": "UFC",
+    "tier": "fight_night",
+    "name": "UFC Fight Night: Bonfim vs. Brady",
+    "headline": "Bonfim vs. Brady",
+    "date": "2026-11-07T22:00Z",
+    "datePrecision": "time",
+    "scheduledStart": "2026-11-07T22:00Z",
+    "eventDay": "2026-11-07",
+    "segments": [],
+    "coverageComplete": false,
+    "venue": "Meta APEX",
+    "location": "Las Vegas, NV",
+    "watch": [
+     {
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/",
+      "kind": "streaming",
+      "confirmed": false,
+      "covered": false
+     }
+    ],
+    "card": [
+     {
+      "order": 1,
+      "slot": "main",
+      "weight": "Welterweight",
+      "fighters": [
+       "Sean Brady",
+       "Gabriel Bonfim"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Sean Brady",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4295192.png&w=350&h=254"
+       },
+       {
+        "name": "Gabriel Bonfim",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4921516.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 2,
+      "slot": "comain",
+      "weight": "W Strawweight",
+      "fighters": [
+       "Tatiana Suarez",
+       "Virna Jandiroba"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Tatiana Suarez",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4020435.png&w=350&h=254"
+       },
+       {
+        "name": "Virna Jandiroba",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4289516.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 3,
+      "slot": "undercard",
+      "weight": "Bantamweight",
+      "fighters": [
+       "Davey Grant",
+       "Elijah Smith"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Davey Grant",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3070984.png&w=350&h=254"
+       },
+       {
+        "name": "Elijah Smith",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144797.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 4,
+      "slot": "undercard",
+      "weight": "Welterweight",
+      "fighters": [
+       "Wellington Turman",
+       "Seokhyeon Ko"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Wellington Turman",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426282.png&w=350&h=254"
+       },
+       {
+        "name": "Seokhyeon Ko",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4701954.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 5,
+      "slot": "undercard",
+      "weight": "Light Heavyweight",
+      "fighters": [
+       "Billy Elekana",
+       "Lucas Fernando"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Billy Elekana",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5078114.png&w=350&h=254"
+       },
+       {
+        "name": "Lucas Fernando",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5119021.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 6,
+      "slot": "undercard",
+      "weight": "Middleweight",
+      "fighters": [
+       "Wes Schultz",
+       "Mantas Kondratavičius"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Wes Schultz",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5057023.png&w=350&h=254"
+       },
+       {
+        "name": "Mantas Kondratavičius",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264925.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 7,
+      "slot": "undercard",
+      "weight": "Heavyweight",
+      "fighters": [
+       "Gabriel Lorenço",
+       "Alvin Hines"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Gabriel Lorenço",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215710.png&w=350&h=254"
+       },
+       {
+        "name": "Alvin Hines",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5229339.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 8,
+      "slot": "undercard",
+      "weight": "W Flyweight",
+      "fighters": [
+       "Karine Silva",
+       "Gabriella Fernandes"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Karine Silva",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3309918.png&w=350&h=254"
+       },
+       {
+        "name": "Gabriella Fernandes",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4871203.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 9,
+      "slot": "undercard",
+      "weight": "Featherweight",
+      "fighters": [
+       "Jose Delano",
+       "Murtazali Magomedov"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Jose Delano",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4969974.png&w=350&h=254"
+       },
+       {
+        "name": "Murtazali Magomedov",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5308768.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 10,
+      "slot": "undercard",
+      "weight": "Featherweight",
+      "fighters": [
+       "Keiichiro Nakamura",
+       "Ollie Schmid"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Keiichiro Nakamura",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5327937.png&w=350&h=254"
+       },
+       {
+        "name": "Ollie Schmid",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5346907.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 11,
+      "slot": "undercard",
+      "weight": "Featherweight",
+      "fighters": [
+       "Lucas Brennan",
+       "Austin Bashi"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Lucas Brennan",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4795284.png&w=350&h=254"
+       },
+       {
+        "name": "Austin Bashi",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120304.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 12,
+      "slot": "undercard",
+      "weight": "W Bantamweight",
+      "fighters": [
+       "Priscila Cachoeira",
+       "Nina Milošević"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Priscila Cachoeira",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4277049.png&w=350&h=254"
+       },
+       {
+        "name": "Nina Milošević",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5361791.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 13,
+      "slot": "undercard",
+      "weight": "Welterweight",
+      "fighters": [
+       "Jonny Parsons",
+       "Jose Henrique"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Jonny Parsons",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4880114.png&w=350&h=254"
+       },
+       {
+        "name": "Jose Henrique",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080485.png&w=350&h=254"
+       }
+      ]
+     }
+    ],
+    "art": [
+     {
+      "name": "Sean Brady",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4295192.png&w=350&h=254"
+     },
+     {
+      "name": "Gabriel Bonfim",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4921516.png&w=350&h=254"
+     }
+    ],
+    "note": null,
+    "link": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "espn:ufc",
+      "url": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-600061400",
+    "sport": "mma",
+    "status": "scheduled",
+    "org": "UFC",
+    "tier": "numbered",
+    "name": "UFC 334: Gane vs. Hokit",
+    "headline": "Gane vs. Hokit",
+    "date": "2026-11-14T22:00Z",
+    "datePrecision": "time",
+    "scheduledStart": "2026-11-14T22:00Z",
+    "eventDay": "2026-11-14",
+    "segments": [],
+    "coverageComplete": false,
+    "venue": "Madison Square Garden",
+    "location": "New York, NY",
+    "watch": [
+     {
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/",
+      "kind": "streaming",
+      "confirmed": false,
+      "covered": false
+     }
+    ],
+    "card": [
+     {
+      "order": 1,
+      "slot": "main",
+      "weight": "Heavyweight",
+      "fighters": [
+       "Josh Hokit",
+       "Ciryl Gane"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Josh Hokit",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4049391.png&w=350&h=254"
+       },
+       {
+        "name": "Ciryl Gane",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426000.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 2,
+      "slot": "comain",
+      "weight": "W Bantamweight",
+      "fighters": [
+       "Amanda Nunes",
+       "Kayla Harrison"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Amanda Nunes",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2516131.png&w=350&h=254"
+       },
+       {
+        "name": "Kayla Harrison",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4332765.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 3,
+      "slot": "undercard",
+      "weight": "Middleweight",
+      "fighters": [
+       "Caio Borralho",
+       "Yousri Belgaroui"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Caio Borralho",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4835137.png&w=350&h=254"
+       },
+       {
+        "name": "Yousri Belgaroui",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149815.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 4,
+      "slot": "undercard",
+      "weight": "Welterweight",
+      "fighters": [
+       "Kevin Holland",
+       "Uroš Medić"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Kevin Holland",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3943695.png&w=350&h=254"
+       },
+       {
+        "name": "Uroš Medić",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4685870.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 5,
+      "slot": "undercard",
+      "weight": "Flyweight",
+      "fighters": [
+       "Luis Gurule",
+       "Bilal Hasan"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Luis Gurule",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218137.png&w=350&h=254"
+       },
+       {
+        "name": "Bilal Hasan",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264405.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 6,
+      "slot": "undercard",
+      "weight": "Welterweight",
+      "fighters": [
+       "Stephen Thompson",
+       "Charles Radtke"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Stephen Thompson",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2615077.png&w=350&h=254"
+       },
+       {
+        "name": "Charles Radtke",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4416297.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 7,
+      "slot": "undercard",
+      "weight": "Lightweight",
+      "fighters": [
+       "Drew Dober",
+       "Chris Duncan"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Drew Dober",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2951202.png&w=350&h=254"
+       },
+       {
+        "name": "Chris Duncan",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4867356.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 8,
+      "slot": "undercard",
+      "weight": "Lightweight",
+      "fighters": [
+       "Jim Miller",
+       "Terrance McKinney"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Jim Miller",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335718.png&w=350&h=254"
+       },
+       {
+        "name": "Terrance McKinney",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4425604.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 9,
+      "slot": "undercard",
+      "weight": "Middleweight",
+      "fighters": [
+       "Baisangur Susurkaev",
+       "Donte Johnson"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Baisangur Susurkaev",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296753.png&w=350&h=254"
+       },
+       {
+        "name": "Donte Johnson",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5302831.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 10,
+      "slot": "undercard",
+      "weight": "W Bantamweight",
+      "fighters": [
+       "Macy Chiasson",
+       "Bia Mesquita"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Macy Chiasson",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4334306.png&w=350&h=254"
+       },
+       {
+        "name": "Bia Mesquita",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310274.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 11,
+      "slot": "undercard",
+      "weight": "Bantamweight",
+      "fighters": [
+       "Adrian Yañez",
+       "Juan Diaz"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Adrian Yañez",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3998248.png&w=350&h=254"
+       },
+       {
+        "name": "Juan Diaz",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310574.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 12,
+      "slot": "undercard",
+      "weight": "Lightweight",
+      "fighters": [
+       "Nazim Sadykhov",
+       "Jefferson Nascimento"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Nazim Sadykhov",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074130.png&w=350&h=254"
+       },
+       {
+        "name": "Jefferson Nascimento",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5362725.png&w=350&h=254"
+       }
+      ]
+     }
+    ],
+    "art": [
+     {
+      "name": "Josh Hokit",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4049391.png&w=350&h=254"
+     },
+     {
+      "name": "Ciryl Gane",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426000.png&w=350&h=254"
+     }
+    ],
+    "note": null,
+    "link": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "espn:ufc",
+      "url": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-600061665",
+    "sport": "mma",
+    "status": "scheduled",
+    "org": "UFC",
+    "tier": "fight_night",
+    "name": "UFC Fight Night: Procházka vs. Stirling",
+    "headline": "Procházka vs. Stirling",
+    "date": "2026-11-21T15:00Z",
+    "datePrecision": "time",
+    "scheduledStart": "2026-11-21T15:00Z",
+    "eventDay": "2026-11-21",
+    "segments": [],
+    "coverageComplete": false,
+    "venue": "ABHA Arena",
+    "location": "Doha, Qatar",
+    "watch": [
+     {
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/",
+      "kind": "streaming",
+      "confirmed": false,
+      "covered": false
+     }
+    ],
+    "card": [
+     {
+      "order": 1,
+      "slot": "main",
+      "weight": "Light Heavyweight",
+      "fighters": [
+       "Jiří Procházka",
+       "Navajo Stirling"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Jiří Procházka",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3156612.png&w=350&h=254"
+       },
+       {
+        "name": "Navajo Stirling",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5216713.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 2,
+      "slot": "comain",
+      "weight": "Featherweight",
+      "fighters": [
+       "Aljamain Sterling",
+       "Kevin Vallejos"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Aljamain Sterling",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3031559.png&w=350&h=254"
+       },
+       {
+        "name": "Kevin Vallejos",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145681.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 3,
+      "slot": "undercard",
+      "weight": "Lightweight",
+      "fighters": [
+       "Brian Ortega",
+       "Dan Hooker"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Brian Ortega",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3045737.png&w=350&h=254"
+       },
+       {
+        "name": "Dan Hooker",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3109135.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 4,
+      "slot": "undercard",
+      "weight": "Middleweight",
+      "fighters": [
+       "Jared Cannonier",
+       "Ikram Aliskerov"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Jared Cannonier",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3154860.png&w=350&h=254"
+       },
+       {
+        "name": "Ikram Aliskerov",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684776.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 5,
+      "slot": "undercard",
+      "weight": "Heavyweight",
+      "fighters": [
+       "Shamil Gaziev",
+       "Tallison Teixeira"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Shamil Gaziev",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145498.png&w=350&h=254"
+       },
+       {
+        "name": "Tallison Teixeira",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212856.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 6,
+      "slot": "undercard",
+      "weight": "Welterweight",
+      "fighters": [
+       "Jake Matthews",
+       "Tahir Abdullayev"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Jake Matthews",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3089915.png&w=350&h=254"
+       },
+       {
+        "name": "Tahir Abdullayev",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4394753.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 7,
+      "slot": "undercard",
+      "weight": "Bantamweight",
+      "fighters": [
+       "Aleksandre Topuria",
+       "Santiago Luna"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Aleksandre Topuria",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5185662.png&w=350&h=254"
+       },
+       {
+        "name": "Santiago Luna",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307799.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 8,
+      "slot": "undercard",
+      "weight": "Flyweight",
+      "fighters": [
+       "Kyoji Horiguchi",
+       "Asu Almabayev"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Kyoji Horiguchi",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2613374.png&w=350&h=254"
+       },
+       {
+        "name": "Asu Almabayev",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4294926.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 9,
+      "slot": "undercard",
+      "weight": "Flyweight",
+      "fighters": [
+       "Amir Albazi",
+       "Alessandro Costa"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Amir Albazi",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684848.png&w=350&h=254"
+       },
+       {
+        "name": "Alessandro Costa",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074121.png&w=350&h=254"
+       }
+      ]
+     }
+    ],
+    "art": [
+     {
+      "name": "Jiří Procházka",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3156612.png&w=350&h=254"
+     },
+     {
+      "name": "Navajo Stirling",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5216713.png&w=350&h=254"
+     }
+    ],
+    "note": null,
+    "link": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "espn:ufc",
+      "url": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-600061401",
+    "sport": "mma",
+    "status": "scheduled",
+    "org": "UFC",
+    "tier": "numbered",
+    "name": "UFC 335: Oliveira vs. Lopes",
+    "headline": "Oliveira vs. Lopes",
+    "date": "2026-12-12T22:00Z",
+    "datePrecision": "time",
+    "scheduledStart": "2026-12-12T22:00Z",
+    "eventDay": "2026-12-12",
+    "segments": [],
+    "coverageComplete": false,
+    "venue": "T-Mobile Arena",
+    "location": "Las Vegas, NV",
+    "watch": [
+     {
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/",
+      "kind": "streaming",
+      "confirmed": false,
+      "covered": false
+     }
+    ],
+    "card": [
+     {
+      "order": 1,
+      "slot": "main",
+      "weight": "Lightweight",
+      "fighters": [
+       "Charles Oliveira",
+       "Diego Lopes"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Charles Oliveira",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504169.png&w=350&h=254"
+       },
+       {
+        "name": "Diego Lopes",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4881999.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 2,
+      "slot": "comain",
+      "weight": "Heavyweight",
+      "fighters": [
+       "Sergei Pavlovich",
+       "Alex Pereira"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Sergei Pavlovich",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4217395.png&w=350&h=254"
+       },
+       {
+        "name": "Alex Pereira",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4705658.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 3,
+      "slot": "undercard",
+      "weight": "Middleweight",
+      "fighters": [
+       "Joe Pyfer",
+       "Bo Nickal"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Joe Pyfer",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684135.png&w=350&h=254"
+       },
+       {
+        "name": "Bo Nickal",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5061870.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 4,
+      "slot": "undercard",
+      "weight": "Flyweight",
+      "fighters": [
+       "Brandon Moreno",
+       "Charles Johnson"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Brandon Moreno",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3027545.png&w=350&h=254"
+       },
+       {
+        "name": "Charles Johnson",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4375156.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 5,
+      "slot": "undercard",
+      "weight": "W Flyweight",
+      "fighters": [
+       "Maycee Barber",
+       "Carli Judice"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Maycee Barber",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4246307.png&w=350&h=254"
+       },
+       {
+        "name": "Carli Judice",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5172179.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 6,
+      "slot": "undercard",
+      "weight": "Light Heavyweight",
+      "fighters": [
+       "Junior Tafa",
+       "Quentin Pasley"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Junior Tafa",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122234.png&w=350&h=254"
+       },
+       {
+        "name": "Quentin Pasley",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307124.png&w=350&h=254"
+       }
+      ]
+     }
+    ],
+    "art": [
+     {
+      "name": "Charles Oliveira",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504169.png&w=350&h=254"
+     },
+     {
+      "name": "Diego Lopes",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4881999.png&w=350&h=254"
+     }
+    ],
+    "note": null,
+    "link": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "espn:ufc",
+      "url": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-600062191",
+    "sport": "mma",
+    "status": "scheduled",
+    "org": "UFC",
+    "tier": "numbered",
+    "name": "UFC 336: Van vs. Kape",
+    "headline": "Van vs. Kape",
+    "date": "2027-01-30T22:00Z",
+    "datePrecision": "time",
+    "scheduledStart": "2027-01-30T22:00Z",
+    "eventDay": "2027-01-30",
+    "segments": [],
+    "coverageComplete": false,
+    "venue": "Scotiabank Arena",
+    "location": "Toronto, ON",
+    "watch": [
+     {
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/",
+      "kind": "streaming",
+      "confirmed": false,
+      "covered": false
+     }
+    ],
+    "card": [
+     {
+      "order": 1,
+      "slot": "main",
+      "weight": "Flyweight",
+      "fighters": [
+       "Manel Kape",
+       "Joshua Van"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Manel Kape",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4236504.png&w=350&h=254"
+       },
+       {
+        "name": "Joshua Van",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120301.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 2,
+      "slot": "comain",
+      "weight": "Welterweight",
+      "fighters": [
+       "Carlos Prates",
+       "Michael Morales"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Carlos Prates",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4294832.png&w=350&h=254"
+       },
+       {
+        "name": "Michael Morales",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4869426.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 3,
+      "slot": "undercard",
+      "weight": null,
+      "fighters": [
+       "TBA",
+       "Opponent TBA"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "TBA",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       },
+       {
+        "name": "Opponent TBA",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 4,
+      "slot": "undercard",
+      "weight": null,
+      "fighters": [
+       "TBA",
+       "Opponent TBA"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "TBA",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
+       },
+       {
+        "name": "Opponent TBA",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
+       }
+      ]
+     }
+    ],
+    "art": [
+     {
+      "name": "Manel Kape",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4236504.png&w=350&h=254"
+     },
+     {
+      "name": "Joshua Van",
+      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120301.png&w=350&h=254"
+     }
+    ],
+    "note": null,
+    "link": "https://www.espn.com/mma/fightcenter/_/id/600062191/league/ufc",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "espn:ufc",
+      "url": "https://www.espn.com/mma/fightcenter/_/id/600062191/league/ufc",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
     "id": "ufc-600061267",
     "sport": "mma",
     "status": "scheduled",
@@ -404,7 +2180,7 @@
     ],
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600061267",
-    "sourceStale": false,
+    "sourceStale": true,
     "lastSeen": "2026-10-24T20:44:13Z",
     "sources": [
      {
@@ -413,1786 +2189,10 @@
       "verifiedAt": "2026-10-24T20:44:13Z"
      }
     ]
-   },
-   {
-    "id": "ufc-600061420",
-    "sport": "mma",
-    "status": "scheduled",
-    "org": "UFC",
-    "tier": "fight_night",
-    "name": "UFC Fight Night: Moicano vs. Nolan",
-    "headline": "Moicano vs. Nolan",
-    "date": "2026-10-31T21:00Z",
-    "datePrecision": "time",
-    "scheduledStart": "2026-10-31T21:00Z",
-    "eventDay": "2026-10-31",
-    "segments": [],
-    "coverageComplete": false,
-    "venue": "Meta APEX",
-    "location": "Las Vegas, NV",
-    "watch": [
-     {
-      "name": "Paramount+",
-      "url": "https://www.paramountplus.com/",
-      "kind": "streaming",
-      "confirmed": false,
-      "covered": false
-     }
-    ],
-    "card": [
-     {
-      "order": 1,
-      "slot": "main",
-      "weight": "Lightweight",
-      "fighters": [
-       "Renato Moicano",
-       "Tom Nolan"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Renato Moicano",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3028863.png&w=350&h=254"
-       },
-       {
-        "name": "Tom Nolan",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144007.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 2,
-      "slot": "comain",
-      "weight": "Flyweight",
-      "fighters": [
-       "Ode' Osbourne",
-       "Cody Durden"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Ode' Osbourne",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4424224.png&w=350&h=254"
-       },
-       {
-        "name": "Cody Durden",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4686725.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 3,
-      "slot": "undercard",
-      "weight": "W Bantamweight",
-      "fighters": [
-       "Yana Santos",
-       "Luana Santos"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Yana Santos",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3154898.png&w=350&h=254"
-       },
-       {
-        "name": "Luana Santos",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110469.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 4,
-      "slot": "undercard",
-      "weight": "Welterweight",
-      "fighters": [
-       "Jean-Paul Lebosnoyani",
-       "Farman Hasanov"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Jean-Paul Lebosnoyani",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4629138.png&w=350&h=254"
-       },
-       {
-        "name": "Farman Hasanov",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5350562.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 5,
-      "slot": "undercard",
-      "weight": "Featherweight",
-      "fighters": [
-       "Dakota Hope",
-       "Francis Marshall"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Dakota Hope",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4898914.png&w=350&h=254"
-       },
-       {
-        "name": "Francis Marshall",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5060394.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 6,
-      "slot": "undercard",
-      "weight": "Middleweight",
-      "fighters": [
-       "Andre Petroski",
-       "Azamat Bekoev"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Andre Petroski",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4697476.png&w=350&h=254"
-       },
-       {
-        "name": "Azamat Bekoev",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5123963.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 7,
-      "slot": "undercard",
-      "weight": "Welterweight",
-      "fighters": [
-       "Theodor Berggren",
-       "Rodrigo Sezinando"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Theodor Berggren",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5085010.png&w=350&h=254"
-       },
-       {
-        "name": "Rodrigo Sezinando",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5289853.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 8,
-      "slot": "undercard",
-      "weight": "Featherweight",
-      "fighters": [
-       "Julian Erosa",
-       "JeongYeong Lee"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Julian Erosa",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3955577.png&w=350&h=254"
-       },
-       {
-        "name": "JeongYeong Lee",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5068724.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 9,
-      "slot": "undercard",
-      "weight": "Middleweight",
-      "fighters": [
-       "Joe Kropschot",
-       "Nick Klein"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Joe Kropschot",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4687604.png&w=350&h=254"
-       },
-       {
-        "name": "Nick Klein",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5134399.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 10,
-      "slot": "undercard",
-      "weight": "W Strawweight",
-      "fighters": [
-       "Piera Rodriguez",
-       "Talita Alencar"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Piera Rodriguez",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4816066.png&w=350&h=254"
-       },
-       {
-        "name": "Talita Alencar",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5139556.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 11,
-      "slot": "undercard",
-      "weight": "Welterweight",
-      "fighters": [
-       "Randy Brown",
-       "Jacobe Smith"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Randy Brown",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3960071.png&w=350&h=254"
-       },
-       {
-        "name": "Jacobe Smith",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149961.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 12,
-      "slot": "undercard",
-      "weight": "W Flyweight",
-      "fighters": [
-       "Tainara Lisboa",
-       "Lucia Szabová"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Tainara Lisboa",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4418809.png&w=350&h=254"
-       },
-       {
-        "name": "Lucia Szabová",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5130185.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 13,
-      "slot": "undercard",
-      "weight": "Middleweight",
-      "fighters": [
-       "Mickey Gall",
-       "Zach Reese"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Mickey Gall",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3960470.png&w=350&h=254"
-       },
-       {
-        "name": "Zach Reese",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5143223.png&w=350&h=254"
-       }
-      ]
-     }
-    ],
-    "art": [
-     {
-      "name": "Renato Moicano",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3028863.png&w=350&h=254"
-     },
-     {
-      "name": "Tom Nolan",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144007.png&w=350&h=254"
-     }
-    ],
-    "note": null,
-    "link": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "espn:ufc",
-      "url": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-600061268",
-    "sport": "mma",
-    "status": "scheduled",
-    "org": "UFC",
-    "tier": "fight_night",
-    "name": "UFC Fight Night: Bonfim vs. Brady",
-    "headline": "Bonfim vs. Brady",
-    "date": "2026-11-07T22:00Z",
-    "datePrecision": "time",
-    "scheduledStart": "2026-11-07T22:00Z",
-    "eventDay": "2026-11-07",
-    "segments": [],
-    "coverageComplete": false,
-    "venue": "Meta APEX",
-    "location": "Las Vegas, NV",
-    "watch": [
-     {
-      "name": "Paramount+",
-      "url": "https://www.paramountplus.com/",
-      "kind": "streaming",
-      "confirmed": false,
-      "covered": false
-     }
-    ],
-    "card": [
-     {
-      "order": 1,
-      "slot": "main",
-      "weight": "Welterweight",
-      "fighters": [
-       "Sean Brady",
-       "Gabriel Bonfim"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Sean Brady",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4295192.png&w=350&h=254"
-       },
-       {
-        "name": "Gabriel Bonfim",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4921516.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 2,
-      "slot": "comain",
-      "weight": "W Strawweight",
-      "fighters": [
-       "Tatiana Suarez",
-       "Virna Jandiroba"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Tatiana Suarez",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4020435.png&w=350&h=254"
-       },
-       {
-        "name": "Virna Jandiroba",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4289516.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 3,
-      "slot": "undercard",
-      "weight": "Bantamweight",
-      "fighters": [
-       "Davey Grant",
-       "Elijah Smith"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Davey Grant",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3070984.png&w=350&h=254"
-       },
-       {
-        "name": "Elijah Smith",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5144797.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 4,
-      "slot": "undercard",
-      "weight": "Welterweight",
-      "fighters": [
-       "Wellington Turman",
-       "Seokhyeon Ko"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Wellington Turman",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426282.png&w=350&h=254"
-       },
-       {
-        "name": "Seokhyeon Ko",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4701954.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 5,
-      "slot": "undercard",
-      "weight": "Light Heavyweight",
-      "fighters": [
-       "Billy Elekana",
-       "Lucas Fernando"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Billy Elekana",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5078114.png&w=350&h=254"
-       },
-       {
-        "name": "Lucas Fernando",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5119021.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 6,
-      "slot": "undercard",
-      "weight": "Middleweight",
-      "fighters": [
-       "Wes Schultz",
-       "Mantas Kondratavičius"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Wes Schultz",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5057023.png&w=350&h=254"
-       },
-       {
-        "name": "Mantas Kondratavičius",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264925.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 7,
-      "slot": "undercard",
-      "weight": "Heavyweight",
-      "fighters": [
-       "Gabriel Lorenço",
-       "Alvin Hines"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Gabriel Lorenço",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5215710.png&w=350&h=254"
-       },
-       {
-        "name": "Alvin Hines",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5229339.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 8,
-      "slot": "undercard",
-      "weight": "W Flyweight",
-      "fighters": [
-       "Karine Silva",
-       "Gabriella Fernandes"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Karine Silva",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3309918.png&w=350&h=254"
-       },
-       {
-        "name": "Gabriella Fernandes",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4871203.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 9,
-      "slot": "undercard",
-      "weight": "Featherweight",
-      "fighters": [
-       "Jose Delano",
-       "Murtazali Magomedov"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Jose Delano",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4969974.png&w=350&h=254"
-       },
-       {
-        "name": "Murtazali Magomedov",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5308768.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 10,
-      "slot": "undercard",
-      "weight": "Featherweight",
-      "fighters": [
-       "Keiichiro Nakamura",
-       "Ollie Schmid"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Keiichiro Nakamura",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5327937.png&w=350&h=254"
-       },
-       {
-        "name": "Ollie Schmid",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5346907.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 11,
-      "slot": "undercard",
-      "weight": "Featherweight",
-      "fighters": [
-       "Lucas Brennan",
-       "Austin Bashi"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Lucas Brennan",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4795284.png&w=350&h=254"
-       },
-       {
-        "name": "Austin Bashi",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120304.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 12,
-      "slot": "undercard",
-      "weight": "W Bantamweight",
-      "fighters": [
-       "Priscila Cachoeira",
-       "Nina Milošević"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Priscila Cachoeira",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4277049.png&w=350&h=254"
-       },
-       {
-        "name": "Nina Milošević",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5361791.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 13,
-      "slot": "undercard",
-      "weight": "Welterweight",
-      "fighters": [
-       "Jonny Parsons",
-       "Jose Henrique"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Jonny Parsons",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4880114.png&w=350&h=254"
-       },
-       {
-        "name": "Jose Henrique",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5080485.png&w=350&h=254"
-       }
-      ]
-     }
-    ],
-    "art": [
-     {
-      "name": "Sean Brady",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4295192.png&w=350&h=254"
-     },
-     {
-      "name": "Gabriel Bonfim",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4921516.png&w=350&h=254"
-     }
-    ],
-    "note": null,
-    "link": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "espn:ufc",
-      "url": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-600061400",
-    "sport": "mma",
-    "status": "scheduled",
-    "org": "UFC",
-    "tier": "numbered",
-    "name": "UFC 334: Gane vs. Hokit",
-    "headline": "Gane vs. Hokit",
-    "date": "2026-11-14T22:00Z",
-    "datePrecision": "time",
-    "scheduledStart": "2026-11-14T22:00Z",
-    "eventDay": "2026-11-14",
-    "segments": [],
-    "coverageComplete": false,
-    "venue": "Madison Square Garden",
-    "location": "New York, NY",
-    "watch": [
-     {
-      "name": "Paramount+",
-      "url": "https://www.paramountplus.com/",
-      "kind": "streaming",
-      "confirmed": false,
-      "covered": false
-     }
-    ],
-    "card": [
-     {
-      "order": 1,
-      "slot": "main",
-      "weight": "Heavyweight",
-      "fighters": [
-       "Josh Hokit",
-       "Ciryl Gane"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Josh Hokit",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4049391.png&w=350&h=254"
-       },
-       {
-        "name": "Ciryl Gane",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426000.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 2,
-      "slot": "comain",
-      "weight": "W Bantamweight",
-      "fighters": [
-       "Amanda Nunes",
-       "Kayla Harrison"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Amanda Nunes",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2516131.png&w=350&h=254"
-       },
-       {
-        "name": "Kayla Harrison",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4332765.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 3,
-      "slot": "undercard",
-      "weight": "Middleweight",
-      "fighters": [
-       "Caio Borralho",
-       "Yousri Belgaroui"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Caio Borralho",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4835137.png&w=350&h=254"
-       },
-       {
-        "name": "Yousri Belgaroui",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5149815.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 4,
-      "slot": "undercard",
-      "weight": "Welterweight",
-      "fighters": [
-       "Kevin Holland",
-       "Uroš Medić"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Kevin Holland",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3943695.png&w=350&h=254"
-       },
-       {
-        "name": "Uroš Medić",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4685870.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 5,
-      "slot": "undercard",
-      "weight": "Flyweight",
-      "fighters": [
-       "Luis Gurule",
-       "Bilal Hasan"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Luis Gurule",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5218137.png&w=350&h=254"
-       },
-       {
-        "name": "Bilal Hasan",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5264405.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 6,
-      "slot": "undercard",
-      "weight": "Welterweight",
-      "fighters": [
-       "Stephen Thompson",
-       "Charles Radtke"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Stephen Thompson",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2615077.png&w=350&h=254"
-       },
-       {
-        "name": "Charles Radtke",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4416297.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 7,
-      "slot": "undercard",
-      "weight": "Lightweight",
-      "fighters": [
-       "Drew Dober",
-       "Chris Duncan"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Drew Dober",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2951202.png&w=350&h=254"
-       },
-       {
-        "name": "Chris Duncan",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4867356.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 8,
-      "slot": "undercard",
-      "weight": "Lightweight",
-      "fighters": [
-       "Jim Miller",
-       "Terrance McKinney"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Jim Miller",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335718.png&w=350&h=254"
-       },
-       {
-        "name": "Terrance McKinney",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4425604.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 9,
-      "slot": "undercard",
-      "weight": "Middleweight",
-      "fighters": [
-       "Baisangur Susurkaev",
-       "Donte Johnson"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Baisangur Susurkaev",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296753.png&w=350&h=254"
-       },
-       {
-        "name": "Donte Johnson",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5302831.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 10,
-      "slot": "undercard",
-      "weight": "W Bantamweight",
-      "fighters": [
-       "Macy Chiasson",
-       "Bia Mesquita"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Macy Chiasson",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4334306.png&w=350&h=254"
-       },
-       {
-        "name": "Bia Mesquita",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310274.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 11,
-      "slot": "undercard",
-      "weight": "Bantamweight",
-      "fighters": [
-       "Adrian Yañez",
-       "Juan Diaz"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Adrian Yañez",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3998248.png&w=350&h=254"
-       },
-       {
-        "name": "Juan Diaz",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310574.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 12,
-      "slot": "undercard",
-      "weight": "Lightweight",
-      "fighters": [
-       "Nazim Sadykhov",
-       "Jefferson Nascimento"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Nazim Sadykhov",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074130.png&w=350&h=254"
-       },
-       {
-        "name": "Jefferson Nascimento",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5362725.png&w=350&h=254"
-       }
-      ]
-     }
-    ],
-    "art": [
-     {
-      "name": "Josh Hokit",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4049391.png&w=350&h=254"
-     },
-     {
-      "name": "Ciryl Gane",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426000.png&w=350&h=254"
-     }
-    ],
-    "note": null,
-    "link": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "espn:ufc",
-      "url": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-600061665",
-    "sport": "mma",
-    "status": "scheduled",
-    "org": "UFC",
-    "tier": "fight_night",
-    "name": "UFC Fight Night: Procházka vs. Stirling",
-    "headline": "Procházka vs. Stirling",
-    "date": "2026-11-21T15:00Z",
-    "datePrecision": "time",
-    "scheduledStart": "2026-11-21T15:00Z",
-    "eventDay": "2026-11-21",
-    "segments": [],
-    "coverageComplete": false,
-    "venue": "ABHA Arena",
-    "location": "Doha, Qatar",
-    "watch": [
-     {
-      "name": "Paramount+",
-      "url": "https://www.paramountplus.com/",
-      "kind": "streaming",
-      "confirmed": false,
-      "covered": false
-     }
-    ],
-    "card": [
-     {
-      "order": 1,
-      "slot": "main",
-      "weight": "Light Heavyweight",
-      "fighters": [
-       "Jiří Procházka",
-       "Navajo Stirling"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Jiří Procházka",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3156612.png&w=350&h=254"
-       },
-       {
-        "name": "Navajo Stirling",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5216713.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 2,
-      "slot": "comain",
-      "weight": "Featherweight",
-      "fighters": [
-       "Aljamain Sterling",
-       "Kevin Vallejos"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Aljamain Sterling",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3031559.png&w=350&h=254"
-       },
-       {
-        "name": "Kevin Vallejos",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145681.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 3,
-      "slot": "undercard",
-      "weight": "Lightweight",
-      "fighters": [
-       "Brian Ortega",
-       "Dan Hooker"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Brian Ortega",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3045737.png&w=350&h=254"
-       },
-       {
-        "name": "Dan Hooker",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3109135.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 4,
-      "slot": "undercard",
-      "weight": "Middleweight",
-      "fighters": [
-       "Jared Cannonier",
-       "Ikram Aliskerov"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Jared Cannonier",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3154860.png&w=350&h=254"
-       },
-       {
-        "name": "Ikram Aliskerov",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684776.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 5,
-      "slot": "undercard",
-      "weight": "Heavyweight",
-      "fighters": [
-       "Shamil Gaziev",
-       "Tallison Teixeira"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Shamil Gaziev",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145498.png&w=350&h=254"
-       },
-       {
-        "name": "Tallison Teixeira",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212856.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 6,
-      "slot": "undercard",
-      "weight": "Welterweight",
-      "fighters": [
-       "Jake Matthews",
-       "Tahir Abdullayev"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Jake Matthews",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3089915.png&w=350&h=254"
-       },
-       {
-        "name": "Tahir Abdullayev",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4394753.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 7,
-      "slot": "undercard",
-      "weight": "Bantamweight",
-      "fighters": [
-       "Aleksandre Topuria",
-       "Santiago Luna"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Aleksandre Topuria",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5185662.png&w=350&h=254"
-       },
-       {
-        "name": "Santiago Luna",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307799.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 8,
-      "slot": "undercard",
-      "weight": "Flyweight",
-      "fighters": [
-       "Kyoji Horiguchi",
-       "Asu Almabayev"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Kyoji Horiguchi",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2613374.png&w=350&h=254"
-       },
-       {
-        "name": "Asu Almabayev",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4294926.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 9,
-      "slot": "undercard",
-      "weight": "Flyweight",
-      "fighters": [
-       "Amir Albazi",
-       "Alessandro Costa"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Amir Albazi",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684848.png&w=350&h=254"
-       },
-       {
-        "name": "Alessandro Costa",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074121.png&w=350&h=254"
-       }
-      ]
-     }
-    ],
-    "art": [
-     {
-      "name": "Jiří Procházka",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3156612.png&w=350&h=254"
-     },
-     {
-      "name": "Navajo Stirling",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5216713.png&w=350&h=254"
-     }
-    ],
-    "note": null,
-    "link": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "espn:ufc",
-      "url": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-600061401",
-    "sport": "mma",
-    "status": "scheduled",
-    "org": "UFC",
-    "tier": "numbered",
-    "name": "UFC 335: Oliveira vs. Lopes",
-    "headline": "Oliveira vs. Lopes",
-    "date": "2026-12-12T22:00Z",
-    "datePrecision": "time",
-    "scheduledStart": "2026-12-12T22:00Z",
-    "eventDay": "2026-12-12",
-    "segments": [],
-    "coverageComplete": false,
-    "venue": "T-Mobile Arena",
-    "location": "Las Vegas, NV",
-    "watch": [
-     {
-      "name": "Paramount+",
-      "url": "https://www.paramountplus.com/",
-      "kind": "streaming",
-      "confirmed": false,
-      "covered": false
-     }
-    ],
-    "card": [
-     {
-      "order": 1,
-      "slot": "main",
-      "weight": "Lightweight",
-      "fighters": [
-       "Charles Oliveira",
-       "Diego Lopes"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Charles Oliveira",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504169.png&w=350&h=254"
-       },
-       {
-        "name": "Diego Lopes",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4881999.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 2,
-      "slot": "comain",
-      "weight": "Heavyweight",
-      "fighters": [
-       "Sergei Pavlovich",
-       "Alex Pereira"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Sergei Pavlovich",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4217395.png&w=350&h=254"
-       },
-       {
-        "name": "Alex Pereira",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4705658.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 3,
-      "slot": "undercard",
-      "weight": "Middleweight",
-      "fighters": [
-       "Joe Pyfer",
-       "Bo Nickal"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Joe Pyfer",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4684135.png&w=350&h=254"
-       },
-       {
-        "name": "Bo Nickal",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5061870.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 4,
-      "slot": "undercard",
-      "weight": "Flyweight",
-      "fighters": [
-       "Brandon Moreno",
-       "Charles Johnson"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Brandon Moreno",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3027545.png&w=350&h=254"
-       },
-       {
-        "name": "Charles Johnson",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4375156.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 5,
-      "slot": "undercard",
-      "weight": "W Flyweight",
-      "fighters": [
-       "Maycee Barber",
-       "Carli Judice"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Maycee Barber",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4246307.png&w=350&h=254"
-       },
-       {
-        "name": "Carli Judice",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5172179.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 6,
-      "slot": "undercard",
-      "weight": "Light Heavyweight",
-      "fighters": [
-       "Junior Tafa",
-       "Quentin Pasley"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Junior Tafa",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5122234.png&w=350&h=254"
-       },
-       {
-        "name": "Quentin Pasley",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5307124.png&w=350&h=254"
-       }
-      ]
-     }
-    ],
-    "art": [
-     {
-      "name": "Charles Oliveira",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504169.png&w=350&h=254"
-     },
-     {
-      "name": "Diego Lopes",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4881999.png&w=350&h=254"
-     }
-    ],
-    "note": null,
-    "link": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "espn:ufc",
-      "url": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-600062191",
-    "sport": "mma",
-    "status": "scheduled",
-    "org": "UFC",
-    "tier": "numbered",
-    "name": "UFC 336: Van vs. Kape",
-    "headline": "Van vs. Kape",
-    "date": "2027-01-30T22:00Z",
-    "datePrecision": "time",
-    "scheduledStart": "2027-01-30T22:00Z",
-    "eventDay": "2027-01-30",
-    "segments": [],
-    "coverageComplete": false,
-    "venue": "Scotiabank Arena",
-    "location": "Toronto, ON",
-    "watch": [
-     {
-      "name": "Paramount+",
-      "url": "https://www.paramountplus.com/",
-      "kind": "streaming",
-      "confirmed": false,
-      "covered": false
-     }
-    ],
-    "card": [
-     {
-      "order": 1,
-      "slot": "main",
-      "weight": "Flyweight",
-      "fighters": [
-       "Manel Kape",
-       "Joshua Van"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Manel Kape",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4236504.png&w=350&h=254"
-       },
-       {
-        "name": "Joshua Van",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120301.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 2,
-      "slot": "comain",
-      "weight": "Welterweight",
-      "fighters": [
-       "Carlos Prates",
-       "Michael Morales"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Carlos Prates",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4294832.png&w=350&h=254"
-       },
-       {
-        "name": "Michael Morales",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4869426.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 3,
-      "slot": "undercard",
-      "weight": null,
-      "fighters": [
-       "TBA",
-       "Opponent TBA"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "TBA",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
-       },
-       {
-        "name": "Opponent TBA",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
-       }
-      ]
-     },
-     {
-      "order": 4,
-      "slot": "undercard",
-      "weight": null,
-      "fighters": [
-       "TBA",
-       "Opponent TBA"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "TBA",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2431356.png&w=350&h=254"
-       },
-       {
-        "name": "Opponent TBA",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4402367.png&w=350&h=254"
-       }
-      ]
-     }
-    ],
-    "art": [
-     {
-      "name": "Manel Kape",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4236504.png&w=350&h=254"
-     },
-     {
-      "name": "Joshua Van",
-      "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120301.png&w=350&h=254"
-     }
-    ],
-    "note": null,
-    "link": "https://www.espn.com/mma/fightcenter/_/id/600062191/league/ufc",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "espn:ufc",
-      "url": "https://www.espn.com/mma/fightcenter/_/id/600062191/league/ufc",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
@@ -2227,12 +2227,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-176/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-176/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2265,12 +2265,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-177/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-177/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2303,12 +2303,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/onefightnight49/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/onefightnight49/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2341,12 +2341,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-178/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-178/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2379,12 +2379,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-samurai-5/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-samurai-5/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2417,12 +2417,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-179/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-179/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2455,12 +2455,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-180/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-180/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2493,12 +2493,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-samurai-6/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-samurai-6/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2531,12 +2531,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-181/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-181/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2569,12 +2569,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-182/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-182/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2607,12 +2607,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-183/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-183/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2645,12 +2645,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/onefightnight50/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/onefightnight50/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -2683,18 +2683,18 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-qatar/",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-qatar/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
@@ -3052,12 +3052,12 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "espn:pfl",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -3257,32 +3257,32 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "espn:pfl",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
  "espn:bellator": {
   "events": [],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
  "espn:other": {
   "events": [],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
@@ -3320,7 +3320,7 @@
        }
       ],
       "sourceUrl": "https://www.lfa.com/event/lfa-245-niagara-falls-new-york/",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false
      }
@@ -3335,12 +3335,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "lfa",
       "url": "https://www.lfa.com/event/lfa-245-niagara-falls-new-york/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -3370,7 +3370,7 @@
        }
       ],
       "sourceUrl": "https://www.lfa.com/event/lfa-246/",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false
      }
@@ -3385,12 +3385,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "lfa",
       "url": "https://www.lfa.com/event/lfa-246/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -3418,12 +3418,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "lfa",
       "url": "https://www.lfa.com/event/lfa-247-breno-vs-torres/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -3451,12 +3451,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "lfa",
       "url": "https://www.lfa.com/event/lfa-248-tba/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -3517,8 +3517,8 @@
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
@@ -3548,12 +3548,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "eternal",
       "url": "https://eternalmma.com/events/eternal-mma-111-perth/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -3581,12 +3581,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "eternal",
       "url": "https://eternalmma.com/events/eternal-mma-112-gold-coast/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -3614,12 +3614,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "eternal",
       "url": "https://eternalmma.com/events/eternal-mma-113-geelong/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -3647,18 +3647,18 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "eternal",
       "url": "https://eternalmma.com/events/eternal-mma-114-sydney/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
@@ -3880,7 +3880,7 @@
     "sourceStale": true
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
   "lastSuccess": "2026-10-20T22:52:44Z",
   "status": "failed",
   "errors": [
@@ -3912,7 +3912,7 @@
     "link": "https://luxfightleague.com/eventos/lux-064-monterrey/",
     "note": null,
     "status": "scheduled",
-    "sourceStale": false,
+    "sourceStale": true,
     "lastSeen": "2026-10-24T20:44:13Z",
     "sources": [
      {
@@ -3923,11 +3923,11 @@
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
   "lastSuccess": null,
-  "status": "degraded",
+  "status": "failed",
   "errors": [
-   "https://luxfightleague.com/eventos/lux-063-queretaro/"
+   "ValueError: Lux calendar event links missing"
   ]
  },
  "fury": {
@@ -3958,7 +3958,7 @@
        }
       ],
       "sourceUrl": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false
      }
@@ -3973,12 +3973,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "fury",
       "url": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -4008,7 +4008,7 @@
        }
       ],
       "sourceUrl": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false
      },
@@ -4024,7 +4024,7 @@
        }
       ],
       "sourceUrl": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false
      }
@@ -4039,12 +4039,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "fury",
       "url": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -4074,7 +4074,7 @@
        }
       ],
       "sourceUrl": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false
      },
@@ -4090,7 +4090,7 @@
        }
       ],
       "sourceUrl": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false
      }
@@ -4105,18 +4105,18 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "fury",
       "url": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
@@ -4141,7 +4141,7 @@
       "start": null,
       "platforms": [],
       "sourceUrl": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false,
       "scheduledStart": "2026-12-19T23:00:00Z"
@@ -4151,7 +4151,7 @@
       "start": null,
       "platforms": [],
       "sourceUrl": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false,
       "scheduledStart": "2026-12-20T01:00:00Z"
@@ -4167,12 +4167,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "cffc",
       "url": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -4195,7 +4195,7 @@
       "start": null,
       "platforms": [],
       "sourceUrl": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false,
       "scheduledStart": "2026-12-05T00:00:00Z"
@@ -4205,7 +4205,7 @@
       "start": null,
       "platforms": [],
       "sourceUrl": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false,
       "scheduledStart": "2026-12-05T02:00:00Z"
@@ -4221,12 +4221,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "cffc",
       "url": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -4249,7 +4249,7 @@
       "start": null,
       "platforms": [],
       "sourceUrl": "https://cffc.tv/tickets/cage-fury-cffc-nextgen-next-generation-5-saturday-november-7-2026-hard-rock-hotel-casino-atlantic-city-nj-mma-fights-show-event-tickets",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false,
       "scheduledStart": "2026-11-07T23:00:00Z"
@@ -4265,18 +4265,18 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "cffc",
       "url": "https://cffc.tv/tickets/cage-fury-cffc-nextgen-next-generation-5-saturday-november-7-2026-hard-rock-hotel-casino-atlantic-city-nj-mma-fights-show-event-tickets",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
@@ -4308,7 +4308,7 @@
        }
       ],
       "sourceUrl": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
-      "verifiedAt": "2026-10-24T20:44:13Z",
+      "verifiedAt": "2026-10-25T04:35:42Z",
       "region": "US",
       "complete": false
      }
@@ -4323,18 +4323,18 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "bfl",
       "url": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
@@ -4364,12 +4364,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "ufc-bjj",
       "url": "https://www.ufc.com/ufcbjj",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    },
@@ -4397,23 +4397,498 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
+    "lastSeen": "2026-10-25T04:35:42Z",
     "sources": [
      {
       "provider": "ufc-bjj",
       "url": "https://www.ufc.com/ufcbjj",
-      "verifiedAt": "2026-10-24T20:44:13Z"
+      "verifiedAt": "2026-10-25T04:35:42Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
  "fightpass": {
   "events": [
+   {
+    "id": "apfc-ifl-4-88195809",
+    "name": "APFC: IFL 4",
+    "org": "APFC / IFL",
+    "sport": "mma",
+    "tier": "other",
+    "headline": "APFC: IFL 4",
+    "date": "2026-10-25",
+    "eventDay": "2026-10-25",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Live event",
+      "start": "2026-10-25T16:00:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/316121",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/316121",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": "Koramangala Indoor Stadium,  Bangalore, India",
+    "link": "https://ufcfightpass.com/live/316121",
+    "note": null,
+    "status": "scheduled",
+    "scheduledEnd": "2026-10-25T20:00:00Z",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "fightpass",
+      "url": "https://ufcfightpass.com/live/316121",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "inka-mma-62-28aba9a4",
+    "name": "INKA MMA 62",
+    "org": "INKA MMA",
+    "sport": "mma",
+    "tier": "other",
+    "headline": "INKA MMA 62",
+    "date": "2026-10-29",
+    "eventDay": "2026-10-29",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Live event",
+      "start": "2026-10-29T03:00:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/316122",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/316122",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": "Lima, Peru",
+    "link": "https://ufcfightpass.com/live/316122",
+    "note": null,
+    "status": "scheduled",
+    "scheduledEnd": "2026-10-29T07:00:00Z",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "fightpass",
+      "url": "https://ufcfightpass.com/live/316122",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-bjj-13-53b888d6",
+    "name": "UFC BJJ 13",
+    "org": "UFC BJJ",
+    "sport": "grappling",
+    "tier": "other",
+    "headline": "UFC BJJ 13",
+    "date": "2026-10-30",
+    "eventDay": "2026-10-30",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Live event",
+      "start": "2026-10-30T00:00:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/316139",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/316139",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": "Meta Apex Las Vegas, NV, USA",
+    "link": "https://ufcfightpass.com/live/316139",
+    "note": null,
+    "status": "scheduled",
+    "scheduledEnd": "2026-10-30T04:00:00Z",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "fightpass",
+      "url": "https://ufcfightpass.com/live/316139",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "eternal-mma-111-b898d82a",
+    "name": "ETERNAL MMA 111",
+    "org": "Eternal MMA",
+    "sport": "mma",
+    "tier": "other",
+    "headline": "ETERNAL MMA 111",
+    "date": "2026-10-31",
+    "eventDay": "2026-10-31",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Live event",
+      "start": "2026-10-31T10:00:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/316125",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/316125",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": "Perth HBC Perth, AU",
+    "link": "https://ufcfightpass.com/live/316125",
+    "note": null,
+    "status": "scheduled",
+    "scheduledEnd": "2026-10-31T13:00:00Z",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "fightpass",
+      "url": "https://ufcfightpass.com/live/316125",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ares-44-f6e69dc1",
+    "name": "ARES 44",
+    "org": "ARES FC",
+    "sport": "mma",
+    "tier": "other",
+    "headline": "ARES 44",
+    "date": "2026-10-31",
+    "eventDay": "2026-10-31",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Live event",
+      "start": "2026-10-31T16:30:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/316127",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/316127",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": "Zénith de Strasbourg Strasbourg, France",
+    "link": "https://ufcfightpass.com/live/316127",
+    "note": null,
+    "status": "scheduled",
+    "scheduledEnd": "2026-10-31T20:30:00Z",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "fightpass",
+      "url": "https://ufcfightpass.com/live/316127",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "anthony-pettis-fc-26-c216799c",
+    "name": "ANTHONY PETTIS FC 26",
+    "org": "Anthony Pettis FC",
+    "sport": "mma",
+    "tier": "other",
+    "headline": "ANTHONY PETTIS FC 26",
+    "date": "2026-11-01",
+    "eventDay": "2026-11-01",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Live event",
+      "start": "2026-11-01T00:00:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/313395",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/313395",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": "Chicago, IL",
+    "link": "https://ufcfightpass.com/live/313395",
+    "note": null,
+    "status": "scheduled",
+    "scheduledEnd": "2026-11-01T04:00:00Z",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "fightpass",
+      "url": "https://ufcfightpass.com/live/313395",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "samourai-mma-22-d0889792",
+    "name": "SAMOURAI MMA 22",
+    "org": "Samourai MMA",
+    "sport": "mma",
+    "tier": "other",
+    "headline": "SAMOURAI MMA 22",
+    "date": "2026-11-06",
+    "eventDay": "2026-11-06",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Live event",
+      "start": "2026-11-06T23:00:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/313844",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/313844",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": null,
+    "link": "https://ufcfightpass.com/live/313844",
+    "note": null,
+    "status": "scheduled",
+    "scheduledEnd": "2026-11-07T04:00:00Z",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "fightpass",
+      "url": "https://ufcfightpass.com/live/313844",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-334-3429e3e7",
+    "name": "UFC 334",
+    "org": "UFC",
+    "sport": "mma",
+    "tier": "numbered",
+    "headline": "UFC 334",
+    "date": "2026-11-14",
+    "eventDay": "2026-11-14",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Early prelims",
+      "start": "2026-11-14T21:00:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/316406",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/316406",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Prelims",
+      "start": "2026-11-14T23:00:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/316415",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/316415",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": false,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": "Madison Square Garden New York, NY, USA",
+    "link": "https://ufcfightpass.com/live/316406",
+    "note": null,
+    "status": "scheduled",
+    "scheduledEnd": "2026-11-15T01:00:00Z",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "fightpass",
+      "url": "https://ufcfightpass.com/live/316406",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "fury-fc-126-3d8d66bd",
+    "name": "FURY FC 126",
+    "org": "Fury Fighting Championship",
+    "sport": "mma",
+    "tier": "other",
+    "headline": "FURY FC 126",
+    "date": "2026-12-11",
+    "eventDay": "2026-12-11",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Live event",
+      "start": "2026-12-11T21:00:00Z",
+      "platforms": [
+       {
+        "name": "UFC Fight Pass",
+        "url": "https://ufcfightpass.com/live/313842",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://ufcfightpass.com/live/313842",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": "Imagen Venues Houston, TX USA",
+    "link": "https://ufcfightpass.com/live/313842",
+    "note": null,
+    "status": "scheduled",
+    "scheduledEnd": "2026-12-12T00:00:00Z",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "fightpass",
+      "url": "https://ufcfightpass.com/live/313842",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
    {
     "id": "wow-33-2faca2a9",
     "name": "WOW 33",
@@ -4455,7 +4930,7 @@
     "note": null,
     "status": "scheduled",
     "scheduledEnd": "2026-10-25T00:45:00Z",
-    "sourceStale": false,
+    "sourceStale": true,
     "lastSeen": "2026-10-24T20:44:13Z",
     "sources": [
      {
@@ -4506,7 +4981,7 @@
     "note": null,
     "status": "scheduled",
     "scheduledEnd": "2026-10-25T03:00:00Z",
-    "sourceStale": false,
+    "sourceStale": true,
     "lastSeen": "2026-10-24T20:44:13Z",
     "sources": [
      {
@@ -4557,487 +5032,12 @@
     "note": null,
     "status": "scheduled",
     "scheduledEnd": "2026-10-25T06:00:00Z",
-    "sourceStale": false,
+    "sourceStale": true,
     "lastSeen": "2026-10-24T20:44:13Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/316120",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "apfc-ifl-4-88195809",
-    "name": "APFC: IFL 4",
-    "org": "APFC / IFL",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "APFC: IFL 4",
-    "date": "2026-10-25",
-    "eventDay": "2026-10-25",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-10-25T16:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/316121",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/316121",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Koramangala Indoor Stadium,  Bangalore, India",
-    "link": "https://ufcfightpass.com/live/316121",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-10-25T20:00:00Z",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/316121",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "inka-mma-62-28aba9a4",
-    "name": "INKA MMA 62",
-    "org": "INKA MMA",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "INKA MMA 62",
-    "date": "2026-10-29",
-    "eventDay": "2026-10-29",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-10-29T03:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/316122",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/316122",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Lima, Peru",
-    "link": "https://ufcfightpass.com/live/316122",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-10-29T07:00:00Z",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/316122",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-bjj-13-53b888d6",
-    "name": "UFC BJJ 13",
-    "org": "UFC BJJ",
-    "sport": "grappling",
-    "tier": "other",
-    "headline": "UFC BJJ 13",
-    "date": "2026-10-30",
-    "eventDay": "2026-10-30",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-10-30T00:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/316139",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/316139",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Meta Apex Las Vegas, NV, USA",
-    "link": "https://ufcfightpass.com/live/316139",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-10-30T04:00:00Z",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/316139",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "eternal-mma-111-b898d82a",
-    "name": "ETERNAL MMA 111",
-    "org": "Eternal MMA",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "ETERNAL MMA 111",
-    "date": "2026-10-31",
-    "eventDay": "2026-10-31",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-10-31T10:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/316125",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/316125",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Perth HBC Perth, AU",
-    "link": "https://ufcfightpass.com/live/316125",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-10-31T13:00:00Z",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/316125",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ares-44-f6e69dc1",
-    "name": "ARES 44",
-    "org": "ARES FC",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "ARES 44",
-    "date": "2026-10-31",
-    "eventDay": "2026-10-31",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-10-31T16:30:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/316127",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/316127",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Zénith de Strasbourg Strasbourg, France",
-    "link": "https://ufcfightpass.com/live/316127",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-10-31T20:30:00Z",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/316127",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "anthony-pettis-fc-26-c216799c",
-    "name": "ANTHONY PETTIS FC 26",
-    "org": "Anthony Pettis FC",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "ANTHONY PETTIS FC 26",
-    "date": "2026-11-01",
-    "eventDay": "2026-11-01",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-11-01T00:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/313395",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/313395",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Chicago, IL",
-    "link": "https://ufcfightpass.com/live/313395",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-11-01T04:00:00Z",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/313395",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "samourai-mma-22-d0889792",
-    "name": "SAMOURAI MMA 22",
-    "org": "Samourai MMA",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "SAMOURAI MMA 22",
-    "date": "2026-11-06",
-    "eventDay": "2026-11-06",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-11-06T23:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/313844",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/313844",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": null,
-    "link": "https://ufcfightpass.com/live/313844",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-11-07T04:00:00Z",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/313844",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-334-3429e3e7",
-    "name": "UFC 334",
-    "org": "UFC",
-    "sport": "mma",
-    "tier": "numbered",
-    "headline": "UFC 334",
-    "date": "2026-11-14",
-    "eventDay": "2026-11-14",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Early prelims",
-      "start": "2026-11-14T21:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/316406",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/316406",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Prelims",
-      "start": "2026-11-14T23:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/316415",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/316415",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": false,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Madison Square Garden New York, NY, USA",
-    "link": "https://ufcfightpass.com/live/316406",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-11-15T01:00:00Z",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/316406",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "fury-fc-126-3d8d66bd",
-    "name": "FURY FC 126",
-    "org": "Fury Fighting Championship",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "FURY FC 126",
-    "date": "2026-12-11",
-    "eventDay": "2026-12-11",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-12-11T21:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/313842",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/313842",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Imagen Venues Houston, TX USA",
-    "link": "https://ufcfightpass.com/live/313842",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-12-12T00:00:00Z",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/313842",
       "verifiedAt": "2026-10-24T20:44:13Z"
      }
     ]
@@ -5145,13 +5145,519 @@
     ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
-  "lastSuccess": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
+  "lastSuccess": "2026-10-25T04:35:42Z",
   "status": "ok",
   "errors": []
  },
  "ufc": {
   "events": [
+   {
+    "id": "polymarket-ufc-334-c1af4433",
+    "name": "Polymarket UFC 334",
+    "org": "UFC",
+    "sport": "mma",
+    "tier": "numbered",
+    "headline": "Polymarket UFC 334",
+    "date": "2026-11-14",
+    "eventDay": "2026-11-14",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Main card",
+      "start": "2026-11-15T02:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-334",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Prelims",
+      "start": "2026-11-15T00:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-334",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Early prelims",
+      "start": "2026-11-14T22:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       },
+       {
+        "name": "UFC Fight Pass",
+        "url": "http://www.ufcfightpass.com",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-334",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": null,
+    "link": "https://www.ufc.com/event/ufc-334",
+    "note": null,
+    "status": "scheduled",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "ufc",
+      "url": "https://www.ufc.com/event/ufc-334",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-335-55c2481d",
+    "name": "UFC 335",
+    "org": "UFC",
+    "sport": "mma",
+    "tier": "numbered",
+    "headline": "UFC 335",
+    "date": "2026-12-12",
+    "eventDay": "2026-12-12",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Early prelims",
+      "start": "2026-12-12T22:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       },
+       {
+        "name": "UFC Fight Pass",
+        "url": "http://www.ufcfightpass.com",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-335",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Prelims",
+      "start": "2026-12-13T00:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-335",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Main card",
+      "start": "2026-12-13T02:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-335",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": null,
+    "link": "https://www.ufc.com/event/ufc-335",
+    "note": null,
+    "status": "scheduled",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "ufc",
+      "url": "https://www.ufc.com/event/ufc-335",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-336-91c8979e",
+    "name": "UFC 336",
+    "org": "UFC",
+    "sport": "mma",
+    "tier": "numbered",
+    "headline": "UFC 336",
+    "date": "2027-01-31",
+    "eventDay": "2027-01-31",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Prelims",
+      "start": "2027-01-31T00:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-336",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Main card",
+      "start": "2027-01-31T02:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-336",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": null,
+    "link": "https://www.ufc.com/event/ufc-336",
+    "note": null,
+    "status": "scheduled",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "ufc",
+      "url": "https://www.ufc.com/event/ufc-336",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-fight-night-dd0fe888",
+    "name": "UFC Fight Night",
+    "org": "UFC",
+    "sport": "mma",
+    "tier": "fight_night",
+    "headline": "UFC Fight Night",
+    "date": "2027-02-06",
+    "eventDay": "2027-02-06",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Prelims",
+      "start": "2027-02-06T20:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Main card",
+      "start": "2027-02-06T22:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": null,
+    "link": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+    "note": null,
+    "status": "scheduled",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "ufc",
+      "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-fight-night-37fd7c04",
+    "name": "UFC Fight Night",
+    "org": "UFC",
+    "sport": "mma",
+    "tier": "fight_night",
+    "headline": "UFC Fight Night",
+    "date": "2026-11-07",
+    "eventDay": "2026-11-07",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Main card",
+      "start": "2026-11-08T01:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Prelims",
+      "start": "2026-11-07T22:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": null,
+    "link": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+    "note": null,
+    "status": "scheduled",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "ufc",
+      "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-fight-night-3b1b5062",
+    "name": "UFC Fight Night",
+    "org": "UFC",
+    "sport": "mma",
+    "tier": "fight_night",
+    "headline": "UFC Fight Night",
+    "date": "2026-11-21",
+    "eventDay": "2026-11-21",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Prelims",
+      "start": "2026-11-21T15:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Main card",
+      "start": "2026-11-21T18:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": null,
+    "link": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+    "note": null,
+    "status": "scheduled",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "ufc",
+      "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
+   {
+    "id": "ufc-fight-night-8550f4a1",
+    "name": "UFC Fight Night",
+    "org": "UFC",
+    "sport": "mma",
+    "tier": "fight_night",
+    "headline": "UFC Fight Night",
+    "date": "2026-10-31",
+    "eventDay": "2026-10-31",
+    "datePrecision": "day",
+    "scheduledStart": null,
+    "earliestBroadcastStart": null,
+    "mainCardStart": null,
+    "segments": [
+     {
+      "name": "Prelims",
+      "start": "2026-10-31T21:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     },
+     {
+      "name": "Main card",
+      "start": "2026-11-01T00:00:00Z",
+      "platforms": [
+       {
+        "name": "Paramount+",
+        "url": "https://ufc.ac/4v2K4zW",
+        "kind": "streaming",
+        "access": "subscription"
+       }
+      ],
+      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+      "verifiedAt": "2026-10-25T04:35:42Z",
+      "region": "US",
+      "complete": false
+     }
+    ],
+    "coverageComplete": true,
+    "watch": [],
+    "card": [],
+    "art": null,
+    "venue": null,
+    "location": null,
+    "link": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+    "note": null,
+    "status": "scheduled",
+    "sourceStale": false,
+    "lastSeen": "2026-10-25T04:35:42Z",
+    "sources": [
+     {
+      "provider": "ufc",
+      "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+      "verifiedAt": "2026-10-25T04:35:42Z"
+     }
+    ]
+   },
    {
     "id": "ufc-333-e98c8adf",
     "name": "UFC 333",
@@ -5230,7 +5736,7 @@
     "link": "https://www.ufc.com/event/ufc-333",
     "note": null,
     "status": "scheduled",
-    "sourceStale": false,
+    "sourceStale": true,
     "lastSeen": "2026-10-24T20:44:13Z",
     "sources": [
      {
@@ -5318,7 +5824,7 @@
     "link": "https://www.ufc.com/event/ufc-333#1336",
     "note": null,
     "status": "scheduled",
-    "sourceStale": false,
+    "sourceStale": true,
     "lastSeen": "2026-10-24T20:44:13Z",
     "sources": [
      {
@@ -5327,517 +5833,13 @@
       "verifiedAt": "2026-10-24T20:44:13Z"
      }
     ]
-   },
-   {
-    "id": "polymarket-ufc-334-c1af4433",
-    "name": "Polymarket UFC 334",
-    "org": "UFC",
-    "sport": "mma",
-    "tier": "numbered",
-    "headline": "Polymarket UFC 334",
-    "date": "2026-11-14",
-    "eventDay": "2026-11-14",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Main card",
-      "start": "2026-11-15T02:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-334",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Prelims",
-      "start": "2026-11-15T00:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-334",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Early prelims",
-      "start": "2026-11-14T22:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       },
-       {
-        "name": "UFC Fight Pass",
-        "url": "http://www.ufcfightpass.com",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-334",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": null,
-    "link": "https://www.ufc.com/event/ufc-334",
-    "note": null,
-    "status": "scheduled",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "ufc",
-      "url": "https://www.ufc.com/event/ufc-334",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-335-55c2481d",
-    "name": "UFC 335",
-    "org": "UFC",
-    "sport": "mma",
-    "tier": "numbered",
-    "headline": "UFC 335",
-    "date": "2026-12-12",
-    "eventDay": "2026-12-12",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Early prelims",
-      "start": "2026-12-12T22:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       },
-       {
-        "name": "UFC Fight Pass",
-        "url": "http://www.ufcfightpass.com",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-335",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Prelims",
-      "start": "2026-12-13T00:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-335",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Main card",
-      "start": "2026-12-13T02:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-335",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": null,
-    "link": "https://www.ufc.com/event/ufc-335",
-    "note": null,
-    "status": "scheduled",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "ufc",
-      "url": "https://www.ufc.com/event/ufc-335",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-336-91c8979e",
-    "name": "UFC 336",
-    "org": "UFC",
-    "sport": "mma",
-    "tier": "numbered",
-    "headline": "UFC 336",
-    "date": "2027-01-31",
-    "eventDay": "2027-01-31",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Prelims",
-      "start": "2027-01-31T00:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-336",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Main card",
-      "start": "2027-01-31T02:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-336",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": null,
-    "link": "https://www.ufc.com/event/ufc-336",
-    "note": null,
-    "status": "scheduled",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "ufc",
-      "url": "https://www.ufc.com/event/ufc-336",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-fight-night-dd0fe888",
-    "name": "UFC Fight Night",
-    "org": "UFC",
-    "sport": "mma",
-    "tier": "fight_night",
-    "headline": "UFC Fight Night",
-    "date": "2027-02-06",
-    "eventDay": "2027-02-06",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Prelims",
-      "start": "2027-02-06T20:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Main card",
-      "start": "2027-02-06T22:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": null,
-    "link": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-    "note": null,
-    "status": "scheduled",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "ufc",
-      "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-fight-night-37fd7c04",
-    "name": "UFC Fight Night",
-    "org": "UFC",
-    "sport": "mma",
-    "tier": "fight_night",
-    "headline": "UFC Fight Night",
-    "date": "2026-11-07",
-    "eventDay": "2026-11-07",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Main card",
-      "start": "2026-11-08T01:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Prelims",
-      "start": "2026-11-07T22:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": null,
-    "link": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
-    "note": null,
-    "status": "scheduled",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "ufc",
-      "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-fight-night-3b1b5062",
-    "name": "UFC Fight Night",
-    "org": "UFC",
-    "sport": "mma",
-    "tier": "fight_night",
-    "headline": "UFC Fight Night",
-    "date": "2026-11-21",
-    "eventDay": "2026-11-21",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Prelims",
-      "start": "2026-11-21T15:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Main card",
-      "start": "2026-11-21T18:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": null,
-    "link": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
-    "note": null,
-    "status": "scheduled",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "ufc",
-      "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
-   },
-   {
-    "id": "ufc-fight-night-8550f4a1",
-    "name": "UFC Fight Night",
-    "org": "UFC",
-    "sport": "mma",
-    "tier": "fight_night",
-    "headline": "UFC Fight Night",
-    "date": "2026-10-31",
-    "eventDay": "2026-10-31",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Prelims",
-      "start": "2026-10-31T21:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Main card",
-      "start": "2026-11-01T00:00:00Z",
-      "platforms": [
-       {
-        "name": "Paramount+",
-        "url": "https://ufc.ac/4v2K4zW",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
-      "verifiedAt": "2026-10-24T20:44:13Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": null,
-    "link": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
-    "note": null,
-    "status": "scheduled",
-    "sourceStale": false,
-    "lastSeen": "2026-10-24T20:44:13Z",
-    "sources": [
-     {
-      "provider": "ufc",
-      "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
-      "verifiedAt": "2026-10-24T20:44:13Z"
-     }
-    ]
    }
   ],
-  "lastAttempt": "2026-10-24T20:44:13Z",
+  "lastAttempt": "2026-10-25T04:35:42Z",
   "lastSuccess": "2026-10-24T20:44:13Z",
-  "status": "ok",
-  "errors": []
+  "status": "degraded",
+  "errors": [
+   "https://www.ufc.com/event/ufc-fight-night-january-16-2027: ValueError"
+  ]
  }
 }
