@@ -1,42 +1,42 @@
 {
- "verifiedAt": "2026-10-25T20:47:21Z",
+ "verifiedAt": "2026-10-26T04:40:49Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261025-20270423",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261026-20270424",
    "status": "ok",
    "found": 6,
    "retained": 1,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261025-20270423",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261026-20270424",
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261025-20270423",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261026-20270424",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261025-20270423",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261026-20270424",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
@@ -45,19 +45,17 @@
    "status": "ok",
    "found": 13,
    "retained": 0,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
    "provider": "lfa",
    "url": "https://www.lfa.com/events/",
-   "status": "failed",
-   "found": 0,
-   "retained": 5,
-   "lastSuccess": "2026-10-25T04:35:42Z",
-   "errors": [
-    "TimeoutError: The read operation timed out"
-   ]
+   "status": "ok",
+   "found": 4,
+   "retained": 0,
+   "lastSuccess": "2026-10-26T04:40:49Z",
+   "errors": []
   },
   {
    "provider": "eternal",
@@ -65,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
@@ -94,9 +92,9 @@
    "provider": "fury",
    "url": "https://www.furyfc.tv/events",
    "status": "ok",
-   "found": 3,
-   "retained": 0,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "found": 2,
+   "retained": 1,
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
@@ -105,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
@@ -114,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
@@ -123,7 +121,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
@@ -131,8 +129,8 @@
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
    "found": 8,
-   "retained": 6,
-   "lastSuccess": "2026-10-25T20:47:21Z",
+   "retained": 5,
+   "lastSuccess": "2026-10-26T04:40:49Z",
    "errors": []
   },
   {
@@ -148,17 +146,6 @@
   }
  ],
  "promotions": [
-  {
-   "promotion": "APFC / IFL",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
-   "unconfirmed": 0,
-   "sources": [
-    "fightpass"
-   ],
-   "gap": null
-  },
   {
    "promotion": "ARES FC",
    "events": 1,
@@ -228,10 +215,10 @@
   },
   {
    "promotion": "Fury Fighting Championship",
-   "events": 4,
-   "next30Days": 3,
+   "events": 3,
+   "next30Days": 2,
    "watchable": 3,
-   "unconfirmed": 1,
+   "unconfirmed": 0,
    "sources": [
     "fightpass",
     "fury"
