@@ -1,42 +1,42 @@
 {
- "verifiedAt": "2026-10-27T22:09:10Z",
+ "verifiedAt": "2026-10-28T05:34:48Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261027-20270425",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261028-20270426",
    "status": "ok",
-   "found": 6,
+   "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261027-20270425",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261028-20270426",
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261027-20270425",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261028-20270426",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261027-20270425",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261028-20270426",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 13,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
@@ -71,7 +71,7 @@
    "url": "https://cagewarriors.com/cage-warriors-events/",
    "status": "failed",
    "found": 0,
-   "retained": 6,
+   "retained": 0,
    "lastSuccess": "2026-10-20T22:52:44Z",
    "errors": [
     "HTTPError: HTTP Error 403: Forbidden"
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
@@ -112,25 +112,25 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
    "provider": "ufc-bjj",
    "url": "https://www.ufc.com/ufcbjj",
    "status": "ok",
-   "found": 7,
+   "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 8,
+   "found": 10,
    "retained": 0,
-   "lastSuccess": "2026-10-27T22:09:10Z",
+   "lastSuccess": "2026-10-28T05:34:48Z",
    "errors": []
   },
   {
@@ -192,12 +192,12 @@
   },
   {
    "promotion": "Cage Warriors",
-   "events": 6,
-   "next30Days": 2,
-   "watchable": 0,
-   "unconfirmed": 6,
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
    "sources": [
-    "cage-warriors"
+    "fightpass"
    ],
    "gap": null
   },
@@ -251,9 +251,10 @@
    "promotion": "Lux Fight League",
    "events": 1,
    "next30Days": 1,
-   "watchable": 0,
-   "unconfirmed": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
    "sources": [
+    "fightpass",
     "lux"
    ],
    "gap": null
@@ -261,7 +262,7 @@
   {
    "promotion": "ONE",
    "events": 13,
-   "next30Days": 6,
+   "next30Days": 7,
    "watchable": 0,
    "unconfirmed": 13,
    "sources": [
@@ -302,10 +303,10 @@
   },
   {
    "promotion": "UFC",
-   "events": 7,
+   "events": 8,
    "next30Days": 4,
    "watchable": 7,
-   "unconfirmed": 0,
+   "unconfirmed": 1,
    "sources": [
     "espn:ufc",
     "fightpass",
