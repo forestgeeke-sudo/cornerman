@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-10-29T19:52:48Z",
+ "verifiedAt": "2026-10-29T22:42:11Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 13,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -80,12 +80,12 @@
   {
    "provider": "lux",
    "url": "https://luxfightleague.com/eventos/",
-   "status": "degraded",
-   "found": 1,
-   "retained": 0,
+   "status": "failed",
+   "found": 0,
+   "retained": 1,
    "lastSuccess": null,
    "errors": [
-    "https://luxfightleague.com/eventos/lux-063-queretaro/"
+    "ValueError: Lux calendar event links missing"
    ]
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 16,
    "retained": 1,
-   "lastSuccess": "2026-10-29T19:52:48Z",
+   "lastSuccess": "2026-10-29T22:42:11Z",
    "errors": []
   },
   {
