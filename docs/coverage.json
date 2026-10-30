@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-10-30T05:41:09Z",
+ "verifiedAt": "2026-10-30T12:48:02Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 13,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 2,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
@@ -129,20 +129,18 @@
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
    "found": 15,
-   "retained": 2,
-   "lastSuccess": "2026-10-30T05:41:09Z",
+   "retained": 1,
+   "lastSuccess": "2026-10-30T12:48:02Z",
    "errors": []
   },
   {
    "provider": "ufc",
    "url": "https://www.ufc.com/events",
-   "status": "degraded",
-   "found": 7,
-   "retained": 2,
-   "lastSuccess": "2026-10-24T20:44:13Z",
-   "errors": [
-    "https://www.ufc.com/event/ufc-fight-night-january-16-2027: ValueError"
-   ]
+   "status": "ok",
+   "found": 8,
+   "retained": 0,
+   "lastSuccess": "2026-10-30T12:48:02Z",
+   "errors": []
   }
  ],
  "promotions": [
@@ -338,8 +336,8 @@
    "promotion": "UFC",
    "events": 8,
    "next30Days": 4,
-   "watchable": 7,
-   "unconfirmed": 1,
+   "watchable": 8,
+   "unconfirmed": 0,
    "sources": [
     "espn:ufc",
     "fightpass",
@@ -349,9 +347,9 @@
   },
   {
    "promotion": "UFC BJJ",
-   "events": 2,
-   "next30Days": 1,
-   "watchable": 2,
+   "events": 1,
+   "next30Days": 0,
+   "watchable": 1,
    "unconfirmed": 0,
    "sources": [
     "fightpass",
