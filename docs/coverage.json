@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-10-30T18:51:39Z",
+ "verifiedAt": "2026-10-30T22:14:59Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 13,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
@@ -80,12 +80,12 @@
   {
    "provider": "lux",
    "url": "https://luxfightleague.com/eventos/",
-   "status": "degraded",
-   "found": 1,
-   "retained": 0,
+   "status": "failed",
+   "found": 0,
+   "retained": 1,
    "lastSuccess": null,
    "errors": [
-    "https://luxfightleague.com/eventos/lux-063-queretaro/"
+    "ValueError: Lux calendar event links missing"
    ]
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
@@ -112,35 +112,41 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-30T18:51:39Z",
+   "lastSuccess": "2026-10-30T22:14:59Z",
    "errors": []
   },
   {
    "provider": "ufc-bjj",
    "url": "https://www.ufc.com/ufcbjj",
-   "status": "ok",
-   "found": 1,
-   "retained": 2,
+   "status": "failed",
+   "found": 0,
+   "retained": 3,
    "lastSuccess": "2026-10-30T18:51:39Z",
-   "errors": []
+   "errors": [
+    "HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
-   "status": "ok",
-   "found": 15,
-   "retained": 1,
+   "status": "failed",
+   "found": 0,
+   "retained": 16,
    "lastSuccess": "2026-10-30T18:51:39Z",
-   "errors": []
+   "errors": [
+    "ValueError: Fight Pass guest market MX; US rights not verifiable on this runner"
+   ]
   },
   {
    "provider": "ufc",
    "url": "https://www.ufc.com/events",
-   "status": "ok",
-   "found": 8,
-   "retained": 0,
+   "status": "failed",
+   "found": 0,
+   "retained": 8,
    "lastSuccess": "2026-10-30T18:51:39Z",
-   "errors": []
+   "errors": [
+    "HTTPError: HTTP Error 403: Forbidden"
+   ]
   }
  ],
  "promotions": [
@@ -270,10 +276,10 @@
   },
   {
    "promotion": "ONE",
-   "events": 13,
-   "next30Days": 7,
+   "events": 12,
+   "next30Days": 6,
    "watchable": 0,
-   "unconfirmed": 13,
+   "unconfirmed": 12,
    "sources": [
     "one"
    ],
