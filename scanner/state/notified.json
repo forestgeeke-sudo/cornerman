@@ -171,6 +171,17 @@
       "status": "sent",
       "updated": "2026-10-24T11:38:03.153827+00:00"
     },
+    "ufc-600061420:eve": {
+      "job": {
+        "at": "2026-10-30T12:00:00-05:00",
+        "body": "UFC Fight Night\nFirst broadcast: Sat Oct 31, 4:00 PM CDT\nMain card: Sat Oct 31, 7:00 PM CDT\nIncluded in your subscriptions\nMain card: Sat Oct 31, 7:00 PM CDT \u2014 Paramount+ (included)\nPrelims: Sat Oct 31, 4:00 PM CDT \u2014 Paramount+ (included)\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "ufc-600061420:eve",
+        "priority": "default",
+        "title": "Tomorrow: UFC Fight Night"
+      },
+      "status": "pending",
+      "updated": "2026-10-30T18:51:56.390474+00:00"
+    },
     "ufc-600061541:dayof": {
       "status": "sent",
       "updated": "2026-10-10T14:44:03.701371+00:00"
