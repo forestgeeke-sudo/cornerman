@@ -1,42 +1,42 @@
 {
- "verifiedAt": "2026-10-29T22:42:11Z",
+ "verifiedAt": "2026-10-30T05:41:09Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261029-20270427",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261030-20270428",
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261029-20270427",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261030-20270428",
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261029-20270427",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261030-20270428",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261029-20270427",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261030-20270428",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 13,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
@@ -80,12 +80,12 @@
   {
    "provider": "lux",
    "url": "https://luxfightleague.com/eventos/",
-   "status": "failed",
-   "found": 0,
-   "retained": 1,
+   "status": "degraded",
+   "found": 1,
+   "retained": 0,
    "lastSuccess": null,
    "errors": [
-    "ValueError: Lux calendar event links missing"
+    "https://luxfightleague.com/eventos/lux-063-queretaro/"
    ]
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
@@ -112,25 +112,25 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
    "provider": "ufc-bjj",
    "url": "https://www.ufc.com/ufcbjj",
    "status": "ok",
-   "found": 3,
-   "retained": 0,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "found": 1,
+   "retained": 2,
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 16,
-   "retained": 1,
-   "lastSuccess": "2026-10-29T22:42:11Z",
+   "found": 15,
+   "retained": 2,
+   "lastSuccess": "2026-10-30T05:41:09Z",
    "errors": []
   },
   {
