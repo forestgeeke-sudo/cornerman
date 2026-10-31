@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-10-31T05:34:06Z",
+ "verifiedAt": "2026-10-31T12:19:35Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 12,
    "retained": 1,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -54,16 +54,16 @@
    "status": "ok",
    "found": 3,
    "retained": 1,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
    "provider": "eternal",
    "url": "https://eternalmma.com/events/",
    "status": "ok",
-   "found": 4,
+   "found": 5,
    "retained": 0,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 2,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 15,
    "retained": 1,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-31T05:34:06Z",
+   "lastSuccess": "2026-10-31T12:19:35Z",
    "errors": []
   }
  ],
@@ -212,10 +212,10 @@
   },
   {
    "promotion": "Eternal MMA",
-   "events": 4,
+   "events": 5,
    "next30Days": 3,
    "watchable": 1,
-   "unconfirmed": 3,
+   "unconfirmed": 4,
    "sources": [
     "eternal",
     "fightpass"
@@ -247,8 +247,8 @@
   },
   {
    "promotion": "LFA",
-   "events": 4,
-   "next30Days": 3,
+   "events": 3,
+   "next30Days": 2,
    "watchable": 0,
    "unconfirmed": 1,
    "sources": [
