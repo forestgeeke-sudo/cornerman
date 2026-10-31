@@ -1,60 +1,60 @@
 {
- "verifiedAt": "2026-10-30T22:14:59Z",
+ "verifiedAt": "2026-10-31T05:34:06Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261030-20270428",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261031-20270429",
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261030-20270428",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261031-20270429",
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261030-20270428",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261031-20270429",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261030-20270428",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261031-20270429",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
    "provider": "one",
    "url": "https://www.onefc.com/events/",
    "status": "ok",
-   "found": 13,
-   "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "found": 12,
+   "retained": 1,
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
    "provider": "lfa",
    "url": "https://www.lfa.com/events/",
    "status": "ok",
-   "found": 4,
-   "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "found": 3,
+   "retained": 1,
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
@@ -80,12 +80,12 @@
   {
    "provider": "lux",
    "url": "https://luxfightleague.com/eventos/",
-   "status": "failed",
-   "found": 0,
-   "retained": 1,
+   "status": "degraded",
+   "found": 1,
+   "retained": 0,
    "lastSuccess": null,
    "errors": [
-    "ValueError: Lux calendar event links missing"
+    "https://luxfightleague.com/eventos/lux-063-queretaro/"
    ]
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
@@ -112,41 +112,35 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-30T22:14:59Z",
+   "lastSuccess": "2026-10-31T05:34:06Z",
    "errors": []
   },
   {
    "provider": "ufc-bjj",
    "url": "https://www.ufc.com/ufcbjj",
-   "status": "failed",
-   "found": 0,
-   "retained": 3,
-   "lastSuccess": "2026-10-30T18:51:39Z",
-   "errors": [
-    "HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "status": "ok",
+   "found": 1,
+   "retained": 2,
+   "lastSuccess": "2026-10-31T05:34:06Z",
+   "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
-   "status": "failed",
-   "found": 0,
-   "retained": 16,
-   "lastSuccess": "2026-10-30T18:51:39Z",
-   "errors": [
-    "ValueError: Fight Pass guest market MX; US rights not verifiable on this runner"
-   ]
+   "status": "ok",
+   "found": 15,
+   "retained": 1,
+   "lastSuccess": "2026-10-31T05:34:06Z",
+   "errors": []
   },
   {
    "provider": "ufc",
    "url": "https://www.ufc.com/events",
-   "status": "failed",
-   "found": 0,
-   "retained": 8,
-   "lastSuccess": "2026-10-30T18:51:39Z",
-   "errors": [
-    "HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "status": "ok",
+   "found": 8,
+   "retained": 0,
+   "lastSuccess": "2026-10-31T05:34:06Z",
+   "errors": []
   }
  ],
  "promotions": [
@@ -256,7 +250,7 @@
    "events": 4,
    "next30Days": 3,
    "watchable": 0,
-   "unconfirmed": 2,
+   "unconfirmed": 1,
    "sources": [
     "lfa"
    ],
