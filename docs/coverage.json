@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-10-31T12:19:35Z",
+ "verifiedAt": "2026-10-31T20:17:36Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 12,
    "retained": 1,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 1,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 5,
    "retained": 0,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -121,16 +121,16 @@
    "status": "ok",
    "found": 1,
    "retained": 2,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 15,
-   "retained": 1,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "found": 14,
+   "retained": 2,
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-10-31T12:19:35Z",
+   "lastSuccess": "2026-10-31T20:17:36Z",
    "errors": []
   }
  ],
@@ -212,13 +212,12 @@
   },
   {
    "promotion": "Eternal MMA",
-   "events": 5,
-   "next30Days": 3,
-   "watchable": 1,
+   "events": 4,
+   "next30Days": 2,
+   "watchable": 0,
    "unconfirmed": 4,
    "sources": [
-    "eternal",
-    "fightpass"
+    "eternal"
    ],
    "gap": null
   },
