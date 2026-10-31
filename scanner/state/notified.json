@@ -121,6 +121,17 @@
       "status": "sent",
       "updated": "2026-10-30T13:34:02.190569+00:00"
     },
+    "digest:2026-10-31:1": {
+      "job": {
+        "at": "2026-10-31T09:00:00-05:00",
+        "body": "Cornerman \u2014 Saturday, October 31\nAll events in the next 48 hours; at least the next five when available.\n\n1. ARES 44\nFirst broadcast: Sat Oct 31, 12:30 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 31, 12:30 PM CDT \u2014 UFC Fight Pass (included)\n\n2. UFC Fight Night\nFirst broadcast: Sat Oct 31, 4:00 PM CDT\nMain card: Sat Oct 31, 7:00 PM CDT\nIncluded in your subscriptions\nMain card: Sat Oct 31, 7:00 PM CDT \u2014 Paramount+ (included)\nPrelims: Sat Oct 31, 4:00 PM CDT \u2014 Paramount+ (included)\n\n3. ANTHONY PETTIS FC 26\nFirst broadcast: Sun Nov 01, 6:00 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 01, 6:00 PM CST \u2014 UFC Fight Pass (included)\n\n4. ONE Friday Fights 177 & The Inner Circle 37\nScheduled: Fri Nov 06, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n5. SAMOURAI MMA 22\nFirst broadcast: Fri Nov 06, 5:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 06, 5:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-10-31:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-10-31 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-10-31T15:52:08.804770+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
@@ -293,6 +304,15 @@
         "key": "digest:2026-10-30:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-10-30 (1/1)"
+      }
+    ],
+    "2026-10-31": [
+      {
+        "at": "2026-10-31T09:00:00-05:00",
+        "body": "Cornerman \u2014 Saturday, October 31\nAll events in the next 48 hours; at least the next five when available.\n\n1. ARES 44\nFirst broadcast: Sat Oct 31, 12:30 PM CDT\nIncluded in your subscriptions\nLive event: Sat Oct 31, 12:30 PM CDT \u2014 UFC Fight Pass (included)\n\n2. UFC Fight Night\nFirst broadcast: Sat Oct 31, 4:00 PM CDT\nMain card: Sat Oct 31, 7:00 PM CDT\nIncluded in your subscriptions\nMain card: Sat Oct 31, 7:00 PM CDT \u2014 Paramount+ (included)\nPrelims: Sat Oct 31, 4:00 PM CDT \u2014 Paramount+ (included)\n\n3. ANTHONY PETTIS FC 26\nFirst broadcast: Sun Nov 01, 6:00 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 01, 6:00 PM CST \u2014 UFC Fight Pass (included)\n\n4. ONE Friday Fights 177 & The Inner Circle 37\nScheduled: Fri Nov 06, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n5. SAMOURAI MMA 22\nFirst broadcast: Fri Nov 06, 5:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 06, 5:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-10-31:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-10-31 (1/1)"
       }
     ]
   },
