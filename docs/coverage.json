@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-02T05:56:26Z",
+ "verifiedAt": "2026-11-02T15:42:02Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 7,
    "retained": 1,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 12,
    "retained": 0,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 1,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -121,16 +121,16 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 12,
-   "retained": 3,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "found": 14,
+   "retained": 2,
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   },
   {
@@ -139,13 +139,13 @@
    "status": "ok",
    "found": 7,
    "retained": 1,
-   "lastSuccess": "2026-11-02T05:56:26Z",
+   "lastSuccess": "2026-11-02T15:42:02Z",
    "errors": []
   }
  ],
  "promotions": [
   {
-   "promotion": "Anthony Pettis FC",
+   "promotion": "APFC / IFL",
    "events": 1,
    "next30Days": 1,
    "watchable": 1,
