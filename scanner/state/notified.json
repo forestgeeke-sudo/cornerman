@@ -154,6 +154,17 @@
       "status": "sent",
       "updated": "2026-11-02T20:52:57.294510+00:00"
     },
+    "digest:2026-11-03:1": {
+      "job": {
+        "at": "2026-11-03T09:00:00-06:00",
+        "body": "Cornerman \u2014 Tuesday, November 03\nAll events in the next 48 hours; at least the next five when available.\n\n1. ONE Friday Fights 177 & The Inner Circle 37\nScheduled: Fri Nov 06, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n2. APFC: IFL 5\nFirst broadcast: Fri Nov 06, 10:00 AM CST\nIncluded in your subscriptions\nLive event: Fri Nov 06, 10:00 AM CST \u2014 UFC Fight Pass (included)\n\n3. SAMOURAI MMA 22\nFirst broadcast: Fri Nov 06, 6:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 06, 6:00 PM CST \u2014 UFC Fight Pass (included)\n\n4. ONE Fight Night 49: Gabriel Vs. Magomedov\nScheduled: Fri Nov 06, 8:00 PM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n5. LUX 064\nFirst broadcast: Fri Nov 06, 10:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 06, 10:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-03:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-03 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-11-03T18:39:20.012666+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
@@ -364,6 +375,15 @@
         "key": "digest:2026-11-02:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-11-02 (1/1)"
+      }
+    ],
+    "2026-11-03": [
+      {
+        "at": "2026-11-03T09:00:00-06:00",
+        "body": "Cornerman \u2014 Tuesday, November 03\nAll events in the next 48 hours; at least the next five when available.\n\n1. ONE Friday Fights 177 & The Inner Circle 37\nScheduled: Fri Nov 06, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n2. APFC: IFL 5\nFirst broadcast: Fri Nov 06, 10:00 AM CST\nIncluded in your subscriptions\nLive event: Fri Nov 06, 10:00 AM CST \u2014 UFC Fight Pass (included)\n\n3. SAMOURAI MMA 22\nFirst broadcast: Fri Nov 06, 6:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 06, 6:00 PM CST \u2014 UFC Fight Pass (included)\n\n4. ONE Fight Night 49: Gabriel Vs. Magomedov\nScheduled: Fri Nov 06, 8:00 PM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n5. LUX 064\nFirst broadcast: Fri Nov 06, 10:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 06, 10:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-03:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-03 (1/1)"
       }
     ]
   },
