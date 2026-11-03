@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-03T14:05:37Z",
+ "verifiedAt": "2026-11-03T23:16:56Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 25,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -80,12 +80,12 @@
   {
    "provider": "lux",
    "url": "https://luxfightleague.com/eventos/",
-   "status": "failed",
-   "found": 0,
-   "retained": 1,
+   "status": "degraded",
+   "found": 1,
+   "retained": 0,
    "lastSuccess": null,
    "errors": [
-    "ValueError: Lux calendar event links missing"
+    "https://luxfightleague.com/eventos/lux-063-queretaro/"
    ]
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -112,16 +112,16 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
    "provider": "ufc-bjj",
    "url": "https://www.ufc.com/ufcbjj",
    "status": "ok",
-   "found": 1,
+   "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -129,8 +129,8 @@
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
    "found": 14,
-   "retained": 1,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "retained": 0,
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-03T14:05:37Z",
+   "lastSuccess": "2026-11-03T23:16:56Z",
    "errors": []
   }
  ],
