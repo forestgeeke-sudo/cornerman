@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generated": "2026-11-05T15:48:01Z",
+ "generated": "2026-11-05T19:53:34Z",
  "region": "US",
  "timezone": "America/Chicago",
  "subscriptions": [
@@ -12,7 +12,7 @@
  ],
  "counts": {
   "combat_sports": 5,
-  "grappling": 1,
+  "grappling": 2,
   "mma": 61
  },
  "providers": [
@@ -22,7 +22,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -31,7 +31,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -40,7 +40,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -49,7 +49,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -58,7 +58,7 @@
    "status": "ok",
    "found": 34,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -67,7 +67,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -76,7 +76,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -107,7 +107,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -116,7 +116,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -125,7 +125,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -134,16 +134,16 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 14,
+   "found": 15,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   },
   {
@@ -152,11 +152,77 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-05T15:48:01Z",
+   "lastSuccess": "2026-11-05T19:53:34Z",
    "errors": []
   }
  ],
  "events": [
+  {
+   "id": "bjj-clubes-07e50dc3",
+   "name": "BJJ CLUBES",
+   "org": "Bjj Clubes",
+   "sport": "grappling",
+   "tier": "other",
+   "headline": "BJJ CLUBES",
+   "date": "2026-11-05T22:30:00Z",
+   "eventDay": "2026-11-05",
+   "datePrecision": "time",
+   "scheduledStart": null,
+   "earliestBroadcastStart": "2026-11-05T22:30:00Z",
+   "mainCardStart": null,
+   "segments": [
+    {
+     "name": "Live event",
+     "start": "2026-11-05T22:30:00Z",
+     "platforms": [
+      {
+       "name": "UFC Fight Pass",
+       "url": "https://ufcfightpass.com/live/320316",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://ufcfightpass.com/live/320316",
+     "verifiedAt": "2026-11-05T19:53:34Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    }
+   ],
+   "coverageComplete": true,
+   "watch": [
+    {
+     "name": "UFC Fight Pass",
+     "url": "https://ufcfightpass.com/live/320316",
+     "kind": "streaming",
+     "access": "subscription",
+     "covered": true,
+     "confirmed": true
+    }
+   ],
+   "card": [],
+   "art": null,
+   "venue": null,
+   "location": "Rio De Janeiro, Brazil",
+   "link": "https://ufcfightpass.com/live/320316",
+   "note": null,
+   "status": "scheduled",
+   "scheduledEnd": "2026-11-06T02:30:00Z",
+   "sourceStale": false,
+   "lastSeen": "2026-11-05T19:53:34Z",
+   "sources": [
+    {
+     "provider": "fightpass",
+     "url": "https://ufcfightpass.com/live/320316",
+     "verifiedAt": "2026-11-05T19:53:34Z"
+    }
+   ],
+   "availability": "included"
+  },
   {
    "id": "one-20261106-one-friday-fights-177",
    "sport": "mma",
@@ -186,12 +252,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-177/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-177/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -226,7 +292,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319719",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -254,12 +320,12 @@
    "status": "scheduled",
    "scheduledEnd": "2026-11-06T20:00:00Z",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319719",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included"
@@ -292,7 +358,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/313844",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -320,12 +386,12 @@
    "status": "scheduled",
    "scheduledEnd": "2026-11-07T04:00:00Z",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/313844",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included"
@@ -359,12 +425,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/onefightnight49/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/onefightnight49/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -399,7 +465,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319039",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -426,17 +492,17 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "lux",
      "url": "https://luxfightleague.com/eventos/lux-064-monterrey/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319039",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "scheduledEnd": "2026-11-07T07:00:00Z",
@@ -470,7 +536,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319042",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -491,7 +557,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319043",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -519,12 +585,12 @@
    "status": "scheduled",
    "scheduledEnd": "2026-11-07T22:00:00Z",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319042",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "partial"
@@ -556,7 +622,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -577,7 +643,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -977,17 +1043,17 @@
    "note": null,
    "link": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "espn:ufc",
      "url": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "ufc",
      "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included",
@@ -1013,7 +1079,7 @@
      "start": null,
      "platforms": [],
      "sourceUrl": "https://cffc.tv/tickets/cage-fury-cffc-nextgen-next-generation-5-saturday-november-7-2026-hard-rock-hotel-casino-atlantic-city-nj-mma-fights-show-event-tickets",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "scheduledStart": "2026-11-07T23:00:00Z",
@@ -1032,12 +1098,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "cffc",
      "url": "https://cffc.tv/tickets/cage-fury-cffc-nextgen-next-generation-5-saturday-november-7-2026-hard-rock-hotel-casino-atlantic-city-nj-mma-fights-show-event-tickets",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed"
@@ -1070,7 +1136,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319186",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -1098,12 +1164,12 @@
    "status": "scheduled",
    "scheduledEnd": "2026-11-08T08:30:00Z",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319186",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included"
@@ -1136,7 +1202,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319191",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -1163,17 +1229,17 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fury",
      "url": "https://www.furyfc.tv/events",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319191",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "scheduledEnd": "2026-11-09T01:30:00Z",
@@ -1207,7 +1273,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319192",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -1235,12 +1301,12 @@
    "status": "scheduled",
    "scheduledEnd": "2026-11-09T05:00:00Z",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319192",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included"
@@ -1273,7 +1339,7 @@
       }
      ],
      "sourceUrl": "https://www.lfa.com/event/lfa-246/",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -1300,12 +1366,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "lfa",
      "url": "https://www.lfa.com/event/lfa-246/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "other_service"
@@ -1339,12 +1405,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-178/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-178/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -1375,12 +1441,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "eternal",
      "url": "https://eternalmma.com/events/eternal-mma-112-gold-coast/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed"
@@ -1413,7 +1479,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319194",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -1441,12 +1507,12 @@
    "status": "scheduled",
    "scheduledEnd": "2026-11-14T07:00:00Z",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319194",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included"
@@ -1881,12 +1947,12 @@
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "espn:pfl",
      "url": "https://www.espn.com/mma/fightcenter/_/id/600061421/league/pfl",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -1921,7 +1987,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319197",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -1942,7 +2008,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319198",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -1970,12 +2036,12 @@
    "status": "scheduled",
    "scheduledEnd": "2026-11-14T20:00:00Z",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319197",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "partial"
@@ -2008,7 +2074,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319196",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -2036,12 +2102,12 @@
    "status": "scheduled",
    "scheduledEnd": "2026-11-15T00:00:00Z",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319196",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included"
@@ -2052,8 +2118,8 @@
    "status": "scheduled",
    "org": "UFC",
    "tier": "numbered",
-   "name": "Polymarket UFC 334",
-   "headline": "Polymarket UFC 334",
+   "name": "UFC 334",
+   "headline": "UFC 334",
    "date": "2026-11-14T22:00:00Z",
    "datePrecision": "time",
    "scheduledStart": "2026-11-14T22:00Z",
@@ -2073,7 +2139,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-334",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -2094,7 +2160,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-334",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -2123,7 +2189,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-334",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -2390,6 +2456,32 @@
     {
      "order": 10,
      "slot": "undercard",
+     "weight": "Lightweight",
+     "fighters": [
+      "Jared Gordon",
+      "Melquizael Costa"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jared Gordon",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3894823.png&w=350&h=254"
+      },
+      {
+       "name": "Melquizael Costa",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4425763.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "slot": "undercard",
      "weight": "W Bantamweight",
      "fighters": [
       "Macy Chiasson",
@@ -2414,7 +2506,7 @@
      ]
     },
     {
-     "order": 11,
+     "order": 12,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -2440,59 +2532,7 @@
      ]
     },
     {
-     "order": 12,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Nazim Sadykhov",
-      "Jefferson Nascimento"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Nazim Sadykhov",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074130.png&w=350&h=254"
-      },
-      {
-       "name": "Jefferson Nascimento",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5362725.png&w=350&h=254"
-      }
-     ]
-    },
-    {
      "order": 13,
-     "slot": "undercard",
-     "weight": "Lightweight",
-     "fighters": [
-      "Jared Gordon",
-      "Melquizael Costa"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Jared Gordon",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3894823.png&w=350&h=254"
-      },
-      {
-       "name": "Melquizael Costa",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4425763.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 14,
      "slot": "undercard",
      "weight": "Lightweight",
      "fighters": [
@@ -2531,22 +2571,22 @@
    "note": null,
    "link": "https://www.ufc.com/event/ufc-334",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "espn:ufc",
      "url": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/316405",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "ufc",
      "url": "https://www.ufc.com/event/ufc-334",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "scheduledEnd": "2026-11-15T02:00:00Z",
@@ -2583,12 +2623,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-samurai-5/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-samurai-5/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -2619,12 +2659,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "lfa",
      "url": "https://www.lfa.com/event/lfa-247-breno-vs-torres/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed"
@@ -2658,12 +2698,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-179/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-179/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -2698,7 +2738,7 @@
       }
      ],
      "sourceUrl": "https://www.furyfc.tv/events",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -2719,7 +2759,7 @@
       }
      ],
      "sourceUrl": "https://www.furyfc.tv/events",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -2754,12 +2794,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fury",
      "url": "https://www.furyfc.tv/events",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "partial"
@@ -2778,27 +2818,6 @@
    "eventDay": "2026-11-21",
    "segments": [
     {
-     "name": "Prelims",
-     "start": "2026-11-21T15:00:00Z",
-     "platforms": [
-      {
-       "name": "Paramount+",
-       "url": "https://ufc.ac/4v2K4zW",
-       "kind": "streaming",
-       "access": "subscription",
-       "covered": true,
-       "confirmed": true
-      }
-     ],
-     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
-     "verifiedAt": "2026-11-05T15:48:01Z",
-     "region": "US",
-     "complete": false,
-     "stale": false,
-     "covered": true,
-     "subscriptionCovered": true
-    },
-    {
      "name": "Main card",
      "start": "2026-11-21T18:00:00Z",
      "platforms": [
@@ -2812,7 +2831,28 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
+     "region": "US",
+     "complete": false,
+     "stale": false,
+     "covered": true,
+     "subscriptionCovered": true
+    },
+    {
+     "name": "Prelims",
+     "start": "2026-11-21T15:00:00Z",
+     "platforms": [
+      {
+       "name": "Paramount+",
+       "url": "https://ufc.ac/4v2K4zW",
+       "kind": "streaming",
+       "access": "subscription",
+       "covered": true,
+       "confirmed": true
+      }
+     ],
+     "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -2915,6 +2955,32 @@
     {
      "order": 4,
      "slot": "undercard",
+     "weight": "Flyweight",
+     "fighters": [
+      "Kyoji Horiguchi",
+      "Asu Almabayev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Kyoji Horiguchi",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2613374.png&w=350&h=254"
+      },
+      {
+       "name": "Asu Almabayev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4294926.png&w=350&h=254"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "slot": "undercard",
      "weight": "Middleweight",
      "fighters": [
       "Jared Cannonier",
@@ -2939,59 +3005,7 @@
      ]
     },
     {
-     "order": 5,
-     "slot": "undercard",
-     "weight": "Heavyweight",
-     "fighters": [
-      "Shamil Gaziev",
-      "Tallison Teixeira"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Shamil Gaziev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145498.png&w=350&h=254"
-      },
-      {
-       "name": "Tallison Teixeira",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212856.png&w=350&h=254"
-      }
-     ]
-    },
-    {
      "order": 6,
-     "slot": "undercard",
-     "weight": "Welterweight",
-     "fighters": [
-      "Jake Matthews",
-      "Tahir Abdullayev"
-     ],
-     "watch": [
-      {
-       "name": "Paramount+",
-       "url": "https://www.paramountplus.com/",
-       "kind": "streaming"
-      }
-     ],
-     "portraits": [
-      {
-       "name": "Jake Matthews",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3089915.png&w=350&h=254"
-      },
-      {
-       "name": "Tahir Abdullayev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4394753.png&w=350&h=254"
-      }
-     ]
-    },
-    {
-     "order": 7,
      "slot": "undercard",
      "weight": "Bantamweight",
      "fighters": [
@@ -3017,12 +3031,12 @@
      ]
     },
     {
-     "order": 8,
+     "order": 7,
      "slot": "undercard",
-     "weight": "Flyweight",
+     "weight": "Heavyweight",
      "fighters": [
-      "Kyoji Horiguchi",
-      "Asu Almabayev"
+      "Shamil Gaziev",
+      "Tallison Teixeira"
      ],
      "watch": [
       {
@@ -3033,17 +3047,17 @@
      ],
      "portraits": [
       {
-       "name": "Kyoji Horiguchi",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2613374.png&w=350&h=254"
+       "name": "Shamil Gaziev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5145498.png&w=350&h=254"
       },
       {
-       "name": "Asu Almabayev",
-       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4294926.png&w=350&h=254"
+       "name": "Tallison Teixeira",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212856.png&w=350&h=254"
       }
      ]
     },
     {
-     "order": 9,
+     "order": 8,
      "slot": "undercard",
      "weight": "Flyweight",
      "fighters": [
@@ -3067,6 +3081,32 @@
        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5074121.png&w=350&h=254"
       }
      ]
+    },
+    {
+     "order": 9,
+     "slot": "undercard",
+     "weight": "Welterweight",
+     "fighters": [
+      "Jake Matthews",
+      "Tahir Abdullayev"
+     ],
+     "watch": [
+      {
+       "name": "Paramount+",
+       "url": "https://www.paramountplus.com/",
+       "kind": "streaming"
+      }
+     ],
+     "portraits": [
+      {
+       "name": "Jake Matthews",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3089915.png&w=350&h=254"
+      },
+      {
+       "name": "Tahir Abdullayev",
+       "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4394753.png&w=350&h=254"
+      }
+     ]
     }
    ],
    "art": [
@@ -3082,17 +3122,17 @@
    "note": null,
    "link": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "espn:ufc",
      "url": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "ufc",
      "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included",
@@ -3128,12 +3168,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-180/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-180/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -3164,12 +3204,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "eternal",
      "url": "https://eternalmma.com/events/eternal-mma-113-geelong/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed"
@@ -3203,12 +3243,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-samurai-6/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-samurai-6/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -3243,7 +3283,7 @@
       }
      ],
      "sourceUrl": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -3270,12 +3310,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "bfl",
      "url": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "partial"
@@ -3308,7 +3348,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/319278",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -3335,17 +3375,17 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "ufc-bjj",
      "url": "https://www.ufc.com/ufcbjj",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319278",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "scheduledEnd": "2026-12-04T06:00:00Z",
@@ -3380,12 +3420,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-181/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-181/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -3411,7 +3451,7 @@
      "start": null,
      "platforms": [],
      "sourceUrl": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "scheduledStart": "2026-12-05T00:00:00Z",
@@ -3424,7 +3464,7 @@
      "start": null,
      "platforms": [],
      "sourceUrl": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "scheduledStart": "2026-12-05T02:00:00Z",
@@ -3443,12 +3483,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "cffc",
      "url": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed"
@@ -3481,7 +3521,7 @@
       }
      ],
      "sourceUrl": "https://ufcfightpass.com/live/313842",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -3509,12 +3549,12 @@
    "status": "scheduled",
    "scheduledEnd": "2026-12-07T01:00:00Z",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/313842",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included"
@@ -3548,12 +3588,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-182/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-182/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -3595,7 +3635,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-335",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -3616,7 +3656,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-335",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -3637,7 +3677,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-335",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -3837,22 +3877,22 @@
    "note": null,
    "link": "https://www.ufc.com/event/ufc-335",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "espn:ufc",
      "url": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "fightpass",
      "url": "https://ufcfightpass.com/live/319730",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "ufc",
      "url": "https://www.ufc.com/event/ufc-335",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "scheduledEnd": "2026-12-13T03:00:00Z",
@@ -3888,7 +3928,7 @@
       }
      ],
      "sourceUrl": "https://www.lfa.com/event/lfa-248/",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -3915,12 +3955,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "lfa",
      "url": "https://www.lfa.com/event/lfa-248/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "other_service"
@@ -3954,12 +3994,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-183/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-183/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -3995,12 +4035,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/onefightnight50/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/onefightnight50/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -4255,12 +4295,12 @@
    "note": null,
    "link": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "espn:pfl",
      "url": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -4286,7 +4326,7 @@
      "start": null,
      "platforms": [],
      "sourceUrl": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "scheduledStart": "2026-12-19T23:00:00Z",
@@ -4299,7 +4339,7 @@
      "start": null,
      "platforms": [],
      "sourceUrl": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "scheduledStart": "2026-12-20T01:00:00Z",
@@ -4318,12 +4358,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "cffc",
      "url": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed"
@@ -4357,12 +4397,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-184/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-184/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -4398,12 +4438,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/onefightnight51/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/onefightnight51/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -4439,12 +4479,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-185/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-185/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -4480,12 +4520,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-samurai-7/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-samurai-7/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -4519,7 +4559,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-january-16-2027",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -4540,7 +4580,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-january-16-2027",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -4628,17 +4668,17 @@
    "note": null,
    "link": "https://www.ufc.com/event/ufc-fight-night-january-16-2027",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "espn:ufc",
      "url": "https://www.espn.com/mma/fightcenter/_/id/600062421/league/ufc",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "ufc",
      "url": "https://www.ufc.com/event/ufc-fight-night-january-16-2027",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included",
@@ -4674,12 +4714,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-186/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-186/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -4715,12 +4755,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-187/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-187/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -4754,7 +4794,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-336",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -4783,7 +4823,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-336",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -4804,7 +4844,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-336",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -4952,17 +4992,17 @@
    "note": null,
    "link": "https://www.ufc.com/event/ufc-336",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "espn:ufc",
      "url": "https://www.espn.com/mma/fightcenter/_/id/600062191/league/ufc",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "ufc",
      "url": "https://www.ufc.com/event/ufc-336",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included",
@@ -4993,12 +5033,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "eternal",
      "url": "https://eternalmma.com/events/eternal-mma-114-sydney/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed"
@@ -5030,7 +5070,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -5051,7 +5091,7 @@
       }
      ],
      "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-     "verifiedAt": "2026-11-05T15:48:01Z",
+     "verifiedAt": "2026-11-05T19:53:34Z",
      "region": "US",
      "complete": false,
      "stale": false,
@@ -5217,17 +5257,17 @@
    "note": null,
    "link": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "espn:ufc",
      "url": "https://www.espn.com/mma/fightcenter/_/id/600062420/league/ufc",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     },
     {
      "provider": "ufc",
      "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "included",
@@ -5263,12 +5303,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-samurai-8/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-samurai-8/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5304,12 +5344,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-188/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-188/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5345,12 +5385,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-189/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-189/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5381,12 +5421,12 @@
    "note": null,
    "status": "scheduled",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "eternal",
      "url": "https://eternalmma.com/events/eternal-mma-116-perth/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed"
@@ -5420,12 +5460,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/onefightnight52/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/onefightnight52/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5461,12 +5501,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-190/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-190/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5502,12 +5542,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-191/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-191/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5543,12 +5583,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/onefightnight53/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/onefightnight53/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5584,12 +5624,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-192/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-192/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5625,12 +5665,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-193/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-193/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5666,12 +5706,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-samurai-9/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-samurai-9/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5707,12 +5747,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-qatar/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-qatar/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5748,12 +5788,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-194/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-194/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5789,12 +5829,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-195/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-195/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5830,12 +5870,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/onefightnight54/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/onefightnight54/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5871,12 +5911,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-196/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-196/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5912,12 +5952,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-samurai-10/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-samurai-10/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
@@ -5953,12 +5993,12 @@
    "note": null,
    "link": "https://www.onefc.com/events/one-friday-fights-197/",
    "sourceStale": false,
-   "lastSeen": "2026-11-05T15:48:01Z",
+   "lastSeen": "2026-11-05T19:53:34Z",
    "sources": [
     {
      "provider": "one",
      "url": "https://www.onefc.com/events/one-friday-fights-197/",
-     "verifiedAt": "2026-11-05T15:48:01Z"
+     "verifiedAt": "2026-11-05T19:53:34Z"
     }
    ],
    "availability": "unconfirmed",
