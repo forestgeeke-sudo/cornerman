@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-06T02:49:08Z",
+ "verifiedAt": "2026-11-06T06:34:53Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 34,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 14,
    "retained": 1,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-06T02:49:08Z",
+   "lastSuccess": "2026-11-06T06:34:53Z",
    "errors": []
   }
  ],
@@ -163,17 +163,6 @@
    "unconfirmed": 0,
    "sources": [
     "bfl"
-   ],
-   "gap": null
-  },
-  {
-   "promotion": "Bjj Clubes",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
-   "unconfirmed": 0,
-   "sources": [
-    "fightpass"
    ],
    "gap": null
   },
