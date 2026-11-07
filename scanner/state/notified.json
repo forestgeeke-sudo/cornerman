@@ -198,6 +198,17 @@
       "status": "sent",
       "updated": "2026-11-06T18:27:19.670302+00:00"
     },
+    "digest:2026-11-07:1": {
+      "job": {
+        "at": "2026-11-07T09:00:00-06:00",
+        "body": "Cornerman \u2014 Saturday, November 07\nAll events in the next 48 hours; at least the next five when available.\n\n1. CAGE WARRIORS 212 PRELIMS\nFirst broadcast: Sat Nov 07, 1:00 PM CST\nPartly included; check segments\nPrelims: Sat Nov 07, 1:00 PM CST \u2014 UFC Fight Pass (included)\nLive event: Sat Nov 07, 2:00 PM CST \u2014 UFC Fight Pass (included)\n\n2. UFC Fight Night\nFirst broadcast: Sat Nov 07, 4:00 PM CST\nMain card: Sat Nov 07, 7:00 PM CST\nIncluded in your subscriptions\nMain card: Sat Nov 07, 7:00 PM CST \u2014 Paramount+ (included)\nPrelims: Sat Nov 07, 4:00 PM CST \u2014 Paramount+ (included)\n\n3. CFFC NextGen 5\nScheduled: Sat Nov 07, 5:00 PM CST; broadcast time unconfirmed\nViewing access unconfirmed\nPrelims: time unconfirmed \u2014 service unconfirmed\n\n4. PANCRASE 368\nFirst broadcast: Sat Nov 07, 11:30 PM CST\nIncluded in your subscriptions\nLive event: Sat Nov 07, 11:30 PM CST \u2014 UFC Fight Pass (included)\n\n5. FURY CHALLENGER SERIES 17\nFirst broadcast: Sun Nov 08, 4:30 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 08, 4:30 PM CST \u2014 UFC Fight Pass (included)\n\n6. SHOOTO BRAZIL 141\nFirst broadcast: Sun Nov 08, 6:00 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 08, 6:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-07:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-07 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-11-07T16:37:57.223115+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
@@ -455,6 +466,15 @@
         "key": "digest:2026-11-06:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-11-06 (1/1)"
+      }
+    ],
+    "2026-11-07": [
+      {
+        "at": "2026-11-07T09:00:00-06:00",
+        "body": "Cornerman \u2014 Saturday, November 07\nAll events in the next 48 hours; at least the next five when available.\n\n1. CAGE WARRIORS 212 PRELIMS\nFirst broadcast: Sat Nov 07, 1:00 PM CST\nPartly included; check segments\nPrelims: Sat Nov 07, 1:00 PM CST \u2014 UFC Fight Pass (included)\nLive event: Sat Nov 07, 2:00 PM CST \u2014 UFC Fight Pass (included)\n\n2. UFC Fight Night\nFirst broadcast: Sat Nov 07, 4:00 PM CST\nMain card: Sat Nov 07, 7:00 PM CST\nIncluded in your subscriptions\nMain card: Sat Nov 07, 7:00 PM CST \u2014 Paramount+ (included)\nPrelims: Sat Nov 07, 4:00 PM CST \u2014 Paramount+ (included)\n\n3. CFFC NextGen 5\nScheduled: Sat Nov 07, 5:00 PM CST; broadcast time unconfirmed\nViewing access unconfirmed\nPrelims: time unconfirmed \u2014 service unconfirmed\n\n4. PANCRASE 368\nFirst broadcast: Sat Nov 07, 11:30 PM CST\nIncluded in your subscriptions\nLive event: Sat Nov 07, 11:30 PM CST \u2014 UFC Fight Pass (included)\n\n5. FURY CHALLENGER SERIES 17\nFirst broadcast: Sun Nov 08, 4:30 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 08, 4:30 PM CST \u2014 UFC Fight Pass (included)\n\n6. SHOOTO BRAZIL 141\nFirst broadcast: Sun Nov 08, 6:00 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 08, 6:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-07:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-07 (1/1)"
       }
     ]
   },
