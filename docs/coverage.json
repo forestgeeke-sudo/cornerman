@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-07T12:54:38Z",
+ "verifiedAt": "2026-11-07T20:29:57Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -36,16 +36,16 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
    "provider": "one",
    "url": "https://www.onefc.com/events/",
    "status": "ok",
-   "found": 11,
-   "retained": 23,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "found": 10,
+   "retained": 24,
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -129,8 +129,8 @@
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
    "found": 11,
-   "retained": 4,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "retained": 3,
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-07T12:54:38Z",
+   "lastSuccess": "2026-11-07T20:29:57Z",
    "errors": []
   }
  ],
