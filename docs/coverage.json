@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-07T05:53:20Z",
+ "verifiedAt": "2026-11-07T12:54:38Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 11,
    "retained": 23,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 11,
    "retained": 4,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-07T05:53:20Z",
+   "lastSuccess": "2026-11-07T12:54:38Z",
    "errors": []
   }
  ],
@@ -235,22 +235,19 @@
   },
   {
    "promotion": "Lux Fight League",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
+   "events": 0,
+   "next30Days": 0,
+   "watchable": 0,
    "unconfirmed": 0,
-   "sources": [
-    "fightpass",
-    "lux"
-   ],
-   "gap": null
+   "sources": [],
+   "gap": "No upcoming listing verified by connected calendars; not proof of no events"
   },
   {
    "promotion": "ONE",
-   "events": 33,
-   "next30Days": 7,
+   "events": 32,
+   "next30Days": 6,
    "watchable": 0,
-   "unconfirmed": 33,
+   "unconfirmed": 32,
    "sources": [
     "one"
    ],
@@ -280,14 +277,12 @@
   },
   {
    "promotion": "Samourai MMA",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
+   "events": 0,
+   "next30Days": 0,
+   "watchable": 0,
    "unconfirmed": 0,
-   "sources": [
-    "fightpass"
-   ],
-   "gap": null
+   "sources": [],
+   "gap": "No upcoming listing verified by connected calendars; not proof of no events"
   },
   {
    "promotion": "Shooto Brazil",
