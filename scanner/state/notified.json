@@ -209,6 +209,17 @@
       "status": "sent",
       "updated": "2026-11-07T16:37:57.223115+00:00"
     },
+    "digest:2026-11-08:1": {
+      "job": {
+        "at": "2026-11-08T09:00:00-06:00",
+        "body": "Cornerman \u2014 Sunday, November 08\nAll events in the next 48 hours; at least the next five when available.\n\n1. FURY CHALLENGER SERIES 17\nFirst broadcast: Sun Nov 08, 4:30 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 08, 4:30 PM CST \u2014 UFC Fight Pass (included)\n\n2. SHOOTO BRAZIL 141\nFirst broadcast: Sun Nov 08, 6:00 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 08, 6:00 PM CST \u2014 UFC Fight Pass (included)\n\n3. LFA 246 \u2013 Alves vs. Vinuto\n2026-11-13 \u2014 time unconfirmed\nOther service / separate payment\nMain card: time unconfirmed \u2014 VICE TV (separate payment)\n\n4. ONE Friday Fights 178 & The Inner Circle 38\nScheduled: Fri Nov 13, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n5. BUDO SENTO CHAMPIONSHIP 38\nFirst broadcast: Fri Nov 13, 8:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 13, 8:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-08:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-08 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-11-08T13:53:37.692866+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
@@ -486,6 +497,15 @@
         "key": "digest:2026-11-07:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-11-07 (1/1)"
+      }
+    ],
+    "2026-11-08": [
+      {
+        "at": "2026-11-08T09:00:00-06:00",
+        "body": "Cornerman \u2014 Sunday, November 08\nAll events in the next 48 hours; at least the next five when available.\n\n1. FURY CHALLENGER SERIES 17\nFirst broadcast: Sun Nov 08, 4:30 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 08, 4:30 PM CST \u2014 UFC Fight Pass (included)\n\n2. SHOOTO BRAZIL 141\nFirst broadcast: Sun Nov 08, 6:00 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 08, 6:00 PM CST \u2014 UFC Fight Pass (included)\n\n3. LFA 246 \u2013 Alves vs. Vinuto\n2026-11-13 \u2014 time unconfirmed\nOther service / separate payment\nMain card: time unconfirmed \u2014 VICE TV (separate payment)\n\n4. ONE Friday Fights 178 & The Inner Circle 38\nScheduled: Fri Nov 13, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n5. BUDO SENTO CHAMPIONSHIP 38\nFirst broadcast: Fri Nov 13, 8:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 13, 8:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-08:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-08 (1/1)"
       }
     ]
   },
