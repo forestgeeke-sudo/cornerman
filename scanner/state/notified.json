@@ -220,6 +220,17 @@
       "status": "sent",
       "updated": "2026-11-08T13:53:37.692866+00:00"
     },
+    "digest:2026-11-09:1": {
+      "job": {
+        "at": "2026-11-09T09:00:00-06:00",
+        "body": "Cornerman \u2014 Monday, November 09\nAll events in the next 48 hours; at least the next five when available.\n\n1. LFA 246 \u2013 Alves vs. Vinuto\n2026-11-13 \u2014 time unconfirmed\nOther service / separate payment\nMain card: time unconfirmed \u2014 VICE TV (separate payment)\n\n2. ONE Friday Fights 178 & The Inner Circle 38\nScheduled: Fri Nov 13, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n3. ETERNAL MMA 112\nFirst broadcast: Sat Nov 14, 4:00 AM CST\nIncluded in your subscriptions\nLive event: Sat Nov 14, 4:00 AM CST \u2014 UFC Fight Pass (included)\n\n4. PFL Dubai: Nemkov vs. Bilostenniy\nScheduled: Sat Nov 14, 8:00 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n5. CAGE WARRIORS 213 PRELIMS\nFirst broadcast: Sat Nov 14, 1:00 PM CST\nPartly included; check segments\nPrelims: Sat Nov 14, 1:00 PM CST \u2014 UFC Fight Pass (included)\nLive event: Sat Nov 14, 2:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-09:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-09 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-11-09T22:42:03.734581+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
