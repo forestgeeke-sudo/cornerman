@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-11T14:13:21Z",
+ "verifiedAt": "2026-11-11T23:02:58Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 10,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -121,16 +121,16 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 13,
+   "found": 19,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-11T14:13:21Z",
+   "lastSuccess": "2026-11-11T23:02:58Z",
    "errors": []
   }
  ],
@@ -201,9 +201,9 @@
   },
   {
    "promotion": "Cage Warriors",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
+   "events": 3,
+   "next30Days": 3,
+   "watchable": 3,
    "unconfirmed": 0,
    "sources": [
     "fightpass"
@@ -214,8 +214,8 @@
    "promotion": "Eternal MMA",
    "events": 4,
    "next30Days": 2,
-   "watchable": 1,
-   "unconfirmed": 3,
+   "watchable": 2,
+   "unconfirmed": 2,
    "sources": [
     "eternal",
     "fightpass"
@@ -246,6 +246,17 @@
    "gap": null
   },
   {
+   "promotion": "INKA MMA",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
    "promotion": "LFA",
    "events": 3,
    "next30Days": 2,
@@ -264,6 +275,17 @@
    "unconfirmed": 0,
    "sources": [],
    "gap": "No upcoming listing verified by connected calendars; not proof of no events"
+  },
+  {
+   "promotion": "Mma Mexico",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
   },
   {
    "promotion": "ONE",
@@ -352,6 +374,17 @@
   },
   {
    "promotion": "Uwc",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "WOW FC",
    "events": 1,
    "next30Days": 1,
    "watchable": 1,
