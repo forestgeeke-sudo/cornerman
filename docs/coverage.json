@@ -1,42 +1,42 @@
 {
- "verifiedAt": "2026-11-10T19:40:31Z",
+ "verifiedAt": "2026-11-11T06:07:15Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261110-20270509",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261111-20270510",
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261110-20270509",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261111-20270510",
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261110-20270509",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261111-20270510",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261110-20270509",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261111-20270510",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 10,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
@@ -93,8 +93,8 @@
    "url": "https://www.furyfc.tv/events",
    "status": "ok",
    "found": 1,
-   "retained": 1,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "retained": 0,
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
@@ -129,8 +129,8 @@
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
    "found": 9,
-   "retained": 2,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "retained": 0,
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-10T19:40:31Z",
+   "lastSuccess": "2026-11-11T06:07:15Z",
    "errors": []
   }
  ],
@@ -246,7 +246,7 @@
   {
    "promotion": "ONE",
    "events": 10,
-   "next30Days": 6,
+   "next30Days": 7,
    "watchable": 0,
    "unconfirmed": 10,
    "sources": [
