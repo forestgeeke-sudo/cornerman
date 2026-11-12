@@ -1,42 +1,42 @@
 {
- "verifiedAt": "2026-11-11T23:02:58Z",
+ "verifiedAt": "2026-11-12T00:37:06Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261111-20270510",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261112-20270511",
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261111-20270510",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261112-20270511",
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261111-20270510",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261112-20270511",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261111-20270510",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261112-20270511",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 10,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 19,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-11T23:02:58Z",
+   "lastSuccess": "2026-11-12T00:37:06Z",
    "errors": []
   }
  ],
@@ -341,7 +341,7 @@
   {
    "promotion": "UFC",
    "events": 7,
-   "next30Days": 3,
+   "next30Days": 4,
    "watchable": 7,
    "unconfirmed": 0,
    "sources": [
