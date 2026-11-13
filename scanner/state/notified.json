@@ -339,6 +339,17 @@
       "status": "sent",
       "updated": "2026-11-07T20:30:15.142660+00:00"
     },
+    "ufc-600061400:eve": {
+      "job": {
+        "at": "2026-11-13T12:00:00-06:00",
+        "body": "Polymarket UFC 334\nFirst broadcast: Sat Nov 14, 4:00 PM CST\nMain card: Sat Nov 14, 8:00 PM CST\nIncluded in your subscriptions\nMain card: Sat Nov 14, 8:00 PM CST \u2014 Paramount+ (included)\nPrelims: Sat Nov 14, 6:00 PM CST \u2014 Paramount+ (included)\nEarly prelims: Sat Nov 14, 4:00 PM CST \u2014 Paramount+ (included), UFC Fight Pass (included)\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "ufc-600061400:eve",
+        "priority": "default",
+        "title": "Tomorrow: Polymarket UFC 334"
+      },
+      "status": "pending",
+      "updated": "2026-11-13T18:03:12.241537+00:00"
+    },
     "ufc-600061420:eve": {
       "job": {
         "at": "2026-10-30T12:00:00-05:00",
