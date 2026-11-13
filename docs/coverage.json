@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-13T16:06:49Z",
+ "verifiedAt": "2026-11-13T19:37:18Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 10,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -82,7 +82,7 @@
    "url": "https://luxfightleague.com/eventos/",
    "status": "degraded",
    "found": 0,
-   "retained": 1,
+   "retained": 0,
    "lastSuccess": null,
    "errors": [
     "https://luxfightleague.com/eventos/lux-063-queretaro/"
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 32,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-13T16:06:49Z",
+   "lastSuccess": "2026-11-13T19:37:18Z",
    "errors": []
   }
  ],
@@ -312,10 +312,10 @@
   },
   {
    "promotion": "ONE",
-   "events": 10,
-   "next30Days": 7,
+   "events": 9,
+   "next30Days": 6,
    "watchable": 0,
-   "unconfirmed": 10,
+   "unconfirmed": 9,
    "sources": [
     "one"
    ],
