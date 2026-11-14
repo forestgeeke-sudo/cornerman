@@ -1,60 +1,60 @@
 {
- "verifiedAt": "2026-11-13T19:37:18Z",
+ "verifiedAt": "2026-11-14T06:13:53Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261113-20270512",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261114-20270513",
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261113-20270512",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261114-20270513",
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261113-20270512",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261114-20270513",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261113-20270512",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261114-20270513",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
    "provider": "one",
    "url": "https://www.onefc.com/events/",
    "status": "ok",
-   "found": 10,
-   "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "found": 9,
+   "retained": 1,
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
    "provider": "lfa",
    "url": "https://www.lfa.com/events/",
    "status": "ok",
-   "found": 3,
-   "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "found": 2,
+   "retained": 1,
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 32,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 7,
    "retained": 0,
-   "lastSuccess": "2026-11-13T19:37:18Z",
+   "lastSuccess": "2026-11-14T06:13:53Z",
    "errors": []
   }
  ],
@@ -158,7 +158,7 @@
   {
    "promotion": "Anthony Pettis FC",
    "events": 1,
-   "next30Days": 0,
+   "next30Days": 1,
    "watchable": 1,
    "unconfirmed": 0,
    "sources": [
