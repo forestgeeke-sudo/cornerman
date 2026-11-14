@@ -275,6 +275,17 @@
       "status": "sent",
       "updated": "2026-11-13T16:07:06.500277+00:00"
     },
+    "digest:2026-11-14:1": {
+      "job": {
+        "at": "2026-11-14T09:00:00-06:00",
+        "body": "Cornerman \u2014 Saturday, November 14\nAll events in the next 48 hours; at least the next five when available.\n\n1. CAGE WARRIORS 213 PRELIMS\nFirst broadcast: Sat Nov 14, 1:00 PM CST\nPartly included; check segments\nPrelims: Sat Nov 14, 1:00 PM CST \u2014 UFC Fight Pass (included)\nLive event: Sat Nov 14, 2:00 PM CST \u2014 UFC Fight Pass (included)\n\n2. FCC 48\nFirst broadcast: Sat Nov 14, 1:00 PM CST\nIncluded in your subscriptions\nLive event: Sat Nov 14, 1:00 PM CST \u2014 UFC Fight Pass (included)\n\n3. Polymarket UFC 334\nFirst broadcast: Sat Nov 14, 4:00 PM CST\nMain card: Sat Nov 14, 8:00 PM CST\nIncluded in your subscriptions\nMain card: Sat Nov 14, 8:00 PM CST \u2014 Paramount+ (included)\nPrelims: Sat Nov 14, 6:00 PM CST \u2014 Paramount+ (included)\nEarly prelims: Sat Nov 14, 4:00 PM CST \u2014 Paramount+ (included), UFC Fight Pass (included)\n\n4. SUBMISSION HUNTER PRO 105\nFirst broadcast: Sun Nov 15, 4:30 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 15, 4:30 PM CST \u2014 UFC Fight Pass (included)\n\n5. ONE SAMURAI 5\nScheduled: Wed Nov 18, 2:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-14:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-14 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-11-14T14:30:43.754511+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
@@ -609,6 +620,15 @@
         "key": "digest:2026-11-13:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-11-13 (1/1)"
+      }
+    ],
+    "2026-11-14": [
+      {
+        "at": "2026-11-14T09:00:00-06:00",
+        "body": "Cornerman \u2014 Saturday, November 14\nAll events in the next 48 hours; at least the next five when available.\n\n1. CAGE WARRIORS 213 PRELIMS\nFirst broadcast: Sat Nov 14, 1:00 PM CST\nPartly included; check segments\nPrelims: Sat Nov 14, 1:00 PM CST \u2014 UFC Fight Pass (included)\nLive event: Sat Nov 14, 2:00 PM CST \u2014 UFC Fight Pass (included)\n\n2. FCC 48\nFirst broadcast: Sat Nov 14, 1:00 PM CST\nIncluded in your subscriptions\nLive event: Sat Nov 14, 1:00 PM CST \u2014 UFC Fight Pass (included)\n\n3. Polymarket UFC 334\nFirst broadcast: Sat Nov 14, 4:00 PM CST\nMain card: Sat Nov 14, 8:00 PM CST\nIncluded in your subscriptions\nMain card: Sat Nov 14, 8:00 PM CST \u2014 Paramount+ (included)\nPrelims: Sat Nov 14, 6:00 PM CST \u2014 Paramount+ (included)\nEarly prelims: Sat Nov 14, 4:00 PM CST \u2014 Paramount+ (included), UFC Fight Pass (included)\n\n4. SUBMISSION HUNTER PRO 105\nFirst broadcast: Sun Nov 15, 4:30 PM CST\nIncluded in your subscriptions\nLive event: Sun Nov 15, 4:30 PM CST \u2014 UFC Fight Pass (included)\n\n5. ONE SAMURAI 5\nScheduled: Wed Nov 18, 2:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-14:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-14 (1/1)"
       }
     ]
   },
