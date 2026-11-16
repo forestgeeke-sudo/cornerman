@@ -1,42 +1,42 @@
 {
- "verifiedAt": "2026-11-15T18:47:23Z",
+ "verifiedAt": "2026-11-16T03:07:04Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261115-20270514",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261116-20270515",
    "status": "ok",
    "found": 9,
    "retained": 1,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261115-20270514",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261116-20270515",
    "status": "ok",
    "found": 1,
    "retained": 1,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261115-20270514",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261116-20270515",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261115-20270514",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261116-20270515",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
@@ -44,8 +44,8 @@
    "url": "https://www.onefc.com/events/",
    "status": "ok",
    "found": 9,
-   "retained": 1,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "retained": 0,
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
@@ -53,8 +53,8 @@
    "url": "https://www.lfa.com/events/",
    "status": "ok",
    "found": 2,
-   "retained": 1,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "retained": 0,
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 1,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
@@ -121,16 +121,16 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 28,
-   "retained": 4,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "found": 27,
+   "retained": 5,
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 8,
    "retained": 1,
-   "lastSuccess": "2026-11-15T18:47:23Z",
+   "lastSuccess": "2026-11-16T03:07:04Z",
    "errors": []
   }
  ],
