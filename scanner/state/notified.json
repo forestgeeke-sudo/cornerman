@@ -313,10 +313,6 @@
       "status": "sent",
       "updated": "2026-10-03T17:37:41.622036+00:00"
     },
-    "ufc-600061182:eve": {
-      "status": "sent",
-      "updated": "2026-10-02T18:41:07.069701+00:00"
-    },
     "ufc-600061267:eve": {
       "job": {
         "at": "2026-10-23T12:00:00-05:00",
@@ -660,6 +656,15 @@
         "key": "digest:2026-11-15:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-11-15 (1/1)"
+      }
+    ],
+    "2026-11-16": [
+      {
+        "at": "2026-11-16T09:00:00-06:00",
+        "body": "Cornerman \u2014 Monday, November 16\nAll events in the next 48 hours; at least the next five when available.\n\n1. ONE SAMURAI 5\nScheduled: Wed Nov 18, 2:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n2. LFA 247 \u2013 Breno vs Torres\n2026-11-20 \u2014 time unconfirmed\nViewing access unconfirmed\n\n3. ONE Friday Fights 179 & The Inner Circle 39\nScheduled: Fri Nov 20, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n4. ARES 45\nFirst broadcast: Fri Nov 20, 1:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 20, 1:00 PM CST \u2014 UFC Fight Pass (included)\n\n5. BISON KOMBAT 11\nFirst broadcast: Fri Nov 20, 5:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 20, 5:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-16:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-16 (1/1)"
       }
     ]
   },
