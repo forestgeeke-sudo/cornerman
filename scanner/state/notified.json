@@ -319,6 +319,17 @@
       "status": "sent",
       "updated": "2026-11-17T14:53:44.714214+00:00"
     },
+    "digest:2026-11-18:1": {
+      "job": {
+        "at": "2026-11-18T09:00:00-06:00",
+        "body": "Cornerman \u2014 Wednesday, November 18\nAll events in the next 48 hours; at least the next five when available.\n\n1. LFA 247 \u2013 Breno vs Torres\n2026-11-20 \u2014 time unconfirmed\nViewing access unconfirmed\n\n2. ONE Friday Fights 179 & The Inner Circle 39\nScheduled: Fri Nov 20, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n3. ARES 45\nFirst broadcast: Fri Nov 20, 12:30 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 20, 12:30 PM CST \u2014 UFC Fight Pass (included)\n\n4. BISON KOMBAT 11\nFirst broadcast: Fri Nov 20, 5:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 20, 5:00 PM CST \u2014 UFC Fight Pass (included)\n\n5. FURY CHALLENGER SERIES 18\nFirst broadcast: Fri Nov 20, 5:15 PM CST\nMain card: Fri Nov 20, 8:00 PM CST\nPartly included; check segments\nPrelims: Fri Nov 20, 5:15 PM CST \u2014 Clear Life (unconfirmed)\nMain card: Fri Nov 20, 8:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-18:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-18 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-11-18T14:33:26.635950+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
@@ -692,6 +703,15 @@
         "key": "digest:2026-11-17:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-11-17 (1/1)"
+      }
+    ],
+    "2026-11-18": [
+      {
+        "at": "2026-11-18T09:00:00-06:00",
+        "body": "Cornerman \u2014 Wednesday, November 18\nAll events in the next 48 hours; at least the next five when available.\n\n1. LFA 247 \u2013 Breno vs Torres\n2026-11-20 \u2014 time unconfirmed\nViewing access unconfirmed\n\n2. ONE Friday Fights 179 & The Inner Circle 39\nScheduled: Fri Nov 20, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n3. ARES 45\nFirst broadcast: Fri Nov 20, 12:30 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 20, 12:30 PM CST \u2014 UFC Fight Pass (included)\n\n4. BISON KOMBAT 11\nFirst broadcast: Fri Nov 20, 5:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 20, 5:00 PM CST \u2014 UFC Fight Pass (included)\n\n5. FURY CHALLENGER SERIES 18\nFirst broadcast: Fri Nov 20, 5:15 PM CST\nMain card: Fri Nov 20, 8:00 PM CST\nPartly included; check segments\nPrelims: Fri Nov 20, 5:15 PM CST \u2014 Clear Life (unconfirmed)\nMain card: Fri Nov 20, 8:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-18:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-18 (1/1)"
       }
     ]
   },
