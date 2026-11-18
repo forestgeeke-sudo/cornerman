@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-18T07:20:11Z",
+ "verifiedAt": "2026-11-18T14:33:05Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 9,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -36,16 +36,16 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
    "provider": "one",
    "url": "https://www.onefc.com/events/",
    "status": "ok",
-   "found": 9,
+   "found": 10,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -121,16 +121,16 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 28,
+   "found": 29,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-18T07:20:11Z",
+   "lastSuccess": "2026-11-18T14:33:05Z",
    "errors": []
   }
  ],
@@ -180,6 +180,17 @@
   },
   {
    "promotion": "Bison Kombat",
+   "events": 1,
+   "next30Days": 1,
+   "watchable": 1,
+   "unconfirmed": 0,
+   "sources": [
+    "fightpass"
+   ],
+   "gap": null
+  },
+  {
+   "promotion": "Borroka Xfc",
    "events": 1,
    "next30Days": 1,
    "watchable": 1,
@@ -301,10 +312,10 @@
   },
   {
    "promotion": "ONE",
-   "events": 9,
-   "next30Days": 7,
+   "events": 10,
+   "next30Days": 8,
    "watchable": 0,
-   "unconfirmed": 9,
+   "unconfirmed": 10,
    "sources": [
     "one"
    ],
