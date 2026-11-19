@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-19T03:50:28Z",
+ "verifiedAt": "2026-11-19T07:17:41Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 9,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 9,
    "retained": 1,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -80,12 +80,12 @@
   {
    "provider": "lux",
    "url": "https://luxfightleague.com/eventos/",
-   "status": "failed",
+   "status": "degraded",
    "found": 0,
    "retained": 0,
    "lastSuccess": null,
    "errors": [
-    "ValueError: Lux calendar event links missing"
+    "https://luxfightleague.com/eventos/lux-063-queretaro/"
    ]
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 29,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-19T03:50:28Z",
+   "lastSuccess": "2026-11-19T07:17:41Z",
    "errors": []
   }
  ],
