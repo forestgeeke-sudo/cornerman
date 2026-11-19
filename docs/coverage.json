@@ -1,51 +1,51 @@
 {
- "verifiedAt": "2026-11-18T20:26:45Z",
+ "verifiedAt": "2026-11-19T03:50:28Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261118-20270517",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261119-20270518",
    "status": "ok",
    "found": 9,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261118-20270517",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261119-20270518",
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261118-20270517",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261119-20270518",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261118-20270517",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261119-20270518",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
    "provider": "one",
    "url": "https://www.onefc.com/events/",
    "status": "ok",
-   "found": 10,
-   "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "found": 9,
+   "retained": 1,
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 2,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
@@ -80,12 +80,12 @@
   {
    "provider": "lux",
    "url": "https://luxfightleague.com/eventos/",
-   "status": "degraded",
+   "status": "failed",
    "found": 0,
    "retained": 0,
    "lastSuccess": null,
    "errors": [
-    "https://luxfightleague.com/eventos/lux-063-queretaro/"
+    "ValueError: Lux calendar event links missing"
    ]
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 29,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-18T20:26:45Z",
+   "lastSuccess": "2026-11-19T03:50:28Z",
    "errors": []
   }
  ],
@@ -214,7 +214,7 @@
   {
    "promotion": "CFFC",
    "events": 3,
-   "next30Days": 2,
+   "next30Days": 3,
    "watchable": 0,
    "unconfirmed": 3,
    "sources": [
@@ -282,7 +282,7 @@
   {
    "promotion": "LFA",
    "events": 2,
-   "next30Days": 1,
+   "next30Days": 2,
    "watchable": 0,
    "unconfirmed": 1,
    "sources": [
@@ -313,7 +313,7 @@
   {
    "promotion": "ONE",
    "events": 9,
-   "next30Days": 7,
+   "next30Days": 8,
    "watchable": 0,
    "unconfirmed": 9,
    "sources": [
@@ -324,7 +324,7 @@
   {
    "promotion": "PFL",
    "events": 1,
-   "next30Days": 0,
+   "next30Days": 1,
    "watchable": 0,
    "unconfirmed": 1,
    "sources": [
@@ -453,7 +453,7 @@
   {
    "promotion": "Zfn",
    "events": 1,
-   "next30Days": 0,
+   "next30Days": 1,
    "watchable": 1,
    "unconfirmed": 0,
    "sources": [
