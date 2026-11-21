@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-21T06:59:31Z",
+ "verifiedAt": "2026-11-21T19:09:41Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 9,
    "retained": 0,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 8,
    "retained": 1,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 1,
    "retained": 1,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -80,12 +80,12 @@
   {
    "provider": "lux",
    "url": "https://luxfightleague.com/eventos/",
-   "status": "failed",
+   "status": "degraded",
    "found": 0,
    "retained": 0,
    "lastSuccess": null,
    "errors": [
-    "ValueError: Lux calendar event links missing"
+    "https://luxfightleague.com/eventos/lux-063-queretaro/"
    ]
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 0,
    "retained": 1,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
@@ -121,25 +121,25 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
    "provider": "fightpass",
    "url": "https://ufcfightpass.com/upcoming",
    "status": "ok",
-   "found": 25,
-   "retained": 4,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "found": 24,
+   "retained": 5,
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   },
   {
    "provider": "ufc",
    "url": "https://www.ufc.com/events",
    "status": "ok",
-   "found": 8,
+   "found": 9,
    "retained": 0,
-   "lastSuccess": "2026-11-21T06:59:31Z",
+   "lastSuccess": "2026-11-21T19:09:41Z",
    "errors": []
   }
  ],
@@ -174,17 +174,6 @@
    "unconfirmed": 0,
    "sources": [
     "bfl",
-    "fightpass"
-   ],
-   "gap": null
-  },
-  {
-   "promotion": "Bison Kombat",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
-   "unconfirmed": 0,
-   "sources": [
     "fightpass"
    ],
    "gap": null
@@ -258,13 +247,12 @@
   },
   {
    "promotion": "Fury Fighting Championship",
-   "events": 5,
-   "next30Days": 5,
-   "watchable": 5,
+   "events": 3,
+   "next30Days": 3,
+   "watchable": 3,
    "unconfirmed": 0,
    "sources": [
-    "fightpass",
-    "fury"
+    "fightpass"
    ],
    "gap": null
   },
@@ -364,17 +352,6 @@
    "gap": null
   },
   {
-   "promotion": "Shuriken Fight Series",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
-   "unconfirmed": 0,
-   "sources": [
-    "fightpass"
-   ],
-   "gap": null
-  },
-  {
    "promotion": "Tuff-N-Uff",
    "events": 1,
    "next30Days": 1,
@@ -427,17 +404,6 @@
    "unconfirmed": 0,
    "sources": [],
    "gap": "No upcoming listing verified by connected calendars; not proof of no events"
-  },
-  {
-   "promotion": "Uwc",
-   "events": 1,
-   "next30Days": 1,
-   "watchable": 1,
-   "unconfirmed": 0,
-   "sources": [
-    "fightpass"
-   ],
-   "gap": null
   },
   {
    "promotion": "WOW FC",
