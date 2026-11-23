@@ -374,6 +374,17 @@
       "status": "sent",
       "updated": "2026-11-22T15:40:44.251156+00:00"
     },
+    "digest:2026-11-23:1": {
+      "job": {
+        "at": "2026-11-23T09:00:00-06:00",
+        "body": "Cornerman \u2014 Monday, November 23\nAll events in the next 48 hours; at least the next five when available.\n\n1. INKA MMA 63\nFirst broadcast: Wed Nov 25, 10:00 PM CST\nIncluded in your subscriptions\nLive event: Wed Nov 25, 10:00 PM CST \u2014 UFC Fight Pass (included)\n\n2. ONE Friday Fights 180 & The Inner Circle 40\nScheduled: Fri Nov 27, 5:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n3. CAGE WARRIORS 214: UNPLUGGED\nFirst broadcast: Fri Nov 27, 2:00 PM CST\nIncluded in your subscriptions\nLive event: Fri Nov 27, 2:00 PM CST \u2014 UFC Fight Pass (included)\n\n4. ETERNAL MMA 113\nFirst broadcast: Sat Nov 28, 5:00 AM CST\nIncluded in your subscriptions\nLive event: Sat Nov 28, 5:00 AM CST \u2014 UFC Fight Pass (included)\n\n5. CAGE WARRIORS 215 PRELIMS\nFirst broadcast: Sat Nov 28, 12:00 PM CST\nPartly included; check segments\nPrelims: Sat Nov 28, 12:00 PM CST \u2014 UFC Fight Pass (included)\nLive event: Sat Nov 28, 1:30 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-23:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-23 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-11-23T22:55:16.679176+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
