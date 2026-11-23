@@ -134,6 +134,32 @@
      {
       "order": 5,
       "slot": "undercard",
+      "weight": "Welterweight",
+      "fighters": [
+       "Levan Chokheli",
+       "Islam Dulatov"
+      ],
+      "watch": [
+       {
+        "name": "Paramount+",
+        "url": "https://www.paramountplus.com/",
+        "kind": "streaming"
+       }
+      ],
+      "portraits": [
+       {
+        "name": "Levan Chokheli",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4867651.png&w=350&h=254"
+       },
+       {
+        "name": "Islam Dulatov",
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212748.png&w=350&h=254"
+       }
+      ]
+     },
+     {
+      "order": 6,
+      "slot": "undercard",
       "weight": "Lightweight",
       "fighters": [
        "Mairon Santos",
@@ -158,7 +184,7 @@
       ]
      },
      {
-      "order": 6,
+      "order": 7,
       "slot": "undercard",
       "weight": "Light Heavyweight",
       "fighters": [
@@ -184,7 +210,7 @@
       ]
      },
      {
-      "order": 7,
+      "order": 8,
       "slot": "undercard",
       "weight": "Flyweight",
       "fighters": [
@@ -210,7 +236,7 @@
       ]
      },
      {
-      "order": 8,
+      "order": 9,
       "slot": "undercard",
       "weight": "Light Heavyweight",
       "fighters": [
@@ -236,7 +262,7 @@
       ]
      },
      {
-      "order": 9,
+      "order": 10,
       "slot": "undercard",
       "weight": "Middleweight",
       "fighters": [
@@ -262,7 +288,7 @@
       ]
      },
      {
-      "order": 10,
+      "order": 11,
       "slot": "undercard",
       "weight": "Bantamweight",
       "fighters": [
@@ -288,7 +314,7 @@
       ]
      },
      {
-      "order": 11,
+      "order": 12,
       "slot": "undercard",
       "weight": "Middleweight",
       "fighters": [
@@ -314,7 +340,7 @@
       ]
      },
      {
-      "order": 12,
+      "order": 13,
       "slot": "undercard",
       "weight": "Bantamweight",
       "fighters": [
@@ -338,32 +364,6 @@
         "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5236383.png&w=350&h=254"
        }
       ]
-     },
-     {
-      "order": 13,
-      "slot": "undercard",
-      "weight": "Welterweight",
-      "fighters": [
-       "Levan Chokheli",
-       "Islam Dulatov"
-      ],
-      "watch": [
-       {
-        "name": "Paramount+",
-        "url": "https://www.paramountplus.com/",
-        "kind": "streaming"
-       }
-      ],
-      "portraits": [
-       {
-        "name": "Levan Chokheli",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4867651.png&w=350&h=254"
-       },
-       {
-        "name": "Islam Dulatov",
-        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212748.png&w=350&h=254"
-       }
-      ]
      }
     ],
     "art": [
@@ -379,12 +379,12 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600062700/league/ufc",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "espn:ufc",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600062700/league/ufc",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -610,12 +610,12 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "espn:ufc",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600061401/league/ufc",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -997,12 +997,12 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600062421/league/ufc",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "espn:ufc",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600062421/league/ufc",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -1098,12 +1098,12 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600062900/league/ufc",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "espn:ufc",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600062900/league/ufc",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -1303,12 +1303,12 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600062191/league/ufc",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "espn:ufc",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600062191/league/ufc",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -1586,12 +1586,12 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600062420/league/ufc",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "espn:ufc",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600062420/league/ufc",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -1687,12 +1687,12 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600062901/league/ufc",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "espn:ufc",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600062901/league/ufc",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -1814,12 +1814,12 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600062902/league/ufc",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "espn:ufc",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600062902/league/ufc",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -2185,8 +2185,8 @@
     ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
@@ -2221,12 +2221,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-180/",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-180/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -2259,12 +2259,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-samurai-6/",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-samurai-6/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -2297,12 +2297,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-181/",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-181/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -2335,12 +2335,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-182/",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-182/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -2373,12 +2373,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one174/",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one174/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -2411,12 +2411,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-friday-fights-183/",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-friday-fights-183/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -2449,12 +2449,12 @@
     "note": null,
     "link": "https://www.onefc.com/events/onefightnight50/",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/onefightnight50/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -2487,56 +2487,18 @@
     "note": null,
     "link": "https://www.onefc.com/events/one-qatar/",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "one",
       "url": "https://www.onefc.com/events/one-qatar/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
-     }
-    ]
-   },
-   {
-    "id": "one-20261120-one-friday-fights-179",
-    "sport": "mma",
-    "org": "ONE",
-    "tier": "contender",
-    "name": "ONE Friday Fights 179 & The Inner Circle 39",
-    "headline": "ONE Friday Fights 179 & The Inner Circle 39",
-    "date": "2026-11-20T11:30:00Z",
-    "datePrecision": "time",
-    "scheduledStart": "2026-11-20T11:30:00Z",
-    "eventDay": "2026-11-20",
-    "segments": [],
-    "coverageComplete": false,
-    "venue": "Lumpinee Stadium",
-    "location": "Bangkok",
-    "watch": [
-     {
-      "name": "YouTube",
-      "url": "https://www.youtube.com/",
-      "kind": "streaming",
-      "confirmed": false,
-      "covered": false
-     }
-    ],
-    "card": [],
-    "art": null,
-    "note": null,
-    "link": "https://www.onefc.com/events/one-friday-fights-179/",
-    "sourceStale": true,
-    "lastSeen": "2026-11-20T20:07:41Z",
-    "sources": [
-     {
-      "provider": "one",
-      "url": "https://www.onefc.com/events/one-friday-fights-179/",
-      "verifiedAt": "2026-11-20T20:07:41Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
@@ -2920,32 +2882,32 @@
     "note": null,
     "link": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "espn:pfl",
       "url": "https://www.espn.com/mma/fightcenter/_/id/600061422/league/pfl",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
  "espn:bellator": {
   "events": [],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
  "espn:other": {
   "events": [],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
@@ -2983,7 +2945,7 @@
        }
       ],
       "sourceUrl": "https://www.lfa.com/event/lfa-248/",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -2998,51 +2960,18 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "lfa",
       "url": "https://www.lfa.com/event/lfa-248/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
-     }
-    ]
-   },
-   {
-    "id": "lfa-247-breno-vs-torres-c74d794a",
-    "name": "LFA 247 – Breno vs Torres",
-    "org": "LFA",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "LFA 247 – Breno vs Torres",
-    "date": "2026-11-20",
-    "eventDay": "2026-11-20",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [],
-    "coverageComplete": false,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": "Arizona Financial Theatre",
-    "location": "Phoenix, AZ, United States",
-    "link": "https://www.lfa.com/event/lfa-247-breno-vs-torres/",
-    "note": null,
-    "status": "scheduled",
-    "sourceStale": true,
-    "lastSeen": "2026-11-20T20:07:41Z",
-    "sources": [
-     {
-      "provider": "lfa",
-      "url": "https://www.lfa.com/event/lfa-247-breno-vs-torres/",
-      "verifiedAt": "2026-11-20T20:07:41Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
@@ -3072,12 +3001,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "eternal",
       "url": "https://eternalmma.com/events/eternal-mma-113-geelong/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3105,12 +3034,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "eternal",
       "url": "https://eternalmma.com/events/eternal-mma-114-sydney/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3138,12 +3067,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "eternal",
       "url": "https://eternalmma.com/events/eternal-mma-116-perth/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3171,24 +3100,24 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "eternal",
       "url": "https://eternalmma.com/events/eternal-mma-117-gold-coast/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
  "cage-warriors": {
   "events": [],
-  "lastAttempt": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
   "lastSuccess": "2026-10-20T22:52:44Z",
   "status": "failed",
   "errors": [
@@ -3197,7 +3126,7 @@
  },
  "lux": {
   "events": [],
-  "lastAttempt": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
   "lastSuccess": null,
   "status": "degraded",
   "errors": [
@@ -3205,76 +3134,9 @@
   ]
  },
  "fury": {
-  "events": [
-   {
-    "id": "fury-challenger-series-18-bbdcbeb6",
-    "name": "FURY CHALLENGER SERIES 18",
-    "org": "Fury Fighting Championship",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "FURY CHALLENGER SERIES 18",
-    "date": "2026-11-20",
-    "eventDay": "2026-11-20",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Prelims",
-      "start": "2026-11-20T23:15:00Z",
-      "platforms": [
-       {
-        "name": "Clear Life",
-        "url": "https://share.clearlife.live/app",
-        "kind": "other",
-        "access": "unconfirmed"
-       }
-      ],
-      "sourceUrl": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-11-20T20:07:41Z",
-      "region": "US",
-      "complete": false
-     },
-     {
-      "name": "Main card",
-      "start": "2026-11-21T02:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/home",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-11-20T20:07:41Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": null,
-    "link": "https://www.furyfc.tv/events",
-    "note": null,
-    "status": "scheduled",
-    "sourceStale": true,
-    "lastSeen": "2026-11-20T20:07:41Z",
-    "sources": [
-     {
-      "provider": "fury",
-      "url": "https://www.furyfc.tv/events",
-      "verifiedAt": "2026-11-20T20:07:41Z"
-     }
-    ]
-   }
-  ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "events": [],
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
@@ -3299,7 +3161,7 @@
       "start": null,
       "platforms": [],
       "sourceUrl": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false,
       "scheduledStart": "2026-12-19T23:00:00Z"
@@ -3309,7 +3171,7 @@
       "start": null,
       "platforms": [],
       "sourceUrl": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false,
       "scheduledStart": "2026-12-20T01:00:00Z"
@@ -3325,12 +3187,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "cffc",
       "url": "https://cffc.tv/tickets/cage-fury-163-december-19-2026-hard-rock-casino-atlantic-city-mma-fights-show-fan-experience",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3358,12 +3220,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "cffc",
       "url": "https://cffc.tv/tickets/cage-fury-2026-hall-of-fame-dinner-ceremony-tickets-december-18-2026-the-balcony-hard-rock-casino-atlantic-city",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3386,7 +3248,7 @@
       "start": null,
       "platforms": [],
       "sourceUrl": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false,
       "scheduledStart": "2026-12-05T00:00:00Z"
@@ -3396,7 +3258,7 @@
       "start": null,
       "platforms": [],
       "sourceUrl": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false,
       "scheduledStart": "2026-12-05T02:00:00Z"
@@ -3412,18 +3274,18 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "cffc",
       "url": "https://cffc.tv/tickets/cage-fury-162-december-4-2026-hard-rock-hotel-casino-bristol-virginia-tennessee-mma-fights-show-event-tickets-things-to-do",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
@@ -3455,7 +3317,7 @@
        }
       ],
       "sourceUrl": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3470,18 +3332,18 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "bfl",
       "url": "https://battlefieldfl.com/bfl-event-type/upcoming-events/",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
@@ -3511,18 +3373,18 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "ufc-bjj",
       "url": "https://www.ufc.com/ufcbjj",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
@@ -3554,7 +3416,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320895",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3570,12 +3432,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-11-26T08:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320895",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3605,7 +3467,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320900",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3621,12 +3483,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-11-28T00:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320900",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3656,7 +3518,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320915",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3672,12 +3534,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-11-28T14:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320915",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3707,7 +3569,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320916",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -3723,7 +3585,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320917",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3739,12 +3601,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-11-28T22:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320916",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3774,7 +3636,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320918",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3790,12 +3652,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-11-29T06:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320918",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3825,7 +3687,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/319279",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3841,12 +3703,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-04T06:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/319279",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3876,7 +3738,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320987",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3892,12 +3754,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-04T09:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320987",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3927,7 +3789,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320988",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3943,12 +3805,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-05T05:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320988",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -3978,7 +3840,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/319194",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -3994,12 +3856,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-05T05:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/319194",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4029,7 +3891,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320992",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4045,12 +3907,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-05T07:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320992",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4080,7 +3942,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320994",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4096,12 +3958,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-05T08:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320994",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4131,7 +3993,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320995",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4147,12 +4009,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-05T21:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320995",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4182,7 +4044,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320996",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -4198,7 +4060,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320997",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4214,12 +4076,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-05T20:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320996",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4249,7 +4111,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/313842",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4265,12 +4127,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-07T01:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/313842",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4300,7 +4162,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320998",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4316,12 +4178,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-12T00:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320998",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4351,7 +4213,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/320999",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4367,12 +4229,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-13T01:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/320999",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4402,7 +4264,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/319730",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4418,12 +4280,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-13T03:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/319730",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4453,7 +4315,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/321000",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4469,12 +4331,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-14T05:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/321000",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4504,7 +4366,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/321001",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4520,12 +4382,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-17T09:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/321001",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4555,7 +4417,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/321570",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4571,12 +4433,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-18T08:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/321570",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4606,7 +4468,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/321003",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4622,12 +4484,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-19T15:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/321003",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4657,7 +4519,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/321004",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4673,12 +4535,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-20T07:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/321004",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4708,7 +4570,7 @@
        }
       ],
       "sourceUrl": "https://ufcfightpass.com/live/321006",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -4724,12 +4586,12 @@
     "status": "scheduled",
     "scheduledEnd": "2026-12-20T08:00:00Z",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "fightpass",
       "url": "https://ufcfightpass.com/live/321006",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -4936,112 +4798,10 @@
       "verifiedAt": "2026-11-21T02:49:54Z"
      }
     ]
-   },
-   {
-    "id": "ares-45-02a36232",
-    "name": "ARES 45",
-    "org": "ARES FC",
-    "sport": "mma",
-    "tier": "other",
-    "headline": "ARES 45",
-    "date": "2026-11-20",
-    "eventDay": "2026-11-20",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-11-20T18:30:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/320869",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/320869",
-      "verifiedAt": "2026-11-20T20:07:41Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Adidas Arena Paris, France",
-    "link": "https://ufcfightpass.com/live/320869",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-11-20T23:00:00Z",
-    "sourceStale": true,
-    "lastSeen": "2026-11-20T20:07:41Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/320869",
-      "verifiedAt": "2026-11-20T20:07:41Z"
-     }
-    ]
-   },
-   {
-    "id": "bison-kombat-11-55559f8a",
-    "name": "BISON KOMBAT 11",
-    "org": "Bison Kombat",
-    "sport": "combat_sports",
-    "tier": "other",
-    "headline": "BISON KOMBAT 11",
-    "date": "2026-11-20",
-    "eventDay": "2026-11-20",
-    "datePrecision": "day",
-    "scheduledStart": null,
-    "earliestBroadcastStart": null,
-    "mainCardStart": null,
-    "segments": [
-     {
-      "name": "Live event",
-      "start": "2026-11-20T23:00:00Z",
-      "platforms": [
-       {
-        "name": "UFC Fight Pass",
-        "url": "https://ufcfightpass.com/live/320871",
-        "kind": "streaming",
-        "access": "subscription"
-       }
-      ],
-      "sourceUrl": "https://ufcfightpass.com/live/320871",
-      "verifiedAt": "2026-11-20T20:07:41Z",
-      "region": "US",
-      "complete": false
-     }
-    ],
-    "coverageComplete": true,
-    "watch": [],
-    "card": [],
-    "art": null,
-    "venue": null,
-    "location": "Varanda Sao Paulo, Brazil",
-    "link": "https://ufcfightpass.com/live/320871",
-    "note": null,
-    "status": "scheduled",
-    "scheduledEnd": "2026-11-21T03:00:00Z",
-    "sourceStale": true,
-    "lastSeen": "2026-11-20T20:07:41Z",
-    "sources": [
-     {
-      "provider": "fightpass",
-      "url": "https://ufcfightpass.com/live/320871",
-      "verifiedAt": "2026-11-20T20:07:41Z"
-     }
-    ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  },
@@ -5073,7 +4833,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-335",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -5095,7 +4855,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-335",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -5111,7 +4871,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-335",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -5126,12 +4886,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "ufc",
       "url": "https://www.ufc.com/event/ufc-335",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -5167,7 +4927,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-336",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -5183,7 +4943,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-336",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -5199,7 +4959,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-336",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -5214,12 +4974,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "ufc",
       "url": "https://www.ufc.com/event/ufc-336",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -5249,7 +5009,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-december-05-2026",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -5265,7 +5025,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-december-05-2026",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -5280,12 +5040,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "ufc",
       "url": "https://www.ufc.com/event/ufc-fight-night-december-05-2026",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -5315,7 +5075,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -5331,7 +5091,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -5346,12 +5106,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "ufc",
       "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -5381,7 +5141,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-13-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -5397,7 +5157,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-february-13-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -5412,12 +5172,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "ufc",
       "url": "https://www.ufc.com/event/ufc-fight-night-february-13-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -5447,7 +5207,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-january-16-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -5463,7 +5223,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-january-16-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -5478,12 +5238,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "ufc",
       "url": "https://www.ufc.com/event/ufc-fight-night-january-16-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -5513,7 +5273,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-january-23-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      },
@@ -5529,7 +5289,7 @@
        }
       ],
       "sourceUrl": "https://www.ufc.com/event/ufc-fight-night-january-23-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z",
+      "verifiedAt": "2026-11-23T01:57:52Z",
       "region": "US",
       "complete": false
      }
@@ -5544,12 +5304,12 @@
     "note": null,
     "status": "scheduled",
     "sourceStale": false,
-    "lastSeen": "2026-11-22T19:31:28Z",
+    "lastSeen": "2026-11-23T01:57:52Z",
     "sources": [
      {
       "provider": "ufc",
       "url": "https://www.ufc.com/event/ufc-fight-night-january-23-2027",
-      "verifiedAt": "2026-11-22T19:31:28Z"
+      "verifiedAt": "2026-11-23T01:57:52Z"
      }
     ]
    },
@@ -5686,8 +5446,8 @@
     ]
    }
   ],
-  "lastAttempt": "2026-11-22T19:31:28Z",
-  "lastSuccess": "2026-11-22T19:31:28Z",
+  "lastAttempt": "2026-11-23T01:57:52Z",
+  "lastSuccess": "2026-11-23T01:57:52Z",
   "status": "ok",
   "errors": []
  }
