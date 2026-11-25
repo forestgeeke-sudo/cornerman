@@ -1,5 +1,5 @@
 {
- "verifiedAt": "2026-11-25T08:24:10Z",
+ "verifiedAt": "2026-11-25T21:37:56Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
@@ -9,7 +9,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -18,7 +18,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -27,7 +27,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -36,7 +36,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -94,16 +94,16 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
    "provider": "cffc",
    "url": "https://cffc.tv/tickets",
    "status": "ok",
-   "found": 3,
+   "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 24,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-25T08:24:10Z",
+   "lastSuccess": "2026-11-25T21:37:56Z",
    "errors": []
   }
  ],
@@ -213,10 +213,10 @@
   },
   {
    "promotion": "CFFC",
-   "events": 3,
+   "events": 4,
    "next30Days": 3,
    "watchable": 0,
-   "unconfirmed": 3,
+   "unconfirmed": 4,
    "sources": [
     "cffc"
    ],
