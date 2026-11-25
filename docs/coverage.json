@@ -1,42 +1,42 @@
 {
- "verifiedAt": "2026-11-24T22:21:32Z",
+ "verifiedAt": "2026-11-25T08:24:10Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261124-20270523",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261125-20270524",
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261124-20270523",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261125-20270524",
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261124-20270523",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261125-20270524",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261124-20270523",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261125-20270524",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
@@ -94,7 +94,7 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
@@ -103,7 +103,7 @@
    "status": "ok",
    "found": 3,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 24,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-24T22:21:32Z",
+   "lastSuccess": "2026-11-25T08:24:10Z",
    "errors": []
   }
  ],
