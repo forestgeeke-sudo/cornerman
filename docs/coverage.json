@@ -1,42 +1,42 @@
 {
- "verifiedAt": "2026-11-26T21:26:40Z",
+ "verifiedAt": "2026-11-27T08:19:42Z",
  "horizonDays": 180,
  "priorityDays": 30,
  "providers": [
   {
    "provider": "espn:ufc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261126-20270525",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261127-20270526",
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
    "provider": "espn:pfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261126-20270525",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/pfl/scoreboard?dates=20261127-20270526",
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
    "provider": "espn:bellator",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261126-20270525",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/bellator/scoreboard?dates=20261127-20270526",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
    "provider": "espn:other",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261126-20270525",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20261127-20270526",
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
@@ -45,7 +45,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
@@ -63,7 +63,7 @@
    "status": "ok",
    "found": 4,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
@@ -94,16 +94,16 @@
    "status": "ok",
    "found": 0,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
    "provider": "cffc",
    "url": "https://cffc.tv/tickets",
    "status": "ok",
-   "found": 4,
+   "found": 5,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
@@ -112,7 +112,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
@@ -121,7 +121,7 @@
    "status": "ok",
    "found": 1,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
@@ -130,7 +130,7 @@
    "status": "ok",
    "found": 23,
    "retained": 1,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   },
   {
@@ -139,7 +139,7 @@
    "status": "ok",
    "found": 8,
    "retained": 0,
-   "lastSuccess": "2026-11-26T21:26:40Z",
+   "lastSuccess": "2026-11-27T08:19:42Z",
    "errors": []
   }
  ],
@@ -213,10 +213,10 @@
   },
   {
    "promotion": "CFFC",
-   "events": 4,
+   "events": 5,
    "next30Days": 3,
    "watchable": 0,
-   "unconfirmed": 4,
+   "unconfirmed": 5,
    "sources": [
     "cffc"
    ],
