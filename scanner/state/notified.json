@@ -418,6 +418,17 @@
       "status": "sent",
       "updated": "2026-11-26T15:46:56.300312+00:00"
     },
+    "digest:2026-11-27:1": {
+      "job": {
+        "at": "2026-11-27T09:00:00-06:00",
+        "body": "Cornerman \u2014 Friday, November 27\nAll events in the next 48 hours; at least the next five when available.\n\n1. ETERNAL MMA 113\nFirst broadcast: Sat Nov 28, 2:00 AM CST\nIncluded in your subscriptions\nLive event: Sat Nov 28, 2:00 AM CST \u2014 UFC Fight Pass (included)\n\n2. CAGE WARRIORS 215 PRELIMS\nFirst broadcast: Sat Nov 28, 12:00 PM CST\nPartly included; check segments\nPrelims: Sat Nov 28, 12:00 PM CST \u2014 UFC Fight Pass (included)\nLive event: Sat Nov 28, 2:30 PM CST \u2014 UFC Fight Pass (included)\n\n3. MMA MEXICO 10\nFirst broadcast: Sat Nov 28, 9:00 PM CST\nIncluded in your subscriptions\nLive event: Sat Nov 28, 9:00 PM CST \u2014 UFC Fight Pass (included)\n\n4. ONE SAMURAI 6\nScheduled: Wed Dec 02, 2:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n5. UFC BJJ 14: TACKETT VS WOJCIK\nFirst broadcast: Thu Dec 03, 7:00 PM CST\nIncluded in your subscriptions\nLive event: Thu Dec 03, 7:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-27:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-27 (1/1)"
+      },
+      "status": "pending",
+      "updated": "2026-11-27T19:39:11.980709+00:00"
+    },
     "ufc-600060773:dayof": {
       "status": "sent",
       "updated": "2026-10-17T14:24:49.754476+00:00"
@@ -871,6 +882,15 @@
         "key": "digest:2026-11-26:1",
         "priority": "default",
         "title": "Cornerman morning \u2014 2026-11-26 (1/1)"
+      }
+    ],
+    "2026-11-27": [
+      {
+        "at": "2026-11-27T09:00:00-06:00",
+        "body": "Cornerman \u2014 Friday, November 27\nAll events in the next 48 hours; at least the next five when available.\n\n1. ETERNAL MMA 113\nFirst broadcast: Sat Nov 28, 2:00 AM CST\nIncluded in your subscriptions\nLive event: Sat Nov 28, 2:00 AM CST \u2014 UFC Fight Pass (included)\n\n2. CAGE WARRIORS 215 PRELIMS\nFirst broadcast: Sat Nov 28, 12:00 PM CST\nPartly included; check segments\nPrelims: Sat Nov 28, 12:00 PM CST \u2014 UFC Fight Pass (included)\nLive event: Sat Nov 28, 2:30 PM CST \u2014 UFC Fight Pass (included)\n\n3. MMA MEXICO 10\nFirst broadcast: Sat Nov 28, 9:00 PM CST\nIncluded in your subscriptions\nLive event: Sat Nov 28, 9:00 PM CST \u2014 UFC Fight Pass (included)\n\n4. ONE SAMURAI 6\nScheduled: Wed Dec 02, 2:30 AM CST; broadcast time unconfirmed\nViewing access unconfirmed\n\n5. UFC BJJ 14: TACKETT VS WOJCIK\nFirst broadcast: Thu Dec 03, 7:00 PM CST\nIncluded in your subscriptions\nLive event: Thu Dec 03, 7:00 PM CST \u2014 UFC Fight Pass (included)\n\nhttps://forestgeeke-sudo.github.io/cornerman/",
+        "key": "digest:2026-11-27:1",
+        "priority": "default",
+        "title": "Cornerman morning \u2014 2026-11-27 (1/1)"
       }
     ]
   },
